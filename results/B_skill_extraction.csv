@@ -1,0 +1,3 @@
+gold_source,method,precision_soft,precision_strict,recall_soft,recall_strict,f1_soft,f1_strict,n_pred_soft,n_pred_strict
+SkillSpan test (human gold),M3_dictionary,0.327,0.285,0.136,0.117,0.181,0.155,1.507,1.507
+SkillSpan test (human gold),M6_jobbert_skillspan,0.517,0.429,0.535,0.432,0.511,0.417,5.727,5.68

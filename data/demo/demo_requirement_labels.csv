@@ -1,0 +1,34 @@
+jd_id,section_header,sentence,gold_label
+JD_data_analyst,About us,We are a fast-growing e-commerce company in Singapore.,UNSPECIFIED
+JD_data_analyst,Responsibilities,Build dashboards in Power BI and Tableau to track sales performance.,UNSPECIFIED
+JD_data_analyst,Responsibilities,Write SQL queries to extract and clean data from PostgreSQL.,UNSPECIFIED
+JD_data_analyst,Responsibilities,Present insights to business stakeholders every week.,UNSPECIFIED
+JD_data_analyst,Requirements,"Bachelor's degree in Statistics, Mathematics, Computer Science or a related field.",REQUIRED
+JD_data_analyst,Requirements,At least 2 years of experience in data analysis.,REQUIRED
+JD_data_analyst,Requirements,Proficient in SQL and Excel.,REQUIRED
+JD_data_analyst,Requirements,"Experience with Python (Pandas, NumPy) for data analysis.",REQUIRED
+JD_data_analyst,Requirements,Strong communication skills.,REQUIRED
+JD_data_analyst,Nice to have,Knowledge of A/B testing and hypothesis testing.,PREFERRED
+JD_data_analyst,Nice to have,Experience with Google Analytics.,PREFERRED
+JD_data_analyst,Nice to have,Familiarity with dbt or Airflow.,PREFERRED
+JD_backend_engineer,The role,You will design and build REST APIs for our payments platform.,UNSPECIFIED
+JD_backend_engineer,The role,You will maintain microservices running on Kubernetes in AWS.,UNSPECIFIED
+JD_backend_engineer,What you need,Minimum 3 years of professional experience in backend development.,REQUIRED
+JD_backend_engineer,What you need,Strong knowledge of Java or Go.,REQUIRED
+JD_backend_engineer,What you need,Experience with PostgreSQL and Redis.,REQUIRED
+JD_backend_engineer,What you need,"Familiarity with Docker, CI/CD and Git.",REQUIRED
+JD_backend_engineer,What you need,Applicants must be Singapore Citizens or Permanent Residents; others will not be considered.,MANDATORY
+JD_backend_engineer,Bonus points,Experience with Kafka.,PREFERRED
+JD_backend_engineer,Bonus points,Contributions to open-source projects would be a plus.,PREFERRED
+JD_backend_engineer,Benefits,Flexible working hours and an annual learning budget.,UNSPECIFIED
+JD_ml_engineer,Overview,Join our applied AI team building NLP products for healthcare.,UNSPECIFIED
+JD_ml_engineer,Responsibilities,Fine-tune large language models with PyTorch and Hugging Face Transformers.,UNSPECIFIED
+JD_ml_engineer,Responsibilities,Deploy models as APIs using FastAPI and Docker.,UNSPECIFIED
+JD_ml_engineer,Responsibilities,Track experiments with MLflow and evaluate model quality.,UNSPECIFIED
+JD_ml_engineer,Qualifications,"Master's degree or PhD in Computer Science, Machine Learning or a related field.",REQUIRED
+JD_ml_engineer,Qualifications,3+ years of experience in machine learning engineering.,REQUIRED
+JD_ml_engineer,Qualifications,Proficiency in Python and deep learning frameworks such as PyTorch or TensorFlow.,REQUIRED
+JD_ml_engineer,Qualifications,Solid understanding of natural language processing.,REQUIRED
+JD_ml_engineer,Preferred qualifications,Experience with retrieval-augmented generation and LangChain.,PREFERRED
+JD_ml_engineer,Preferred qualifications,Publications at NLP conferences are desirable.,PREFERRED
+JD_ml_engineer,Preferred qualifications,Experience with Kubernetes and Google Cloud.,PREFERRED

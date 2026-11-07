@@ -1,0 +1,1201 @@
+method,doc_id,mode,precision,recall,f1,n_pred,n_gold
+M1_esco (Part I extractor),SS0000,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0000,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0001,strict,1.0,0.3333333333333333,0.5,1,3
+M1_esco (Part I extractor),SS0001,soft,1.0,0.3333333333333333,0.5,1,3
+M1_esco (Part I extractor),SS0002,strict,0.3333333333333333,0.2222222222222222,0.26666666666666666,6,9
+M1_esco (Part I extractor),SS0002,soft,0.3333333333333333,0.2222222222222222,0.26666666666666666,6,9
+M1_esco (Part I extractor),SS0003,strict,0.46153846153846156,0.3333333333333333,0.3870967741935484,13,18
+M1_esco (Part I extractor),SS0003,soft,0.6428571428571429,0.47368421052631576,0.5454545454545454,14,19
+M1_esco (Part I extractor),SS0004,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0004,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0005,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0005,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0006,strict,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0006,soft,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0007,strict,0.5,0.125,0.2,4,16
+M1_esco (Part I extractor),SS0007,soft,0.75,0.1875,0.3,4,16
+M1_esco (Part I extractor),SS0008,strict,0.3333333333333333,0.125,0.18181818181818182,3,8
+M1_esco (Part I extractor),SS0008,soft,0.3333333333333333,0.125,0.18181818181818182,3,8
+M1_esco (Part I extractor),SS0009,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0009,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0010,strict,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0010,soft,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0011,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0011,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0012,strict,0.14285714285714285,0.09090909090909091,0.1111111111111111,7,11
+M1_esco (Part I extractor),SS0012,soft,0.5714285714285714,0.23076923076923078,0.3287671232876712,7,13
+M1_esco (Part I extractor),SS0013,strict,0.21052631578947367,0.1111111111111111,0.14545454545454545,19,36
+M1_esco (Part I extractor),SS0013,soft,0.5263157894736842,0.25,0.3389830508474576,19,36
+M1_esco (Part I extractor),SS0014,strict,0.0,0.0,0.0,4,3
+M1_esco (Part I extractor),SS0014,soft,0.25,0.3333333333333333,0.28571428571428575,4,3
+M1_esco (Part I extractor),SS0015,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0015,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0016,strict,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0016,soft,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0017,strict,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0017,soft,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0018,strict,0.3333333333333333,0.14285714285714285,0.2,3,7
+M1_esco (Part I extractor),SS0018,soft,0.3333333333333333,0.14285714285714285,0.2,3,7
+M1_esco (Part I extractor),SS0019,strict,0.4,0.2222222222222222,0.2857142857142857,10,18
+M1_esco (Part I extractor),SS0019,soft,0.6,0.3333333333333333,0.42857142857142855,10,18
+M1_esco (Part I extractor),SS0020,strict,0.6,0.42857142857142855,0.5,5,7
+M1_esco (Part I extractor),SS0020,soft,0.6,0.42857142857142855,0.5,5,7
+M1_esco (Part I extractor),SS0021,strict,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0021,soft,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0022,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0022,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0023,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0023,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0024,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0024,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0025,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0025,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0026,strict,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0026,soft,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0027,strict,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0027,soft,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0028,strict,0.4,0.25,0.3076923076923077,10,16
+M1_esco (Part I extractor),SS0028,soft,0.5,0.3125,0.38461538461538464,10,16
+M1_esco (Part I extractor),SS0029,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0029,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0030,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0030,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0031,strict,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0031,soft,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0032,strict,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0032,soft,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0033,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0033,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0034,strict,0.0,0.0,0.0,2,10
+M1_esco (Part I extractor),SS0034,soft,0.0,0.0,0.0,2,10
+M1_esco (Part I extractor),SS0035,strict,0.0,0.0,0.0,0,7
+M1_esco (Part I extractor),SS0035,soft,0.0,0.0,0.0,0,7
+M1_esco (Part I extractor),SS0036,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0036,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0037,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0037,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0038,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0038,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0039,strict,0.0,0.0,0.0,5,0
+M1_esco (Part I extractor),SS0039,soft,0.0,0.0,0.0,5,0
+M1_esco (Part I extractor),SS0040,strict,0.4,0.25,0.3076923076923077,5,8
+M1_esco (Part I extractor),SS0040,soft,0.6,0.375,0.4615384615384615,5,8
+M1_esco (Part I extractor),SS0041,strict,1.0,0.1111111111111111,0.19999999999999998,1,9
+M1_esco (Part I extractor),SS0041,soft,1.0,0.1111111111111111,0.19999999999999998,1,9
+M1_esco (Part I extractor),SS0042,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0042,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0043,strict,0.0,0.0,0.0,1,4
+M1_esco (Part I extractor),SS0043,soft,1.0,0.5,0.6666666666666666,1,4
+M1_esco (Part I extractor),SS0044,strict,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0044,soft,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0045,strict,0.375,0.2727272727272727,0.3157894736842105,8,11
+M1_esco (Part I extractor),SS0045,soft,0.5,0.4166666666666667,0.45454545454545453,8,12
+M1_esco (Part I extractor),SS0046,strict,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0046,soft,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0047,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0047,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0048,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0048,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0049,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0049,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0050,strict,1.0,0.2857142857142857,0.4444444444444445,2,7
+M1_esco (Part I extractor),SS0050,soft,1.0,0.2857142857142857,0.4444444444444445,2,7
+M1_esco (Part I extractor),SS0051,strict,0.0,0.0,0.0,3,5
+M1_esco (Part I extractor),SS0051,soft,0.0,0.0,0.0,3,5
+M1_esco (Part I extractor),SS0052,strict,0.42857142857142855,0.2727272727272727,0.33333333333333326,14,22
+M1_esco (Part I extractor),SS0052,soft,0.7142857142857143,0.4090909090909091,0.5202312138728324,14,22
+M1_esco (Part I extractor),SS0053,strict,0.0,0.0,0.0,5,3
+M1_esco (Part I extractor),SS0053,soft,0.2,0.6666666666666666,0.30769230769230765,5,3
+M1_esco (Part I extractor),SS0054,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0054,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0055,strict,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0055,soft,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0056,strict,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0056,soft,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0057,strict,0.16666666666666666,0.09090909090909091,0.11764705882352942,6,11
+M1_esco (Part I extractor),SS0057,soft,0.6666666666666666,0.36363636363636365,0.4705882352941177,6,11
+M1_esco (Part I extractor),SS0058,strict,1.0,0.6666666666666666,0.8,2,3
+M1_esco (Part I extractor),SS0058,soft,1.0,0.6666666666666666,0.8,2,3
+M1_esco (Part I extractor),SS0059,strict,0.0,0.0,0.0,2,4
+M1_esco (Part I extractor),SS0059,soft,0.0,0.0,0.0,2,4
+M1_esco (Part I extractor),SS0060,strict,0.0,0.0,0.0,5,1
+M1_esco (Part I extractor),SS0060,soft,0.0,0.0,0.0,5,1
+M1_esco (Part I extractor),SS0061,strict,0.0,0.0,0.0,5,0
+M1_esco (Part I extractor),SS0061,soft,0.0,0.0,0.0,5,0
+M1_esco (Part I extractor),SS0062,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0062,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0063,strict,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0063,soft,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0064,strict,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0064,soft,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0065,strict,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0065,soft,0.0,0.0,0.0,0,2
+M1_esco (Part I extractor),SS0066,strict,0.0,0.0,0.0,4,1
+M1_esco (Part I extractor),SS0066,soft,0.0,0.0,0.0,4,1
+M1_esco (Part I extractor),SS0067,strict,0.2222222222222222,0.3333333333333333,0.26666666666666666,9,6
+M1_esco (Part I extractor),SS0067,soft,0.4444444444444444,0.6666666666666666,0.5333333333333333,9,6
+M1_esco (Part I extractor),SS0068,strict,0.4,0.25,0.3076923076923077,5,8
+M1_esco (Part I extractor),SS0068,soft,0.6,0.375,0.4615384615384615,5,8
+M1_esco (Part I extractor),SS0069,strict,0.46153846153846156,0.4,0.42857142857142855,13,15
+M1_esco (Part I extractor),SS0069,soft,0.6923076923076923,0.6666666666666666,0.6792452830188679,13,15
+M1_esco (Part I extractor),SS0070,strict,0.0,0.0,0.0,2,1
+M1_esco (Part I extractor),SS0070,soft,0.0,0.0,0.0,2,1
+M1_esco (Part I extractor),SS0071,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0071,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0072,strict,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0072,soft,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0073,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0073,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0074,strict,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0074,soft,0.0,0.0,0.0,0,4
+M1_esco (Part I extractor),SS0075,strict,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0075,soft,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0076,strict,0.0,0.0,0.0,8,4
+M1_esco (Part I extractor),SS0076,soft,0.0,0.0,0.0,8,4
+M1_esco (Part I extractor),SS0077,strict,1.0,0.09090909090909091,0.16666666666666669,1,11
+M1_esco (Part I extractor),SS0077,soft,1.0,0.09090909090909091,0.16666666666666669,1,11
+M1_esco (Part I extractor),SS0078,strict,0.0,0.0,0.0,4,14
+M1_esco (Part I extractor),SS0078,soft,0.0,0.0,0.0,4,14
+M1_esco (Part I extractor),SS0079,strict,0.25,0.125,0.16666666666666666,4,8
+M1_esco (Part I extractor),SS0079,soft,0.5,0.25,0.3333333333333333,4,8
+M1_esco (Part I extractor),SS0080,strict,0.6,0.2727272727272727,0.37499999999999994,5,11
+M1_esco (Part I extractor),SS0080,soft,0.8,0.36363636363636365,0.5000000000000001,5,11
+M1_esco (Part I extractor),SS0081,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0081,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0082,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0082,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0083,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0083,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0084,strict,0.0,0.0,0.0,4,0
+M1_esco (Part I extractor),SS0084,soft,0.0,0.0,0.0,4,0
+M1_esco (Part I extractor),SS0085,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0085,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0086,strict,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0086,soft,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0087,strict,0.0,0.0,0.0,0,6
+M1_esco (Part I extractor),SS0087,soft,0.0,0.0,0.0,0,6
+M1_esco (Part I extractor),SS0088,strict,0.3,0.3333333333333333,0.3157894736842105,10,9
+M1_esco (Part I extractor),SS0088,soft,0.5,0.5555555555555556,0.5263157894736842,10,9
+M1_esco (Part I extractor),SS0089,strict,0.3,0.16666666666666666,0.21428571428571427,10,18
+M1_esco (Part I extractor),SS0089,soft,0.6,0.3333333333333333,0.42857142857142855,10,18
+M1_esco (Part I extractor),SS0090,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0090,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0091,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0091,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0092,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0092,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0093,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0093,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0094,strict,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0094,soft,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0095,strict,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0095,soft,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0096,strict,0.0,0.0,0.0,2,6
+M1_esco (Part I extractor),SS0096,soft,1.0,0.16666666666666666,0.2857142857142857,2,6
+M1_esco (Part I extractor),SS0097,strict,0.2727272727272727,0.2727272727272727,0.2727272727272727,11,11
+M1_esco (Part I extractor),SS0097,soft,0.5454545454545454,0.5454545454545454,0.5454545454545454,11,11
+M1_esco (Part I extractor),SS0098,strict,0.4,0.2,0.26666666666666666,5,10
+M1_esco (Part I extractor),SS0098,soft,0.4,0.2,0.26666666666666666,5,10
+M1_esco (Part I extractor),SS0099,strict,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0099,soft,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0100,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0100,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0101,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0101,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0102,strict,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0102,soft,0.0,0.0,0.0,0,1
+M1_esco (Part I extractor),SS0103,strict,0.0,0.0,0.0,1,6
+M1_esco (Part I extractor),SS0103,soft,0.0,0.0,0.0,1,6
+M1_esco (Part I extractor),SS0104,strict,0.2,0.08333333333333333,0.11764705882352941,5,12
+M1_esco (Part I extractor),SS0104,soft,0.4,0.16666666666666666,0.23529411764705882,5,12
+M1_esco (Part I extractor),SS0105,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0105,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0106,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0106,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0107,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0107,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0108,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0108,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0109,strict,0.2857142857142857,0.13333333333333333,0.18181818181818182,7,15
+M1_esco (Part I extractor),SS0109,soft,0.42857142857142855,0.3333333333333333,0.375,7,18
+M1_esco (Part I extractor),SS0110,strict,0.375,0.21428571428571427,0.2727272727272727,8,14
+M1_esco (Part I extractor),SS0110,soft,0.75,0.42857142857142855,0.5454545454545454,8,14
+M1_esco (Part I extractor),SS0111,strict,0.38461538461538464,0.29411764705882354,0.33333333333333337,13,17
+M1_esco (Part I extractor),SS0111,soft,0.6153846153846154,0.5294117647058824,0.5691699604743083,13,17
+M1_esco (Part I extractor),SS0112,strict,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0112,soft,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0113,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0113,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0114,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0114,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0115,strict,0.0,0.0,0.0,0,6
+M1_esco (Part I extractor),SS0115,soft,0.0,0.0,0.0,0,6
+M1_esco (Part I extractor),SS0116,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0116,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0117,strict,0.0,0.0,0.0,2,6
+M1_esco (Part I extractor),SS0117,soft,0.5,0.16666666666666666,0.25,2,6
+M1_esco (Part I extractor),SS0118,strict,0.16666666666666666,0.06666666666666667,0.09523809523809522,6,15
+M1_esco (Part I extractor),SS0118,soft,1.0,0.4,0.5714285714285715,6,15
+M1_esco (Part I extractor),SS0119,strict,0.3333333333333333,0.2857142857142857,0.30769230769230765,12,14
+M1_esco (Part I extractor),SS0119,soft,0.6666666666666666,0.5714285714285714,0.6153846153846153,12,14
+M1_esco (Part I extractor),SS0120,strict,0.25,0.3333333333333333,0.28571428571428575,4,3
+M1_esco (Part I extractor),SS0120,soft,0.25,0.3333333333333333,0.28571428571428575,4,3
+M1_esco (Part I extractor),SS0121,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0121,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0122,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0122,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0123,strict,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0123,soft,0.0,0.0,0.0,1,8
+M1_esco (Part I extractor),SS0124,strict,0.0,0.0,0.0,2,10
+M1_esco (Part I extractor),SS0124,soft,0.5,0.1,0.16666666666666669,2,10
+M1_esco (Part I extractor),SS0125,strict,0.0,0.0,0.0,5,6
+M1_esco (Part I extractor),SS0125,soft,0.2,0.16666666666666666,0.1818181818181818,5,6
+M1_esco (Part I extractor),SS0126,strict,0.5,0.3076923076923077,0.380952380952381,8,13
+M1_esco (Part I extractor),SS0126,soft,0.625,0.38461538461538464,0.4761904761904762,8,13
+M1_esco (Part I extractor),SS0127,strict,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0127,soft,0.0,0.0,0.0,3,0
+M1_esco (Part I extractor),SS0128,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0128,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0129,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0129,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0130,strict,0.0,0.0,0.0,0,7
+M1_esco (Part I extractor),SS0130,soft,0.0,0.0,0.0,0,7
+M1_esco (Part I extractor),SS0131,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0131,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0132,strict,0.0,0.0,0.0,9,11
+M1_esco (Part I extractor),SS0132,soft,0.2222222222222222,0.18181818181818182,0.19999999999999998,9,11
+M1_esco (Part I extractor),SS0133,strict,0.25,0.14285714285714285,0.18181818181818182,4,7
+M1_esco (Part I extractor),SS0133,soft,0.25,0.14285714285714285,0.18181818181818182,4,7
+M1_esco (Part I extractor),SS0134,strict,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0134,soft,0.0,0.0,0.0,1,0
+M1_esco (Part I extractor),SS0135,strict,0.0,0.0,0.0,4,0
+M1_esco (Part I extractor),SS0135,soft,0.0,0.0,0.0,4,0
+M1_esco (Part I extractor),SS0136,strict,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0136,soft,0.0,0.0,0.0,1,3
+M1_esco (Part I extractor),SS0137,strict,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0137,soft,0.0,0.0,0.0,0,5
+M1_esco (Part I extractor),SS0138,strict,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0138,soft,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0139,strict,0.25,0.125,0.16666666666666666,4,8
+M1_esco (Part I extractor),SS0139,soft,0.5,0.25,0.3333333333333333,4,8
+M1_esco (Part I extractor),SS0140,strict,0.7142857142857143,0.2631578947368421,0.3846153846153846,7,19
+M1_esco (Part I extractor),SS0140,soft,0.7142857142857143,0.2631578947368421,0.3846153846153846,7,19
+M1_esco (Part I extractor),SS0141,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0141,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0142,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0142,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0143,strict,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0143,soft,0.0,0.0,0.0,0,0
+M1_esco (Part I extractor),SS0144,strict,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0144,soft,0.0,0.0,0.0,2,0
+M1_esco (Part I extractor),SS0145,strict,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0145,soft,0.0,0.0,0.0,0,8
+M1_esco (Part I extractor),SS0146,strict,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0146,soft,0.0,0.0,0.0,0,3
+M1_esco (Part I extractor),SS0147,strict,1.0,0.14285714285714285,0.25,1,7
+M1_esco (Part I extractor),SS0147,soft,1.0,0.14285714285714285,0.25,1,7
+M1_esco (Part I extractor),SS0148,strict,0.5,0.16666666666666666,0.25,4,12
+M1_esco (Part I extractor),SS0148,soft,0.75,0.25,0.375,4,12
+M1_esco (Part I extractor),SS0149,strict,0.0,0.0,0.0,5,10
+M1_esco (Part I extractor),SS0149,soft,0.4,0.3,0.34285714285714286,5,10
+M2_esco_filtered,SS0000,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0000,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0001,strict,1.0,0.3333333333333333,0.5,1,3
+M2_esco_filtered,SS0001,soft,1.0,0.3333333333333333,0.5,1,3
+M2_esco_filtered,SS0002,strict,0.4,0.2222222222222222,0.2857142857142857,5,9
+M2_esco_filtered,SS0002,soft,0.4,0.2222222222222222,0.2857142857142857,5,9
+M2_esco_filtered,SS0003,strict,0.35714285714285715,0.2777777777777778,0.31250000000000006,14,18
+M2_esco_filtered,SS0003,soft,0.42857142857142855,0.3684210526315789,0.39622641509433965,14,19
+M2_esco_filtered,SS0004,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0004,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0005,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0005,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0006,strict,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0006,soft,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0007,strict,0.3333333333333333,0.125,0.18181818181818182,6,16
+M2_esco_filtered,SS0007,soft,0.5,0.1875,0.2727272727272727,6,16
+M2_esco_filtered,SS0008,strict,0.0,0.0,0.0,1,8
+M2_esco_filtered,SS0008,soft,0.0,0.0,0.0,1,8
+M2_esco_filtered,SS0009,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0009,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0010,strict,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0010,soft,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0011,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0011,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0012,strict,0.4,0.18181818181818182,0.25000000000000006,5,11
+M2_esco_filtered,SS0012,soft,0.6,0.3076923076923077,0.4067796610169492,5,13
+M2_esco_filtered,SS0013,strict,0.18181818181818182,0.05555555555555555,0.0851063829787234,11,36
+M2_esco_filtered,SS0013,soft,0.36363636363636365,0.19444444444444445,0.25339366515837103,11,36
+M2_esco_filtered,SS0014,strict,0.16666666666666666,0.3333333333333333,0.2222222222222222,6,3
+M2_esco_filtered,SS0014,soft,0.3333333333333333,0.6666666666666666,0.4444444444444444,6,3
+M2_esco_filtered,SS0015,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0015,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0016,strict,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0016,soft,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0017,strict,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0017,soft,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0018,strict,0.25,0.14285714285714285,0.18181818181818182,4,7
+M2_esco_filtered,SS0018,soft,0.25,0.14285714285714285,0.18181818181818182,4,7
+M2_esco_filtered,SS0019,strict,0.3,0.16666666666666666,0.21428571428571427,10,18
+M2_esco_filtered,SS0019,soft,0.4,0.2222222222222222,0.2857142857142857,10,18
+M2_esco_filtered,SS0020,strict,0.6,0.42857142857142855,0.5,5,7
+M2_esco_filtered,SS0020,soft,0.6,0.42857142857142855,0.5,5,7
+M2_esco_filtered,SS0021,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0021,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0022,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0022,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0023,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0023,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0024,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0024,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0025,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0025,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0026,strict,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0026,soft,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0027,strict,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0027,soft,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0028,strict,0.3333333333333333,0.25,0.28571428571428575,12,16
+M2_esco_filtered,SS0028,soft,0.5833333333333334,0.375,0.45652173913043476,12,16
+M2_esco_filtered,SS0029,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0029,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0030,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0030,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0031,strict,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0031,soft,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0032,strict,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0032,soft,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0033,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0033,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0034,strict,0.0,0.0,0.0,0,10
+M2_esco_filtered,SS0034,soft,0.0,0.0,0.0,0,10
+M2_esco_filtered,SS0035,strict,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0035,soft,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0036,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0036,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0037,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0037,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0038,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0038,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0039,strict,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0039,soft,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0040,strict,0.3333333333333333,0.25,0.28571428571428575,6,8
+M2_esco_filtered,SS0040,soft,0.6666666666666666,0.375,0.4800000000000001,6,8
+M2_esco_filtered,SS0041,strict,1.0,0.1111111111111111,0.19999999999999998,1,9
+M2_esco_filtered,SS0041,soft,1.0,0.1111111111111111,0.19999999999999998,1,9
+M2_esco_filtered,SS0042,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0042,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0043,strict,1.0,0.25,0.4,1,4
+M2_esco_filtered,SS0043,soft,1.0,0.25,0.4,1,4
+M2_esco_filtered,SS0044,strict,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0044,soft,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0045,strict,0.5,0.2727272727272727,0.3529411764705882,6,11
+M2_esco_filtered,SS0045,soft,0.6666666666666666,0.4166666666666667,0.5128205128205129,6,12
+M2_esco_filtered,SS0046,strict,1.0,0.6666666666666666,0.8,2,3
+M2_esco_filtered,SS0046,soft,1.0,0.6666666666666666,0.8,2,3
+M2_esco_filtered,SS0047,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0047,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0048,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0048,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0049,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0049,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0050,strict,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0050,soft,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0051,strict,0.25,0.2,0.22222222222222224,4,5
+M2_esco_filtered,SS0051,soft,0.25,0.2,0.22222222222222224,4,5
+M2_esco_filtered,SS0052,strict,0.4166666666666667,0.22727272727272727,0.29411764705882354,12,22
+M2_esco_filtered,SS0052,soft,0.5833333333333334,0.3181818181818182,0.4117647058823529,12,22
+M2_esco_filtered,SS0053,strict,0.0,0.0,0.0,6,3
+M2_esco_filtered,SS0053,soft,0.16666666666666666,0.6666666666666666,0.26666666666666666,6,3
+M2_esco_filtered,SS0054,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0054,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0055,strict,1.0,0.125,0.2222222222222222,1,8
+M2_esco_filtered,SS0055,soft,1.0,0.125,0.2222222222222222,1,8
+M2_esco_filtered,SS0056,strict,1.0,0.125,0.2222222222222222,1,8
+M2_esco_filtered,SS0056,soft,1.0,0.125,0.2222222222222222,1,8
+M2_esco_filtered,SS0057,strict,0.0,0.0,0.0,5,11
+M2_esco_filtered,SS0057,soft,0.4,0.18181818181818182,0.25000000000000006,5,11
+M2_esco_filtered,SS0058,strict,1.0,0.6666666666666666,0.8,2,3
+M2_esco_filtered,SS0058,soft,1.0,0.6666666666666666,0.8,2,3
+M2_esco_filtered,SS0059,strict,0.3333333333333333,0.25,0.28571428571428575,3,4
+M2_esco_filtered,SS0059,soft,0.3333333333333333,0.25,0.28571428571428575,3,4
+M2_esco_filtered,SS0060,strict,0.0,0.0,0.0,6,1
+M2_esco_filtered,SS0060,soft,0.0,0.0,0.0,6,1
+M2_esco_filtered,SS0061,strict,0.0,0.0,0.0,6,0
+M2_esco_filtered,SS0061,soft,0.0,0.0,0.0,6,0
+M2_esco_filtered,SS0062,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0062,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0063,strict,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0063,soft,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0064,strict,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0064,soft,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0065,strict,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0065,soft,0.0,0.0,0.0,0,2
+M2_esco_filtered,SS0066,strict,0.0,0.0,0.0,5,1
+M2_esco_filtered,SS0066,soft,0.0,0.0,0.0,5,1
+M2_esco_filtered,SS0067,strict,0.2,0.3333333333333333,0.25,10,6
+M2_esco_filtered,SS0067,soft,0.2,0.3333333333333333,0.25,10,6
+M2_esco_filtered,SS0068,strict,0.5,0.375,0.42857142857142855,6,8
+M2_esco_filtered,SS0068,soft,0.8333333333333334,0.5,0.625,6,8
+M2_esco_filtered,SS0069,strict,0.5,0.5333333333333333,0.5161290322580646,16,15
+M2_esco_filtered,SS0069,soft,0.5625,0.6,0.5806451612903225,16,15
+M2_esco_filtered,SS0070,strict,0.0,0.0,0.0,3,1
+M2_esco_filtered,SS0070,soft,0.0,0.0,0.0,3,1
+M2_esco_filtered,SS0071,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0071,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0072,strict,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0072,soft,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0073,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0073,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0074,strict,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0074,soft,0.0,0.0,0.0,0,4
+M2_esco_filtered,SS0075,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0075,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0076,strict,0.0,0.0,0.0,7,4
+M2_esco_filtered,SS0076,soft,0.0,0.0,0.0,7,4
+M2_esco_filtered,SS0077,strict,1.0,0.09090909090909091,0.16666666666666669,1,11
+M2_esco_filtered,SS0077,soft,1.0,0.09090909090909091,0.16666666666666669,1,11
+M2_esco_filtered,SS0078,strict,0.0,0.0,0.0,3,14
+M2_esco_filtered,SS0078,soft,0.0,0.0,0.0,3,14
+M2_esco_filtered,SS0079,strict,0.25,0.125,0.16666666666666666,4,8
+M2_esco_filtered,SS0079,soft,0.5,0.25,0.3333333333333333,4,8
+M2_esco_filtered,SS0080,strict,0.75,0.2727272727272727,0.39999999999999997,4,11
+M2_esco_filtered,SS0080,soft,0.75,0.2727272727272727,0.39999999999999997,4,11
+M2_esco_filtered,SS0081,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0081,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0082,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0082,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0083,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0083,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0084,strict,0.0,0.0,0.0,5,0
+M2_esco_filtered,SS0084,soft,0.0,0.0,0.0,5,0
+M2_esco_filtered,SS0085,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0085,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0086,strict,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0086,soft,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0087,strict,0.0,0.0,0.0,0,6
+M2_esco_filtered,SS0087,soft,0.0,0.0,0.0,0,6
+M2_esco_filtered,SS0088,strict,0.09090909090909091,0.1111111111111111,0.09999999999999999,11,9
+M2_esco_filtered,SS0088,soft,0.45454545454545453,0.5555555555555556,0.5,11,9
+M2_esco_filtered,SS0089,strict,0.2222222222222222,0.1111111111111111,0.14814814814814814,9,18
+M2_esco_filtered,SS0089,soft,0.4444444444444444,0.2222222222222222,0.2962962962962963,9,18
+M2_esco_filtered,SS0090,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0090,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0091,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0091,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0092,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0092,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0093,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0093,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0094,strict,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0094,soft,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0095,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0095,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0096,strict,0.0,0.0,0.0,2,6
+M2_esco_filtered,SS0096,soft,1.0,0.16666666666666666,0.2857142857142857,2,6
+M2_esco_filtered,SS0097,strict,0.08333333333333333,0.09090909090909091,0.08695652173913043,12,11
+M2_esco_filtered,SS0097,soft,0.3333333333333333,0.36363636363636365,0.34782608695652173,12,11
+M2_esco_filtered,SS0098,strict,0.42857142857142855,0.3,0.3529411764705882,7,10
+M2_esco_filtered,SS0098,soft,0.42857142857142855,0.3,0.3529411764705882,7,10
+M2_esco_filtered,SS0099,strict,0.0,0.0,0.0,4,0
+M2_esco_filtered,SS0099,soft,0.0,0.0,0.0,4,0
+M2_esco_filtered,SS0100,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0100,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0101,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0101,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0102,strict,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0102,soft,0.0,0.0,0.0,0,1
+M2_esco_filtered,SS0103,strict,0.0,0.0,0.0,1,6
+M2_esco_filtered,SS0103,soft,0.0,0.0,0.0,1,6
+M2_esco_filtered,SS0104,strict,0.2,0.08333333333333333,0.11764705882352941,5,12
+M2_esco_filtered,SS0104,soft,0.6,0.25,0.35294117647058826,5,12
+M2_esco_filtered,SS0105,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0105,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0106,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0106,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0107,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0107,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0108,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0108,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0109,strict,0.42857142857142855,0.2,0.27272727272727276,7,15
+M2_esco_filtered,SS0109,soft,0.42857142857142855,0.2777777777777778,0.33707865168539325,7,18
+M2_esco_filtered,SS0110,strict,0.14285714285714285,0.07142857142857142,0.09523809523809523,7,14
+M2_esco_filtered,SS0110,soft,0.42857142857142855,0.21428571428571427,0.2857142857142857,7,14
+M2_esco_filtered,SS0111,strict,0.5454545454545454,0.35294117647058826,0.42857142857142855,11,17
+M2_esco_filtered,SS0111,soft,0.6363636363636364,0.4117647058823529,0.5,11,17
+M2_esco_filtered,SS0112,strict,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0112,soft,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0113,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0113,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0114,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0114,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0115,strict,0.0,0.0,0.0,0,6
+M2_esco_filtered,SS0115,soft,0.0,0.0,0.0,0,6
+M2_esco_filtered,SS0116,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0116,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0117,strict,0.0,0.0,0.0,1,6
+M2_esco_filtered,SS0117,soft,0.0,0.0,0.0,1,6
+M2_esco_filtered,SS0118,strict,0.1111111111111111,0.06666666666666667,0.08333333333333334,9,15
+M2_esco_filtered,SS0118,soft,0.4444444444444444,0.26666666666666666,0.33333333333333337,9,15
+M2_esco_filtered,SS0119,strict,0.16666666666666666,0.14285714285714285,0.15384615384615383,12,14
+M2_esco_filtered,SS0119,soft,0.5,0.42857142857142855,0.4615384615384615,12,14
+M2_esco_filtered,SS0120,strict,0.0,0.0,0.0,4,3
+M2_esco_filtered,SS0120,soft,0.25,0.3333333333333333,0.28571428571428575,4,3
+M2_esco_filtered,SS0121,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0121,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0122,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0122,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0123,strict,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0123,soft,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0124,strict,0.0,0.0,0.0,0,10
+M2_esco_filtered,SS0124,soft,0.0,0.0,0.0,0,10
+M2_esco_filtered,SS0125,strict,0.0,0.0,0.0,5,6
+M2_esco_filtered,SS0125,soft,0.2,0.16666666666666666,0.1818181818181818,5,6
+M2_esco_filtered,SS0126,strict,0.625,0.38461538461538464,0.4761904761904762,8,13
+M2_esco_filtered,SS0126,soft,0.875,0.5384615384615384,0.6666666666666667,8,13
+M2_esco_filtered,SS0127,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0127,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0128,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0128,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0129,strict,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0129,soft,0.0,0.0,0.0,1,0
+M2_esco_filtered,SS0130,strict,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0130,soft,0.0,0.0,0.0,0,7
+M2_esco_filtered,SS0131,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0131,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0132,strict,1.0,0.5454545454545454,0.7058823529411764,6,11
+M2_esco_filtered,SS0132,soft,1.0,0.5454545454545454,0.7058823529411764,6,11
+M2_esco_filtered,SS0133,strict,0.0,0.0,0.0,5,7
+M2_esco_filtered,SS0133,soft,0.0,0.0,0.0,5,7
+M2_esco_filtered,SS0134,strict,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0134,soft,0.0,0.0,0.0,3,0
+M2_esco_filtered,SS0135,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0135,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0136,strict,0.0,0.0,0.0,1,3
+M2_esco_filtered,SS0136,soft,0.0,0.0,0.0,1,3
+M2_esco_filtered,SS0137,strict,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0137,soft,0.0,0.0,0.0,0,5
+M2_esco_filtered,SS0138,strict,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0138,soft,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0139,strict,0.2,0.125,0.15384615384615385,5,8
+M2_esco_filtered,SS0139,soft,0.2,0.125,0.15384615384615385,5,8
+M2_esco_filtered,SS0140,strict,0.6666666666666666,0.21052631578947367,0.32,6,19
+M2_esco_filtered,SS0140,soft,0.8333333333333334,0.2631578947368421,0.39999999999999997,6,19
+M2_esco_filtered,SS0141,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0141,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0142,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0142,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0143,strict,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0143,soft,0.0,0.0,0.0,0,0
+M2_esco_filtered,SS0144,strict,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0144,soft,0.0,0.0,0.0,2,0
+M2_esco_filtered,SS0145,strict,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0145,soft,0.0,0.0,0.0,0,8
+M2_esco_filtered,SS0146,strict,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0146,soft,0.0,0.0,0.0,0,3
+M2_esco_filtered,SS0147,strict,1.0,0.14285714285714285,0.25,1,7
+M2_esco_filtered,SS0147,soft,1.0,0.14285714285714285,0.25,1,7
+M2_esco_filtered,SS0148,strict,0.6666666666666666,0.16666666666666666,0.26666666666666666,3,12
+M2_esco_filtered,SS0148,soft,0.6666666666666666,0.16666666666666666,0.26666666666666666,3,12
+M2_esco_filtered,SS0149,strict,0.2857142857142857,0.2,0.23529411764705882,7,10
+M2_esco_filtered,SS0149,soft,0.7142857142857143,0.6,0.6521739130434783,7,10
+M3_dictionary,SS0000,strict,0.0,0.0,0.0,2,0
+M3_dictionary,SS0000,soft,0.0,0.0,0.0,2,0
+M3_dictionary,SS0001,strict,1.0,1.0,1.0,3,3
+M3_dictionary,SS0001,soft,1.0,1.0,1.0,3,3
+M3_dictionary,SS0002,strict,0.0,0.0,0.0,2,9
+M3_dictionary,SS0002,soft,0.0,0.0,0.0,2,9
+M3_dictionary,SS0003,strict,0.75,0.16666666666666666,0.27272727272727276,4,18
+M3_dictionary,SS0003,soft,0.75,0.21052631578947367,0.3287671232876712,4,19
+M3_dictionary,SS0004,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0004,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0005,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0005,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0006,strict,1.0,0.2,0.33333333333333337,1,5
+M3_dictionary,SS0006,soft,1.0,0.4,0.5714285714285715,1,5
+M3_dictionary,SS0007,strict,1.0,0.25,0.4,4,16
+M3_dictionary,SS0007,soft,1.0,0.25,0.4,4,16
+M3_dictionary,SS0008,strict,0.0,0.0,0.0,0,8
+M3_dictionary,SS0008,soft,0.0,0.0,0.0,0,8
+M3_dictionary,SS0009,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0009,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0010,strict,0.5,0.125,0.2,2,8
+M3_dictionary,SS0010,soft,0.5,0.125,0.2,2,8
+M3_dictionary,SS0011,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0011,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0012,strict,0.5,0.18181818181818182,0.26666666666666666,4,11
+M3_dictionary,SS0012,soft,0.75,0.3076923076923077,0.4363636363636364,4,13
+M3_dictionary,SS0013,strict,0.4,0.05555555555555555,0.09756097560975609,5,36
+M3_dictionary,SS0013,soft,0.8,0.19444444444444445,0.3128491620111732,5,36
+M3_dictionary,SS0014,strict,0.5,0.3333333333333333,0.4,2,3
+M3_dictionary,SS0014,soft,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0015,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0015,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0016,strict,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0016,soft,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0017,strict,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0017,soft,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0018,strict,0.0,0.0,0.0,0,7
+M3_dictionary,SS0018,soft,0.0,0.0,0.0,0,7
+M3_dictionary,SS0019,strict,0.75,0.16666666666666666,0.27272727272727276,4,18
+M3_dictionary,SS0019,soft,0.75,0.16666666666666666,0.27272727272727276,4,18
+M3_dictionary,SS0020,strict,1.0,0.2857142857142857,0.4444444444444445,2,7
+M3_dictionary,SS0020,soft,1.0,0.2857142857142857,0.4444444444444445,2,7
+M3_dictionary,SS0021,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0021,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0022,strict,0.0,0.0,0.0,2,0
+M3_dictionary,SS0022,soft,0.0,0.0,0.0,2,0
+M3_dictionary,SS0023,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0023,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0024,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0024,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0025,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0025,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0026,strict,1.0,0.25,0.4,1,4
+M3_dictionary,SS0026,soft,1.0,0.25,0.4,1,4
+M3_dictionary,SS0027,strict,0.3333333333333333,0.5,0.4,3,2
+M3_dictionary,SS0027,soft,0.3333333333333333,0.5,0.4,3,2
+M3_dictionary,SS0028,strict,0.7777777777777778,0.4375,0.56,9,16
+M3_dictionary,SS0028,soft,1.0,0.5,0.6666666666666666,9,16
+M3_dictionary,SS0029,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0029,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0030,strict,0.0,0.0,0.0,2,0
+M3_dictionary,SS0030,soft,0.0,0.0,0.0,2,0
+M3_dictionary,SS0031,strict,0.5,0.2,0.28571428571428575,2,5
+M3_dictionary,SS0031,soft,0.5,0.2,0.28571428571428575,2,5
+M3_dictionary,SS0032,strict,0.5,0.2,0.28571428571428575,2,5
+M3_dictionary,SS0032,soft,0.5,0.2,0.28571428571428575,2,5
+M3_dictionary,SS0033,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0033,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0034,strict,0.0,0.0,0.0,1,10
+M3_dictionary,SS0034,soft,1.0,0.1,0.18181818181818182,1,10
+M3_dictionary,SS0035,strict,0.5,0.14285714285714285,0.22222222222222224,2,7
+M3_dictionary,SS0035,soft,0.5,0.14285714285714285,0.22222222222222224,2,7
+M3_dictionary,SS0036,strict,0.0,0.0,0.0,3,0
+M3_dictionary,SS0036,soft,0.0,0.0,0.0,3,0
+M3_dictionary,SS0037,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0037,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0038,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0038,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0039,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0039,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0040,strict,0.4,0.25,0.3076923076923077,5,8
+M3_dictionary,SS0040,soft,0.8,0.375,0.5106382978723405,5,8
+M3_dictionary,SS0041,strict,0.75,0.3333333333333333,0.46153846153846156,4,9
+M3_dictionary,SS0041,soft,0.75,0.3333333333333333,0.46153846153846156,4,9
+M3_dictionary,SS0042,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0042,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0043,strict,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0043,soft,1.0,0.5,0.6666666666666666,2,4
+M3_dictionary,SS0044,strict,0.0,0.0,0.0,0,1
+M3_dictionary,SS0044,soft,0.0,0.0,0.0,0,1
+M3_dictionary,SS0045,strict,1.0,0.2727272727272727,0.42857142857142855,3,11
+M3_dictionary,SS0045,soft,1.0,0.4166666666666667,0.5882352941176471,3,12
+M3_dictionary,SS0046,strict,0.0,0.0,0.0,2,3
+M3_dictionary,SS0046,soft,0.5,0.3333333333333333,0.4,2,3
+M3_dictionary,SS0047,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0047,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0048,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0048,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0049,strict,1.0,1.0,1.0,3,3
+M3_dictionary,SS0049,soft,1.0,1.0,1.0,3,3
+M3_dictionary,SS0050,strict,0.6,0.42857142857142855,0.5,5,7
+M3_dictionary,SS0050,soft,0.6,0.42857142857142855,0.5,5,7
+M3_dictionary,SS0051,strict,0.0,0.0,0.0,0,5
+M3_dictionary,SS0051,soft,0.0,0.0,0.0,0,5
+M3_dictionary,SS0052,strict,0.5384615384615384,0.3181818181818182,0.39999999999999997,13,22
+M3_dictionary,SS0052,soft,0.7692307692307693,0.45454545454545453,0.5714285714285714,13,22
+M3_dictionary,SS0053,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0053,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0054,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0054,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0055,strict,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0055,soft,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0056,strict,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0056,soft,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0057,strict,0.0,0.0,0.0,3,11
+M3_dictionary,SS0057,soft,0.6666666666666666,0.18181818181818182,0.28571428571428575,3,11
+M3_dictionary,SS0058,strict,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0058,soft,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0059,strict,0.5,0.25,0.3333333333333333,2,4
+M3_dictionary,SS0059,soft,0.5,0.25,0.3333333333333333,2,4
+M3_dictionary,SS0060,strict,0.0,0.0,0.0,1,1
+M3_dictionary,SS0060,soft,0.0,0.0,0.0,1,1
+M3_dictionary,SS0061,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0061,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0062,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0062,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0063,strict,0.0,0.0,0.0,1,2
+M3_dictionary,SS0063,soft,0.0,0.0,0.0,1,2
+M3_dictionary,SS0064,strict,1.0,0.25,0.4,1,4
+M3_dictionary,SS0064,soft,1.0,0.25,0.4,1,4
+M3_dictionary,SS0065,strict,1.0,0.5,0.6666666666666666,1,2
+M3_dictionary,SS0065,soft,1.0,0.5,0.6666666666666666,1,2
+M3_dictionary,SS0066,strict,0.0,0.0,0.0,1,1
+M3_dictionary,SS0066,soft,0.0,0.0,0.0,1,1
+M3_dictionary,SS0067,strict,0.0,0.0,0.0,1,6
+M3_dictionary,SS0067,soft,0.0,0.0,0.0,1,6
+M3_dictionary,SS0068,strict,0.5,0.125,0.2,2,8
+M3_dictionary,SS0068,soft,1.0,0.25,0.4,2,8
+M3_dictionary,SS0069,strict,0.6,0.2,0.3,5,15
+M3_dictionary,SS0069,soft,0.6,0.2,0.3,5,15
+M3_dictionary,SS0070,strict,0.0,0.0,0.0,0,1
+M3_dictionary,SS0070,soft,0.0,0.0,0.0,0,1
+M3_dictionary,SS0071,strict,0.0,0.0,0.0,2,0
+M3_dictionary,SS0071,soft,0.0,0.0,0.0,2,0
+M3_dictionary,SS0072,strict,0.0,0.0,0.0,0,1
+M3_dictionary,SS0072,soft,0.0,0.0,0.0,0,1
+M3_dictionary,SS0073,strict,1.0,0.3333333333333333,0.5,1,3
+M3_dictionary,SS0073,soft,1.0,0.3333333333333333,0.5,1,3
+M3_dictionary,SS0074,strict,1.0,0.25,0.4,1,4
+M3_dictionary,SS0074,soft,1.0,0.25,0.4,1,4
+M3_dictionary,SS0075,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0075,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0076,strict,0.0,0.0,0.0,3,4
+M3_dictionary,SS0076,soft,0.0,0.0,0.0,3,4
+M3_dictionary,SS0077,strict,0.6666666666666666,0.18181818181818182,0.28571428571428575,3,11
+M3_dictionary,SS0077,soft,1.0,0.2727272727272727,0.42857142857142855,3,11
+M3_dictionary,SS0078,strict,0.0,0.0,0.0,4,14
+M3_dictionary,SS0078,soft,0.25,0.07142857142857142,0.11111111111111112,4,14
+M3_dictionary,SS0079,strict,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0079,soft,0.6666666666666666,0.25,0.36363636363636365,3,8
+M3_dictionary,SS0080,strict,0.0,0.0,0.0,0,11
+M3_dictionary,SS0080,soft,0.0,0.0,0.0,0,11
+M3_dictionary,SS0081,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0081,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0082,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0082,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0083,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0083,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0084,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0084,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0085,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0085,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0086,strict,0.0,0.0,0.0,0,5
+M3_dictionary,SS0086,soft,0.0,0.0,0.0,0,5
+M3_dictionary,SS0087,strict,0.0,0.0,0.0,0,6
+M3_dictionary,SS0087,soft,0.0,0.0,0.0,0,6
+M3_dictionary,SS0088,strict,0.0,0.0,0.0,0,9
+M3_dictionary,SS0088,soft,0.0,0.0,0.0,0,9
+M3_dictionary,SS0089,strict,0.5,0.05555555555555555,0.09999999999999999,2,18
+M3_dictionary,SS0089,soft,0.5,0.05555555555555555,0.09999999999999999,2,18
+M3_dictionary,SS0090,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0090,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0091,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0091,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0092,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0092,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0093,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0093,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0094,strict,0.0,0.0,0.0,0,8
+M3_dictionary,SS0094,soft,0.0,0.0,0.0,0,8
+M3_dictionary,SS0095,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0095,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0096,strict,0.0,0.0,0.0,0,6
+M3_dictionary,SS0096,soft,0.0,0.0,0.0,0,6
+M3_dictionary,SS0097,strict,0.0,0.0,0.0,1,11
+M3_dictionary,SS0097,soft,0.0,0.0,0.0,1,11
+M3_dictionary,SS0098,strict,0.0,0.0,0.0,1,10
+M3_dictionary,SS0098,soft,0.0,0.0,0.0,1,10
+M3_dictionary,SS0099,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0099,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0100,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0100,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0101,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0101,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0102,strict,0.0,0.0,0.0,0,1
+M3_dictionary,SS0102,soft,0.0,0.0,0.0,0,1
+M3_dictionary,SS0103,strict,0.0,0.0,0.0,1,6
+M3_dictionary,SS0103,soft,0.0,0.0,0.0,1,6
+M3_dictionary,SS0104,strict,0.0,0.0,0.0,0,12
+M3_dictionary,SS0104,soft,0.0,0.0,0.0,0,12
+M3_dictionary,SS0105,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0105,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0106,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0106,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0107,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0107,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0108,strict,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0108,soft,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0109,strict,0.7142857142857143,0.3333333333333333,0.4545454545454545,7,15
+M3_dictionary,SS0109,soft,0.7142857142857143,0.4444444444444444,0.5479452054794521,7,18
+M3_dictionary,SS0110,strict,0.0,0.0,0.0,1,14
+M3_dictionary,SS0110,soft,0.0,0.0,0.0,1,14
+M3_dictionary,SS0111,strict,0.625,0.29411764705882354,0.4,8,17
+M3_dictionary,SS0111,soft,0.75,0.35294117647058826,0.48,8,17
+M3_dictionary,SS0112,strict,0.0,0.0,0.0,3,0
+M3_dictionary,SS0112,soft,0.0,0.0,0.0,3,0
+M3_dictionary,SS0113,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0113,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0114,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0114,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0115,strict,0.0,0.0,0.0,0,6
+M3_dictionary,SS0115,soft,0.0,0.0,0.0,0,6
+M3_dictionary,SS0116,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0116,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0117,strict,0.0,0.0,0.0,0,6
+M3_dictionary,SS0117,soft,0.0,0.0,0.0,0,6
+M3_dictionary,SS0118,strict,1.0,0.06666666666666667,0.125,1,15
+M3_dictionary,SS0118,soft,1.0,0.06666666666666667,0.125,1,15
+M3_dictionary,SS0119,strict,1.0,0.07142857142857142,0.13333333333333333,1,14
+M3_dictionary,SS0119,soft,1.0,0.07142857142857142,0.13333333333333333,1,14
+M3_dictionary,SS0120,strict,0.5,0.3333333333333333,0.4,2,3
+M3_dictionary,SS0120,soft,1.0,0.6666666666666666,0.8,2,3
+M3_dictionary,SS0121,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0121,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0122,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0122,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0123,strict,1.0,0.125,0.2222222222222222,1,8
+M3_dictionary,SS0123,soft,1.0,0.125,0.2222222222222222,1,8
+M3_dictionary,SS0124,strict,1.0,0.1,0.18181818181818182,1,10
+M3_dictionary,SS0124,soft,1.0,0.1,0.18181818181818182,1,10
+M3_dictionary,SS0125,strict,0.0,0.0,0.0,0,6
+M3_dictionary,SS0125,soft,0.0,0.0,0.0,0,6
+M3_dictionary,SS0126,strict,0.8,0.3076923076923077,0.4444444444444444,5,13
+M3_dictionary,SS0126,soft,1.0,0.38461538461538464,0.5555555555555556,5,13
+M3_dictionary,SS0127,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0127,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0128,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0128,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0129,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0129,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0130,strict,1.0,0.42857142857142855,0.6,3,7
+M3_dictionary,SS0130,soft,1.0,0.42857142857142855,0.6,3,7
+M3_dictionary,SS0131,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0131,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0132,strict,1.0,0.2727272727272727,0.42857142857142855,3,11
+M3_dictionary,SS0132,soft,1.0,0.2727272727272727,0.42857142857142855,3,11
+M3_dictionary,SS0133,strict,0.0,0.0,0.0,2,7
+M3_dictionary,SS0133,soft,0.0,0.0,0.0,2,7
+M3_dictionary,SS0134,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0134,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0135,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0135,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0136,strict,0.0,0.0,0.0,1,3
+M3_dictionary,SS0136,soft,0.0,0.0,0.0,1,3
+M3_dictionary,SS0137,strict,1.0,0.4,0.5714285714285715,2,5
+M3_dictionary,SS0137,soft,1.0,0.4,0.5714285714285715,2,5
+M3_dictionary,SS0138,strict,1.0,0.25,0.4,2,8
+M3_dictionary,SS0138,soft,1.0,0.25,0.4,2,8
+M3_dictionary,SS0139,strict,0.0,0.0,0.0,1,8
+M3_dictionary,SS0139,soft,0.0,0.0,0.0,1,8
+M3_dictionary,SS0140,strict,0.5,0.10526315789473684,0.17391304347826086,4,19
+M3_dictionary,SS0140,soft,0.5,0.10526315789473684,0.17391304347826086,4,19
+M3_dictionary,SS0141,strict,0.0,0.0,0.0,1,0
+M3_dictionary,SS0141,soft,0.0,0.0,0.0,1,0
+M3_dictionary,SS0142,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0142,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0143,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0143,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0144,strict,0.0,0.0,0.0,0,0
+M3_dictionary,SS0144,soft,0.0,0.0,0.0,0,0
+M3_dictionary,SS0145,strict,1.0,0.625,0.7692307692307693,5,8
+M3_dictionary,SS0145,soft,1.0,0.625,0.7692307692307693,5,8
+M3_dictionary,SS0146,strict,0.0,0.0,0.0,0,3
+M3_dictionary,SS0146,soft,0.0,0.0,0.0,0,3
+M3_dictionary,SS0147,strict,1.0,0.7142857142857143,0.8333333333333333,5,7
+M3_dictionary,SS0147,soft,1.0,0.7142857142857143,0.8333333333333333,5,7
+M3_dictionary,SS0148,strict,0.5,0.25,0.3333333333333333,6,12
+M3_dictionary,SS0148,soft,0.8333333333333334,0.3333333333333333,0.47619047619047616,6,12
+M3_dictionary,SS0149,strict,0.0,0.0,0.0,0,10
+M3_dictionary,SS0149,soft,0.0,0.0,0.0,0,10
+M4_dictionary+esco_filtered (Part I default),SS0000,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0000,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0001,strict,1.0,1.0,1.0,3,3
+M4_dictionary+esco_filtered (Part I default),SS0001,soft,1.0,1.0,1.0,3,3
+M4_dictionary+esco_filtered (Part I default),SS0002,strict,0.2857142857142857,0.2222222222222222,0.25,7,9
+M4_dictionary+esco_filtered (Part I default),SS0002,soft,0.2857142857142857,0.2222222222222222,0.25,7,9
+M4_dictionary+esco_filtered (Part I default),SS0003,strict,0.35714285714285715,0.2777777777777778,0.31250000000000006,14,18
+M4_dictionary+esco_filtered (Part I default),SS0003,soft,0.42857142857142855,0.3684210526315789,0.39622641509433965,14,19
+M4_dictionary+esco_filtered (Part I default),SS0004,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0004,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0005,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0005,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0006,strict,1.0,0.2,0.33333333333333337,1,5
+M4_dictionary+esco_filtered (Part I default),SS0006,soft,1.0,0.4,0.5714285714285715,1,5
+M4_dictionary+esco_filtered (Part I default),SS0007,strict,0.5555555555555556,0.3125,0.39999999999999997,9,16
+M4_dictionary+esco_filtered (Part I default),SS0007,soft,0.6666666666666666,0.375,0.4800000000000001,9,16
+M4_dictionary+esco_filtered (Part I default),SS0008,strict,0.0,0.0,0.0,1,8
+M4_dictionary+esco_filtered (Part I default),SS0008,soft,0.0,0.0,0.0,1,8
+M4_dictionary+esco_filtered (Part I default),SS0009,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0009,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0010,strict,0.5,0.125,0.2,2,8
+M4_dictionary+esco_filtered (Part I default),SS0010,soft,0.5,0.125,0.2,2,8
+M4_dictionary+esco_filtered (Part I default),SS0011,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0011,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0012,strict,0.3333333333333333,0.18181818181818182,0.23529411764705885,6,11
+M4_dictionary+esco_filtered (Part I default),SS0012,soft,0.5,0.3076923076923077,0.380952380952381,6,13
+M4_dictionary+esco_filtered (Part I default),SS0013,strict,0.23076923076923078,0.08333333333333333,0.12244897959183675,13,36
+M4_dictionary+esco_filtered (Part I default),SS0013,soft,0.38461538461538464,0.2222222222222222,0.2816901408450704,13,36
+M4_dictionary+esco_filtered (Part I default),SS0014,strict,0.16666666666666666,0.3333333333333333,0.2222222222222222,6,3
+M4_dictionary+esco_filtered (Part I default),SS0014,soft,0.3333333333333333,0.6666666666666666,0.4444444444444444,6,3
+M4_dictionary+esco_filtered (Part I default),SS0015,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0015,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0016,strict,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0016,soft,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0017,strict,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0017,soft,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0018,strict,0.25,0.14285714285714285,0.18181818181818182,4,7
+M4_dictionary+esco_filtered (Part I default),SS0018,soft,0.25,0.14285714285714285,0.18181818181818182,4,7
+M4_dictionary+esco_filtered (Part I default),SS0019,strict,0.36363636363636365,0.2222222222222222,0.27586206896551724,11,18
+M4_dictionary+esco_filtered (Part I default),SS0019,soft,0.45454545454545453,0.2777777777777778,0.3448275862068966,11,18
+M4_dictionary+esco_filtered (Part I default),SS0020,strict,0.6666666666666666,0.5714285714285714,0.6153846153846153,6,7
+M4_dictionary+esco_filtered (Part I default),SS0020,soft,0.6666666666666666,0.5714285714285714,0.6153846153846153,6,7
+M4_dictionary+esco_filtered (Part I default),SS0021,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0021,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0022,strict,0.0,0.0,0.0,4,0
+M4_dictionary+esco_filtered (Part I default),SS0022,soft,0.0,0.0,0.0,4,0
+M4_dictionary+esco_filtered (Part I default),SS0023,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0023,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0024,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0024,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0025,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0025,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0026,strict,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0026,soft,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0027,strict,0.3333333333333333,0.5,0.4,3,2
+M4_dictionary+esco_filtered (Part I default),SS0027,soft,0.3333333333333333,0.5,0.4,3,2
+M4_dictionary+esco_filtered (Part I default),SS0028,strict,0.5555555555555556,0.625,0.5882352941176471,18,16
+M4_dictionary+esco_filtered (Part I default),SS0028,soft,0.7222222222222222,0.75,0.7358490566037735,18,16
+M4_dictionary+esco_filtered (Part I default),SS0029,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0029,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0030,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0030,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0031,strict,0.5,0.2,0.28571428571428575,2,5
+M4_dictionary+esco_filtered (Part I default),SS0031,soft,0.5,0.2,0.28571428571428575,2,5
+M4_dictionary+esco_filtered (Part I default),SS0032,strict,0.5,0.2,0.28571428571428575,2,5
+M4_dictionary+esco_filtered (Part I default),SS0032,soft,0.5,0.2,0.28571428571428575,2,5
+M4_dictionary+esco_filtered (Part I default),SS0033,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0033,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0034,strict,0.0,0.0,0.0,1,10
+M4_dictionary+esco_filtered (Part I default),SS0034,soft,1.0,0.1,0.18181818181818182,1,10
+M4_dictionary+esco_filtered (Part I default),SS0035,strict,0.5,0.14285714285714285,0.22222222222222224,2,7
+M4_dictionary+esco_filtered (Part I default),SS0035,soft,0.5,0.14285714285714285,0.22222222222222224,2,7
+M4_dictionary+esco_filtered (Part I default),SS0036,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0036,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0037,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0037,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0038,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0038,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0039,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0039,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0040,strict,0.2857142857142857,0.25,0.26666666666666666,7,8
+M4_dictionary+esco_filtered (Part I default),SS0040,soft,0.5714285714285714,0.375,0.4528301886792453,7,8
+M4_dictionary+esco_filtered (Part I default),SS0041,strict,0.75,0.3333333333333333,0.46153846153846156,4,9
+M4_dictionary+esco_filtered (Part I default),SS0041,soft,0.75,0.3333333333333333,0.46153846153846156,4,9
+M4_dictionary+esco_filtered (Part I default),SS0042,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0042,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0043,strict,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0043,soft,1.0,0.5,0.6666666666666666,2,4
+M4_dictionary+esco_filtered (Part I default),SS0044,strict,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0044,soft,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0045,strict,0.5714285714285714,0.36363636363636365,0.4444444444444444,7,11
+M4_dictionary+esco_filtered (Part I default),SS0045,soft,0.7142857142857143,0.5833333333333334,0.6422018348623854,7,12
+M4_dictionary+esco_filtered (Part I default),SS0046,strict,0.5,0.6666666666666666,0.5714285714285715,4,3
+M4_dictionary+esco_filtered (Part I default),SS0046,soft,0.75,1.0,0.8571428571428571,4,3
+M4_dictionary+esco_filtered (Part I default),SS0047,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0047,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0048,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0048,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0049,strict,1.0,1.0,1.0,3,3
+M4_dictionary+esco_filtered (Part I default),SS0049,soft,1.0,1.0,1.0,3,3
+M4_dictionary+esco_filtered (Part I default),SS0050,strict,0.6,0.42857142857142855,0.5,5,7
+M4_dictionary+esco_filtered (Part I default),SS0050,soft,0.6,0.42857142857142855,0.5,5,7
+M4_dictionary+esco_filtered (Part I default),SS0051,strict,0.25,0.2,0.22222222222222224,4,5
+M4_dictionary+esco_filtered (Part I default),SS0051,soft,0.25,0.2,0.22222222222222224,4,5
+M4_dictionary+esco_filtered (Part I default),SS0052,strict,0.47058823529411764,0.36363636363636365,0.41025641025641024,17,22
+M4_dictionary+esco_filtered (Part I default),SS0052,soft,0.6470588235294118,0.5,0.5641025641025642,17,22
+M4_dictionary+esco_filtered (Part I default),SS0053,strict,0.0,0.0,0.0,6,3
+M4_dictionary+esco_filtered (Part I default),SS0053,soft,0.16666666666666666,0.6666666666666666,0.26666666666666666,6,3
+M4_dictionary+esco_filtered (Part I default),SS0054,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0054,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0055,strict,0.6666666666666666,0.25,0.36363636363636365,3,8
+M4_dictionary+esco_filtered (Part I default),SS0055,soft,0.6666666666666666,0.25,0.36363636363636365,3,8
+M4_dictionary+esco_filtered (Part I default),SS0056,strict,0.6666666666666666,0.25,0.36363636363636365,3,8
+M4_dictionary+esco_filtered (Part I default),SS0056,soft,0.6666666666666666,0.25,0.36363636363636365,3,8
+M4_dictionary+esco_filtered (Part I default),SS0057,strict,0.0,0.0,0.0,5,11
+M4_dictionary+esco_filtered (Part I default),SS0057,soft,0.4,0.18181818181818182,0.25000000000000006,5,11
+M4_dictionary+esco_filtered (Part I default),SS0058,strict,1.0,0.6666666666666666,0.8,2,3
+M4_dictionary+esco_filtered (Part I default),SS0058,soft,1.0,0.6666666666666666,0.8,2,3
+M4_dictionary+esco_filtered (Part I default),SS0059,strict,0.3333333333333333,0.25,0.28571428571428575,3,4
+M4_dictionary+esco_filtered (Part I default),SS0059,soft,0.3333333333333333,0.25,0.28571428571428575,3,4
+M4_dictionary+esco_filtered (Part I default),SS0060,strict,0.0,0.0,0.0,7,1
+M4_dictionary+esco_filtered (Part I default),SS0060,soft,0.0,0.0,0.0,7,1
+M4_dictionary+esco_filtered (Part I default),SS0061,strict,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0061,soft,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0062,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0062,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0063,strict,0.0,0.0,0.0,1,2
+M4_dictionary+esco_filtered (Part I default),SS0063,soft,0.0,0.0,0.0,1,2
+M4_dictionary+esco_filtered (Part I default),SS0064,strict,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0064,soft,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0065,strict,1.0,0.5,0.6666666666666666,1,2
+M4_dictionary+esco_filtered (Part I default),SS0065,soft,1.0,0.5,0.6666666666666666,1,2
+M4_dictionary+esco_filtered (Part I default),SS0066,strict,0.0,0.0,0.0,5,1
+M4_dictionary+esco_filtered (Part I default),SS0066,soft,0.0,0.0,0.0,5,1
+M4_dictionary+esco_filtered (Part I default),SS0067,strict,0.18181818181818182,0.3333333333333333,0.23529411764705885,11,6
+M4_dictionary+esco_filtered (Part I default),SS0067,soft,0.18181818181818182,0.3333333333333333,0.23529411764705885,11,6
+M4_dictionary+esco_filtered (Part I default),SS0068,strict,0.5,0.375,0.42857142857142855,6,8
+M4_dictionary+esco_filtered (Part I default),SS0068,soft,0.8333333333333334,0.5,0.625,6,8
+M4_dictionary+esco_filtered (Part I default),SS0069,strict,0.4444444444444444,0.5333333333333333,0.4848484848484848,18,15
+M4_dictionary+esco_filtered (Part I default),SS0069,soft,0.5,0.6,0.5454545454545454,18,15
+M4_dictionary+esco_filtered (Part I default),SS0070,strict,0.0,0.0,0.0,3,1
+M4_dictionary+esco_filtered (Part I default),SS0070,soft,0.0,0.0,0.0,3,1
+M4_dictionary+esco_filtered (Part I default),SS0071,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0071,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0072,strict,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0072,soft,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0073,strict,1.0,0.3333333333333333,0.5,1,3
+M4_dictionary+esco_filtered (Part I default),SS0073,soft,1.0,0.3333333333333333,0.5,1,3
+M4_dictionary+esco_filtered (Part I default),SS0074,strict,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0074,soft,1.0,0.25,0.4,1,4
+M4_dictionary+esco_filtered (Part I default),SS0075,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0075,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0076,strict,0.0,0.0,0.0,7,4
+M4_dictionary+esco_filtered (Part I default),SS0076,soft,0.0,0.0,0.0,7,4
+M4_dictionary+esco_filtered (Part I default),SS0077,strict,0.75,0.2727272727272727,0.39999999999999997,4,11
+M4_dictionary+esco_filtered (Part I default),SS0077,soft,1.0,0.36363636363636365,0.5333333333333333,4,11
+M4_dictionary+esco_filtered (Part I default),SS0078,strict,0.0,0.0,0.0,5,14
+M4_dictionary+esco_filtered (Part I default),SS0078,soft,0.2,0.07142857142857142,0.10526315789473682,5,14
+M4_dictionary+esco_filtered (Part I default),SS0079,strict,0.42857142857142855,0.375,0.39999999999999997,7,8
+M4_dictionary+esco_filtered (Part I default),SS0079,soft,0.5714285714285714,0.5,0.5333333333333333,7,8
+M4_dictionary+esco_filtered (Part I default),SS0080,strict,0.75,0.2727272727272727,0.39999999999999997,4,11
+M4_dictionary+esco_filtered (Part I default),SS0080,soft,0.75,0.2727272727272727,0.39999999999999997,4,11
+M4_dictionary+esco_filtered (Part I default),SS0081,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0081,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0082,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0082,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0083,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0083,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0084,strict,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0084,soft,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0085,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0085,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0086,strict,0.0,0.0,0.0,0,5
+M4_dictionary+esco_filtered (Part I default),SS0086,soft,0.0,0.0,0.0,0,5
+M4_dictionary+esco_filtered (Part I default),SS0087,strict,0.0,0.0,0.0,0,6
+M4_dictionary+esco_filtered (Part I default),SS0087,soft,0.0,0.0,0.0,0,6
+M4_dictionary+esco_filtered (Part I default),SS0088,strict,0.09090909090909091,0.1111111111111111,0.09999999999999999,11,9
+M4_dictionary+esco_filtered (Part I default),SS0088,soft,0.45454545454545453,0.5555555555555556,0.5,11,9
+M4_dictionary+esco_filtered (Part I default),SS0089,strict,0.2222222222222222,0.1111111111111111,0.14814814814814814,9,18
+M4_dictionary+esco_filtered (Part I default),SS0089,soft,0.4444444444444444,0.2222222222222222,0.2962962962962963,9,18
+M4_dictionary+esco_filtered (Part I default),SS0090,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0090,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0091,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0091,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0092,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0092,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0093,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0093,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0094,strict,0.0,0.0,0.0,0,8
+M4_dictionary+esco_filtered (Part I default),SS0094,soft,0.0,0.0,0.0,0,8
+M4_dictionary+esco_filtered (Part I default),SS0095,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0095,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0096,strict,0.0,0.0,0.0,2,6
+M4_dictionary+esco_filtered (Part I default),SS0096,soft,1.0,0.16666666666666666,0.2857142857142857,2,6
+M4_dictionary+esco_filtered (Part I default),SS0097,strict,0.07692307692307693,0.09090909090909091,0.08333333333333334,13,11
+M4_dictionary+esco_filtered (Part I default),SS0097,soft,0.3076923076923077,0.36363636363636365,0.33333333333333337,13,11
+M4_dictionary+esco_filtered (Part I default),SS0098,strict,0.375,0.3,0.33333333333333326,8,10
+M4_dictionary+esco_filtered (Part I default),SS0098,soft,0.375,0.3,0.33333333333333326,8,10
+M4_dictionary+esco_filtered (Part I default),SS0099,strict,0.0,0.0,0.0,4,0
+M4_dictionary+esco_filtered (Part I default),SS0099,soft,0.0,0.0,0.0,4,0
+M4_dictionary+esco_filtered (Part I default),SS0100,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0100,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0101,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0101,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0102,strict,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0102,soft,0.0,0.0,0.0,0,1
+M4_dictionary+esco_filtered (Part I default),SS0103,strict,0.0,0.0,0.0,2,6
+M4_dictionary+esco_filtered (Part I default),SS0103,soft,0.0,0.0,0.0,2,6
+M4_dictionary+esco_filtered (Part I default),SS0104,strict,0.2,0.08333333333333333,0.11764705882352941,5,12
+M4_dictionary+esco_filtered (Part I default),SS0104,soft,0.6,0.25,0.35294117647058826,5,12
+M4_dictionary+esco_filtered (Part I default),SS0105,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0105,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0106,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0106,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0107,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0107,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0108,strict,1.0,0.6666666666666666,0.8,2,3
+M4_dictionary+esco_filtered (Part I default),SS0108,soft,1.0,0.6666666666666666,0.8,2,3
+M4_dictionary+esco_filtered (Part I default),SS0109,strict,0.45454545454545453,0.3333333333333333,0.3846153846153846,11,15
+M4_dictionary+esco_filtered (Part I default),SS0109,soft,0.45454545454545453,0.4444444444444444,0.44943820224719094,11,18
+M4_dictionary+esco_filtered (Part I default),SS0110,strict,0.14285714285714285,0.07142857142857142,0.09523809523809523,7,14
+M4_dictionary+esco_filtered (Part I default),SS0110,soft,0.42857142857142855,0.21428571428571427,0.2857142857142857,7,14
+M4_dictionary+esco_filtered (Part I default),SS0111,strict,0.5,0.4117647058823529,0.45161290322580644,14,17
+M4_dictionary+esco_filtered (Part I default),SS0111,soft,0.5714285714285714,0.47058823529411764,0.5161290322580646,14,17
+M4_dictionary+esco_filtered (Part I default),SS0112,strict,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0112,soft,0.0,0.0,0.0,6,0
+M4_dictionary+esco_filtered (Part I default),SS0113,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0113,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0114,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0114,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0115,strict,0.0,0.0,0.0,0,6
+M4_dictionary+esco_filtered (Part I default),SS0115,soft,0.0,0.0,0.0,0,6
+M4_dictionary+esco_filtered (Part I default),SS0116,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0116,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0117,strict,0.0,0.0,0.0,1,6
+M4_dictionary+esco_filtered (Part I default),SS0117,soft,0.0,0.0,0.0,1,6
+M4_dictionary+esco_filtered (Part I default),SS0118,strict,0.2,0.13333333333333333,0.16,10,15
+M4_dictionary+esco_filtered (Part I default),SS0118,soft,0.5,0.3333333333333333,0.4,10,15
+M4_dictionary+esco_filtered (Part I default),SS0119,strict,0.23076923076923078,0.21428571428571427,0.22222222222222224,13,14
+M4_dictionary+esco_filtered (Part I default),SS0119,soft,0.5384615384615384,0.5,0.5185185185185186,13,14
+M4_dictionary+esco_filtered (Part I default),SS0120,strict,0.2,0.3333333333333333,0.25,5,3
+M4_dictionary+esco_filtered (Part I default),SS0120,soft,0.4,0.6666666666666666,0.5,5,3
+M4_dictionary+esco_filtered (Part I default),SS0121,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0121,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0122,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0122,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0123,strict,1.0,0.125,0.2222222222222222,1,8
+M4_dictionary+esco_filtered (Part I default),SS0123,soft,1.0,0.125,0.2222222222222222,1,8
+M4_dictionary+esco_filtered (Part I default),SS0124,strict,1.0,0.1,0.18181818181818182,1,10
+M4_dictionary+esco_filtered (Part I default),SS0124,soft,1.0,0.1,0.18181818181818182,1,10
+M4_dictionary+esco_filtered (Part I default),SS0125,strict,0.0,0.0,0.0,5,6
+M4_dictionary+esco_filtered (Part I default),SS0125,soft,0.2,0.16666666666666666,0.1818181818181818,5,6
+M4_dictionary+esco_filtered (Part I default),SS0126,strict,0.7272727272727273,0.6153846153846154,0.6666666666666667,11,13
+M4_dictionary+esco_filtered (Part I default),SS0126,soft,0.9090909090909091,0.7692307692307693,0.8333333333333333,11,13
+M4_dictionary+esco_filtered (Part I default),SS0127,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0127,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0128,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0128,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0129,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0129,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0130,strict,1.0,0.42857142857142855,0.6,3,7
+M4_dictionary+esco_filtered (Part I default),SS0130,soft,1.0,0.42857142857142855,0.6,3,7
+M4_dictionary+esco_filtered (Part I default),SS0131,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0131,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0132,strict,1.0,0.5454545454545454,0.7058823529411764,6,11
+M4_dictionary+esco_filtered (Part I default),SS0132,soft,1.0,0.5454545454545454,0.7058823529411764,6,11
+M4_dictionary+esco_filtered (Part I default),SS0133,strict,0.0,0.0,0.0,5,7
+M4_dictionary+esco_filtered (Part I default),SS0133,soft,0.0,0.0,0.0,5,7
+M4_dictionary+esco_filtered (Part I default),SS0134,strict,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0134,soft,0.0,0.0,0.0,3,0
+M4_dictionary+esco_filtered (Part I default),SS0135,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0135,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0136,strict,0.0,0.0,0.0,2,3
+M4_dictionary+esco_filtered (Part I default),SS0136,soft,0.0,0.0,0.0,2,3
+M4_dictionary+esco_filtered (Part I default),SS0137,strict,1.0,0.4,0.5714285714285715,2,5
+M4_dictionary+esco_filtered (Part I default),SS0137,soft,1.0,0.4,0.5714285714285715,2,5
+M4_dictionary+esco_filtered (Part I default),SS0138,strict,1.0,0.25,0.4,2,8
+M4_dictionary+esco_filtered (Part I default),SS0138,soft,1.0,0.25,0.4,2,8
+M4_dictionary+esco_filtered (Part I default),SS0139,strict,0.16666666666666666,0.125,0.14285714285714288,6,8
+M4_dictionary+esco_filtered (Part I default),SS0139,soft,0.16666666666666666,0.125,0.14285714285714288,6,8
+M4_dictionary+esco_filtered (Part I default),SS0140,strict,0.6,0.3157894736842105,0.41379310344827586,10,19
+M4_dictionary+esco_filtered (Part I default),SS0140,soft,0.7,0.3684210526315789,0.48275862068965514,10,19
+M4_dictionary+esco_filtered (Part I default),SS0141,strict,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0141,soft,0.0,0.0,0.0,1,0
+M4_dictionary+esco_filtered (Part I default),SS0142,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0142,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0143,strict,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0143,soft,0.0,0.0,0.0,0,0
+M4_dictionary+esco_filtered (Part I default),SS0144,strict,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0144,soft,0.0,0.0,0.0,2,0
+M4_dictionary+esco_filtered (Part I default),SS0145,strict,1.0,0.625,0.7692307692307693,5,8
+M4_dictionary+esco_filtered (Part I default),SS0145,soft,1.0,0.625,0.7692307692307693,5,8
+M4_dictionary+esco_filtered (Part I default),SS0146,strict,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0146,soft,0.0,0.0,0.0,0,3
+M4_dictionary+esco_filtered (Part I default),SS0147,strict,1.0,0.8571428571428571,0.923076923076923,6,7
+M4_dictionary+esco_filtered (Part I default),SS0147,soft,1.0,0.8571428571428571,0.923076923076923,6,7
+M4_dictionary+esco_filtered (Part I default),SS0148,strict,0.42857142857142855,0.25,0.3157894736842105,7,12
+M4_dictionary+esco_filtered (Part I default),SS0148,soft,0.7142857142857143,0.3333333333333333,0.4545454545454545,7,12
+M4_dictionary+esco_filtered (Part I default),SS0149,strict,0.2857142857142857,0.2,0.23529411764705882,7,10
+M4_dictionary+esco_filtered (Part I default),SS0149,soft,0.7142857142857143,0.6,0.6521739130434783,7,10

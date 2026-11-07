@@ -1,0 +1,15 @@
+Profile
+Backend engineer with 5 years building payment systems.
+Work Experience
+Senior Software Engineer
+Grab | Singapore
+Mar 2020 - Present
+Designed REST APIs in Go and Java serving 10k requests per second.
+Operated microservices on Kubernetes (AWS EKS) with Docker and CI/CD pipelines in GitLab.
+Used PostgreSQL, Redis and Kafka for event-driven processing.
+Education
+Bachelor of Engineering in Computer Engineering
+Nanyang Technological University
+Aug 2015 - May 2019
+Skills
+Go, Java, PostgreSQL, Redis, Kafka, Docker, Kubernetes, AWS, Git

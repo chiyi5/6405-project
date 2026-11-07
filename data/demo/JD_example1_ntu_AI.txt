@@ -1,0 +1,30 @@
+AI Singapore (AISG) is a national initiative driven by the Ministry of Digital Development and Information (MDDI), the Infocomm Media Development Authority (IMDA), and the National Research Foundation, Singapore (NRF). 
+
+AISG brings together Singapore-based research institutions and the broader ecosystem of AI start-ups and companies to support impactful research, develop talent and power Singapore's AI efforts. 
+
+For more information on AI Singapore, please visit https://www.aisingapore.org.
+
+This position will be hosted at the Nanyang Technological University (NTU) under VP (Artificial Intelligence & Digital Economy)’s office and we welcome you to join our community.
+
+Key Responsibilities:
+
+Develop, train, fine-tune and evaluate multilingual, multicultural and multimodal foundation LLMs and related technologies, including continued pre-training, supervised fine-tuning, instruction tuning, preference optimisation and model adaptation.
+Build and maintain scalable data pipelines for multilingual text ingestion, cleaning, filtering, deduplication, tokenisation, contamination detection and dataset mixture creation.
+Support large-scale distributed model training workflows, including experiment tracking, checkpointing, training monitoring, debugging, profiling and compute optimisation.
+Review frontier AI and LLM research papers, reproduce relevant methods, and translate research findings into practical improvements in model training, evaluation and deployment workflows.
+Contribute to reusable engineering assets such as training scripts, evaluation tools, model artefacts, APIs, documentation and deployment-ready components.
+Collaborate with internal teams, external research labs, academic institutions, industry partners and ecosystem stakeholders on LLM research, development and knowledge-sharing activities.
+Support AI Singapore’s community-building efforts through technical sharing, seminars, workshops, publications or other outreach activities where relevant.
+Requirements:
+
+We welcome applicants from all disciplines and qualification pathways, including NITEC, Diploma, Bachelor’s, Master’s or PhD holders, as well as candidates with equivalent practical experience. A formal qualification in Computer Science, Artificial Intelligence, Machine Learning, Data Science, Engineering, Mathematics, Computational Linguistics or a related field would be advantageous but is not mandatory.
+
+Candidates should be able to demonstrate the following skills and experience:
+
+Strong AI/ML engineering capability: Proficient in Python with strong software engineering practices, including clean and modular code, Git, testing, documentation and code review. Hands-on experience with PyTorch and modern NLP/LLM frameworks, especially the Hugging Face ecosystem such as Transformers, Datasets, Tokenizers, Accelerate and TRL.
+LLM development and multilingual NLP expertise: Experience or strong working knowledge in LLM pre-training, continued pre-training, fine-tuning, instruction tuning, preference optimisation, evaluation and model adaptation. Familiarity with multilingual NLP challenges such as low-resource languages, code-switching, language imbalance, script diversity, tokenisation issues and multilingual benchmark design.
+Large-scale data and training pipeline development: Ability to build scalable pipelines for text processing, dataset preparation and model training. Familiarity with distributed training concepts, GPU-based training, checkpointing, experiment tracking, training stability and compute optimisation.
+MLOps, infrastructure and deployment: Familiarity with Linux environments, Docker, CI/CD concepts, cloud platforms or GPU/HPC clusters. Experience with reproducible model development workflows, model versioning, evaluation automation and deployment through APIs or serving frameworks such as vLLM, SGLang, TGI or equivalent tools would be advantageous.
+Research, problem-solving and communication: Able to read and evaluate research papers, design experiments, conduct ablation studies, analyse results and translate findings into practical model or system improvements. Able to communicate technical concepts, trade-offs and evaluation outcomes clearly to both technical and non-technical stakeholders.
+Personal attributes: Self-directed learner with strong curiosity, high ownership and resilience. Collaborative, rigorous and engineering-minded, with a commitment to reproducibility, reliability, documentation and responsible AI development.
+We regret that only shortlisted candidates will be notified.

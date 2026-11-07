@@ -1,0 +1,26 @@
+# core (required)
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pypdf
+python-docx
+
+# NLP models (strongly recommended)
+spacy>=3.5
+sentence-transformers>=2.6
+transformers>=4.40
+torch
+datasets
+
+# original ESCO skill extractor (baseline M1/M2) is NOT installed here: it needs Python 3.10/3.11 and is set up in a
+# separate environment by experiments/step8_esco.py.
+# ojd-daps-skills
+
+# demo
+gradio>=4.0
+
+# optional LLM back-ends (only if you use M5 / F5)
+# openai
+# anthropic

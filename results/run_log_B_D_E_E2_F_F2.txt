@@ -1,0 +1,182 @@
+{
+ "python": "3.13.16",
+ "gpu": true,
+ "heavy": true,
+ "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+ "demo": false,
+ "args": {
+  "demo": false,
+  "light": false,
+  "n_eval": 600,
+  "n_train": 3000,
+  "n_ablation": 300,
+  "run_llm": false,
+  "only": "B,D,E,E2,F,F2"
+ },
+ "transformers": "5.22.0",
+ "sentence_transformers": "5.7.0"
+}
+eval pairs 600 (67 JDs), train pairs 3000
+
+### A_eval_label_dist.csv
+   label    n
+0      0  200
+1      1  200
+2      2  200
+
+### A_requirement_label_dist.csv
+         label    n
+0  UNSPECIFIED  528
+1     REQUIRED  180
+2    PREFERRED   40
+3    MANDATORY    1
+
+================ B skill extraction ================
+gold source: SkillSpan test (human gold) | docs: 150
+ESCO unavailable: ModuleNotFoundError("No module named 'ojd_daps_skills'")
+re-using trained models/skill_ner
+
+### B_skill_extraction.csv
+                   gold_source                method  precision_soft  precision_strict  recall_soft  recall_strict  f1_soft  f1_strict  n_pred_soft  n_pred_strict
+0  SkillSpan test (human gold)         M3_dictionary           0.327             0.285        0.136          0.117    0.181      0.155        1.507          1.507
+1  SkillSpan test (human gold)  M6_jobbert_skillspan           0.517             0.429        0.535          0.432    0.511      0.417        5.727          5.680
+most frequent FP: {'architecture and design': 3, 'modern programming languages': 3, 'development': 2, 'solving business problems through innovation & engineering practices': 2, 'api': 2, 'web': 2, 'talented': 2, 'english': 2, 'agile': 2, 'passionate': 2, 'learning': 2, 'bdd': 2, 'integration': 2, 'aesthetic': 2, 'engineering': 2}
+most frequent FN: {'solving business problems': 5, 'achieve organizational goals': 5, 'stay focused on common goals': 4, 'c#': 4, 'design': 3, 'architecture': 3, 'asp.net-web-api': 2, 'innovation & engineering practices': 2, 'cloud': 2, 'f#': 2, 'online portal': 2, 'user-experience': 2, 'spring': 2, 'rest': 2, 'build highly efficient accurate and scalable computer vision and machine learning services': 1}
+[ok] B skill extraction (34s)
+[skip] C requirement classification (not in --only)
+
+================ D matching models ================
+
+### D_matching.csv
+                        method  spearman  auc_goodfit  macro_f1_cv  ndcg@5  n_pairs
+0                     D1_tfidf     0.076        0.529        0.320   0.726      600
+1                      D2_bm25     0.143        0.595        0.328   0.750      600
+2      D3_all-MiniLM-L6-v2_doc    -0.010        0.449        0.342   0.748      600
+3   D4_all-MiniLM-L6-v2_maxsim    -0.096        0.409        0.342   0.745      600
+4              D6_our_pipeline     0.005        0.488        0.325   0.720      529
+5  D4_all-mpnet-base-v2_maxsim    -0.111        0.398        0.338   0.741      600
+6  D4_bge-small-en-v1.5_maxsim    -0.093        0.426        0.339   0.731      600
+7             D5_cross_encoder    -0.075        0.415        0.344   0.754      600
+[ok] D matching models (3331s)
+[skip] D7 fine-tuned bi-encoder (not in --only)
+
+================ E learned scorer + calibration ================
+
+### E_learned_scorer.csv
+           method  spearman  macro_f1
+0  E1_handcrafted    -0.002     0.298
+1      E3a_logreg     0.128     0.386
+2      E3b_gboost     0.019     0.391
+
+### E_logreg_coefficients.csv
+                     feature  class_0  class_1  class_2
+0                 required_n   -0.089    0.039    0.050
+1        required_mean_score   -0.406   -0.075    0.481
+2        required_exact_frac    0.117   -0.212    0.095
+3      required_missing_frac   -0.174   -0.042    0.216
+4          required_mean_sim    0.424    0.222   -0.646
+5              unspecified_n   -0.075   -0.294    0.369
+6     unspecified_mean_score   -0.088    0.017    0.071
+7     unspecified_exact_frac    0.155    0.135   -0.290
+8   unspecified_missing_frac    0.181   -0.058   -0.122
+9       unspecified_mean_sim   -0.179   -0.007    0.186
+10               preferred_n   -0.385   -0.568    0.952
+11      preferred_mean_score    0.535   -0.177   -0.358
+12      preferred_exact_frac   -0.002   -0.323    0.326
+13    preferred_missing_frac    0.406    0.209   -0.615
+14        preferred_mean_sim   -0.519    0.889   -0.370
+15           education_score   -0.154    0.049    0.105
+16           education_known   -0.053    0.016    0.037
+17          experience_score   -0.366    0.106    0.260
+18          experience_known    0.302   -0.072   -0.230
+19              resume_years    0.133    0.034   -0.167
+20           n_resume_skills    0.169   -0.195    0.026
+
+### E_grid_search.csv
+      setting         test_spearman                                                   thresholds                                                      weights
+0  E1_default    0.0667421504640034                                                          nan                                                          nan
+1    E2_tuned  0.037305575605803235  [(0.85, 85.0), (0.75, 70.0), (0.6499999999999999, 50.0),...  {'MANDATORY': 1.0, 'REQUIRED': 1.0, 'UNSPECIFIED': 0.2, ...
+[ok] E learned scorer + calibration (121s)
+
+================ E ablation ================
+
+### E_ablation.csv
+              variant  spearman  macro_f1_cv  n_scored  delta_spearman
+0         full_system    -0.007        0.327       268           0.000
+1       - exact match    -0.007        0.342       268           0.000
+2    - semantic match    -0.044        0.309       268          -0.037
+3  - priority weights    -0.010        0.331       268          -0.003
+4         - education    -0.030        0.307       262          -0.023
+5        - experience     0.039        0.281       262           0.046
+6   - section headers    -0.011        0.324       268          -0.004
+[ok] E ablation (2398s)
+
+================ F fairness + robustness ================
+
+### F_name_fairness_before_fix.csv
+  ethnicity gender  mean_score  mean_delta  max_abs_delta
+0   Chinese      F      35.391      -0.176          0.312
+1   Chinese      M      35.391      -0.176          0.312
+2    Indian      F      35.860       0.293          2.188
+3    Indian      M      35.391      -0.176          0.312
+4     Malay      F      35.391      -0.176          0.312
+5     Malay      M      35.391      -0.176          0.312
+6   Western      F      36.328       0.761          2.188
+7   Western      M      35.391      -0.176          0.312
+
+### F_robustness_before_fix.csv
+          perturbation  mean_delta  max_abs_delta
+0        abbreviations        0.00           0.00
+1      bullets_to_dash        0.00           0.00
+2  drop_skills_section        0.00           0.00
+3           expansions        0.00           0.00
+4     shuffle_sections        0.00           0.00
+5           upper_case       -9.63          29.77
+
+### F_name_fairness_after_fix.csv
+  ethnicity gender  mean_score  mean_delta  max_abs_delta
+0   Chinese      F      35.131         0.0            0.0
+1   Chinese      M      35.131         0.0            0.0
+2    Indian      F      35.131         0.0            0.0
+3    Indian      M      35.131         0.0            0.0
+4     Malay      F      35.131         0.0            0.0
+5     Malay      M      35.131         0.0            0.0
+6   Western      F      35.131         0.0            0.0
+7   Western      M      35.131         0.0            0.0
+
+### F_robustness_after_fix.csv
+          perturbation  mean_delta  max_abs_delta
+0        abbreviations        0.00           0.00
+1      bullets_to_dash        0.00           0.00
+2  drop_skills_section        0.00           0.00
+3           expansions        0.00           0.00
+4     shuffle_sections        0.00           0.00
+5           upper_case       -9.02          29.77
+
+### F_gender_wording.csv
+variant  resume_id      F      M      N  F_minus_M
+0        R10d84ad4  10.00  10.00  10.00        0.0
+1        R304b3441  43.75  43.75  43.75        0.0
+2        R33dbb6ce  20.00  20.00  20.00        0.0
+3        R4c761bc6  58.08  58.08  58.08        0.0
+4        Rc7cccaaf  51.67  51.67  51.67        0.0
+5        Rd022ac70  50.00  50.00  50.00        0.0
+6        Re36d0c61  32.55  32.55  32.55        0.0
+7        Ref3e6177  15.00  15.00  15.00        0.0
+
+### F_name_fairness_multi_jd.csv
+       jd_id     version  max_abs_delta  mean_abs_group_delta
+0  J0ea379bd  before_fix            NaN                   NaN
+1  J0ea379bd   after_fix            NaN                   NaN
+2  J7b5fd3ac  before_fix          0.000               0.00000
+3  J7b5fd3ac   after_fix          0.000               0.00000
+4  J8f00be58  before_fix          0.000               0.00000
+5  J8f00be58   after_fix          0.000               0.00000
+6  J41db8fe6  before_fix          0.000               0.00000
+7  J41db8fe6   after_fix          0.000               0.00000
+8  Jff10fb00  before_fix          8.125               0.70675
+9  Jff10fb00   after_fix          0.000               0.00000
+[ok] F fairness + robustness (1614s)
+
+================ F error analysis + example report ================
+[ok] F error analysis + example report (4s)

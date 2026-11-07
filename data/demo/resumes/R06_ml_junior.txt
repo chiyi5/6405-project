@@ -1,0 +1,13 @@
+Education
+Bachelor of Engineering with Honours in Computer Engineering
+Singapore Institute of Technology
+Aug 2021 - Jul 2025
+Projects
+Sentiment classifier for product reviews using scikit-learn and a fine-tuned BERT model.
+Experience
+AI Intern
+Startup XYZ | Singapore
+Jan 2024 - Aug 2024
+Trained text classification models in PyTorch and wrote evaluation scripts.
+Skills
+Python, PyTorch, Scikit-learn, NLP, Git

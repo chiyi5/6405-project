@@ -1,0 +1,70 @@
+{"embedder": "sentence-transformers/all-MiniLM-L6-v2"}
+[1/16] full: pipeline v3 + 0.5 doc sim ...
+{'method': 'full: pipeline v3 + 0.5 doc sim', 'map': 0.8367, 'ndcg@10': 0.9109, 'p@10': 0.87, 'r-prec': 0.8031, 'queries': 10, 'sec': 107}
+[2/16] - JD skill lists ...
+{'method': '- JD skill lists', 'map': 0.5888, 'ndcg@10': 0.7824, 'p@10': 0.75, 'r-prec': 0.5109, 'queries': 10, 'sec': 59}
+[3/16] - exact match ...
+{'method': '- exact match', 'map': 0.8271, 'ndcg@10': 0.9159, 'p@10': 0.9, 'r-prec': 0.7825, 'queries': 10, 'sec': 76}
+[4/16] - semantic match ...
+{'method': '- semantic match', 'map': 0.8159, 'ndcg@10': 0.9001, 'p@10': 0.88, 'r-prec': 0.7808, 'queries': 10, 'sec': 88}
+[5/16] - priority weights ...
+{'method': '- priority weights', 'map': 0.8336, 'ndcg@10': 0.9045, 'p@10': 0.86, 'r-prec': 0.7999, 'queries': 10, 'sec': 92}
+[6/16] - education ...
+{'method': '- education', 'map': 0.8334, 'ndcg@10': 0.9109, 'p@10': 0.87, 'r-prec': 0.7999, 'queries': 10, 'sec': 98}
+[7/16] - experience ...
+{'method': '- experience', 'map': 0.8367, 'ndcg@10': 0.9109, 'p@10': 0.87, 'r-prec': 0.8031, 'queries': 10, 'sec': 97}
+[8/16] - section headings ...
+{'method': '- section headings', 'map': 0.8358, 'ndcg@10': 0.9085, 'p@10': 0.87, 'r-prec': 0.7999, 'queries': 10, 'sec': 95}
+[9/16] - doc similarity (pipeline v3 alone) ...
+{'method': '- doc similarity (pipeline v3 alone)', 'map': 0.7951, 'ndcg@10': 0.8527, 'p@10': 0.84, 'r-prec': 0.7853, 'queries': 10, 'sec': 94}
+[10/16] weight 0.25 ...
+{'method': 'weight 0.25', 'map': 0.8235, 'ndcg@10': 0.8993, 'p@10': 0.86, 'r-prec': 0.7999, 'queries': 10, 'sec': 94}
+[11/16] weight 1.0 ...
+{'method': 'weight 1.0', 'map': 0.8504, 'ndcg@10': 0.9479, 'p@10': 0.92, 'r-prec': 0.8089, 'queries': 10, 'sec': 94}
+[12/16] weight 2.0 ...
+{'method': 'weight 2.0', 'map': 0.8601, 'ndcg@10': 0.942, 'p@10': 0.91, 'r-prec': 0.8215, 'queries': 10, 'sec': 94}
+[13/16] doc similarity only (MiniLM doc) ...
+{'method': 'doc similarity only (MiniLM doc)', 'map': 0.8421, 'ndcg@10': 0.9508, 'p@10': 0.94, 'r-prec': 0.7796, 'queries': 10, 'sec': 19}
+[14/16] mpnet doc ...
+{'method': 'mpnet doc', 'map': 0.8685, 'ndcg@10': 0.964, 'p@10': 0.93, 'r-prec': 0.8228, 'queries': 10, 'sec': 126}
+[15/16] TF-IDF ...
+{'method': 'TF-IDF', 'map': 0.8572, 'ndcg@10': 0.9099, 'p@10': 0.9, 'r-prec': 0.8416, 'queries': 10, 'sec': 3}
+[16/16] BM25 ...
+{'method': 'BM25', 'map': 0.808, 'ndcg@10': 0.91, 'p@10': 0.89, 'r-prec': 0.7632, 'queries': 10, 'sec': 1}
+
+### ablation (MiniLM)
+                                  method     map  ndcg@10  p@10  r-prec  queries  sec
+0        full: pipeline v3 + 0.5 doc sim  0.8367   0.9109  0.87  0.8031       10  107
+1                       - JD skill lists  0.5888   0.7824  0.75  0.5109       10   59
+2                          - exact match  0.8271   0.9159  0.90  0.7825       10   76
+3                       - semantic match  0.8159   0.9001  0.88  0.7808       10   88
+4                     - priority weights  0.8336   0.9045  0.86  0.7999       10   92
+5                            - education  0.8334   0.9109  0.87  0.7999       10   98
+6                           - experience  0.8367   0.9109  0.87  0.8031       10   97
+7                     - section headings  0.8358   0.9085  0.87  0.7999       10   95
+8   - doc similarity (pipeline v3 alone)  0.7951   0.8527  0.84  0.7853       10   94
+9                            weight 0.25  0.8235   0.8993  0.86  0.7999       10   94
+10                            weight 1.0  0.8504   0.9479  0.92  0.8089       10   94
+11                            weight 2.0  0.8601   0.9420  0.91  0.8215       10   94
+12      doc similarity only (MiniLM doc)  0.8421   0.9508  0.94  0.7796       10   19
+13                             mpnet doc  0.8685   0.9640  0.93  0.8228       10  126
+14                                TF-IDF  0.8572   0.9099  0.90  0.8416       10    3
+15                                  BM25  0.8080   0.9100  0.89  0.7632       10    1
+
+### paired bootstrap, MAP difference a - b over 10 queries
+                                  a                                     b  mean_diff  ci_low  ci_high  p_not_better  n_queries
+0   full: pipeline v3 + 0.5 doc sim                      - JD skill lists     0.2478  0.0927   0.4355        0.0000         10
+1   full: pipeline v3 + 0.5 doc sim                         - exact match     0.0096 -0.0117   0.0379        0.2586         10
+2   full: pipeline v3 + 0.5 doc sim                      - semantic match     0.0208 -0.0271   0.0816        0.2330         10
+3   full: pipeline v3 + 0.5 doc sim                    - priority weights     0.0030  0.0000   0.0086        0.0254         10
+4   full: pipeline v3 + 0.5 doc sim                           - education     0.0033  0.0000   0.0099        0.3466         10
+5   full: pipeline v3 + 0.5 doc sim                          - experience     0.0000  0.0000   0.0000        1.0000         10
+6   full: pipeline v3 + 0.5 doc sim                    - section headings     0.0009  0.0000   0.0022        0.0254         10
+7   full: pipeline v3 + 0.5 doc sim  - doc similarity (pipeline v3 alone)     0.0416  0.0177   0.0728        0.0000         10
+8   full: pipeline v3 + 0.5 doc sim                           weight 0.25     0.0132  0.0052   0.0239        0.0000         10
+9   full: pipeline v3 + 0.5 doc sim                            weight 1.0    -0.0137 -0.0317  -0.0024        0.9994         10
+10  full: pipeline v3 + 0.5 doc sim                            weight 2.0    -0.0234 -0.0552  -0.0036        0.9982         10
+11                        mpnet doc       full: pipeline v3 + 0.5 doc sim     0.0318 -0.0097   0.0806        0.0754         10
+12                           TF-IDF       full: pipeline v3 + 0.5 doc sim     0.0205 -0.0130   0.0575        0.1316         10
+13  full: pipeline v3 + 0.5 doc sim      doc similarity only (MiniLM doc)    -0.0055 -0.0354   0.0226        0.6242         10
+14                       weight 2.0       full: pipeline v3 + 0.5 doc sim     0.0234  0.0036   0.0552        0.0018         10

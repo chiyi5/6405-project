@@ -1,0 +1,18 @@
+Overview:
+• Join our applied AI team building NLP products for healthcare.
+
+Responsibilities:
+• Fine-tune large language models with PyTorch and Hugging Face Transformers.
+• Deploy models as APIs using FastAPI and Docker.
+• Track experiments with MLflow and evaluate model quality.
+
+Qualifications:
+• Master's degree or PhD in Computer Science, Machine Learning or a related field.
+• 3+ years of experience in machine learning engineering.
+• Proficiency in Python and deep learning frameworks such as PyTorch or TensorFlow.
+• Solid understanding of natural language processing.
+
+Preferred qualifications:
+• Experience with retrieval-augmented generation and LangChain.
+• Publications at NLP conferences are desirable.
+• Experience with Kubernetes and Google Cloud.

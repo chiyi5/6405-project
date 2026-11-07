@@ -1,0 +1,9 @@
+system,dataset,version,resumes,share_changed,mean_delta,max_abs_delta
+D6_pipeline_v3,fit_benchmark,after_fix,40,0.375,-1.888,37.5
+D6_pipeline_v3,fit_benchmark,before_fix,40,0.45,0.718,50.0
+D6_pipeline_v3,talentclef,after_fix,40,0.175,-0.41,7.54
+D6_pipeline_v3,talentclef,before_fix,40,0.125,-0.191,7.54
+D8_hybrid_v3,fit_benchmark,after_fix,40,0.9,-1.138,25.255
+D8_hybrid_v3,fit_benchmark,before_fix,40,1.0,0.478,33.519
+D8_hybrid_v3,talentclef,after_fix,40,0.3,-0.227,5.026
+D8_hybrid_v3,talentclef,before_fix,40,0.875,-0.306,5.026

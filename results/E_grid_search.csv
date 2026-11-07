@@ -1,0 +1,3 @@
+setting,test_spearman,thresholds,weights
+E1_default,0.0667421504640034,nan,nan
+E2_tuned,0.037305575605803235,"[(0.85, 85.0), (0.75, 70.0), (0.6499999999999999, 50.0), (0.5499999999999999, 25.0)]","{'MANDATORY': 1.0, 'REQUIRED': 1.0, 'UNSPECIFIED': 0.2, 'PREFERRED': 0.3}"

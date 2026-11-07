@@ -1,0 +1,750 @@
+text,gold,C1_rules (Part I),C2_rules+sections,C3_tfidf_lr,C3b_tfidf_lr_no_header,C4_zero_shot_nli,C5_distilbert
+"Founded in 2017, Gatik is the leader in autonomous middle mile logistics.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We deliver goods safely and efficiently using medium duty trucks with a focus on short-haul, B2B logistics for Fortune 500 customers such as Walmart and Loblaw.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Gatik enables our customers to optimize their hub-and-spoke operations, enhance service levels and product flow across multiple locations while reducing labor costs and meeting an unprecedented expectation for faster deliveries.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We are looking for talented Staff Engineers with expertise in classical and modern computer vision techniques to lead or actively contribute to the architecture, design, implementation, and delivery of a multi-modal perception system.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The ideal candidate will be a software expert who has overseen a process from the R&D phase through product shipment and has a passion for leading teams and developing real-world solutions.,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"This role is onsite 4 days a week at our Mountain View, CA office!",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Design and implement key components of perception system such as object detection, object tracking, and multi-sensor fusion",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Build software infrastructure to enable learning algorithms to leverage large scale imageLIDAR data,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Design and write highly optimized pipelines for data pre-processing, model training, data post-processing, inferencing etc.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Train perception models, evaluate their performance, investigate and fix performance bottlenecks",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Develop scalable training and evaluation tools and infrastructure,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Collaborate with other engineers to conduct system integration and tests,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Masters or Ph.D. degree in Computer Science, Electrical Engineering, Robotics or related field",REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+7+ years of related experience,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+2+ years of professional experience working on Computer Vision using C++ and OpenCV,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Expert knowledge of modern C++ (C++11 or later) and Python,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience in deploying perception algorithms into real-world environments,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED
+Familiar with NVIDIA software libraries such as CUDA or TensorRT,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+Experience building testing and evaluation platforms,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED
+Familiarity with deep learning applied to computer vision problems,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+"Experience working on Computer Vision problems in at least two of the following subjects: Feature detection & matching, Image Filtering, Object Tracking, 3D Estimation, 3D Reconstruction, SLAM",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Proficiency in modern container technologies including Docker and Kubernetes,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED
+In-depth understanding of software performance and optimization,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Strong math fundamentals and a good grasp of 3D geometry and vector math,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Worked with one or more neural network frameworks, such as Tensorflow or PyTorch",REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+"With headquarters in Mountain View, CA and offices in Canada, Texas, Louisiana and Arkansas, Gatik is establishing new standards of success for the autonomous trucking industry every day.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Visit us at Gatik for more company information and Jobs @ Gatik for more open roles.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+The 10 most innovative companies in transportation of 2023Americas Best Startup Employers of 2023 by Forbes,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Americas Best Startup Employers of 2022 by Forbes,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Gatik been named as a 2023 Freight,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Tech 25 winner!Gatik named a TIME Best Invention of 2022Apeksha Kumavat recognized on the Inc.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+2022 Female Founders 100 List,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Gatiks Gautam Narang on the importance of knowing your customer,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Gatik CEO Gautam Narang was Named Among the Most Exceptional Entrepreneurs of 2022 by Goldman Sachs,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"At Gatik, we connect people of extraordinary talent and experience to an opportunity to create a more resilient supply chain and contribute to our environments sustainability.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We are diverse in our backgrounds and perspectives yet united by a bold vision and shared commitment to our values.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Our culture emphasizes the importance of collaboration, respect and agility.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We at Gatik strive to create a diverse and inclusive environment where everyone feels they have opportunities to succeed and grow because we know that together we can do great things.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We are committed to an inclusive and diverse team.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We do not discriminate based on race, color, ethnicity, ancestry, national origin, religion, sex, gender, gender identity, gender expression, sexual orientation, age, disability, veteran status, genetic information, marital status or any legally protected status.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Create intricate wiring networks and electrical subcomponents for both prototype systems and their seamless integration into fuel cell-powered equipment.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Conduct comprehensive tests, diagnoses, and repairs at the level of individual components, subsystems, and the overall system.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Collaborate on the generation of electrical schematics and detailed bills of materials.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Participate in safety assessments to ensure alignment with safety protocols for prototypes and finalized systems.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Interface with engineering teams to ensure compliance with product interface requirements.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Ensure system longevity and reliability through effective maintenance planning and execution.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Regularly calibrate and fine-tune electrical elements to uphold system precision and stability.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Occasional travel to customer and partner locations.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Fulfill additional responsibilities as assigned by management.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Demonstrate strong mechanical and electrical acumen along with exceptional teamwork capabilities.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Minimum of 5 years of practical experience in electrical technician or related roles.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Certified to work on high-voltage systems in accordance with NFPA 70E (or equivalent) training.,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Proficient verbal communication skills, vital for interactions with manufacturing, engineering, and other teams both directly and through digital channels.",REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Proficiency in fabricating electrical harnesses, cables, and devices based on wire schematics.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Skilled at debugging and troubleshooting mechanical and electrical systems.,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+An Associate's or Bachelor's degree in Electrical Engineering is preferred.,PREFERRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,PREFERRED
+"Exhibit passion for innovation, sustainability, and pushing the boundaries of agricultural technologies.",REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Possess adaptability to excel within a dynamic, fast-paced work environment.",REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Invitation Homes is a fast-paced evolving publicly traded REIT that is pioneering a new industry with over 80,000 single family rental homes and a market capitalization of over $25 billion.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We are a team of more than 1,400 associates who come from all walks of life.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We call different communities home, but our shared values bind us together.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Invitation Homes is a place where possibility lives.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"THR Property Management LP Data Engineer Dallas, TX: Develop and maintain data pipelines into data warehouse and data lake, including design, and development.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Develop and implement strategies to translate business requirements into feasible and acceptable data warehouse and data lake solutions.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Architect and build new data models to improve data models that feed business intelligence tools, increasing data accessibility, and fostering data-driven decision making.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Design, build and launch data pipelines to move data to data lake and data warehouse build and maintain framework for auditing, error logging, and master data management for data pipelines.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Build data expertise and own data quality for the data pipelines.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Implement processes and systems to monitor data quality, ensuring production data is always accurate and available for key stakeholders and business processes.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Perform data analysis and assist in the resolution of data issues.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Identify and resolve defects of complex scope using proper engineering tools and techniques.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Provide support and maintain existing products and add new features.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Mentor engineers by providing advice, coaching and educational opportunities.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Telecommuting permitted from any location within the U.S.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Salary: 148512year.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"The Senior Data Engineer is accountable for the maintenance, improvement, and movement of data in the Enterprise Data Warehouse, and other data sources used for enterprise reporting.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"A successful Senior Data Engineer delivers database design, implementation, and schematics that creates sustainable, competitive advantage for our company.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Further, a Senior Data Engineer is responsible for the development and deployment of innovative analytics data platforms to support end-user enterprise reporting.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Working with other data engineers, data analysts, and data scientists, a Senior Data Engineer must have a delivery first mentality and a firm grasp of Agile Development methodology.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Lastly, the ideal candidate must demonstrate the ability to work as a team member and team leader.",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Accountable for the overall performance and maintenance of our SQL,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Manage the EDW relational database for optimized performance,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Design scalable ETL packages from the business source systems,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Ensure all necessary testing and validation for all planned and unplanned releases,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Mentor junior data engineers in best practices and documentation.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Act as our database evangelist in leading innovation activities through exploration, benchmarking and implementation of data technologies",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Participate in solution-based activities; articulate your ideas through well thought out documentation and research best-in-class solutions,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Lead and Develop and implement data architecture standards,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Manage the necessary testing and validation to ensure proper compliance to data governance and quality,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Prepare progress reports regarding our database environments status and health,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Manage troubleshooting data issues and present solutions to these issues.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Resolve tactical issues thoroughly while always looking for optimization and documenting lessons learned,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Understand when tactical issues are really systematic issues requiring deeper level of analysis and strategic solutions,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Cooperate with the support team to investigate and resolve data related defects,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Proactively analyze and evaluate current state of data in order to identify and recommend improvements and optimization,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Support our Agile Development methodology,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Constantly prioritize user stories; balance feature development, defects, and tech debt according to business needBe a champion of continuous improvement and delivery; define the minimum viable product, focus teams on key release milestones, and leverage fast follow-up sprints",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Enable sprint progress; clarify story details, validate completed stories, and prepare stories for the next sprint Bachelors degree in Computer Science, Applied Mathematics, Engineering, or any other technology related field.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+An equivalent of the same in working experience is also accepted for the position.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+A candidate for the position will have as at least 5 years of working experience as a database engineering or a database engineering administrator within a fast-paced a complex business setting.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Design, implement and maintain SQL Server databases",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Design, implement and maintain ETL processes using SQL Server SSISProvide ongoing maintenance support through SQL query tuning and optimization",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Strong working and conceptual knowledge of building and maintaining physical and logical data models,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Strong working and conceptual knowledge of reporting and visualization tools such as SSRS, PowerBI, Tableau, or other business intelligence tools.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience working in SaaS, IaaS, and PaaSExcellent customer service and interpersonal skills; ability to relate to and get along with others",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Professional verbal and written communication skills,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong organizational and time-management skills,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED,REQUIRED,REQUIRED
+Ability to multi-task and maintain flexibility and creativity in a variety of situations,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED
+Ability to analyze and resolve problems,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Ability to set and meet goals and consistently meet deadlines,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED
+"Ability to maintain confidentiality Invitation Homes Offers The Below To Each New Associate We stand for flexibility, opportunity, and a home that people can make their own.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Its as true for our associates as it is for our residents.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Just like we help our residents live freer, we liberate our associates careers, too.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Our associates know that at Invitation Homes goals matter, potential is unlocked, and careers thrive.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Invitation Homes isnt just a work place it is a possibility place.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Competitive pay and an annual bonus program for all associates,UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Generous paid time off plans including vacation accrual, sick time, volunteer time, and standard and floating holidays401k with matching company contributions",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Awesome work environment with casual dress,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Team events and gatherings,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Employee resource groups: Together with Women, Asian Alliance, Black Collective, Juntos, Gen Next, and Open Invitation.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Invitation Homes truly is where possibility lives, pour a new foundation here! $98,640.00 - $170,976.00 To attract and retain top talent, we're pleased to offer competitive compensation and benefits, including: Annual bonus program",UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Health, dental, vision, and life insurance",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Long-term and short-term disability insurance,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Generous paid time off plans include vacation accrual, sick time, standard holidays and floating holidays401(k) with company matching contributions",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Awesome work environment with casual dress,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Team events and gatherings (Pre- and Post-Covid) Invitation Homes is an equal opportunity employer committed to fostering a diverse, inclusive and innovative environment with the best associates.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, Veteran status or any other factor protected by applicable federal, state or local law.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"If you have a disability or special need that requires accommodation, please contact us at humanresources@invitationhomes.com.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+To all recruitment agencies: Invitation Homes does not accept agency resumes.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Please do not forward resumes to Invitation Homes employees.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Invitation Homes is not responsible for any fees related to unsolicited resumes.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"At Oregon Specialty Group the Accounting & Payroll department is crucial to this mission because we serve the OSG partners, leadership team and employees.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We do this by maintaining internal controls to safeguard assets, ensure financial data integrity and adhere to applicable laws and regulations, providing accurate and appropriate payment for goods and services to vendors and employees, and producing timely, comprehensive and accurate financial reports and data.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Currently we are looking for a Staff Accountant at our business office downtown Salem, Oregon.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Position Overview,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"The Staff Accountant is key to department success because they ensure accuracy, efficiency and compliance within the department.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"They also help maintain regulations and laws of accounting procedures, record keeping and reporting.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Essential Job Functions,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Posting journal entries,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Preparing financial reports,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Month end reconciliations,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Reconciling and auditing company credit card transactions,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Assist with owners compensation model,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Assist with Accounts Payable and Accounts Receivable processes,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Assist with appropriate tax filing preparation,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Assist with providing appropriate documentation for audits,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Handling sensitive or confidential information with honesty and integrity,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Perform clerical duties, maintain files, and organize documents",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Assist with other projects as assigned Required Qualifications1-3 years of experience in Accounting or related field orBachelors Degree in Accounting or Business Administration or equivalent,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+General understanding Generally Accepted Accounting Principles,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+High attention to detail and accuracy,PREFERRED,UNSPECIFIED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong communication and interpersonal skills,PREFERRED,UNSPECIFIED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Excellent organization and time management skills,PREFERRED,UNSPECIFIED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Takes initiative and seeks out areas of improvement,PREFERRED,UNSPECIFIED,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Proficiency using technology and software, especially Excel, Adobe and QuickBooks Online Compensation",PREFERRED,UNSPECIFIED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Starting at $29.62HR DOE Would you thrive in this position?Do you enjoy problem solving and critical thinking?Can you develop relationships based on mutual respect and appreciation with the Accounting and greater OSG teams?Are you able to create and maintain a system of prioritization and organization to manage workload and competing projects?Can you maintain the highest level of confidentiality, integrity, credibility and competence?Do you appreciate the importance of the accounting function and how the minute details affect the big picture?",UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Compiles, analyzes and formats data to provided documentation that assists internal customers in the development of engineering life cycle produces, services and processes.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Verifies regulatory conformance and contractual compliance of products by checking that quality standards are met and configuration control enforced.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Checks products using standard guidelines to verify regulatory conformance and contractual compliance.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Maintains design documentation by using companyindustry standards.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Assists with the collection of customer requirements and assists with inputs to in the web pages.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Works under general supervision.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Analytical Skills (Technical)Customer Focus,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED
+Design Concepts & Techniques,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Data Configuration Mgmt.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Engr Knowledge,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+"Ortho unites the strengths of Quidel Corporation and Ortho Clinical Diagnostics, creating a world-leading in vitro diagnostics company with award-winning expertise in immunoassay and molecular testing, clinical chemistry and transfusion medicine.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We are more than 6,000 strong and do business in over 130 countries, providing answers with fast, accurate and consistent testing where and when they are needed most home to hospital, lab to clinic.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Our culture puts our team members first and prioritizes actions that support happiness, inspiration and engagement.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We strive to build meaningful connections with each other as we believe that employee happiness and business success are linked.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Join us in our mission to transform the power of diagnostics into a healthier future for all.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+As we continue to grow as Quidel,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Ortho, we are seeking a self-driven, proactive Staff Electrical Engineer to join our R&D Instrument Platforms organization to provide technical responsibility for Sustaining Engineering (lifecycle management) activities and improvement of our portfolio of products.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"The individual should have an eye for creating custom engineering solutions and be well-versed in all of the R&D change control processes while driving results within the project constraints of schedule, cost, performance, quality, and reliability objectives under guidance of senior staff.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"This position is located in Rochester, NY.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Support existing product field issues through root cause analysis and continuous improvement.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Support existing products and their production line via obsolescence resolution from standard drop-in replacements to board, harness, and other electrical redesigns.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Drive projects through our change control process, ensuring completion of all activities within compliance i.e., formal design reviews, FMECA reviews, design verification, EMCSafety Testing, etc.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Manage,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Drive multiple projects in parallel, driving results in a timely manner to maintain the production line and customer satisfaction.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Performs other work-related duties as assigned.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Minimum of 7-9 years of experience with a Bachelors degree in Electrical Engineering or equivalent combination of education and experience.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Demonstrated ability in technical analysis including evaluation of multiple candidate solutions and evaluation of intangibles.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Demonstrated ability to assess and manage incoming workloads.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Ability to propose methods, techniques, and evaluation criteria to realize product functionality.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Ability to work well in a team environment.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Excellent organizational skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Excellent communication, influencing and conflict resolution skills.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with technical writing and English fluency.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Ability to triage product issues and perform root cause investigations.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Adapt quickly to obstacles and changing demands.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Experience with design tools such as OrCAD and Altium.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Design and implementation of digital and analog circuits.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Design for and testing of EMIEMC requirements.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Experience with optical systems.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Design,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,PREFERRED,REQUIRED
+Knowledge of stepper motor driver circuits and servo controllers.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Internal: Quality,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Regulatory, Operations, Marketing, Manufacturing, Service, Valuemetric, Clinical Medical Affairs, Project Management Office.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"External: Development and Manufacturing partners, Customers, Manufacturing.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Reviews work quality and quantity of others.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+May Plan work for Electrical Engineer level III andor Technicians.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Mentoring of Electrical Engineer level III andor Technicians.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Recommends budget amounts.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Office & Lab environment including a BL2 Lab (Biohazard).Physical Demands Light (walking, crouching, lifting up to 50lb, etc.).Travel Up to 10%.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Salary range for this position takes into account a wide range of factors including: education, experience, knowledge, skills, geography, and abilities of the candidate, in addition to internal equity and alignment with market data.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+At Quidel,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Ortho, it is not typical for an individual to be hired at or near the top range for their role and compensation decisions are dependent on that facts and circumstances of each case.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Salary range for this position is $82,000 to $148,000 and is bonus eligible.",UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Quidel,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Ortho offers a comprehensive benefits package including medical, dental, vision, life, and disability insurance, along with a 401(k) plan, employee assistance program, Employee Stock Purchase Plan, paid time off (including sick time) and paid Holidays.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"All benefits are non-contractual, and Quidel",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Ortho may amend, terminate, or enhance the benefits provided, as it deems appropriate.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Quidel,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Ortho believes in Equal Opportunity for all and is committed to ensuring all individuals, including individuals with disabilities, have an opportunity to apply for those positions that they are interested in and qualify for without regard to race, religion, color, national origin, citizenship, sex, sexual orientation, gender identity, age, veteran status, disability, genetic information, or any other protected characteristic.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Quidel,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Ortho is also committed to providing reasonable accommodations to qualified individuals so that an individual can perform their duties.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"If you are interested in applying for an employment opportunity and require special assistance or an accommodation to apply due to a disability, please contact us at orthorecruiting@orthoclinicaldiagnostics.com",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+A biotechnology company in Watertown is seeking an accomplished Staff Accountant to join their Finance and Accounting team in support of the companys business and continued growth.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The ideal candidate has a solid accounting background and is versatile and hands-on.,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED
+"Working closely with the Controller, this is an excellent opportunity to develop your skills and gain exposure to the entire accounting department.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Prepare bank reconciliations and journal entries as needed.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Prepare balance sheet reconciliations.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Review accounts and reconcile on a monthly basis, ensuring balances and activity are properly supported.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Identify billing issues and resolve in a timely manner, issuing credit memos as needed.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Prepare monthlyquarterly close workpapers and checklists.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Assist with the collection process, ensuring contacts are up to date and clients have all information needed for processing.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Make collection calls and provide excellent customer service.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Oversee outsourced AP workflow process.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Help process payroll bi-weekly and support other HR administration.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Maintain and ensure ongoing compliance with accounting policies and procedures, and Sarbanes-Oxley Act (SOX) internal control documentation.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Work on specific projects initiatives.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+BABS in Accounting or related degree.,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+At least 1-3 years of experience.,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Good communication skills.,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Highly organized.,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Public company experience preferred, but not required.",PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED
+NetSuite experience (or other ERP) preferred.,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED,PREFERRED
+"Experience with General Ledger, Reconciliations, Fixed assets module, Knowledge of Sarbanes Oxley Section 404.Interest in the Life Sciences Industry.",UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Compensation: $95 We are an Equal Opportunity Employer and consider qualified applicants for employment regardless of race, gender, gender identity, gender expression, age, color, religion, disability, veteran status, sexual orientation, or any other protected factor.",UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Want to learn more about this role and Jobot?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Click our Jobot logo and follow our LinkedIn page!,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Job details Hybrid Schedule, Great Benefits And Bonuses This Jobot Job is hosted by Tyler May Are you a fit?",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Easy Apply now by clicking the ""Easy Apply"" button and sending us your resume.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Salary $100,000 - $160,000 per year A Bit About Us Our company is seeking a dynamic and experienced Senior Accountant to join our finance team.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"You will play a key role in our financial operations, ensuring the accuracy and integrity of our financial data and reporting.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"This is a permanent position, ideal for someone who is passionate about the finance industry and is ready to take their career to the next level.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Why join us?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Prepare and analyze financial statements in accordance with GAAP standards.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Manage and oversee the daily operations of the accounting department.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Perform monthly, quarterly, and annual accounting activities including reconciliations of bank and credit card accounts, coordination and completion of annual audits, and reviewing financial reportssupport as necessary.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Analyze and report on financial status including income statement variances, communicating financial results to management, budget preparation and analysis.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Improve systems and procedures and initiate corrective actions.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Oversee taxes and abide by federal regulations.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Implement and ensure compliance with internal financial and accounting controls and procedures.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Participate in strategic data analysis, research, and modeling for senior company leadership.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Support budget and forecasting activities.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Collaborate with external auditors and HR for payroll and tax audits.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Develop and document business processes to maintain and strengthen internal controls.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Bachelor's degree in Accounting or Finance.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Masters degree or professional certification (e.g., CPA) is preferred.",PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED,PREFERRED
+A minimum of 3 years of experience in accounting or related field.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Proven experience as a financial controller, accounting supervisor, or senior accountant.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Thorough knowledge of basic accounting procedures and principles.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with creating financial statements and general ledger functions.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Excellent accounting software user administration skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with SAP S4 is a must.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Must have a strong understanding of GAAP.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with Big 4 CPA firms is preferred.,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED,PREFERRED
+Awareness of business trends.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Familiarity with financial accounting statements.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Experience with general ledger functions and the month-endyear-end close process.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Hands-on experience with accounting software packages.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Advanced MS Excel skills including Vlookups and pivot tables.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Accuracy and attention to detail.,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,PREFERRED,REQUIRED,PREFERRED
+Aptitude for numbers and quantitative skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong written and verbal communication skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Exceptional problem-solving skills and the ability to think critically.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong organizational and prioritization skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Ability to work in a fast-paced, deadline-driven environment.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Demonstrated ability to work independently as well as part of a team.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Interested in hearing more?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Easy Apply now by clicking the ""Easy Apply"" button.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Want to learn more about this role and Jobot?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Click our Jobot logo and follow our LinkedIn page!,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"About the role: DUAL North America, Inc.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Is seeking a Business Analyst, Property to join the Capacity team.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"The Property Business Analyst role is to assist the SVP of Capacity with extraction, aggregation, and presentation of data as required.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+This individual must be able to work to a deadline as many of our projects are time sensitive.,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Individual should be familiar with property insurance terms, conditions, and perils.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Essential Functions: Compile data as needed which include:o Modeling information o Aggregates and PMLso Subsegment data for new programs o Claims analysis Provide aggregated results in the requested format Pre-populate proposal templates Collaborate with Division Heads to formulate and implement capacity strategies Monitor and report contract metrics Ad hoc reporting Other duties as assigned by manager Job Requirements (education, experience, skills): College graduate andor applicable training andor experience Insurance experience requires working knowledge, casualty, terms and elements 3+ years analyst, insurance, claims or relevant experience required Advanced skills in Excel required, ability to work with large sets of data Experience with Tableau and Power BI Advanced skills with Microsoft Office Suite Property Insurance Experience o Understanding of property termso Some Peril Specific Underwriting knowledge wind, EQ, Flood, Fire, AOP, BR Must be able to work to a deadline Highly organized and detail oriented Ability to collaborate within and across teams Superior written and verbal communication skills Problem solving and critical thinking If you do not meet all the qualifications for this role, we still encourage you to apply, as we are always looking for diverse talent to join our growing team",UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+A career that you define.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Yes, we offer all the usual rewards and benefits - including medical, dental, vision, a wide variety of wellbeing offers, competitive salary, unlimited PTO, 401k with company match, paid volunteer days and more.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We provide an environment where new ideas are encouraged and celebrated, where people who want to have a real hand in our success thrive.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We want people who want to make a difference - not just in the workplace, but in the industry and in the wider community.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+About DUAL NA: DUAL is the leading underwriting organization in the US and part of an international insurance organization with operations in 45 countries across the world.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"DUAL offers commercial property, casualty, financial lines, and personal property insurance products underwritten through several specialized subsidiaries.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Since 2013, we have grown to over 500 employees in 14 offices across the US, and we are continuing to grow.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+DUAL is committed to building a balanced business and contributing to a sustainable world.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"At DUAL, we believe our people are our greatest assets, espousing entrepreneurialism, and innovation in an environment where new insights are encouraged.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Our culture: People First,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Our core values dictate how we live and work.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We are a group with independence and people at its heart and we are a home for talent with a unique culture: the biggest small company in the world.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+The focus on being a People First business has always been at the very heart of the Group; Our vision was to create an independent business with a unique culture and one that would survive and thrive as a business controlled by the people working for it.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+And finding the most talented and entrepreneurial people to join the Group has been and will continue to be key.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"EEO Statement: We consider our people our chief competitive advantage and as such we treat colleagues, candidates, clients, and business partners with equality, fairness, and respect.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"DUAL North America provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"DUAL will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Shifts: Mon Fri 8-5 (HYBRID onsite)3 month contract (No extensions)Start,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Reviews, analyzes, reconciles, and interprets financial results in lower risk areas with business managers.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Maintains a basic understanding of financial systems and data elements.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Assists in the preparation of management reporting and analytical tools.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Researches financial anomalies and makes corrections as necessary.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Participates in the monthly financial statement close for assigned entity, division, profit center, or cost center Monitors compliance of processes, transactions, and balances with accounting and finance policies.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Must Haves:1 year with a Fortune 500multi-national consumer product companySAP,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Experience with purchase orders and invoices,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Comfortable working in an ambiguous environment Duties and,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED
+"Run reports from eProcurement system, format and analyze data",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Communicate with internal and external stakeholders to resolve open POs, identify issues and offer solutions for resolution",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Utilize Nike procurement, financial, and accounting software systems such as Coupa, Aravo, Akritiv, and SAPReview catalog supplier statements and advise resolution for submitting invoices and resolve outstanding payment issues WHO YOU WILL WORK WITHYou will work with the Purchasing Integrity Team, as well as both internal and external business partners, and suppliers throughout Nike, Inc. to successfully support strategic capabilities for the Global Finance Operations team.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+You will assist in ensuring the cleanest data possible as we move to our future state.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Seniority Level,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Entry level,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Responsibilities: Design and develop software using design patterns and best practices Assists in development of high-level design and solution architecture Participation in development, testing and approval of complex software controlled electro-mechanical systems Gather and document software project requirements and solutions Troubleshooting, performing problem analysis and fix bugs Plan and execute software package verification, validation and testing activities Preparation of software and regulatory documentation, including software documentation, manuals, installation instructions etc.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Participate in design reviews, project meetings and timecost budgeting.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Communicate with different parties customer, vendor, internal engineering and manufacturing to ensure software applications meet customer requirements and quality standards Meeting project schedules deadlines and budgets Order software tools and services as required for project development Perform other duties assigned by the Management Education experience: B.Sc. in Software Engineering or Electrical Engineering, Masters degree is preferred Excellent oral and written communication skills 5+ years experience in software development to include: real-time embedded control (hardware, firmware and software); analog and digital IO processing and signal conditioning; and standard communication interfaces (CAN, RS-485, I2 C) 5+ years preferred experience with Power Conversion (switch mode power supplies, DC-DC, DC-AC, AC-DC, battery chargers); Brushless PWN Motor Control; Micro-Chip dsPIC Processors; Analog Devices SHARC Processors; and FPGA Programming with VHDL Working knowledge of C++, C#, VB , .NET environment Strong analytical, organizational and problem solving skills required Authorities: To recommend software solutions fulfilling design requirements.",UNSPECIFIED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+To select and recommend development practices and methods.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+To select and recommend design modifications that will improve product quality and performance.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Salary : $140K - 170K+ DOE,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Novi Labs delivers world-class Oil & Gas forecasts via an end-to-end platform that leverages machine learning and data science.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Join our talented technical team to help us improve and expand our products and further solidify our market-leading position.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Benefits of Working at Novi Labs Small, talented team",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Highly collaborative work environment High autonomy with true project ownership,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Small company with visibility into company decisions and priorities,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Easy line-of-sight to how your contributions directly benefit customers We are looking for a seasoned data engineer that has a passion for sound design and engineering practices and is adept at making reasoned short-term vs long-term trade-offs.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"In this role you will be leading the buildout of our next generation data and machine learning platform, while helping to support and transition from our current systems.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+This is a key role on a small team.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"To be successful, It will be important that you feel comfortable driving projects on your own, but also enjoy brainstorming and collaboration.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"What youll do here After joining Novi, you'll collaborate hand in hand with our team of data scientists and ETL specialists.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Together, we're charting a course towards establishing an innovative greenfield platform that will unlock the power of machine-learning powered analytics products.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"As a key member of our team, you'll play a pivotal role in cultivating a culture of engineering excellence.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Your responsibilities will encompass the establishment of standards and the integration of emerging technologies to uphold the zenith of software engineering practices in Python.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Your expertise will contribute to the improvement of our existing analytics platform, encompassing the implementation of novel functionalities and the enhancement of both the scalability and reliability of our data transformation and storage.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"This will be achieved through precise profiling and optimization techniques, coupled with the strategic design of cloud computing solutions.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+"If you're driven by the prospect of making a profound impact within a collaborative and forward-thinking environment, we invite you to join us at Novi.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Together, we'll continue to elevate the benchmark of data-driven solutions while nurturing your professional growth and development.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Required Skills & Experience Minimum of 5 years of experience building robust and scalable data pipelines,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong foundation in software engineering principles in Python,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Knowledge of the PyData stack (e.g. pandas) that goes deeper than the APIsExperience handling, storing and linking multi-modal data types",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with the full software development lifecycle (git, CI, Docker, test, etc.)Strong database knowledge (SQL & NoSQL)Strong cloud architecture skills - AWS preferred Desired Skills & Experience Interest in data science or previous experience working on a data science team",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience working with GIS data,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Previous work on an agile team,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Experience working for a start-up or small company At Novi, the culture fit is as important as the technical fit.",PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Our team will be a great fit for you if you: Have a positive attitude and a growth mindset,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Enjoy working on small, highly collaborative teams",PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Are self-motivated to improve your technical capacities,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Influence without authority via well-reasoned ideas and clear communication,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Are comfortable working cross-functionally to deliver customer impact,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Enjoy team and company successes as much as your own,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Take ownership of deliverables with strong attention to detail,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Are happy to task switch when necessary to help teams succeed,PREFERRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Enjoy knowing whats happening across the entire company Professional work environment with a clear understanding of worklife balance,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Vision Insurance401K,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Grainger is a leading broad line distributor with operations primarily in North America, Japan and the United Kingdom.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We achieve our purpose, We Keep the World Working, by serving more than 4.5 million customers with a wide range of products that keep their operations running and their people safe.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Grainger also delivers services and solutions, such as technical support and inventory management, to save customers time and money.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+We're looking for passionate people who can move our company forward.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"As one of the 100 Best Companies to Work For, we have a welcoming workplace where you can build a career for yourself while fulfilling our purpose to keep the world working.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We embrace new ways of thinking and recognize everyone is an individual.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Find your way with Grainger today.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+The Engineering Business Analyst has the responsibility of being very deep in our technology project and product work and being a key team member who knows all aspects.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The Engineering Business Analyst is aligned to challenging projects and brings high value insights to our engineering teams.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The Engineering Business Analyst may be involved in multiple technology projects at a time and will need excellent technical skills to ensure projects are being completed on time and at the highest of quality.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"You will work with Grainger's software engineers and portfolio managers, with you main responsibility being writing stories to be implemented by the engineering team.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+The Engineering Business Analyst must have a blend of business and technical skills as they must understand the business cases and requirements and then help to analyze and solicit requirements.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Using the requirements, you must make technical documentation and write stories for the engineering team to use.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Throughout the lifecycle of a project, you may develop data models and process flows, facilitate implementation through training, update cost estimates and timelines, and assist with testing and change management.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"You will partner with multiple team members in different functions and levels during a project, including software engineering, portfolio management, quality, finance, product, and operations.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Your role will have a focus on process improvement as well as diagnostics at the end of a project to ensure effectiveness.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"You will report to the Manager, Engineering Business Analysis.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Develop technical solutions to business problems by defining and documenting requirements.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Write user stories and ensure integrity of stories across projects.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Write and validate acceptance criteria within area of expertise.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Groom and maintain user stories.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Define and perform functional configurations.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Complete impact analysis for complex projects and products.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Facilitate requirements gathering sessions to aid partners in exposing and explaining their needs.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Conduct industry and internal research and apply best practices to Grainger.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Ensure decision-making by retrieving and aggregating data from multiple sources and compiling it into a clear and applicable format; Have an opinion as to what a correct decision is and influence the engineering team.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Create artifacts and provide data-driven recommendations that are clear to your business and technology partners.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Help lead tactical planning discussions.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Develop scaled, automated, user-friendly systems, reports and dashboards to support our needs.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"BABS in Business, Computer Science, Finance or related field",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"5+ years of relevant work experience in a business analyst, data analyst or statistical analyst role",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Deep technical expertise regarding IT systems, workflows, and data structures",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Experience summarizing multiple types and sources of information into action,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience working with senior business and technical partners; including experience pushing back respectfully to get projects completed,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience operating in an Agile context With benefits starting day one, Grainger is committed to your safety, health and wellbeing.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Our programs provide choice and flexibility to meet our team members' individual needs.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Check out some of the rewards available to you at Grainger Medical, dental, vision, and life insurance plans",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Paid time off (PTO) and 6 company holidays per year,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Automatic 6% 401(k) company contribution each pay period,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Employee discounts, parental leave, 3:1 match on donations and tuition reimbursementA comprehensive set of emotional, financial, physical and social wellbeing programs DEI Statement We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender, gender identity or expression, or veteran status.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+We are proud to be an equal opportunity workplace.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Baltimore Peninsula (Hybrid)$100K + 20% Bonus + Great Benefits Reporting to an AWESOME hiring manager and working for a well respected Real Estate firm in the Baltimore market, there are a TON of cool perks and events attached to this opportunity!",UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"40-45 hour work weeks, upward mobility career progression and a great culture full of former Big-4 and regional public accounting people who will provide great mentorship!",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+The ideal candidate comes from Public Accounting with Real Estate clients OR directly from a Real Estate company.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+3-7 years' of experience is ideal.,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+CPA is a plus.,PREFERRED,PREFERRED,PREFERRED,UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED
+Apply directly to learn more!,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The ideal candidate will be responsible for developing high-quality applications.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+They will also be responsible for designing and implementing testable and scalable code.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Develop quality software and web applications Analyze and maintain existing software applications Design highly scalable, testable code Discover and fix programming bugs",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Bachelor's degree or equivalent experience in Computer Science or related field Development experience with programming languages SQL database or relational database skills,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"ABOUT THE COMPANYFounded in 1888, Lee Kum Kee, a Hong Kong-based global food company, specializes in creating condiments and sauces that promote Chinese cuisine worldwide.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"With more than 200 products to choose from, Lee Kum Kee takes the mystery out of cooking authentic and delicious Asian foods in the comfort of your kitchen.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Lee Kum Kee is committed to providing authentic and innovative condiments and sauces featuring the highest quality ingredients.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Armed with a unique management culture, stringent quality control, superb and innovative products, coupled with the century-long brand reputation, Lee Kum Kee has achieved unanimous recognition and won numerous prestigious awards.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Lee Kum Kee (USA) Inc., a division of Lee Kum Kee International Holdings Ltd., has its headquarters and manufacturing facilities in Southern California with more than 300 employees.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We are looking for the best and brightest talents to join our company and work together to bring the next level of success!BENEFITSMedical, dental, life insurance covered by the company401(k) retirement plan with company match",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Two (2) weeks vacations,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Ten (10) paid holidays POSITION SUMMARY The Business Analyst will be responsible for managing and maintaining SAP HANA platform, generating and running sales reports and AC Nielsen reports, preparing presentations, and performing ad hoc business analytics assignments.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+This position will analyze and conduct product and sales channel reviews to identify opportunities and review product performance.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Additionally, this position will make feasible recommendations to the team manager and VP of Strategic Planning aimed at enhancing category effectiveness and overall business performance.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+ESSENTIAL FUNCTIONS Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Conduct data analysis and generate insightful reports to support Sales, product development, logistics, and operations teams in their decision-making processes.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Design, develop, and manage reports, dashboards, and reporting portals that integrate data from multiple sources.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"These tools will be essential for measuring progress, sales performance, and key performance indicators for various business initiatives.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Maintain and support AC Nielsen sales data, SAP product data, and SAP HANA sales data.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Use this data to create reports that enable managers to monitor sales and product performance effectively.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Collaborate with stakeholders to assist in the budgeting process.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Monitor performance variances against budget regularly and provide actionable recommendations to address any deviations.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Perform ad hoc duties and tasks as assigned, contributing to the overall efficiency and success of the organization.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+COMPETENCIES Problem-Solving,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Logicalcritical thinking,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Detail-Oriented,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Planning & Organizing,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Customer Focus Self-development SUPERVISORY RESPONSIBILITIES This job has no supervisory responsibilities.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"QUALIFICATIONS To perform this job successfully, an individual must be able to perform each essential duty satisfactory.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"The requirements listed below are representative of the knowledge, skills, andor ability required.",UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"REQUIRED EDUCATION, SKILLS and EXPERIENCE",UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,PREFERRED
+"Bachelor's degree in Math, Statistics, Computer Science, or equivalent quantitative training.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"At least 2 years of experience in analyzing and interpreting data, along with preferred teamproject management experience.",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Proficiency in Microsoft Office (Excel and PowerPoint) with strong logical and analytical skills.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Eagerness to learn and adapt to data retrieval from systems, including SAP and SAP HANA.Possess strong organizational skills, excellent written and verbal communication abilities, and a natural talent for problem-solving.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Demonstrate exceptional problem-solving and analytical skills with a keen eye for detail.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+LANGUAGE SKILLSThis individual must possess excellent communication and presentation skills both written and verbal.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Must be fluent in English.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Bilingual skills (read, speak and write) in Chinese (Mandarin or Cantonese) is a must.",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+MATHEMATICAL SKILLS,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Must be able to apply basic mathematical concepts to perform daily functions.,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+PHYSICAL DEMANDS The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"While performing the duties of this job, the employee is regularly required to use hands and fingers to handle or feel; andor reach with hands and arms.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Frequently required to sit.,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,PREFERRED
+Occasionally lift andor move up to 50 pounds.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Specific vision abilities required by this job include ability to adjust focus.,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+WORK ENVIRONMENT The work environment characteristics described here are representative of those an employee encounters while performing the essential functions of this job.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+The noise level in the work environment is usually moderate.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"It is Lee Kum Kees policy to seek and employ the most qualified persons in all jobs in a manner which will ensure equal employment opportunity as well as administer personnel actions in a manner as to not discriminate against any person on the basis of race, color, religion, national origin, age, sex, sexual orientation, disability or protected veteran status.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We are dedicated to pushing the boundaries of innovation and creating solutions that redefine our field.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"As we continue to expand our operations, we are seeking a highly skilled and experienced Senior Software Engineer to join our dynamic team.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"We are looking for a talented Senior Software Engineer with a minimum of 4 years of industry experience to play a pivotal role in designing, developing, and implementing software solutions that drive our products and services forward.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+The successful candidate will be a key contributor in shaping our technical strategies and working closely with cross-functional teams to deliver high-quality software products.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Collaborate with product managers, designers, and other engineers to understand requirements, design software solutions, and contribute to architectural decisions.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Lead the development and maintenance of complex software systems using C# and .NET Core, ensuring code quality, performance, and scalability.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Design and implement front-end solutions using Angular 2+ and TypeScript to deliver intuitive user experiences.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Develop and maintain RESTful APIs and integrate them with various services, ensuring robust and efficient communication between components.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Utilize Azure services to build and deploy scalable and secure cloud-based applications.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Mentor and provide guidance to junior engineers, conducting code reviews and sharing best practices to maintain high development standards.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Collaborate with DevOps teams to establish continuous integration and continuous deployment (CICD) pipelines.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Identify and address technical debt, performance bottlenecks, and other engineering challenges as they arise.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Stay up-to-date with industry trends, technologies, and best practices to continually improve our software development processes.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Minimum of 4 years of professional software development experience.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Strong proficiency in C# and .NET Core, with a proven track record of delivering robust and scalable solutions.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Extensive experience with Angular 2+ and TypeScript for building responsive and modern user interfaces.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Solid understanding of RESTful API design principles and experience in API development.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Hands-on experience with Microsoft Azure services for cloud-based application development and deployment.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Proven ability to collaborate effectively in cross-functional teams and communicate complex technical concepts.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Strong problem-solving skills and a proactive attitude towards addressing challenges.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with agile development methodologies and tools.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Excellent written and verbal communication skills.,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Any relevant certifications (e.g., Microsoft Azure certifications) would be a plus.",PREFERRED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"If you are a highly motivated Senior Software Engineer with a passion for innovation and a strong background in C#, .NET Core, Angular, TypeScript, API development, and Azure, we encourage you to apply and become a valued member of our dynamic team.",UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+Join us in shaping the future of technology!,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"One of our clients is looking for someone with a strong emphasis in digital electronics microprocessor FPGA design, embedded software, and Xilinx experience a plus.",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,PREFERRED,UNSPECIFIED
+Candidates may be using the following software:Vivado,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+AltiumMATLAB Simulink,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,REQUIRED
+Micro-Cap circuit simulationLTspice,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,REQUIRED
+Candidates must have a Bachelors degree in Electrical Engineering and 6 or more years of electronic circuit design experience.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+JOB TITLE: Business Analyst Does using data science to solve business problems sound intriguing?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Enjoy working collaboratively with diverse teams?,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Analytical, strategic and tech savvy?",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,REQUIRED
+Then working within our Credit Services Team at Spectrum may be a great fit for you.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"At Spectrum, we keep more than 32 million customers connected across our 41-state footprint.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Our Credit Services Team uses advanced analytics and data science to develop credit solutions for our mobile and cable customers.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Our customer-centric approach to finding solutions helps deliver the exceptional services and experiences Spectrum is known for.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"BE PART OF THE CONNECTION As a Business Analyst in the Credit Services department, youll analyze business operations and recommend solutions to align individual business functions with organizational goals.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Youll use your understanding of an organizations structure, policies, and operations to improve general business processes and planning.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"What Our Business Analysts Enjoy Most Compiling, analyzing, interpreting, and presenting data related to current and future operation",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Creating reports, charts, graphs, and presentations to aid in proposing new strategies for successful business changes",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Developing project estimates by identifying phases and elements, personnel requirements, and costs",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Analyzing external market dynamics and other data sources to assess trends and develop actionable insights and recommendations to management,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Recommending use of new technology or existing technology alternatives to solve problems or make improvements In this role youll work individually and within a team in a dynamic office environment.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Youll excel if you can collaborate cross-functionally, adapt to change, and handle multiple projects and priorities simultaneously.",PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+"Youll develop skills that are transferable to other areas of Spectrum for a meaningful, long-term career.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+WHAT YOULL BRING TO SPECTRUM Experience: Business analysis or related experience: 2 years or more,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Education: Bachelors degree in business or related field,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Technical skills: Comprehensive knowledge of software applications such as Word, Excel, PowerPoint, etc.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Abilities: Quickly identify business problems & opportunities; prioritize & organize effectively; analyze & interpret data, communicate clearly both orally and in writing SPECTRUM CONNECTS YOU TO MORE Dynamic Growth: The growth of our industry and evolving technology powers our employees careers as they move up or around the company",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Learning Culture: We invest in your learning, and provide paid training and coaching to help you succeed",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Supportive Teams: Be part of a strong community that gives you opportunities to network and grow, and wants to see you succeed Total Rewards: See all the ways we invest in youat work and in life Apply now, connect a friend to this opportunity or sign up for job alerts!",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"BGN332 2023-18334 2023 Here, employees dont just have jobs, they build careers.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Thats why we believe in offering a comprehensive pay and benefits package that rewards employees for their contributions to our success, supports all aspects of their well-being, and delivers real value at every stage of life.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"A qualified applicants criminal history, if any, will be considered in a manner consistent with applicable laws, including local ordinances.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Get to Know Us Charter Communications is known in the United States by our Spectrum brands, including: Spectrum Internet, TV, Mobile and Voice, Spectrum Networks, Spectrum Enterprise and Spectrum Reach.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"When you join us, youre joining a strong community of more than 101,000 individuals working together to serve more than 32 million customers in 41 states and keep them connected to what matters most.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Watch this video to learn more.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Who You Are Matters Here Were committed to growing a workforce that reflects our communities, and providing equal opportunities for employment and advancement.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"EOE, including disabilityvets.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+Learn about our inclusive culture.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+A leading insurance services company in Irvine is looking for a talented Staff Accountant to join the team!,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+This is an exciting opportunity that provides room for growth within the company.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"The ideal candidate has experience with supporting external audits, knowledge of GAAP, budgeting, and time management skills.",PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED,REQUIRED,REQUIRED
+"Support monthly and year-end financial closes, including assigned journal entries, balance-sheet account reconciliations, accruals, and overall maintenance of general ledger.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Review bank transactions, bank reconciliations and petty cash",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Participate in annual interim and year-end financial audit.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Process APAR, check cutting, depositing of client checks and setting up ACHs and wires.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Assist in providing schedules and commentary for general ledger account results and variances.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Prepare special financial reports, when requested by senior managers, by collecting, analyzing, and summarizing account information and trends.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Reconciliation of client directagency bills Required skills and qualifications,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+"Bachelors degree (or equivalent) in accounting, business accounting, or finance2- 4 years of professional experience in accounting",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Proficient in Microsoft Office: Excel, Words, PowerPoint, Exchange",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience Applied Epic System is a plus.,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED
+Experience in the Insurance industry is a plus.,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED
+Knowledge of generally accepted accounting principles (GAAP)Knowledge of accounting and corporate finance principles and procedures,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Ability to multitask, prioritize, and organize effectively.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Desire to continue professional growth through training.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED
+Attention to Details and effective communication skills.,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED,REQUIRED,REQUIRED
+"About Vaco: Vaco provides expert consulting, permanent placement, executive search, and strategic staffing for companies around the world, in the areas of accounting, finance, operations, administration and more.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"As a premier talent solutions firm, Vaco connects people to their dream jobs and helps leading companies find talent to grow their business.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"About the Company: Renewable Energy Production Company Title: Senior Accountant Salary: $85-95k (DOE) Responsibilities: In this role, the Senior Accountant will primarily be responsible for the full cycle accounting, costingcontrolling, andor full cycle reporting, as required, for an assigned business segment, special purpose entity(ies) (project entity or origination project), andor accounting group.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"This position will oversee the preparation of balance sheet account reconciliations, accrual management, profit and loss analytics, statement of cash flow analysis (if applicable), and financial statement reporting (in eitherboth US Generally Accepted Accounting Principles, known as ""GAAP"", or International Financial Reporting Standards, known as ""IFRS"") to various internal and external stakeholders.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Actively participate in the monthly, quarterly and annual close process and ensure assigned tasks are completed timely and accurately.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Assist with assigned schedules, including workpapers managed in Prosystems, ensuring relevant account reconciliations are completed timely and accurately;Ensure timely completion of monthly ProSystems binder, as assigned.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Assist in completing quarterly reporting packages, clearing of BOFC controls and coordinate receiving audit requests from other business segments;Provide support to other corporate finance groups, as requested;Reconcile intercompany relationships and balances, including research and resolving discrepancies;Performs other duties and tasks as assigned by Lead Senior Accountant or hisher designee.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Bachelor's degree (or equivalent) in accounting or finance required.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"A minimum of 0-3 years' experience working within an accounting department (preferably mid-size to large company), andor in public accounting.",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Benefits:401(k) matching,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Dental insurance,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Disability insurance,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Employee assistance program,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Health insurance,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Life insurance,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Paid time off,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Vision insurance,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Work from home,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Primary Location: Macon, Georgia Relocation offered: Yes Employment status: Full-Time Travel: 10% Non-compete: No The estimated base salary range for this role is $92,380 to $138,580 per year.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Individual pay is based on location, skills and expertise, experience, and other relevant factors What does it mean to work at Armstrong?",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED
+It means being immersed in a supportive culture that recognizes you as a key player in Armstrong's future.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"We are a large company with a local feel, where you will get to know and collaborate with leadership and your colleagues across the company.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"By joining us, you'll have the opportunity to make the most of your potential.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Alongside a competitive remuneration package, you will receive: A benefits package including: medical, dental, prescription drug, life insurance, 401k match, long-term disability coverage, vacation and sick time, and many more.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Personal development to grow your career with us based on your strengths and interests.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+A working culture that balances individual achievement with teamwork and collaboration.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We draw on each other's strengths and allow for different work styles to build engagement and satisfaction to deliver results.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Armstrong World Industries, Inc.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"(AWI) has a job opportunity for an Electrical Engineer to be located at our Ceilings plant in Macon, GA.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"As the Electrical Engineer you will be responsible for providing engineering and technical services to support the manufacturing equipment, maintenance systems, and production processes.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Additionally, you will play a critical role in our lean efforts as we continuously strive to improve our processes and reduce waste.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"In our fast paced and dynamic environment, you will take on and execute electrical projects and studies of significant importance, scope, and complexity.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Providing electrical engineering and technical assistance to the manufacturing plant in terms of equipment, maintenance, and production processes and systems",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Managing the plant capital budget,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Participating in identifying and resolving common cause and special cause electrical issues that impact plant reliability and performance,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Investigating manufacturing problems in the plant and recommending corrective actions,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Developing preliminary concepts and budgetary capital estimates for new electrical products, projects, and improvements",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Assisting in andor developing vendor bid packages and final vendor selection for purchased parts and services,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Executing capital projects, ensuring cost, schedule, and performance goals are met or exceeded",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Applying Precision Maintenance concepts and principals,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Educating plant personnel on electrical engineering and technical issues to ensure their knowledge and understanding,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+Coordinating training and start-up activities of new equipment and processes,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Participating in Lean efforts, such as kaizen events, where an emphasis is placed on creativity before capital investment",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Providing status updates on project progress and issues Bachelor's degree in Electrical Engineering 5+ years of electrical engineering experience in a manufacturing environmentPLC or HMI programming experience with the Rockwell suite of products ( Allen- Bradly) Demonstrated Project Management skills,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Excellent communication skills, including verbal, written, and presentation Database systems, i.e.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+SQL Server 2012Networked system design and configuration480 VAC power distribution4160V motors and controls,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+AutoCAD,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Experience with Wonderware application programming and support Why should you join Armstrong World Industries?,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Armstrong World Industries (AWI) is a leader in the design and manufacture of innovative commercial and residential ceiling, wall and suspension system solutions in the Americas.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"With approximately $1B in revenue, AWI has about 2,800 employees and a manufacturing network of fifteen facilities in North America.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"At home, at work, in healthcare facilities, classrooms, stores, or restaurants, we offer interior solutions that help to enhance comfort, save time, improve building efficiency and overall performance, and create beautiful spaces.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"For more than 150 years, we have built our business on trust and integrity.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"It set us apart then, and it sets us apart now, along with our ability to collaborate with and innovate for the people we're here to serve - our customers, our shareholders, our communities and our employees.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We are committed to developing new and sustainable ceiling solutions, with design and performance possibilities that make a positive difference in spaces where we live, work, learn, heal and play.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"It's an exciting, rewarding business to be in, and we're committed to continue to grow and prosper for the benefit of all of our stakeholders.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We hope you join us.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"""Bringing our Purpose to Life"" - lead a transformation in the design and building of spaces fit for today and tomorrow.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Engaging a diverse, purpose-driven workforce;Transforming buildings from structures that shelter into structures that serve and preserve the health and well-being of people and planet;Pursuing sustainable, innovative solutions for spaces where we live, work, learn heal and play;Being a catalyst for change with all of our stakeholders; and",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Making a positive difference in the environments and communities we impact.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"About the location (Macon GA) Our Macon Plant, one of twelve Armstrong plants in North America, employs over 400 people working on rotating shifts, 247, in the manufacture and shipment of acoustical ceiling tile to Armstrong's customers.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Located approximately 85 miles south of Atlanta, the Macon facility has 33 acres under one roof, or 1.5 million square feet of floor space.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+It is the largest ceiling tile factory in the world.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"The operations are complex, automated, use the latest modern management technology, and manufacture a wide range of commercial and residential ceiling products.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Macon, also known as the ""Cherry Blossom Capital of the World"", is in the heart of Georgia and marks a historical crossroads in the south.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+The city carries with it a rich cultural heritage while creating a strong vision for the future.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Macon offers the amenities of a small friendly city with the advantages of a growing community.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Armstrong is committed to engaging a diverse, purpose-driven workforce.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"As part of our dedication to diversity, AWI is committed to Equal Employment Opportunity and all qualified applicants receive consideration for employment without regard for race, sex, color, national origin, ethnicity, gender, protected veteran status, disability, sexual orientation, gender identity, or religion.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We are also committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"If you need assistance or an accommodation due to a disability, you may contact us at by email at AWI talent acquisition and let us know the nature of your request and your contact information.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Requests for accommodation will be evaluated on a case-by-case basis.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Come and build your future with us and apply today!,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Accounting degreeCPA license required,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"4+ years professional accounting experience, public accounting preferred",REQUIRED,PREFERRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED
+Supervisory experience,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+Ability to learn on the job quickly and adapt to changes,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Self-motivated, with the ability to work under limited supervision",REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience in a client-facing role leading multiple engagements What you will do:Supervise and train 1-3 fund accountants,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Onboard new clients and implement preferred system platforms and processes,UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Direct workflow and coordination of work amongst team members to meet deadlines,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Cultivate strong working relationships with client contacts,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED
+"Asist in preparation and review of capital call, distribution, LP communications, and other client deliverables",UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Reviewing financial statements including balance sheet, income statement, statement of changes, cash flows, schedule of investments, and footnote disclosures including financial highlights",UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Assist with preparing and reviewing audited financials, footnotes, and supporting schedules and liaison with auditors",UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Collaborate with Senior Manager to develop and implement best practices,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+We are looking for the candidates who is willing to work on our payroll.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Job Title: Data Analyst,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Location: Plano, TX (Day 1 Hybrid)Duration: Long Term Contract Must have skills SQL and Tableau 4 years of Data Analysis and business knowledge within a healthcare environment and testing arena3-5 years of Microsoft SQL experience specifically using SQL to build queries, reports.--",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Full time Experienced (relevant combo of work and education) Bachelor of Computer Engineering 0% We are FIS.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Our technology powers the worlds economy and our teams bring innovation to life.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We champion diversity to deliver the best products and solutions for our colleagues, clients, and communities.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"If youre ready to start learning, growing, and making an impact with a career in fintech, wed like to know~ Are you FIS?",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"FIS provides a leading in-house payment management platform (SaaS - Software as a Service) that serves high-volume merchants such as Netflix, Overstock.com, GoDaddy, and many more.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"At FIS, we know that our platform is only as good as the people behind it.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We are looking for talented people who are eager to learn about our technology and, more importantly, about the details that make our business tick.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"As a Software Engineer Senior, your skills will be at the core of changing the way the world pays, banks, and invests.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Youll plan and manage application development and client delivery activities that range from small, simple software applications to components of large, complex software applications.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+We consistently develop and deliver new features onto our live platform.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+This platform handles millions of merchant transactions around the clock while delivering a robust feature set aimed at boosting our merchants payments capabilities.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"These features, along with our ability to consistently deliver them, make us stand out in the highly competitive payments business.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Our engineering team is critical to our mission; we are fundamentally a technology company.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"We succeed by offering innovative features to our merchants while retaining the reliability, quality, and fault tolerance they require.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Future platform development work utilizes microservices, cloud-based architecture with best of breed technologies to promote easier scaling and maintenance.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+The development environment aims to continually improve as new technologies are considered for the purpose of gains made in efficiency or effectiveness.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Service codebases rely on a large suite of automated tests to help find defects early in the life cycle.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Software development teams have true ownership of the services as they build, release, and operate.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Design, develop, and test software for scalability, reliability, and data recovery associated with a high-volume, high-availability platform",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Collaborate with other internal teams (Product, Platform, Merchant Services and Support) to convert business requirements into technical solutions",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Use Agile software techniques such as pair programming and test-driven development to maximize productivity and quality,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,PREFERRED,UNSPECIFIED
+Deploy new features into production with zero platform downtime and no impact to end customers who are currently processing,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Build domain expertise in e-commerce payments and apply engineering expertise to develop new product features,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Work in a ""team focused"" culture, where strong collaboration and communication are critical A Bachelors degree in computer engineering, computer science or other related discipline or the equivalent combination of education, training, or work experience",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"5+ years of relevant on the job experience in Software Engineering, not including internships",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Exceptional design and programming skills (Java strongly preferred, but we are open to other Object-Oriented languages) with the ability to solve architectural and system issues involving scalability, distributed systems, and relational databases",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Ability to quickly grasp high-level business goals, derive requirements, and translate them into effective technical solutions",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Ability to fluidly change context and priorities based on changing business needs,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with Microservices architecture, globally distributed services, and 247 support",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with RESTful API design, and cloud technologies like Kubernetes, Kafka",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Proficiency with SQL, relational data modelling, and database schema design Added bonus if you have Experience with design and implementation of monitoring and responsive, self-healing resilient immutable platforms",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,PREFERRED,REQUIRED
+"Knowledge of scalability levers in high volume, low latency transactional systems Experience working in AWS, OpenShift Platform",PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with Ansible, Maven, Gradle, Jenkins, Black Duck, Checkmarx, SonarQ, Cucumber, Karate",PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with Splunk, Sysdig, OpsGenie, Dynatrace, Instaclustr, Prometheus, JBehave, JGiven",PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Development experience with a unit testing framework (JUnit and experience employing TDD preferred)Pair programming experience.,PREFERRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+A willingness to try is a requirement A career at FIS is more than just a job.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED
+Its the change to shape the future of fintech.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"At FIS, we offer you~ A voice in the future of fintech",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Always-on learning and development,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Collaborative work environment,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Opportunities to give back,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Competitive salary and benefits FIS is committed to protecting the privacy and security of all personal information that we process in order to provide services to our clients.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"For specific information on how FIS protects personal information online, please see the Online Privacy Notice .",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+EEOC Statement FIS is an equal opportunity employer.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We evaluate qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, marital status, genetic information, national origin, disability, veteran status, and other protected characteristics.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"The EEO is the Law poster is available here supplement document available here For positions located in the US, the following conditions apply.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"If you are made a conditional offer of employment, you will be required to undergo a drug test.",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+ADA Disclaimer~ In developing this job description care was taken to include all competencies needed to successfully perform in this position.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"However, for Americans with Disabilities Act (ADA) purposes, the essential functions of the job may or may not have been described for purposes of ADA reasonable accommodation.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+All reasonable accommodation requests will be reviewed and evaluated on a case-by-case basis.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Recruitment at FIS works primarily on a direct sourcing model; a relatively small portion of our hiring is through recruitment agencies.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"FIS does not accept resumes from recruitment agencies which are not on the preferred supplier list and is not responsible for any related fees for resumes submitted to job postings, our employees, or any other part of our company. #pridepass",UNSPECIFIED,PREFERRED,PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"10627 Software Engineer II (Heroku Architect) The Heroku Software Engineer II is responsible for analyzing, designing, developing, and implementing software projects and operational maintenance Data hub tasks using Heroku platform.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Evaluate existing solutions and recommend potential Heroku-enabled enhancements Develops or updates support documentation as needed and leads Peer Review to allow acceptance of systems changes into production Communicates design, requirements, functionality, and limitations of systemsapplications Collaborates with other Business and IT partner teams on successful delivery of product enhancements and support Working with testers and DevOps engineers for testing and deploying web applications on the Heroku platform Partner with team to debug and diagnose complex defects, conduct root cause analysis, and make resolution recommendations.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Maintains technical skills and expertise through continuing education and training.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED
+"Please note this job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee for this job.",UNSPECIFIED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Duties, responsibilities and activities may change at any time with or without notice.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Basic Requirements: Bachelors degree in Computer Science, Electrical",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Electronic Engineering, Information Technology or another related field or Equivalent 3+ years work experience in software development and three years of Salesforce application development Minimum 2 years professional experience using 3 or more development languages or tools (e.g., Java, J2EE Application Framework) Experience in building solutions on Heroku Platform Knowledge in SQLSOQL and experience in building database schemas.",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience working closely across a variety of teams including product management, other platform developers and end users Understanding the UI design parameters from UI designers Ability to translate technical design options into business and functional impacts Heroku Certification preferred Salary Range - $79,800 to $114,103",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Role: Lead Data Engineer,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Location: Remote,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Duration: Long Term 8 to 10 years of experience working in data engineering, business intelligence or related field delivering large scale data platforms and services.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Ideal candidate will have the following skills: A successful history of manipulating, processing and extracting value from large, disconnected datasets.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+"Expertise in data modeling, data access and data storage techniques.",REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED
+The candidate should have foundational knowledge of dimensional modeling to build a data warehouse Strong experience building transformational logic using SQL on relational SQL and NoSQL databases.,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Skills using DBT framework for data transformation is plus Robust programming skills and strong experience with Python to ingest, transform and load the data Experience building and optimizing big data data pipelines, architectures and data sets using tools like Airflow.",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with AWS cloud services: EC2, EMR, RDS, Redshift",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+A mid-sized telecom company is looking for a Sr Data Engineer to join their Business Intelligence Insights team.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"This team is responsible for all of the data migration, data clean up, data integration, and warehousing for the company.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"In this role, you will primarily be responsible for data migration and clean up in existing platforms as well as newly or soon to be integrated systems.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"It is necessary to be well versed in MS SQL, with the ability to import data, manipulate data and put it back in, querying, and building indexes.",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+It is also crucial to be versed with SSIS to load and validate dimensions and measures.,REQUIRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED
+"Lastly, it will be important for this person to have exposure and understanding of Salesforce - ability to import data, query data, get data out of Salesforce, and use SOQL.",REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"This position is currently slated as a 12-month contract, with possibility to extend or convert to an FTE.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+This role is offering a pay rate of $58-68hr.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"During the contract period, health benefits and a 401k are offered by Insight Global.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Priority is given to candidates sitting in Boston, Colorado, or Long Island, however the role is fully remote.",PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"If you're interested, please apply today!",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Must-Haves*7 years of Data Engineering experience*5+ years of experience with MS SQL or SOQL*Experience with ETL tools, specifically SSIS*Familiarity and understanding of Salesforce if not SOQL Pluses",REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Oracle or PostgreSQL experience,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Talend, Matillion, or similar tool",PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"What were looking for At AppFolio, we paddle as one.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We ride and make waves together, with a relentless focus on building great products for the way our customers work and live today and tomorrow.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+AppFolio is a destination organization where careers are made and accelerated.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Here, innovation is a team sport.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+We're looking for experienced engineers to help build AppFolio Investment Management.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"AppFolio Investment Management (https:www.appfolioinvestmentmanagement.com) product is a fast-growing internal startup of a successful, established SaaS company (https:www.appfolioinc.com).",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+We are going after the $7 trillion and growing private equity market which largely still runs on spreadsheets and email.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Starting with private equity real estate, we are helping private equity firms build and manage their businesses with purpose-built software that enables them to do everything from investor relations to fundraising to managing the elaborate capital stacks common in modern-day private equity deals.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"You'll join one of our domain-focused, full-stack engineering teams, helping build solutions that power private equity investments.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+You'll learn about the inner workings of private equity investing and help realize our vision to streamline and automate the industry.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+This is a unique opportunity to get in early with an internal startup that is part of an established public company and help shape the future of the fastest-growing web-based product for managing private equity investments.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Your impact Build software solutions that change the game of private equity investment,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+Collaborate with a very experienced and highly effective team of passionate engineers and product managers,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+Talk directly with customers to understand their challenges and get direct feedback on the features you're building,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Operate in a highly autonomous team that owns the full lifecycle of solutions you build, from discovery to development to production Ship solutions that embody our product values of INVEST -- Intuitive, Valuable, Easy, Secure, Trustworthy",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Write code that reflects our technical values of SMART -- Simple, Maintainable, Adaptable, Readable, Tested",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,REQUIRED,UNSPECIFIED
+"Interact with colleagues in a way that supports our team values of HEART -- Humor, Effectiveness, Autonomy, Respect, Trust Must have The ability to thrive with high levels of autonomy and responsibility",REQUIRED,REQUIRED,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,PREFERRED
+Experience building web-based products,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with modern cloud software tools and methodologies,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Experience with modern web frameworks and methodologies,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Excellent collaboration skills to contribute cross-functionally and in a team setting Nice to Have A passion for real estate, investing, or investment management",REQUIRED,PREFERRED,PREFERRED,REQUIRED,PREFERRED,PREFERRED,REQUIRED
+Experience with AIML technologies,PREFERRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+"Experience with proptech, fintech, or vertical SaaS Compensation & Benefits The base salary that we reasonably expect to pay for this role is: $106,000-$125,000 The actual base salary for this role will be determined by a variety of factors, including but not limited to the candidates skills, education, experience, etc.",PREFERRED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Please note that base pay is one important aspect of a compelling Total Rewards package.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+The base pay range indicated here does not include any additional benefits or bonuses that you may be eligible for based on your role andor employment type.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Regular full-time employees are eligible for benefits - see here.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"We ride and make waves together, with a relentless focus on building great products for the way our customers work and live today and tomorrow.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+AppFolio is a destination organization where careers are made and accelerated.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"Here, innovation is a team sport.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+Paddle as One.,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Statement of Equal Opportunity At AppFolio, we value diversity in backgrounds and perspectives and depend on it to drive our innovative culture.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Thats why were a proud Equal Opportunity Employer, and we believe that our products, our teams, and our business are stronger because of it.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED
+"This means that no matter what race, color, religion, sex, sexual orientation, gender identification, national origin, age, marital status, ancestry, physical or mental disability, or veteran status, youre always welcome at AppFolio.",UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,PREFERRED,UNSPECIFIED
+"Experience: 5+ yrs Location: Bellevue, USA Ability to understand vast amounts of data, identify and fix data issues Strong in database and Data Warehousing concepts Strong in TSQL Data analysis and presentation Data insight generation Strong reporting using Power BI, Power Apps & Excel Ability to succeed in a fast-paced, dynamic business environment Excellent technical & analytical skills with strong business acumen Strong communication skills Ability to understand vast amounts of data, identify and fix data issues ,Data analysis and presentation ,Data insight generation ,Ability to thrive in a fast-paced, dynamic business environment ,Excellent technical & analytical skills with strong business acumen ,Strong communication skills,SQL, Excel Good to have skills",REQUIRED,PREFERRED,PREFERRED,REQUIRED,REQUIRED,REQUIRED,REQUIRED
+Digital : Python,REQUIRED,UNSPECIFIED,UNSPECIFIED,REQUIRED,REQUIRED,PREFERRED,UNSPECIFIED

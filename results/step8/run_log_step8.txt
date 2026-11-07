@@ -1,0 +1,46 @@
+150 SkillSpan test documents
+$ "D:\code\python_workshop\NLP\group32\.venv\Scripts\python.exe" -m uv pip install --python "D:\code\python_workshop\NLP\group32\esco_env\Scripts\python.exe" click
+Using Python 3.10.22 environment at: esco_env
+Checked 1 package in 5ms
+$ "D:\code\python_workshop\NLP\group32\esco_env\Scripts\python.exe" -m pip show ojd-daps-skills spacy
+License: 
+Location: d:\code\python_workshop\nlp\group32\esco_env\lib\site-packages
+Requires: boto3, botocore, numpy, pandas, pydantic, pytest, pyyaml, scikit-learn, sentence-transformers, skops, spacy, toolz, torch, transformers
+Required-by: 
+---
+Name: spacy
+Version: 3.7.5
+Summary: Industrial-strength Natural Language Processing (NLP) in Python
+Home-page: https://spacy.io
+Author: Explosion
+Author-email: contact@explosion.ai
+License: MIT
+Location: d:\code\python_workshop\nlp\group32\esco_env\lib\site-packages
+Requires: catalogue, cymem, jinja2, langcodes, murmurhash, numpy, packaging, preshed, pydantic, requests, setuptools, spacy-legacy, spacy-loggers, srsly, thinc, tqdm, typer, wasabi, weasel
+Required-by: en-core-web-sm, en-skillner, ojd-daps-skills
+$ "D:\code\python_workshop\NLP\group32\esco_env\Scripts\python.exe" "D:\code\python_workshop\NLP\group32\results_step8\esco_worker.py" "D:\code\python_workshop\NLP\group32\results_step8\docs.json" "D:\code\python_workshop\NLP\group32\results_step8\esco_predictions.json"
+  130/150
+[38;5;4mℹ Getting embeddings for 22 texts ...[0m
+[38;5;4mℹ Took 0.05421733856201172 seconds[0m
+  140/150
+[38;5;4mℹ Getting embeddings for 18 texts ...[0m
+[38;5;4mℹ Took 0.04452252388000488 seconds[0m
+  150/150
+
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+
+Fetching 6 files:  17%|█▋        | 1/6 [00:00<00:01,  3.14it/s]
+Fetching 6 files:  67%|██████▋   | 4/6 [00:01<00:00,  3.48it/s]
+Fetching 6 files: 100%|██████████| 6/6 [00:01<00:00,  5.00it/s]
+example: SS0000 ['Java', 'JavaScript']
+
+### B_skill_extraction_with_esco.csv
+                                         method  precision_soft  precision_strict  recall_soft  recall_strict  f1_soft  f1_strict  n_pred_soft  n_pred_strict
+0                    M1_esco (Part I extractor)           0.200             0.123        0.110          0.062    0.131      0.077        2.720          2.713
+1                              M2_esco_filtered           0.199             0.148        0.108          0.071    0.127      0.089        2.647          2.647
+2                                 M3_dictionary           0.327             0.285        0.136          0.117    0.181      0.155        1.507          1.507
+3  M4_dictionary+esco_filtered (Part I default)           0.327             0.268        0.199          0.155    0.229      0.184        3.587          3.587
+
+ESCO false positives (sample): ['Java', 'JavaScript', 'work in a small and talented software development team', 'shape the key components of the product', 'create commercial opportunities', 'new business initiative', 'Understanding of architecture and design across all systems', 'passionate', 'Understanding of software skills such as business analysis development maintenance', 'Node JS', 'similar view framework', 'Understanding of architecture and design across all systems', 'Passionate', 'Understanding of software skills such as business analysis development maintenance', 'DevOps', 'DevOps', 'Shell', 'maintain CI infrastructure pipelines', 'Azure resources', 'Sonar', 'Azure App', 'troubleshoot Azure App', 'hosted Service websites', 'Power', 'Shell Azure']

@@ -1,0 +1,11 @@
+system,perturbation,resumes,share_changed,mean_delta,max_abs_delta
+D6_pipeline_v3,abbreviations,80,0.0,0.0,0.0
+D6_pipeline_v3,bullets_to_dash,80,0.0,0.0,0.0
+D6_pipeline_v3,expansions,80,0.0,0.0,0.0
+D6_pipeline_v3,shuffle_sections,80,0.0,0.0,0.0
+D6_pipeline_v3,upper_case,80,0.275,-1.149,37.5
+D8_hybrid_v3,abbreviations,80,0.0,0.0,0.0
+D8_hybrid_v3,bullets_to_dash,80,0.188,-0.031,0.602
+D8_hybrid_v3,expansions,80,0.0,0.0,0.0
+D8_hybrid_v3,shuffle_sections,80,0.475,0.125,4.261
+D8_hybrid_v3,upper_case,80,0.6,-0.682,25.255

@@ -1,0 +1,5 @@
+method,precision_soft,precision_strict,recall_soft,recall_strict,f1_soft,f1_strict,n_pred_soft,n_pred_strict
+M1_esco (Part I extractor),0.2,0.123,0.11,0.062,0.131,0.077,2.72,2.713
+M2_esco_filtered,0.199,0.148,0.108,0.071,0.127,0.089,2.647,2.647
+M3_dictionary,0.327,0.285,0.136,0.117,0.181,0.155,1.507,1.507
+M4_dictionary+esco_filtered (Part I default),0.327,0.268,0.199,0.155,0.229,0.184,3.587,3.587

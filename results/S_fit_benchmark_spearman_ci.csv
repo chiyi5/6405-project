@@ -1,0 +1,9 @@
+method,spearman,ci95_low,ci95_high,excludes_0
+D2_bm25,0.143,0.0,0.286,True
+D1_tfidf,0.076,-0.014,0.189,False
+D6_our_pipeline,0.005,-0.066,0.089,False
+D3_all-MiniLM-L6-v2_doc,-0.01,-0.105,0.116,False
+D5_cross_encoder,-0.075,-0.21,0.089,False
+D4_bge-small-en-v1.5_maxsim,-0.093,-0.225,0.05,False
+D4_all-MiniLM-L6-v2_maxsim,-0.096,-0.234,0.047,False
+D4_all-mpnet-base-v2_maxsim,-0.111,-0.244,0.045,False

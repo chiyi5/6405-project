@@ -1,0 +1,13 @@
+method,spearman_consensus,top1_consensus,ndcg@5_consensus
+D2_bm25,0.283,0.464,0.827
+D1_tfidf,0.085,0.357,0.778
+D3_mpnet_doc,-0.044,0.179,0.733
+D7_finetuned_biencoder,-0.105,0.107,0.72
+D4_MiniLM_maxsim,-0.171,0.179,0.75
+D3_bge_doc,-0.249,0.036,0.688
+D6_pipeline_dictionary_v2,-0.268,0.071,0.679
+D4_bge_maxsim,-0.272,0.214,0.736
+D6_pipeline_jobbert+dictionary,-0.306,0.107,0.708
+D5_cross_encoder,-0.407,0.071,0.663
+D4_mpnet_maxsim,-0.434,0.036,0.66
+D3_MiniLM_doc,-0.467,0.0,0.66

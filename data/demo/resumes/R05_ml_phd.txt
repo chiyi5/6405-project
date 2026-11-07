@@ -1,0 +1,15 @@
+Summary
+Machine learning researcher focusing on natural language processing and large language models.
+Experience
+Research Engineer
+AI Singapore | Singapore
+Jul 2021 - Present
+Fine-tuned LLMs with PyTorch, Hugging Face Transformers and DeepSpeed on GPU clusters.
+Built a retrieval-augmented generation system with LangChain for document QA.
+Deployed models with FastAPI and Docker; tracked experiments in MLflow.
+Education
+PhD in Computer Science
+Nanyang Technological University
+Aug 2017 - Jun 2021
+Skills
+Python, PyTorch, TensorFlow, Transformers, LangChain, Docker, Kubernetes, Google Cloud

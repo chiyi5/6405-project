@@ -1,0 +1,4 @@
+method,spearman,auc_goodfit,macro_f1_cv,ndcg@5,n_pairs
+D6_pipeline_v3,0.014,0.507,0.28,0.739,538
+D8_hybrid_v3 (0.5 x doc sim),-0.033,0.462,0.3,0.78,600
+D6_pipeline_v3 + JobBERT,0.035,0.51,0.324,0.735,600

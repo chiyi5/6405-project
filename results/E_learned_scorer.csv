@@ -1,0 +1,4 @@
+method,spearman,macro_f1
+E1_handcrafted,-0.002,0.298
+E3a_logreg,0.128,0.386
+E3b_gboost,0.019,0.391

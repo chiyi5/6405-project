@@ -1,0 +1,3 @@
+method,spearman_ann1,top1_ann1,ndcg@5_ann1,n_ann1,spearman_ann2,top1_ann2,ndcg@5_ann2,n_ann2,spearman_consensus,top1_consensus,ndcg@5_consensus,n_consensus
+D6_pipeline_v3,-0.153,0.071,0.657,28,-0.29,0.1,0.643,30,-0.268,0.071,0.679,28
+D8_hybrid_v3 (0.5 x doc sim),-0.3,0.071,0.644,28,-0.28,0.1,0.642,30,-0.345,0.071,0.672,28

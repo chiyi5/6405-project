@@ -1,0 +1,19 @@
+About us:
+• We are a fast-growing e-commerce company in Singapore.
+
+Responsibilities:
+• Build dashboards in Power BI and Tableau to track sales performance.
+• Write SQL queries to extract and clean data from PostgreSQL.
+• Present insights to business stakeholders every week.
+
+Requirements:
+• Bachelor's degree in Statistics, Mathematics, Computer Science or a related field.
+• At least 2 years of experience in data analysis.
+• Proficient in SQL and Excel.
+• Experience with Python (Pandas, NumPy) for data analysis.
+• Strong communication skills.
+
+Nice to have:
+• Knowledge of A/B testing and hypothesis testing.
+• Experience with Google Analytics.
+• Familiarity with dbt or Airflow.

@@ -1,0 +1,14 @@
+Summary
+Data scientist with experience in machine learning and analytics.
+Experience
+Data Scientist
+Lazada | Singapore
+Aug 2020 - Present
+Built churn prediction models with XGBoost and Scikit-learn.
+Analysed customer data with SQL and Python (Pandas) and presented insights to stakeholders.
+Education
+Master of Science in Data Science
+Singapore Management University
+Aug 2019 - Jul 2020
+Skills
+Python, SQL, Pandas, Scikit-learn, XGBoost, Tableau, Airflow

@@ -1,0 +1,78 @@
+{"embedder": "sentence-transformers/all-MiniLM-L6-v2"}
+80 JD-resume cases, 30 JDs
+  D6_pipeline_v3: 10/80 cases (37s)
+  D6_pipeline_v3: 20/80 cases (62s)
+  D6_pipeline_v3: 30/80 cases (96s)
+  D6_pipeline_v3: 40/80 cases (123s)
+  D6_pipeline_v3: 50/80 cases (189s)
+  D6_pipeline_v3: 60/80 cases (264s)
+  D6_pipeline_v3: 70/80 cases (365s)
+  D6_pipeline_v3: 80/80 cases (471s)
+  D8_hybrid_v3: 10/80 cases (517s)
+  D8_hybrid_v3: 20/80 cases (553s)
+  D8_hybrid_v3: 30/80 cases (599s)
+  D8_hybrid_v3: 40/80 cases (629s)
+  D8_hybrid_v3: 50/80 cases (699s)
+  D8_hybrid_v3: 60/80 cases (778s)
+  D8_hybrid_v3: 70/80 cases (882s)
+  D8_hybrid_v3: 80/80 cases (991s)
+  caps before_fix: D6_pipeline_v3 done (1028s)
+  caps before_fix: D8_hybrid_v3 done (1067s)
+
+### step7_names_summary
+                resumes  jds  resumes_changed  max_range  mean_range
+system                                                              
+D6_pipeline_v3       80   30                0        0.0         0.0
+D8_hybrid_v3         80   30                0        0.0         0.0
+
+### step7_names_by_group
+                                 mean_delta  max_abs_delta
+system         ethnicity gender                           
+D6_pipeline_v3 Chinese   F              0.0            0.0
+                         M              0.0            0.0
+               Indian    F              0.0            0.0
+                         M              0.0            0.0
+               Malay     F              0.0            0.0
+                         M              0.0            0.0
+               Western   F              0.0            0.0
+                         M              0.0            0.0
+D8_hybrid_v3   Chinese   F              0.0            0.0
+                         M              0.0            0.0
+               Indian    F              0.0            0.0
+                         M              0.0            0.0
+               Malay     F              0.0            0.0
+                         M              0.0            0.0
+               Western   F              0.0            0.0
+                         M              0.0            0.0
+
+### step7_gender_summary
+                resumes  mean_F_minus_M  max_abs  resumes_changed
+system                                                           
+D6_pipeline_v3       80             0.0      0.0                0
+D8_hybrid_v3         80             0.0      0.0                0
+
+### step7_robustness_summary
+                                 resumes  share_changed  mean_delta  max_abs_delta
+system         perturbation                                                       
+D6_pipeline_v3 abbreviations          80          0.000       0.000          0.000
+               bullets_to_dash        80          0.000       0.000          0.000
+               expansions             80          0.000       0.000          0.000
+               shuffle_sections       80          0.000       0.000          0.000
+               upper_case             80          0.275      -1.149         37.500
+D8_hybrid_v3   abbreviations          80          0.000       0.000          0.000
+               bullets_to_dash        80          0.188      -0.031          0.602
+               expansions             80          0.000       0.000          0.000
+               shuffle_sections       80          0.475       0.125          4.261
+               upper_case             80          0.600      -0.682         25.255
+
+### step7_caps_before_after
+                                         resumes  share_changed  mean_delta  max_abs_delta
+system         dataset       version                                                      
+D6_pipeline_v3 fit_benchmark after_fix        40          0.375      -1.888         37.500
+                             before_fix       40          0.450       0.718         50.000
+               talentclef    after_fix        40          0.175      -0.410          7.540
+                             before_fix       40          0.125      -0.191          7.540
+D8_hybrid_v3   fit_benchmark after_fix        40          0.900      -1.138         25.255
+                             before_fix       40          1.000       0.478         33.519
+               talentclef    after_fix        40          0.300      -0.227          5.026
+                             before_fix       40          0.875      -0.306          5.026

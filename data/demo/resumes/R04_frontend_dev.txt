@@ -1,0 +1,12 @@
+Experience
+Frontend Developer
+Carousell | Singapore
+Jun 2021 - Present
+Built React and TypeScript single page applications.
+Improved web performance by 30% using code splitting.
+Education
+Bachelor of Computing in Computer Science
+National University of Singapore
+Aug 2017 - May 2021
+Skills
+JavaScript, TypeScript, React, HTML, CSS, Node.js, Git

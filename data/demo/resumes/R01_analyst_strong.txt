@@ -1,0 +1,16 @@
+Summary
+Data analyst with 3 years of experience turning data into business insights.
+Experience
+Data Analyst
+Shopee | Singapore
+Jan 2022 - Present
+Built Power BI dashboards tracking GMV and conversion for 5 business units.
+Wrote complex SQL queries on PostgreSQL to clean and aggregate sales data.
+Designed A/B tests and ran hypothesis testing to evaluate promotions.
+Education
+Bachelor of Science in Statistics
+National University of Singapore
+Aug 2017 - May 2021
+Skills
+SQL, Python (Pandas, Num
+Py), Excel, Power BI, Tableau, Google Analytics

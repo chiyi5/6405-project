@@ -1,0 +1,9 @@
+method,spearman,auc_goodfit,macro_f1_cv,ndcg@5,n_pairs
+D1_tfidf,0.076,0.529,0.32,0.726,600
+D2_bm25,0.143,0.595,0.328,0.75,600
+D3_all-MiniLM-L6-v2_doc,-0.01,0.449,0.342,0.748,600
+D4_all-MiniLM-L6-v2_maxsim,-0.096,0.409,0.342,0.745,600
+D6_our_pipeline,0.005,0.488,0.325,0.72,529
+D4_all-mpnet-base-v2_maxsim,-0.111,0.398,0.338,0.741,600
+D4_bge-small-en-v1.5_maxsim,-0.093,0.426,0.339,0.731,600
+D5_cross_encoder,-0.075,0.415,0.344,0.754,600

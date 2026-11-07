@@ -1,0 +1,2 @@
+diagnostic,spearman_consensus,top1_consensus
+"vacancy prior (leave-one-CV-out, ignores CV)",0.573,0.25

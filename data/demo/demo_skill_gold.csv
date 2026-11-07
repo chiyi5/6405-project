@@ -1,0 +1,47 @@
+doc_id,skill,keep(1/0)
+JD_data_analyst,Power BI,1
+JD_data_analyst,Tableau,1
+JD_data_analyst,SQL,1
+JD_data_analyst,PostgreSQL,1
+JD_data_analyst,Excel,1
+JD_data_analyst,Python,1
+JD_data_analyst,Pandas,1
+JD_data_analyst,NumPy,1
+JD_data_analyst,Data analysis,1
+JD_data_analyst,Communication,1
+JD_data_analyst,A/B testing,1
+JD_data_analyst,Hypothesis testing,1
+JD_data_analyst,Google Analytics,1
+JD_data_analyst,dbt,1
+JD_data_analyst,Airflow,1
+JD_backend_engineer,REST API,1
+JD_backend_engineer,Microservices,1
+JD_backend_engineer,Kubernetes,1
+JD_backend_engineer,AWS,1
+JD_backend_engineer,Java,1
+JD_backend_engineer,Go,1
+JD_backend_engineer,PostgreSQL,1
+JD_backend_engineer,Redis,1
+JD_backend_engineer,Docker,1
+JD_backend_engineer,CI/CD,1
+JD_backend_engineer,Git,1
+JD_backend_engineer,Kafka,1
+JD_ml_engineer,Natural language processing,1
+JD_ml_engineer,Large language models,1
+JD_ml_engineer,Fine-tuning,1
+JD_ml_engineer,PyTorch,1
+JD_ml_engineer,Hugging Face,1
+JD_ml_engineer,Transformers,1
+JD_ml_engineer,APIs,1
+JD_ml_engineer,FastAPI,1
+JD_ml_engineer,Docker,1
+JD_ml_engineer,MLflow,1
+JD_ml_engineer,Model evaluation,1
+JD_ml_engineer,Python,1
+JD_ml_engineer,Deep learning,1
+JD_ml_engineer,TensorFlow,1
+JD_ml_engineer,Retrieval-augmented generation,1
+JD_ml_engineer,LangChain,1
+JD_ml_engineer,Kubernetes,1
+JD_ml_engineer,Google Cloud,1
+JD_ml_engineer,Machine learning,1

@@ -1,0 +1,8 @@
+variant,spearman,macro_f1_cv,n_scored,delta_spearman
+full_system,-0.007,0.327,268,0.0
+- exact match,-0.007,0.342,268,0.0
+- semantic match,-0.044,0.309,268,-0.037
+- priority weights,-0.01,0.331,268,-0.003
+- education,-0.03,0.307,262,-0.023
+- experience,0.039,0.281,262,0.046
+- section headers,-0.011,0.324,268,-0.004

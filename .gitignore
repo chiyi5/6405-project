@@ -1,0 +1,31 @@
+# Python / IDE
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# downloaded datasets and models (re-created by the experiment scripts)
+data/hf/
+talentclef/
+models/
+esco_env/
+
+# raw output of experiment runs (final results are copied into results/)
+results_step*/
+results_followup/
+results/demo_run/
+pair_sheets/
+*.zip
+
+# Part I inputs: the resume contains personal information
+Resume2.pdf
+*.pdf
+*.docx
+
+# misc
+.DS_Store
+Thumbs.db
+.env

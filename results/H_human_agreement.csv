@@ -1,0 +1,3 @@
+method,spearman_mean,spearman_median,top1_agreement,n_cvs,cvs_with_negative_rho,spearman,top1
+Human: annotator 1 vs 2,0.171,0.1,0.179,28.0,9.0,,
+Random ranking (expected),,,,,,0.018,0.195

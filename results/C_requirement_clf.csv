@@ -1,0 +1,7 @@
+method,accuracy,macro_f1,weighted_f1,n
+C1_rules (Part I),0.716,0.474,0.671,749
+C2_rules+sections,0.732,0.561,0.714,749
+C3_tfidf_lr,0.852,0.633,0.836,749
+C3b_tfidf_lr_no_header,0.852,0.651,0.839,749
+C4_zero_shot_nli,0.422,0.346,0.42,749
+C5_distilbert,0.87,0.634,0.856,749

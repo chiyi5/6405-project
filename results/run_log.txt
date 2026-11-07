@@ -1,0 +1,216 @@
+{
+ "python": "3.13.16",
+ "gpu": true,
+ "heavy": true,
+ "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+ "demo": false,
+ "args": {
+  "demo": false,
+  "light": false,
+  "n_eval": 600,
+  "n_train": 3000,
+  "n_ablation": 300,
+  "run_llm": false
+ },
+ "transformers": "5.22.0",
+ "sentence_transformers": "5.7.0"
+}
+eval pairs 600 (67 JDs), train pairs 3000
+
+### A_eval_label_dist.csv
+   label    n
+0      0  200
+1      1  200
+2      2  200
+
+### A_requirement_label_dist.csv
+         label    n
+0  UNSPECIFIED  528
+1     REQUIRED  180
+2    PREFERRED   40
+3    MANDATORY    1
+
+================ B skill extraction ================
+gold source: SkillSpan test (human gold) | docs: 150
+ESCO unavailable: ModuleNotFoundError("No module named 'ojd_daps_skills'")
+SkillSpan NER test metrics: {'eval_loss': 0.21343311667442322, 'eval_token_precision': 0.7530101883297314, 'eval_token_recall': 0.7767515923566879, 'eval_token_f1': 0.7646966609186394, 'eval_runtime': 10.3359, 'eval_samples_per_second': 345.301, 'eval_steps_per_second': 43.247, 'epoch': 3.0}
+
+### B_skill_extraction.csv
+                   gold_source                method  precision_soft  precision_strict  recall_soft  recall_strict  f1_soft  f1_strict  n_pred_soft  n_pred_strict
+0  SkillSpan test (human gold)         M3_dictionary           0.327             0.285        0.136          0.117    0.181      0.155        1.507          1.507
+1  SkillSpan test (human gold)  M6_jobbert_skillspan           0.437             0.324        0.479          0.343    0.444      0.322        5.993          5.967
+most frequent FP: {'##ava': 10, 're': 4, '##ql': 4, 'c #': 4, 'co': 3, '##s': 3, '##avascript': 3, 'in': 3, 'architecture and design': 3, '##act': 3, 'modern programming languages': 3, 'english': 2, '##d': 2, '##gile': 2, 'integration': 2}
+most frequent FN: {'java': 9, 'c#': 8, 'achieve organizational goals': 5, 'solving business problems': 5, 'stay focused on common goals': 4, 'f#': 4, 'architecture': 3, 'design': 3, 'javascript': 3, 'r': 3, 'react': 3, 'python': 3, 'cypress': 3, 'user-experience': 2, 'postgresql': 2}
+[ok] B skill extraction (404s)
+
+================ C requirement classification ================
+
+### C_requirement_clf.csv
+                   method  accuracy  macro_f1  weighted_f1    n
+0       C1_rules (Part I)     0.716     0.474        0.671  749
+1       C2_rules+sections     0.732     0.561        0.714  749
+2             C3_tfidf_lr     0.852     0.633        0.836  749
+3  C3b_tfidf_lr_no_header     0.852     0.651        0.839  749
+4        C4_zero_shot_nli     0.422     0.346        0.420  749
+5           C5_distilbert     0.870     0.634        0.856  749
+per-class report (best = C3b_tfidf_lr_no_header )
+               precision    recall  f1-score   support
+
+   PREFERRED       0.67      0.20      0.31        40
+    REQUIRED       0.76      0.70      0.73       181
+ UNSPECIFIED       0.88      0.95      0.92       528
+
+    accuracy                           0.85       749
+   macro avg       0.77      0.62      0.65       749
+weighted avg       0.84      0.85      0.84       749
+
+
+### C_top_features.csv
+          class                       feature  weight
+0     PREFERRED                     preferred   1.459
+1     PREFERRED                 sec preferred   1.066
+2     PREFERRED      preferred qualifications   1.066
+3     PREFERRED  sec preferred qualifications   1.066
+4     PREFERRED                          plus   1.000
+5     PREFERRED                    experience   0.930
+6     PREFERRED                            is   0.835
+7     PREFERRED                       is plus   0.818
+8     PREFERRED                          rred   0.800
+9     PREFERRED                         eferr   0.800
+10     REQUIRED                    ability to   1.449
+11     REQUIRED                       ability   1.415
+12     REQUIRED                          must   1.013
+13     REQUIRED                       autocad   0.931
+14     REQUIRED                    accounting   0.890
+15     REQUIRED                          abil   0.851
+16     REQUIRED                           abi   0.834
+17     REQUIRED                        skills   0.819
+18     REQUIRED                    experience   0.801
+19     REQUIRED                            ab   0.703
+20  UNSPECIFIED                           our   0.928
+21  UNSPECIFIED                           the   0.645
+22  UNSPECIFIED                           our   0.590
+23  UNSPECIFIED                           our   0.582
+24  UNSPECIFIED                          our    0.582
+25  UNSPECIFIED                            th   0.576
+26  UNSPECIFIED                           the   0.567
+27  UNSPECIFIED                            we   0.560
+28  UNSPECIFIED                            ou   0.535
+29  UNSPECIFIED                           the   0.512
+[ok] C requirement classification (285s)
+
+================ D matching models ================
+[FAILED] D matching models
+Traceback (most recent call last):
+  File "/content/group32/colab/step2_run_all.py", line 68, in deco
+    fn()
+    ~~^^
+  File "/content/group32/colab/step2_run_all.py", line 221, in _d
+    summ, scores = mt.evaluate_matchers(ms, ev, k=5)
+                   ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/content/group32/src/matching.py", line 216, in evaluate_matchers
+    s = m.score_pairs(pairs.jd_text.tolist(), pairs.resume_text.tolist())
+  File "/content/group32/src/matching.py", line 150, in score_pairs
+    res = self.pipe.match(j, r, jd_df=self._jd_cache[j])
+  File "/content/group32/src/pipeline.py", line 731, in match
+    out = self.score(details)
+  File "/content/group32/src/pipeline.py", line 694, in score
+    df = df[df["match_score"].notna()]
+            ~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'match_score'
+
+
+================ D7 fine-tuned bi-encoder ================
+
+### D7_finetune.csv
+                      method  spearman  auc_goodfit  macro_f1_cv  ndcg@5  n_pairs
+0  D3_minilm_doc (before FT)    -0.010        0.449        0.342   0.748      600
+1    D7_finetuned_minilm_doc     0.281        0.639        0.428   0.793      600
+[ok] D7 fine-tuned bi-encoder (193s)
+
+================ E learned scorer + calibration ================
+[FAILED] E learned scorer + calibration
+Traceback (most recent call last):
+  File "/content/group32/colab/step2_run_all.py", line 68, in deco
+    fn()
+    ~~^^
+  File "/content/group32/colab/step2_run_all.py", line 246, in _e
+    results = sc.run_pipeline_on_pairs(pipe, ev)
+  File "/content/group32/src/scoring.py", line 29, in run_pipeline_on_pairs
+    res = pipe.match(r.jd_text, r.resume_text, jd_df=jd_cache[r.jd_id])
+  File "/content/group32/src/pipeline.py", line 731, in match
+    out = self.score(details)
+  File "/content/group32/src/pipeline.py", line 694, in score
+    df = df[df["match_score"].notna()]
+            ~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'match_score'
+
+
+================ E ablation ================
+[FAILED] E ablation
+Traceback (most recent call last):
+  File "/content/group32/colab/step2_run_all.py", line 68, in deco
+    fn()
+    ~~^^
+  File "/content/group32/colab/step2_run_all.py", line 264, in _e2
+    abl = sc.run_ablation(sub, PipelineConfig(embedder_name=EMB), embedder=embedder, skill_extractor=skill_ex)
+  File "/content/group32/src/scoring.py", line 204, in run_ablation
+    res = run_pipeline_on_pairs(pipe, pairs, verbose=False)
+  File "/content/group32/src/scoring.py", line 29, in run_pipeline_on_pairs
+    res = pipe.match(r.jd_text, r.resume_text, jd_df=jd_cache[r.jd_id])
+  File "/content/group32/src/pipeline.py", line 731, in match
+    out = self.score(details)
+  File "/content/group32/src/pipeline.py", line 694, in score
+    df = df[df["match_score"].notna()]
+            ~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'match_score'
+
+
+================ F fairness + robustness ================
+
+### F_name_fairness.csv
+  ethnicity gender  mean_score  mean_delta  max_abs_delta
+0   Chinese      F      35.391      -0.176          0.312
+1   Chinese      M      35.391      -0.176          0.312
+2    Indian      F      35.860       0.293          2.188
+3    Indian      M      35.391      -0.176          0.312
+4     Malay      F      35.391      -0.176          0.312
+5     Malay      M      35.391      -0.176          0.312
+6   Western      F      36.328       0.761          2.188
+7   Western      M      35.391      -0.176          0.312
+
+### F_gender_wording.csv
+variant  resume_id      F      M      N  F_minus_M
+0        R10d84ad4  10.00  10.00  10.00        0.0
+1        R304b3441  43.75  43.75  43.75        0.0
+2        R33dbb6ce  20.00  20.00  20.00        0.0
+3        R4c761bc6  58.08  58.08  58.08        0.0
+4        Rc7cccaaf  53.75  53.75  53.75        0.0
+5        Rd022ac70  50.00  50.00  50.00        0.0
+6        Re36d0c61  32.55  32.55  32.55        0.0
+7        Ref3e6177  15.00  15.00  15.00        0.0
+
+### F_robustness.csv
+          perturbation  mean_delta  max_abs_delta
+0        abbreviations        0.00           0.00
+1      bullets_to_dash        0.00           0.00
+2  drop_skills_section        0.00           0.00
+3           expansions        0.00           0.00
+4     shuffle_sections        0.00           0.00
+5           upper_case       -9.63          29.77
+[ok] F fairness + robustness (210s)
+
+================ F error analysis + example report ================
+[ok] F error analysis + example report (0s)

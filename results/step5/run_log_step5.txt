@@ -1,0 +1,57 @@
+{"gpu": true, "embedder": "sentence-transformers/all-MiniLM-L6-v2"}
+
+================ T0 data + JobBERT ================
+SkillSpan: {'eval_loss': 0.21051102876663208, 'eval_token_precision': 0.7492755833460424, 'eval_token_recall': 0.7823248407643312, 'eval_token_f1': 0.7654436394796291, 'eval_runtime': 10.4161, 'eval_samples_per_second': 342.644, 'eval_steps_per_second': 42.914, 'epoch': 3.0}
+[ok] T0 data + JobBERT (515s)
+
+================ T1 TalentCLEF development set (English) ================
+{'method': 'D1_tfidf', 'map': 0.8572, 'ndcg@10': 0.9099, 'p@10': 0.9, 'r-prec': 0.8416, 'queries': 10, 'seconds': 5}
+{'method': 'D2_bm25', 'map': 0.808, 'ndcg@10': 0.91, 'p@10': 0.89, 'r-prec': 0.7632, 'queries': 10, 'seconds': 2}
+{'method': 'D6_pipeline_v3', 'map': 0.7951, 'ndcg@10': 0.8527, 'p@10': 0.84, 'r-prec': 0.7853, 'queries': 10, 'seconds': 239}
+{'method': 'D8_hybrid_v3 (0.5 x doc sim)', 'map': 0.8392, 'ndcg@10': 0.9137, 'p@10': 0.87, 'r-prec': 0.8026, 'queries': 10, 'seconds': 962}
+{'method': 'D6_pipeline_v3 + JobBERT', 'map': 0.8085, 'ndcg@10': 0.8992, 'p@10': 0.86, 'r-prec': 0.7874, 'queries': 10, 'seconds': 629}
+{'method': 'D3_all-MiniLM-L6-v2_doc', 'map': 0.8421, 'ndcg@10': 0.9508, 'p@10': 0.94, 'r-prec': 0.7796, 'queries': 10, 'seconds': 36}
+{'method': 'D4_all-MiniLM-L6-v2_maxsim', 'map': 0.8475, 'ndcg@10': 0.9226, 'p@10': 0.9, 'r-prec': 0.8096, 'queries': 10, 'seconds': 131}
+{'method': 'D3_all-mpnet-base-v2_doc', 'map': 0.8685, 'ndcg@10': 0.964, 'p@10': 0.93, 'r-prec': 0.8228, 'queries': 10, 'seconds': 373}
+{'method': 'D4_all-mpnet-base-v2_maxsim', 'map': 0.8192, 'ndcg@10': 0.894, 'p@10': 0.88, 'r-prec': 0.7561, 'queries': 10, 'seconds': 617}
+{'method': 'D3_bge-small-en-v1.5_doc', 'map': 0.822, 'ndcg@10': 0.9684, 'p@10': 0.94, 'r-prec': 0.7417, 'queries': 10, 'seconds': 140}
+{'method': 'D4_bge-small-en-v1.5_maxsim', 'map': 0.8507, 'ndcg@10': 0.9348, 'p@10': 0.92, 'r-prec': 0.8056, 'queries': 10, 'seconds': 211}
+{'method': 'D5_cross_encoder', 'map': 0.7683, 'ndcg@10': 0.94, 'p@10': 0.9, 'r-prec': 0.7182, 'queries': 10, 'seconds': 24}
+
+### T1_talentclef_dev.csv
+                          method     map  ndcg@10    p@10  r-prec  queries  seconds
+8       D3_all-mpnet-base-v2_doc  0.8685   0.9640  0.9300  0.8228       10    373.0
+1                       D1_tfidf  0.8572   0.9099  0.9000  0.8416       10      5.0
+11   D4_bge-small-en-v1.5_maxsim  0.8507   0.9348  0.9200  0.8056       10    211.0
+7     D4_all-MiniLM-L6-v2_maxsim  0.8475   0.9226  0.9000  0.8096       10    131.0
+6        D3_all-MiniLM-L6-v2_doc  0.8421   0.9508  0.9400  0.7796       10     36.0
+4   D8_hybrid_v3 (0.5 x doc sim)  0.8392   0.9137  0.8700  0.8026       10    962.0
+10      D3_bge-small-en-v1.5_doc  0.8220   0.9684  0.9400  0.7417       10    140.0
+9    D4_all-mpnet-base-v2_maxsim  0.8192   0.8940  0.8800  0.7561       10    617.0
+5       D6_pipeline_v3 + JobBERT  0.8085   0.8992  0.8600  0.7874       10    629.0
+2                        D2_bm25  0.8080   0.9100  0.8900  0.7632       10      2.0
+3                 D6_pipeline_v3  0.7951   0.8527  0.8400  0.7853       10    239.0
+12              D5_cross_encoder  0.7683   0.9400  0.9000  0.7182       10     24.0
+0      Random ranking (expected)  0.1111   0.1033  0.1018  0.1001       10      NaN
+[ok] T1 TalentCLEF development set (English) (3393s)
+
+================ T2 TalentCLEF test-set run files (for Codabench) ================
+wrote T2_test_run_D1_tfidf.trec
+wrote T2_test_run_D6_pipeline_v3.trec
+wrote T2_test_run_D8_hybrid_v3.trec
+wrote T2_test_run_D3_all-mpnet-base-v2_doc.trec
+[ok] T2 TalentCLEF test-set run files (for Codabench) (4198s)
+
+================ T3 final pipeline on the fit benchmark and the human-ranked benchmark ================
+
+### T3_fit_benchmark_v3.csv
+                         method  spearman  auc_goodfit  macro_f1_cv  ndcg@5  n_pairs
+0                D6_pipeline_v3     0.014        0.507        0.280   0.739      538
+1  D8_hybrid_v3 (0.5 x doc sim)    -0.033        0.462        0.300   0.780      600
+2      D6_pipeline_v3 + JobBERT     0.035        0.510        0.324   0.735      600
+
+### T3_human_benchmark_v3.csv
+                         method  spearman_ann1  top1_ann1  ndcg@5_ann1  n_ann1  spearman_ann2  top1_ann2  ndcg@5_ann2  n_ann2  spearman_consensus  top1_consensus  ndcg@5_consensus  n_consensus
+0                D6_pipeline_v3         -0.153      0.071        0.657      28          -0.29        0.1        0.643      30              -0.268           0.071             0.679           28
+1  D8_hybrid_v3 (0.5 x doc sim)         -0.300      0.071        0.644      28          -0.28        0.1        0.642      30              -0.345           0.071             0.672           28
+[ok] T3 final pipeline on the fit benchmark and the human-ranked benchmark (1414s)

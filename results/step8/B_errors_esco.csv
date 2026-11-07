@@ -1,0 +1,816 @@
+doc_id,type,skill
+SS0000,FP,Java
+SS0000,FP,JavaScript
+SS0001,FN,javascript
+SS0001,FN,reactjs
+SS0002,FP,work in a small and talented software development team
+SS0002,FP,shape the key components of the product
+SS0002,FP,create commercial opportunities
+SS0002,FP,new business initiative
+SS0002,FN,solving business problems
+SS0002,FN,innovation and engineering practices
+SS0002,FN,apply your depth of knowledge and expertise
+SS0002,FN,partner continuously with your many stakeholders
+SS0002,FN,stay focused on common goals
+SS0002,FN,deliver of a next-generation analytics products
+SS0002,FN,BS/BA degree
+SS0003,FP,Understanding of architecture and design across all systems
+SS0003,FP,passionate
+SS0003,FP,Understanding of software skills such as business analysis development maintenance
+SS0003,FP,Node JS
+SS0003,FP,similar view framework
+SS0003,FN,architecture
+SS0003,FN,design
+SS0003,FN,developmental toolsets
+SS0003,FN,industry-wide technology strategies and best practices
+SS0003,FN,achieve organizational goals
+SS0003,FN,building an innovative culture
+SS0003,FN,business analysis
+SS0003,FN,development
+SS0003,FN,maintenance
+SS0003,FN,software improvement
+SS0006,FN,java
+SS0006,FN,spring
+SS0006,FN,java-ee
+SS0006,FN,solving business problems
+SS0006,FN,innovation and engineering practices
+SS0007,FP,Understanding of architecture and design across all systems
+SS0007,FN,apply your depth of knowledge and expertise
+SS0007,FN,partner continuously with your many stakeholders
+SS0007,FN,stay focused on common goals
+SS0007,FN,BS/BA degree
+SS0007,FN,Spring Boot
+SS0007,FN,NoSQL
+SS0007,FN,Message
+SS0007,FN,Cloud
+SS0007,FN,CI/CD
+SS0007,FN,architecture
+SS0007,FN,design
+SS0007,FN,developmental toolsets
+SS0007,FN,industry-wide technology trends and best practices
+SS0008,FP,Passionate
+SS0008,FP,Understanding of software skills such as business analysis development maintenance
+SS0008,FN,achieve organizational goals
+SS0008,FN,building an innovative culture
+SS0008,FN,modern programming languages
+SS0008,FN,business analysis
+SS0008,FN,development
+SS0008,FN,maintenance
+SS0008,FN,software improvement
+SS0009,FP,DevOps
+SS0010,FN,Financial Technology
+SS0010,FN,SaaS
+SS0010,FN,wealthtech
+SS0010,FN,azure
+SS0010,FN,. net
+SS0010,FN,asp.net-web-api
+SS0010,FN,powershell
+SS0010,FN,json.net
+SS0011,FN,Financial Technology
+SS0011,FN,SaaS
+SS0011,FN,wealthtech
+SS0012,FP,DevOps
+SS0012,FP,Shell
+SS0012,FP,maintain CI infrastructure pipelines
+SS0012,FN,azure
+SS0012,FN,. net
+SS0012,FN,asp.net-web-api
+SS0012,FN,powershell
+SS0012,FN,json.net
+SS0012,FN,automation
+SS0012,FN,microservices
+SS0012,FN,. NET
+SS0012,FN,PowerShell
+SS0012,FN,Enhance and maintain CI infrastructure pipelines and Azure PaaS environments
+SS0013,FP,Azure resources
+SS0013,FP,Sonar
+SS0013,FP,Azure App
+SS0013,FP,troubleshoot Azure App
+SS0013,FP,hosted Service websites
+SS0013,FP,Power
+SS0013,FP,Shell Azure
+SS0013,FP,Azure services
+SS0013,FP,cloud
+SS0013,FN,Ensure on-going health and stability of pipelines across multiple environments
+SS0013,FN,Administrate and manage Azure resources
+SS0013,FN,subscriptions
+SS0013,FN,resource groups
+SS0013,FN,Support developers
+SS0013,FN,Enhance quality through pipelines
+SS0013,FN,usage of static analysis tools
+SS0013,FN,SonarQube
+SS0013,FN,. NET Analyzers
+SS0013,FN,Infer#
+SS0013,FN,Azure AppService
+SS0013,FN,IIS )
+SS0013,FN,troubleshoot Azure AppService hosted websites and services
+SS0013,FN,. NET
+SS0013,FN,automation
+SS0013,FN,PowerShell
+SS0013,FN,Azure CLI
+SS0013,FN,json
+SS0013,FN,yaml
+SS0013,FN,based templates
+SS0013,FN,AppServices
+SS0013,FN,Redis
+SS0013,FN,ServiceBus
+SS0013,FN,Api Management
+SS0013,FN,CosmosDB
+SS0013,FN,KeyVault
+SS0013,FN,Azure DevOps ( cloud and server )
+SS0014,FP,K8s are a clear advantage
+SS0014,FP,Fluent in written and spoken English any additional language
+SS0014,FP,test and learn
+SS0014,FN,K8s
+SS0014,FN,English
+SS0016,FN,Financial Services
+SS0016,FN,java
+SS0016,FN,reactjs
+SS0016,FN,web-services
+SS0017,FN,Financial Services
+SS0017,FN,java
+SS0017,FN,reactjs
+SS0017,FN,web-services
+SS0018,FP,Banking Technology Engineering and Architecture - Principle Software
+SS0018,FP,provide managed services
+SS0018,FN,solving business problems
+SS0018,FN,innovation & engineering practices
+SS0018,FN,apply your depth of knowledge and expertise
+SS0018,FN,partner continuously with your many stakeholders
+SS0018,FN,stay focused on common goals
+SS0018,FN,BS/BA degree
+SS0019,FP,understanding of architecture
+SS0019,FP,passionate
+SS0019,FP,Understanding of software skills such as business analysis development maintenance
+SS0019,FP,Java J2EE
+SS0019,FN,architecture
+SS0019,FN,design
+SS0019,FN,software systems
+SS0019,FN,developmental toolsets
+SS0019,FN,achieve organizational goals
+SS0019,FN,building an innovative culture
+SS0019,FN,software skills
+SS0019,FN,business analysis
+SS0019,FN,development
+SS0019,FN,maintenance
+SS0019,FN,deliver high quality products
+SS0019,FN,Go
+SS0020,FP,DevOps
+SS0020,FP,Banking Technology Engineering and Architecture <ORGANIZATION> <ORGANIZATION> <ORGANIZATION> <ORGANIZATION> <ORGANIZATION> <ORGANIZATION> <ORGANIZATION
+SS0020,FN,containers
+SS0020,FN,Kubernetes
+SS0020,FN,DevOps for platforms
+SS0020,FN,Automated testing
+SS0021,FP,setting standards policies
+SS0021,FP,build and maintain the technology
+SS0021,FP,develop solutions
+SS0022,FP,enterprise technology initiatives
+SS0022,FP,cloud development
+SS0024,FP,Python
+SS0025,FN,Artificial Intelligence
+SS0025,FN,Computer Graphics
+SS0025,FN,Software Development
+SS0026,FN,python
+SS0026,FN,Artificial Intelligence
+SS0026,FN,Computer Graphics
+SS0026,FN,Software Development
+SS0027,FN,python
+SS0027,FN,build highly efficient accurate and scalable computer vision and machine learning services
+SS0028,FP,research and development
+SS0028,FP,knowledge with
+SS0028,FP,Postgre
+SS0028,FP,SQL
+SS0028,FP,Post.
+SS0028,FN,Computer Science
+SS0028,FN,Python
+SS0028,FN,English
+SS0028,FN,PostgreSQL
+SS0028,FN,PostGIS
+SS0028,FN,OpenCV
+SS0028,FN,NumPy
+SS0028,FN,Shapely
+SS0028,FN,AWS/Azure
+SS0028,FN,Computer Vision
+SS0028,FN,Machine Learning
+SS0030,FP,A scalable artificial intelligence builds
+SS0030,FP,machine learning
+SS0031,FN,e-commerce
+SS0031,FN,open-source
+SS0031,FN,ruby-on-rails
+SS0031,FN,sql
+SS0031,FN,heroku
+SS0032,FN,e-commerce
+SS0032,FN,open-source
+SS0032,FN,ruby-on-rails
+SS0032,FN,sql
+SS0032,FN,heroku
+SS0034,FP,gather technical requirements architect solutions estimate timelines
+SS0034,FP,develop applications communicate
+SS0034,FN,gather technical requirements
+SS0034,FN,architect solutions
+SS0034,FN,estimate timelines
+SS0034,FN,deliver and further develop applications
+SS0034,FN,communicate
+SS0034,FN,investigate
+SS0034,FN,reward
+SS0034,FN,promote
+SS0034,FN,TDD
+SS0034,FN,agile delivery
+SS0035,FN,teamwork
+SS0035,FN,automated testing
+SS0035,FN,code reviews
+SS0035,FN,pair programming
+SS0035,FN,QA
+SS0035,FN,PM support
+SS0035,FN,staying in touch
+SS0036,FP,Linux
+SS0037,FP,cooperate under a B2B contract
+SS0038,FP,establish defend or enforce claims
+SS0039,FP,participate in future recruitment
+SS0039,FP,Providing personal data
+SS0039,FP,provide personal data required under the Labor Code
+SS0039,FP,processing of data contained in the recruitment application
+SS0039,FP,participate in the recruitment procedure
+SS0040,FP,fluent in
+SS0040,FP,communicate fluently in English
+SS0040,FN,Ruby on Rails
+SS0040,FN,TDD
+SS0040,FN,deploy apps
+SS0040,FN,Heroku
+SS0040,FN,English
+SS0041,FN,working with 3rd party API’s
+SS0041,FN,performed code reviews
+SS0041,FN,Docker
+SS0041,FN,Spree Commerce
+SS0041,FN,leading a team
+SS0041,FN,Contributions to open source projects
+SS0041,FN,E-commerce
+SS0041,FN,ElasticSearch
+SS0042,FP,passionate
+SS0043,FN,Financial Services
+SS0043,FN,reactjs
+SS0044,FN,Financial Services
+SS0045,FP,Work as a team member of the <LOCATION> team
+SS0045,FP,Deliver initiatives that are part of the asset manager platform
+SS0045,FP,AMP
+SS0045,FP,JS
+SS0045,FN,python
+SS0045,FN,Deliver initiatives
+SS0045,FN,Work on a mix of front-end back-end and cloud technologies
+SS0045,FN,running with a full stack development
+SS0045,FN,Python
+SS0045,FN,Redux
+SS0045,FN,public and private cloud offerings
+SS0046,FP,Knowledge of fixed income instruments and reference data
+SS0046,FN,Data warehousing/ETL
+SS0046,FN,fixed income instruments
+SS0046,FN,reference data
+SS0049,FN,django
+SS0049,FN,postgresql
+SS0049,FN,redis
+SS0050,FN,django
+SS0050,FN,postgresql
+SS0050,FN,redis
+SS0050,FN,help our customers
+SS0050,FN,build and expand our predictive analytics platform
+SS0051,FP,ERP
+SS0051,FP,experience and ideas
+SS0051,FP,Create Identify problems run experiments and deploy promising solutions to production
+SS0051,FN,enterprise resource planning ( ERP )
+SS0051,FN,point-of-sales ( POS )
+SS0051,FN,Identify problems
+SS0051,FN,run experiments
+SS0051,FN,deploy promising solutions to production
+SS0052,FP,Develop work on ETL pipelines to integrate our customers data bases .
+SS0052,FP,passion
+SS0052,FP,writing software
+SS0052,FP,SQL
+SS0052,FN,work on ETL pipelines
+SS0052,FN,integrate our customers data bases
+SS0052,FN,Work closely together with our machine learning - and frontend developers
+SS0052,FN,documentation
+SS0052,FN,writing software with emphasis on quality testability and automation
+SS0052,FN,backend development
+SS0052,FN,Pandas
+SS0052,FN,Celery
+SS0052,FN,Redis
+SS0052,FN,Nginx
+SS0052,FN,GitLab CI
+SS0052,FN,PostgreSQL
+SS0052,FN,English on level C1
+SS0053,FP,Room for creative solutions
+SS0053,FP,Ownership and low hierarchy organization
+SS0053,FP,Use your annual development budget
+SS0053,FP,coach
+SS0053,FN,communicates openly
+SS0055,FP,powerbi dax cloud data
+SS0055,FN,Cybersecurity
+SS0055,FN,Data & Analytics
+SS0055,FN,Digital Marketing
+SS0055,FN,powerbi
+SS0055,FN,dax
+SS0055,FN,cloud
+SS0055,FN,data-modeling
+SS0055,FN,azure-analysis-services
+SS0056,FP,powerbi dax cloud data
+SS0056,FN,Cybersecurity
+SS0056,FN,Data & Analytics
+SS0056,FN,Digital Marketing
+SS0056,FN,powerbi
+SS0056,FN,dax
+SS0056,FN,cloud
+SS0056,FN,data-modeling
+SS0056,FN,azure-analysis-services
+SS0057,FP,building front-end layer of our data any analytics solutions
+SS0057,FP,Participate in scrum meetings sprint planning code reviews
+SS0057,FN,building front-end layer
+SS0057,FN,DAX queries
+SS0057,FN,Troubleshoot issues
+SS0057,FN,recommend optimizations
+SS0057,FN,scrum meetings
+SS0057,FN,sprint planning
+SS0057,FN,code reviews
+SS0058,FN,DAX
+SS0059,FP,CICD DevOps Agile
+SS0059,FP,English proficiency
+SS0059,FN,Cloud
+SS0059,FN,DevOps
+SS0059,FN,Agile
+SS0059,FN,Bachelor's degree
+SS0060,FP,project ownership
+SS0060,FP,Dynamic
+SS0060,FP,encouraging work environment
+SS0060,FP,mentoring
+SS0060,FP,Corporate and functional training
+SS0060,FN,Azure Analysis Services
+SS0061,FP,ITIL DevOps
+SS0061,FP,Big Picture understanding of <ORGANIZATION> <ORGANIZATION> and Product Supply organization
+SS0061,FP,leadership innovation and citizenship
+SS0061,FP,insight innovation
+SS0061,FP,passion
+SS0063,FN,Agile Software Development
+SS0063,FN,Financial Technology
+SS0064,FN,agile
+SS0064,FN,architecture
+SS0064,FN,Agile Software Development
+SS0064,FN,Financial Technology
+SS0065,FN,agile
+SS0065,FN,architecture
+SS0066,FP,idea creation
+SS0066,FP,achieve shared understanding of system design
+SS0066,FP,understanding “architecture
+SS0066,FP,balancing between complexity and simplicity
+SS0066,FN,making the right decisions
+SS0067,FP,Building new solutions
+SS0067,FP,functional and non-functional requirements
+SS0067,FP,support for new business capabilities
+SS0067,FP,care of aligning the teams
+SS0067,FP,Participates actively in following ART events PI planning demo’s sync meetings
+SS0067,FN,aligning the teams around the technical orientation
+SS0067,FN,connects with the teams
+SS0068,FP,domain architect
+SS0068,FP,Design Modelling Documentation
+SS0068,FN,work in Delivery to business ( D2B ) or Service to deliver ( S2D ) context
+SS0068,FN,creating business enabler ART epics
+SS0068,FN,Design
+SS0068,FN,Modelling
+SS0068,FN,Documentation;
+SS0069,FP,Translating these goals into architecture and design IT or Engineering Bachelor
+SS0069,FP,Problem analysis
+SS0069,FP,judgement
+SS0069,FP,analytical
+SS0069,FN,IT or Engineering Bachelor / Master degree
+SS0069,FN,Scaled Agile ( SAFe )
+SS0069,FN,Ability to persuade others
+SS0069,FN,share knowledge
+SS0069,FN,engage in discussions and group decision-making
+SS0070,FP,Confidentiality
+SS0070,FP,professional and personal development
+SS0070,FN,Personal efficiency;
+SS0071,FP,passion
+SS0072,FN,Financial Technology
+SS0073,FN,c#
+SS0073,FN,f#
+SS0073,FN,typescript
+SS0074,FN,Financial Technology
+SS0074,FN,c#
+SS0074,FN,f#
+SS0074,FN,typescript
+SS0075,FP,platform helps customers understand their financial data
+SS0075,FP,make better financial decisions
+SS0075,FP,flexible
+SS0076,FP,use You 'll modern workflows
+SS0076,FP,use tooling .
+SS0076,FP,be pushed past your own expectations
+SS0076,FP,working alongside frontend developers using
+SS0076,FP,React
+SS0076,FP,JavaScript
+SS0076,FP,get the opportunity to
+SS0076,FP,AWS
+SS0076,FN,modern workflows and tooling
+SS0076,FN,maintain quality
+SS0076,FN,work with AWS infrastructure
+SS0076,FN,producing cloud native software
+SS0077,FN,continuous integration
+SS0077,FN,automated testing
+SS0077,FN,ubiquitous language
+SS0077,FN,logging
+SS0077,FN,serverless containerisation
+SS0077,FN,dev/prod environment parity
+SS0077,FN,experimentation
+SS0077,FN,C#
+SS0077,FN,F#
+SS0077,FN,TypeScript
+SS0078,FP,speaking our front-end apps are written in variations
+SS0078,FP,React
+SS0078,FP,Visual Studio Code
+SS0078,FP,AWS
+SS0078,FN,serverless framework
+SS0078,FN,functional programming
+SS0078,FN,Cypress
+SS0078,FN,Jest
+SS0078,FN,Nunit
+SS0078,FN,SpecFlow
+SS0078,FN,Expecto
+SS0078,FN,FsCheck
+SS0078,FN,Canopy
+SS0078,FN,functions as a service
+SS0078,FN,hosting
+SS0078,FN,messaging
+SS0078,FN,relational and non-relational databases
+SS0078,FN,Loggly
+SS0079,FP,TDD BDD
+SS0079,FP,testing continuous integration
+SS0079,FN,C#
+SS0079,FN,F#
+SS0079,FN,Typescript
+SS0079,FN,curious about new technology
+SS0079,FN,functional programming
+SS0079,FN,12-Factor App approach
+SS0080,FP,tries to learn
+SS0080,FN,takes ownership
+SS0080,FN,learn as much as possible
+SS0080,FN,able to explain concepts
+SS0080,FN,lazy
+SS0080,FN,don't like boring repetitive tasks
+SS0080,FN,outsource your labour to the compiler
+SS0080,FN,applying yourself to learning
+SS0081,FP,talking therapies
+SS0083,FP,wine music and table
+SS0084,FP,Using consumer and market data
+SS0084,FP,take ownership
+SS0084,FP,TDD BDD
+SS0084,FP,testing continuous integration
+SS0085,FP,take responsibility in a supportive collaborative environment
+SS0086,FN,qa
+SS0086,FN,testing
+SS0086,FN,cypress
+SS0086,FN,mocha.js
+SS0086,FN,chai
+SS0087,FN,qa
+SS0087,FN,testing
+SS0087,FN,cypress
+SS0087,FN,mocha.js
+SS0087,FN,chai
+SS0087,FN,introduce and implement the newest standards and testing solutions/automation
+SS0088,FP,build and provide access to test environments and new features for our employees our investors and users serving as a go-to source of information
+SS0088,FP,define You will testing standards
+SS0088,FP,define strategies .
+SS0088,FP,create You will detailed comprehensive
+SS0088,FP,create test cases .
+SS0088,FN,build and provide access to test environments and new features
+SS0088,FN,responsible for a successful product launch
+SS0088,FN,bring expert knowledge
+SS0088,FN,define testing standards and strategies
+SS0089,FP,Coding scripting
+SS0089,FP,basic DevOps skills
+SS0089,FP,Eagerness to work in an
+SS0089,FP,agile
+SS0089,FN,make new features testable
+SS0089,FN,improve tickets
+SS0089,FN,facilitate test environments access
+SS0089,FN,quality assurance
+SS0089,FN,automated testing tools
+SS0089,FN,Cypress
+SS0089,FN,pytest
+SS0089,FN,truffle
+SS0089,FN,Solidity
+SS0089,FN,DevOps
+SS0089,FN,CircleCI
+SS0089,FN,work in an agile & energetic startup environment
+SS0091,FP,Grow with <ORGANIZATION>
+SS0092,FP,Career Coaching
+SS0093,FP,makes investing easy transparent and accessible
+SS0093,FP,maintain the highest security standards
+SS0094,FN,Collaboration Tools
+SS0094,FN,Computer Software
+SS0094,FN,Open-Source
+SS0094,FN,testing
+SS0094,FN,qa
+SS0094,FN,automation
+SS0094,FN,software-quality
+SS0094,FN,automated-tests
+SS0095,FP,Computer Software Open-Source Company size 201–500 people Company type
+SS0095,FN,Collaboration Tools
+SS0095,FN,Computer Software
+SS0095,FN,Open-Source
+SS0096,FN,testing
+SS0096,FN,qa
+SS0096,FN,automation
+SS0096,FN,software-quality
+SS0096,FN,automated-tests
+SS0097,FP,Creation maintenance execution
+SS0097,FP,communication
+SS0097,FP,Creation analysis and
+SS0097,FP,Knowledge of tools procedures
+SS0097,FP,programming languages
+SS0097,FN,Creation maintenance execution and documentation of ( automated ) tests
+SS0097,FN,communication with technical customer departments
+SS0097,FN,agile approaches to software testing and development
+SS0097,FN,tools procedures and programming languages for test automation
+SS0097,FN,familiarize yourself with new technologies
+SS0098,FP,eye for details user expectations
+SS0098,FP,knowledge of German and English both spoken and written are a
+SS0098,FP,a modern cloud software
+SS0098,FN,handling and understanding of web-based applications APIs
+SS0098,FN,good eye for details user expectations and potential sources of error
+SS0098,FN,Structured and result-oriented way of working
+SS0098,FN,joy of communication
+SS0098,FN,independent cooperation
+SS0098,FN,social competence
+SS0098,FN,German
+SS0098,FN,English
+SS0099,FP,Continuous personal development and training Language courses
+SS0099,FP,DNS-based security software
+SS0099,FP,DNS
+SS0102,FN,Financial Services
+SS0103,FP,software development lifecycle
+SS0103,FN,Financial Services
+SS0103,FN,solving business problems
+SS0103,FN,innovation and engineering practices
+SS0103,FN,apply your depth of knowledge and expertise
+SS0103,FN,partner continuously with your many stakeholders
+SS0103,FN,stay focused on common goals
+SS0104,FP,knowledge of architecture
+SS0104,FP,understanding of financial control and budget management
+SS0104,FP,Passionate
+SS0104,FN,BS/BA degree
+SS0104,FN,application
+SS0104,FN,data
+SS0104,FN,infrastructure architecture disciplines
+SS0104,FN,architecture and design
+SS0104,FN,industry-wide technology trends and best practices
+SS0104,FN,financial control
+SS0104,FN,budget management
+SS0104,FN,achieve organizational goals
+SS0104,FN,building an innovative culture
+SS0108,FN,r
+SS0108,FN,java
+SS0108,FN,nosql
+SS0109,FP,software development lifecycle
+SS0109,FP,implementation and support of a new global strategic performance platform
+SS0109,FP,Working on cutting edge technologies
+SS0109,FP,SQL
+SS0109,FN,nosql
+SS0109,FN,solving business problems
+SS0109,FN,innovation & engineering practices
+SS0109,FN,apply your depth of knowledge and expertise
+SS0109,FN,partner continuously with your many stakeholders
+SS0109,FN,focused on common goals
+SS0109,FN,energetic
+SS0109,FN,intelligent
+SS0109,FN,self-starter
+SS0109,FN,REST/Web services
+SS0109,FN,noSQL
+SS0109,FN,Agile
+SS0110,FP,issue tracking version control deployment
+SS0110,FP,Communicate
+SS0110,FN,monitoring platforms
+SS0110,FN,issue tracking
+SS0110,FN,deployment
+SS0110,FN,Communicate advanced technical design and solutions
+SS0110,FN,achieve common goals
+SS0110,FN,application data and infrastructure architecture & design disciplines
+SS0110,FN,analyse requirements
+SS0110,FN,interact directly with business users
+SS0111,FP,passionate
+SS0111,FP,multiple modern programming languages
+SS0111,FP,Knowledge of messaging brokers
+SS0111,FP,Sql
+SS0111,FP,Knowledge of financial performance calculations including calculating benchmark blends Our
+SS0111,FN,achieve organizational goals
+SS0111,FN,building an innovative culture
+SS0111,FN,Java
+SS0111,FN,Databases
+SS0111,FN,Qpid/MQ/Kafka/RabbitMQ
+SS0111,FN,Big
+SS0111,FN,financial performance calculations
+SS0111,FN,calculating benchmark blends
+SS0112,FP,data-centric approach in
+SS0112,FP,enterprise technology initiatives
+SS0112,FP,cloud development
+SS0115,FN,Entertainment
+SS0115,FN,Gaming
+SS0115,FN,Mobile Game
+SS0115,FN,unity3d
+SS0115,FN,c#
+SS0115,FN,user-experience
+SS0116,FN,Entertainment
+SS0116,FN,Gaming
+SS0116,FN,Mobile Game
+SS0117,FP,aesthetic
+SS0117,FN,unity3d
+SS0117,FN,c#
+SS0117,FN,user-experience
+SS0117,FN,flair for gameplay
+SS0117,FN,aesthetic know-how?
+SS0118,FN,Unity
+SS0118,FN,Unity3D
+SS0118,FN,C#
+SS0118,FN,implement new game features
+SS0118,FN,self-driven
+SS0118,FN,open-minded
+SS0118,FN,not afraid to be critical
+SS0118,FN,collaborate with your colleagues
+SS0118,FN,find solutions
+SS0119,FP,Android
+SS0119,FP,UX especially making user experiences
+SS0119,FP,aesthetic
+SS0119,FP,content delivery
+SS0119,FN,Unity3D ( iOS and/or Android )
+SS0119,FN,C#
+SS0119,FN,UX
+SS0119,FN,making user experiences at an interactive degree
+SS0119,FN,aesthetic know-how
+SS0119,FN,developing mobile games with a large amount of content delivery
+SS0120,FP,Knowledge of other analytics tools
+SS0120,FP,programming languages
+SS0120,FP,Daily healthy organic lunch prepared
+SS0120,FN,TDD ( test driven development )
+SS0120,FN,Java
+SS0122,FP,shape influence
+SS0122,FP,Java
+SS0123,FP,Computer Software Databases Information Technology Company size <SIZE> Company type <COMPANY_TYPE>
+SS0123,FN,Computer Software
+SS0123,FN,Databases
+SS0123,FN,Information Technology
+SS0123,FN,java
+SS0123,FN,algorithm
+SS0123,FN,database
+SS0123,FN,multithreading
+SS0123,FN,concurrency
+SS0124,FP,Computer Software Databases Information Technology Company size 201–500 people Company type
+SS0124,FN,Computer Software
+SS0124,FN,Databases
+SS0124,FN,Information Technology
+SS0124,FN,java
+SS0124,FN,algorithm
+SS0124,FN,database
+SS0124,FN,multithreading
+SS0124,FN,concurrency
+SS0124,FN,solve technical challenges
+SS0125,FP,a brilliant energetic and fun team
+SS0125,FP,build What You 'll
+SS0125,FP,Bring What You 'll
+SS0125,FP,leading graph database
+SS0125,FN,build and ship new features
+SS0125,FN,promote new ideas
+SS0125,FN,take active part in features discussions and roadmap prioritisation
+SS0125,FN,integrate cutting edge research and technologies
+SS0125,FN,work closely with our customers and other teams
+SS0126,FP,programming
+SS0126,FP,knowledge about performance profiling and optimisation
+SS0126,FP,working with different development methodologies
+SS0126,FN,developing production level software
+SS0126,FN,designing multi-threaded systems and algorithms
+SS0126,FN,system design
+SS0126,FN,data structures
+SS0126,FN,algorithms
+SS0126,FN,performance profiling
+SS0126,FN,optimisation
+SS0126,FN,development methodologies
+SS0127,FP,comfortable working as part of a distributed team
+SS0127,FP,make sense of data
+SS0127,FP,business society and knowledge become increasingly connected our technology promotes innovation
+SS0129,FP,build relationships
+SS0129,FP,relationship-oriented
+SS0130,FN,eCommerce
+SS0130,FN,Price Comparison
+SS0130,FN,Online Portal
+SS0130,FN,. net
+SS0130,FN,agile
+SS0130,FN,rest
+SS0130,FN,microservices
+SS0131,FN,eCommerce
+SS0131,FN,Price Comparison
+SS0131,FN,Online Portal
+SS0132,FP,Design and extension of our Micro-Services based web architecture
+SS0132,FP,work net agile rest microservices Job description Your Mission Development test
+SS0132,FP,work deployment of new components Transition
+SS0132,FP,work re - engineering of our existing web platform Design
+SS0132,FP,work extension of our Micro - Services based web architecture with high - functional
+SS0132,FP,work high - performance features You hand in hand with UX QA
+SS0132,FP,work Product Owner in an agile working environment incl . continuous integration
+SS0132,FN,. net
+SS0132,FN,agile
+SS0132,FN,rest
+SS0132,FN,microservices
+SS0132,FN,Development test and deployment of new components
+SS0132,FN,Transition
+SS0132,FN,re-engineering
+SS0132,FN,Design
+SS0132,FN,extension
+SS0133,FP,customer benefit and the company goals in mind
+SS0133,FP,REST API
+SS0133,FP,Fluent in spoken and written English knowledge of the German language
+SS0133,FN,. NET
+SS0133,FN,Micro Services
+SS0133,FN,development and implementation of REST API's
+SS0133,FN,web and/or e-commerce
+SS0133,FN,English
+SS0133,FN,German
+SS0134,FP,address and no dresscode 1-on-1s and feedback-conversations
+SS0135,FP,Motivated
+SS0135,FP,dynamic
+SS0135,FP,Team activities ( soccer team table football charity run
+SS0135,FP,catering ( sandwiches salads warm meals
+SS0136,FP,dynamic
+SS0136,FN,Data Science
+SS0136,FN,IT Security
+SS0136,FN,Software Development / Engineering
+SS0137,FN,java
+SS0137,FN,rest
+SS0137,FN,cloud
+SS0137,FN,spring
+SS0137,FN,design-patterns
+SS0138,FN,Data Science
+SS0138,FN,IT Security
+SS0138,FN,Software Development / Engineering
+SS0138,FN,java
+SS0138,FN,rest
+SS0138,FN,cloud
+SS0138,FN,spring
+SS0138,FN,design-patterns
+SS0139,FP,analysis embedded development UX
+SS0139,FP,Continuous learning
+SS0139,FN,enthusiasm
+SS0139,FN,professional attitude
+SS0139,FN,work together closely with product owners and colleagues
+SS0139,FN,happy to share your valuable insights
+SS0139,FN,offer them professional advice
+SS0139,FN,share your knowledge
+SS0140,FP,passion
+SS0140,FP,strong interest in the latest technologies
+SS0140,FN,agile project team
+SS0140,FN,Java stack frameworks
+SS0140,FN,quality
+SS0140,FN,testing at various levels in an agile environment
+SS0140,FN,latest technologies
+SS0140,FN,back end development
+SS0140,FN,databases
+SS0140,FN,cloud computing
+SS0140,FN,RESTful API
+SS0140,FN,big data
+SS0140,FN,architecture concepts
+SS0140,FN,design patterns
+SS0140,FN,German
+SS0140,FN,English
+SS0144,FP,create new business models
+SS0144,FP,Web Frontend Developer
+SS0145,FN,Digital Agency
+SS0145,FN,Software Development / Engineering
+SS0145,FN,User Experience
+SS0145,FN,javascript
+SS0145,FN,angular
+SS0145,FN,reactjs
+SS0145,FN,vue.js
+SS0145,FN,typescript
+SS0146,FN,Digital Agency
+SS0146,FN,Software Development / Engineering
+SS0146,FN,User Experience
+SS0147,FN,javascript
+SS0147,FN,angular
+SS0147,FN,reactjs
+SS0147,FN,vue.js
+SS0147,FN,typescript
+SS0147,FN,develop attractive state-of-the-art user interfaces
+SS0148,FP,Technical advice
+SS0148,FN,API design
+SS0148,FN,Implementation of functionality
+SS0148,FN,Code reviews
+SS0148,FN,Technical advice for our customers
+SS0148,FN,Guidance and support for your teammates
+SS0148,FN,realize exciting projects
+SS0148,FN,Degree in computer science
+SS0148,FN,Javascript/Typescript
+SS0148,FN,Angular
+SS0149,FP,awareness of code quality and clean code Interest in the constant exchange of ideas
+SS0149,FP,knowledge with colleagues
+SS0149,FP,fluent in German and English
+SS0149,FN,current web standards
+SS0149,FN,code quality
+SS0149,FN,clean code
+SS0149,FN,quality and responsibility
+SS0149,FN,faithful implementation
+SS0149,FN,German
+SS0149,FN,English

@@ -1,0 +1,17 @@
+The role:
+• You will design and build REST APIs for our payments platform.
+• You will maintain microservices running on Kubernetes in AWS.
+
+What you need:
+• Minimum 3 years of professional experience in backend development.
+• Strong knowledge of Java or Go.
+• Experience with PostgreSQL and Redis.
+• Familiarity with Docker, CI/CD and Git.
+• Applicants must be Singapore Citizens or Permanent Residents; others will not be considered.
+
+Bonus points:
+• Experience with Kafka.
+• Contributions to open-source projects would be a plus.
+
+Benefits:
+• Flexible working hours and an annual learning budget.

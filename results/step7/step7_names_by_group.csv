@@ -1,0 +1,17 @@
+system,ethnicity,gender,mean_delta,max_abs_delta
+D6_pipeline_v3,Chinese,F,0.0,0.0
+D6_pipeline_v3,Chinese,M,0.0,0.0
+D6_pipeline_v3,Indian,F,0.0,0.0
+D6_pipeline_v3,Indian,M,0.0,0.0
+D6_pipeline_v3,Malay,F,0.0,0.0
+D6_pipeline_v3,Malay,M,0.0,0.0
+D6_pipeline_v3,Western,F,0.0,0.0
+D6_pipeline_v3,Western,M,0.0,0.0
+D8_hybrid_v3,Chinese,F,0.0,0.0
+D8_hybrid_v3,Chinese,M,0.0,0.0
+D8_hybrid_v3,Indian,F,0.0,0.0
+D8_hybrid_v3,Indian,M,0.0,0.0
+D8_hybrid_v3,Malay,F,0.0,0.0
+D8_hybrid_v3,Malay,M,0.0,0.0
+D8_hybrid_v3,Western,F,0.0,0.0
+D8_hybrid_v3,Western,M,0.0,0.0

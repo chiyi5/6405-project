@@ -1,0 +1,5 @@
+system,dataset,cases,mean_abs_delta_before,mean_abs_delta_after,max_abs_delta_before,max_abs_delta_after,improved,worse
+D6_pipeline_v3,fit_benchmark,40,6.72,3.02,50.0,37.5,8,2
+D6_pipeline_v3,talentclef,40,0.6,0.82,7.54,7.54,0,2
+D8_hybrid_v3,fit_benchmark,40,4.85,2.24,33.52,25.26,24,12
+D8_hybrid_v3,talentclef,40,0.72,0.61,5.03,5.03,26,5
