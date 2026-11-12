@@ -1,0 +1,5 @@
+﻿method,coverage_optimization,weighted_topic_coverage,redundancy_ratio,learning_units,prerequisite_warnings
+bm25,False,0.3243,0.4,5,0
+tfidf,False,0.3243,0.4,5,0
+hybrid,False,0.3243,0.4,5,0
+hybrid,True,0.3243,0.0,3,0

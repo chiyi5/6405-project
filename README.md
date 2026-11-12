@@ -40,6 +40,20 @@ results/
 
 ## 怎么运行
 
+### 新增个人贡献：Notebook 第 9 节
+
+学习资源推荐模块已经接入主 notebook 的 **第 9 节**。可在 VS Code / Jupyter 中直接运行该节，无需启动网页或桌面应用。优先读取 Part II 的匹配结果 `r`；独立运行时使用项目已有的合成 JD/简历和离线匹配后端。
+
+也可以在项目根目录直接运行下面的命令；它只执行第 9 节，将真实运行输出保存回 notebook，并生成推荐表、来源证据和四组对比表：
+
+```powershell
+& D:\NLP\.venv\Scripts\python.exe experiments/run_learning_section.py
+```
+
+产物位于 `results/learning/L_*`。这是推荐模块的实现与合成数据验证，不是人工标注测试集上的准确率。`learning_app.py`、`learning_desktop.py` 是额外演示入口，不是本项目主入口。
+
+### 原项目 Part I / Part II
+
 1. Part I 需要原始的 `JD_example1_ntu_AI.txt`、`Resume2.pdf`、`Courses.csv`，**这三个文件不在本压缩包里**，运行前请放到项目根目录。
    （`Resume2.pdf` 含个人信息，提交代码时请勿附上原件。）
 2. `pip install -r requirements.txt`

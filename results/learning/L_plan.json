@@ -1,0 +1,245 @@
+{
+  "gaps": [
+    {
+      "skill": "apis",
+      "priority": "UNSPECIFIED",
+      "weight": 1.0
+    },
+    {
+      "skill": "microservices",
+      "priority": "UNSPECIFIED",
+      "weight": 1.0
+    },
+    {
+      "skill": "kubernetes",
+      "priority": "UNSPECIFIED",
+      "weight": 1.0
+    },
+    {
+      "skill": "aws",
+      "priority": "UNSPECIFIED",
+      "weight": 1.0
+    },
+    {
+      "skill": "java",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "go",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "sql",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "redis",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "docker",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "ci/cd",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "git",
+      "priority": "REQUIRED",
+      "weight": 2.0
+    },
+    {
+      "skill": "kafka",
+      "priority": "PREFERRED",
+      "weight": 0.5
+    }
+  ],
+  "method": "hybrid",
+  "backend": "BM25 + TF-IDF (lexical RRF)",
+  "dense_model": null,
+  "optimized": true,
+  "recommendations": [
+    {
+      "id": "docker-start",
+      "title": "Get started with Docker",
+      "provider": "Docker Docs",
+      "url": "https://docs.docker.com/get-started/",
+      "description": "Build and share a containerized application; run a container and application stack, build an image.",
+      "skills": [
+        "docker"
+      ],
+      "source_excerpt": "Build and share a containerized application",
+      "evidence": {
+        "docker": "Build and share a containerized application"
+      },
+      "prerequisites": [],
+      "duration_hours": null,
+      "covered_gaps": [
+        "docker"
+      ],
+      "newly_covered_gaps": [
+        "docker"
+      ],
+      "retrieval_score": 1.0,
+      "score_components": {
+        "new_coverage": 2.0,
+        "relevance": 0.15,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "selection_score": 2.15,
+      "step": 1,
+      "unmet_prerequisites": []
+    },
+    {
+      "id": "git-basics",
+      "title": "Pro Git: Git basics",
+      "provider": "Git project",
+      "url": "https://git-scm.com/book/en/v2",
+      "description": "Version control with Git: repositories, recording changes, history, remotes and tags.",
+      "skills": [
+        "git"
+      ],
+      "source_excerpt": "Git Basics\nGetting a Git Repository\nRecording Changes to the Repository",
+      "evidence": {
+        "git": "Git Basics"
+      },
+      "prerequisites": [],
+      "duration_hours": null,
+      "covered_gaps": [
+        "git"
+      ],
+      "newly_covered_gaps": [
+        "git"
+      ],
+      "retrieval_score": 1.0,
+      "score_components": {
+        "new_coverage": 2.0,
+        "relevance": 0.15,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "selection_score": 2.15,
+      "step": 2,
+      "unmet_prerequisites": []
+    },
+    {
+      "id": "sql-intro",
+      "title": "PostgreSQL: the SQL language",
+      "provider": "PostgreSQL documentation",
+      "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+      "description": "SQL tutorial for creating tables, populating rows and querying data.",
+      "skills": [
+        "sql"
+      ],
+      "source_excerpt": "The SQL Language\nCreating a New Table\nQuerying a Table",
+      "evidence": {
+        "sql": "The SQL Language"
+      },
+      "prerequisites": [],
+      "duration_hours": null,
+      "covered_gaps": [
+        "sql"
+      ],
+      "newly_covered_gaps": [
+        "sql"
+      ],
+      "retrieval_score": 0.98387,
+      "score_components": {
+        "new_coverage": 2.0,
+        "relevance": 0.14758,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "selection_score": 2.14758,
+      "step": 3,
+      "unmet_prerequisites": []
+    }
+  ],
+  "selection_trace": [
+    {
+      "selection_step": 1,
+      "resource_id": "docker-start",
+      "new_skills": [
+        "docker"
+      ],
+      "components": {
+        "new_coverage": 2.0,
+        "relevance": 0.15,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "objective": 2.15,
+      "eligible_candidates": 5
+    },
+    {
+      "selection_step": 2,
+      "resource_id": "git-basics",
+      "new_skills": [
+        "git"
+      ],
+      "components": {
+        "new_coverage": 2.0,
+        "relevance": 0.15,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "objective": 2.15,
+      "eligible_candidates": 4
+    },
+    {
+      "selection_step": 3,
+      "resource_id": "sql-intro",
+      "new_skills": [
+        "sql"
+      ],
+      "components": {
+        "new_coverage": 2.0,
+        "relevance": 0.14758,
+        "redundancy_penalty": 0.0,
+        "prerequisite_penalty": 0.0
+      },
+      "objective": 2.14758,
+      "eligible_candidates": 3
+    }
+  ],
+  "redundancy_ratio": 0.0,
+  "candidate_count": 8,
+  "covered_skills": [
+    "docker",
+    "git",
+    "sql"
+  ],
+  "uncovered_skills": [
+    "apis",
+    "aws",
+    "ci/cd",
+    "go",
+    "java",
+    "kafka",
+    "kubernetes",
+    "microservices",
+    "redis"
+  ],
+  "weighted_coverage": 0.3243,
+  "budget_hours": null,
+  "known_duration_hours": 0.0,
+  "total_duration_hours": null,
+  "excluded_unknown_duration": 0,
+  "latency_ms": 1.07,
+  "catalog": {
+    "version": "0.1.0",
+    "status": "curated_starter_not_research_benchmark",
+    "description": "12 learning units from 6 official tutorial/documentation providers. These are not 12 independently certified courses. Expand and human-validate before research evaluation.",
+    "verified_on": "2026-11-12",
+    "annotation_policy": "Descriptions and skill mappings are curator-written. Evidence excerpts are short source headings. Prerequisites are editorial recommendations, not official admission requirements. Duration is unknown unless sourced."
+  },
+  "notice": "Missing resume evidence is not proof of missing ability. Coverage means curated syllabus-topic coverage, not skill mastery. Prerequisites are editorial planning hints. No LLM-generated claims."
+}

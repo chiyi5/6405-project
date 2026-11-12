@@ -1,0 +1,4 @@
+[
+  {"id":"example-dev","group_id":"author_written_profile_a","split":"dev","gaps":"SQL\nDocker","known":["python"]},
+  {"id":"example-test","group_id":"author_written_profile_b","split":"test","gaps":"FastAPI\nTesting","known":["python"]}
+]

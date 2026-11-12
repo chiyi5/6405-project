@@ -1,0 +1,5 @@
+﻿evaluation_kind,method,optimized,cases,mean_weighted_topic_coverage,mean_redundancy_ratio,mean_n_recommended,mean_prerequisite_warnings
+synthetic_smoke_NOT_benchmark,bm25,False,12,0.7917,0.2833,2.9167,0.0833
+synthetic_smoke_NOT_benchmark,tfidf,False,12,0.7917,0.2833,2.9167,0.0833
+synthetic_smoke_NOT_benchmark,hybrid,False,12,0.7917,0.2833,2.9167,0.0833
+synthetic_smoke_NOT_benchmark,hybrid,True,12,0.7917,0.0208,1.6667,0.1667
