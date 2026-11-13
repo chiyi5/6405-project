@@ -26,7 +26,7 @@ class ShowcaseTests(learning_tests.HttpTests):
         self.assertEqual(len(data["jobs"]), 3)
         self.assertEqual(len(data["resumes"]), 8)
         self.assertTrue(data["experiments"]["skills"]["rows"])
-        for route in ("/", "/app.js", "/style.css"):
+        for route in ("/", "/app.js", "/style.css", "/locales.js", "/i18n.js"):
             self.assertEqual(self.request("GET", route)[0], 200)
         self.assertEqual(self.request("GET", "/../README.md")[0], 404)
 

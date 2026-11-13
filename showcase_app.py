@@ -48,6 +48,7 @@ def make_showcase_handler(engine):
         def do_GET(self):
             route = urlparse(self.path).path
             assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"),
+                      "/locales.js": ("locales.js", "text/javascript"), "/i18n.js": ("i18n.js", "text/javascript"),
                       "/style.css": ("style.css", "text/css")}
             if route in assets:
                 filename, mime = assets[route]
