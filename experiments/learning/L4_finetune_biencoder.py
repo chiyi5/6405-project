@@ -68,7 +68,7 @@ def main():
                 best = (v, model)
     out = ROOT / "results" / "learning" / "bench"
     out.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(rows).round(4).to_csv(out / "L4_finetune_grid.csv", index=False)
+    pd.DataFrame(rows).round({"dev_ndcg@10": 4}).to_csv(out / "L4_finetune_grid.csv", index=False)  # keep lr unrounded
     best[1].save(args.out)
     print("saved best model ->", args.out)
 

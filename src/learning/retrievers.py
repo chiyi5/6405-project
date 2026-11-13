@@ -129,7 +129,7 @@ class LDARetriever(Retriever):
         self.cv = CountVectorizer(tokenizer=tokenize, lowercase=False, token_pattern=None, min_df=3, max_df=0.3)
         X = self.cv.fit_transform(texts)
         self.lda = LatentDirichletAllocation(self.k, learning_method="online", random_state=self.seed,
-                                             max_iter=self.max_iter, n_jobs=-1).fit(X)
+                                             max_iter=self.max_iter, n_jobs=1).fit(X)  # n_jobs=-1 is very slow on Windows (process spawn)
         self.D = np.sqrt(self.lda.transform(X))
         return self
 

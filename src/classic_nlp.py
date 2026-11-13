@@ -70,7 +70,7 @@ class LDAMatcher:
         self.cv = CountVectorizer(tokenizer=tokenize, lowercase=False, token_pattern=None, min_df=3, max_df=0.4)
         X = self.cv.fit_transform(corpus)
         self.lda = LatentDirichletAllocation(self.k, learning_method="online", max_iter=self.max_iter,
-                                             random_state=self.seed, n_jobs=-1).fit(X)
+                                             random_state=self.seed, n_jobs=1).fit(X)  # n_jobs=-1 is very slow on Windows
         self._fitted = True
         return self
 
@@ -101,8 +101,12 @@ class WordVectorMatcher:
             kw.update(self.w2v_kwargs)
             self.kv = Word2Vec([tokenize(t) for t in corpus], **kw).wv
         elif isinstance(self.vectors, str):
-            from src.learning.retrievers import load_pretrained_vectors
-            self.kv = load_pretrained_vectors(self.vectors)
+            try:
+                import gensim.downloader as api
+                self.kv = api.load(self.vectors)
+            except ImportError:  # no gensim wheel for this Python version
+                from .learning.retrievers import load_pretrained_vectors
+                self.kv = load_pretrained_vectors(self.vectors)
         else:
             self.kv = self.vectors
         tf = TfidfVectorizer(tokenizer=tokenize, lowercase=False, token_pattern=None).fit(corpus)

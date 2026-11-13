@@ -118,9 +118,9 @@ def main():
     glove, _ = fit(R.EmbeddingRetriever("glove-wiki-gigaword-100"))
     try:
         w2v, _ = fit(R.EmbeddingRetriever("word2vec"))
-    except ImportError:
+    except ImportError:  # gensim has no wheel for some Python versions; report instead of failing
         w2v = None
-        print("[skipped] Word2Vec: gensim not installed")
+        print("[skipped] Word2Vec: gensim not installed (results from an environment with gensim are kept in git history)")
     systems = {"BM25 (default k1=1.2,b=0.75)": fitted["BM25(k1=1.2,b=0.75)"], "BM25 (dev-tuned)": bm25,
                "TF-IDF word 1-2gram": tf_word, "TF-IDF char 3-5gram": tf_char,
                "LSA (dev-tuned)": lsa, "LDA topics (dev-tuned)": lda,

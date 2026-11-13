@@ -59,6 +59,12 @@ BM25 (term weighting), TF-IDF word / char n-grams (BoW), LSA (SVD feature extrac
 GloVe and corpus-trained Word2Vec (word embeddings), RRF and linear fusion (ensembles), and learning-to-rank
 with logistic regression / gradient boosting over all of them (supervised ML). With `--neural`, Sentence-BERT
 bi-encoders, a cross-encoder re-ranker and our fine-tuned bi-encoder (L4) are added.
+
+**Result (RTX 5060 run, test nDCG@10):** LTR 0.730, fusion + cross-encoder re-rank 0.719, BM25 0.684,
+pre-trained Sentence-BERT 0.62–0.63, our fine-tuned bi-encoder 0.619 (best dev score, highest Recall@100 among
+dense models, but no gain on unseen test skills with only 75 training queries), GloVe 0.325, LDA 0.164.
+Only GloVe and LDA differ significantly from BM25. Word2Vec (0.594) comes from the cloud CPU run
+(`results/learning/bench_cloud_cpu/`) because gensim cannot be installed on Python 3.14.
 Hyper-parameters (BM25 k1/b, LSA k, LDA k, fusion weights, LTR C) are chosen on the dev split only.
 Metrics: nDCG@10 (primary), MAP@100, MRR@10, P@5, Recall@10/100, with 95% bootstrap CIs and a paired
 randomisation test against BM25 (Holm-corrected).
@@ -142,6 +148,13 @@ Word2Vec averaged embeddings (D11), and four supervised fit classifiers on pair 
 regression, linear SVM, multinomial NB, random forest; trained on the 3,000 training pairs). Hyper-parameters
 are chosen on a JD-grouped dev split of the training pairs. Optionally (`--finetune-ce`, GPU) a cross-encoder
 is fine-tuned with a learning-rate × epoch grid.
+
+**Result (RTX 5060 run):** supervised classifiers on TF-IDF pair features are the best matchers on this
+benchmark (Linear SVM ρ = 0.317 [0.188, 0.447], random forest 0.310), ahead of the fine-tuned bi-encoder D7
+(0.281) and the newly fine-tuned cross-encoder D13 (0.181, up from −0.075 zero-shot). Unsupervised LSA / LDA /
+GloVe and zero-shot transformers are near zero. The logistic-regression weights explain why: its 20 strongest
+features are all JD-side words, i.e. the classifiers mostly learn which vacancies tend to be labelled "good fit"
+— the same vacancy prior found in Section 5 — so these scores should not be read as person–job fit.
 
 Also reported: efficiency (fit time, ms per pair, peak memory) and interpretation — logistic-regression term
 weights, LDA topics that separate good-fit from no-fit resumes, and sentence-occlusion explanations that show

@@ -49,7 +49,7 @@ def main():
     try:
         rets["Word2Vec"] = R.EmbeddingRetriever("word2vec").fit(texts)
     except ImportError:
-        rets["GloVe"] = R.EmbeddingRetriever("glove-wiki-gigaword-100").fit(texts)
+        rets["GloVe"] = R.EmbeddingRetriever("glove-wiki-gigaword-100").fit(texts)  # gensim-free fallback
         print("[note] gensim missing: Word2Vec replaced by GloVe in the fusion retriever")
     emb = rets.get("Word2Vec", rets.get("GloVe"))
     rets["Linear fusion"] = R.LinearFusion([rets["BM25"], rets["LSA"], emb], [1.0, 0.5, 0.5])

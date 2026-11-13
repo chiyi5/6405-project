@@ -125,18 +125,15 @@ matchers = [
     build("lsa", lambda: LSAMatcher(int(best["LSA"])).fit(corpus_train)),
     build("lda", lambda: LDAMatcher(int(best["LDA"])).fit(corpus_train)),
     build("glove", lambda: WordVectorMatcher("glove-wiki-gigaword-100").fit(corpus_train)),
-]
-try:
-    matchers.append(build("w2v", lambda: WordVectorMatcher("word2vec").fit(corpus_train)))
-except ImportError:
-    tracemalloc.stop()
-    log("[skipped] Word2Vec: gensim not installed")
-matchers += [
     build("nb", lambda: PairClassifier("naive_bayes").train(tr)),
     build("lr", lambda: PairClassifier("logreg", C=float(best["logreg"])).train(tr)),
     build("svm", lambda: PairClassifier("linear_svm", C=float(best["linear_svm"])).train(tr)),
     build("rf", lambda: PairClassifier("random_forest").train(tr)),
 ]
+try:
+    matchers.insert(3, build("w2v", lambda: WordVectorMatcher("word2vec").fit(corpus_train)))
+except ImportError:
+    log("[skipped] Word2Vec matcher: gensim not installed")
 lexical = [mt.TfidfMatcher(), mt.BM25Matcher()]  # re-run for latency comparison only
 
 if args.finetune_ce:
@@ -165,7 +162,7 @@ if args.finetune_ce:
                 log(f"CE lr={lr} ep={ep} dev rho={v:.3f}")
                 if v > best_v:
                     best_ce, best_v, best_cfg = ce, v, (lr, ep)
-        pd.DataFrame(grid).round(4).to_csv(OUT / "S9_ce_finetune_grid.csv", index=False)
+        pd.DataFrame(grid).round({"dev_spearman": 4}).to_csv(OUT / "S9_ce_finetune_grid.csv", index=False)  # keep lr unrounded
         matchers.append(CEMatcher(best_ce, f"D13_finetuned_cross_encoder_lr{best_cfg[0]:g}_ep{best_cfg[1]}"))
     except Exception:
         log("cross-encoder fine-tuning failed:\n" + traceback.format_exc()[-800:])
