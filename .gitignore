@@ -31,3 +31,8 @@ Thumbs.db
 .env
 showcase.stdout.log
 showcase.stderr.log
+
+# local-only folders and logs
+submission/
+results/learning/connection_diagnosis.txt
+results/learning/server*.log
