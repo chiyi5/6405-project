@@ -39,6 +39,25 @@ component, quantitative comparison, ablations, fairness/robustness tests and a d
 > comparison. It is **superseded by the modular code in `src/`** used in Part II. Some functions exist in both places
 > with the same name but different behaviour (e.g. `clean_text`, `extract_education`, `classify_requirement`):
 > Part II imports the `src/` versions explicitly, so the two never mix. For the current system, read `src/pipeline.py`.
+>
+> **Part I is not executed in this copy, and that is intentional.** It needs three things that are not in the repository:
+>
+> | Needed by Part I | Why it is not included |
+> |---|---|
+> | `Resume2.pdf` (Step 1) | a real person's resume — personal data, never committed or submitted |
+> | `Courses.csv` (degree/major names for education extraction) | original input file of the prototype, not part of this repository |
+> | `ojd-daps-skills` ESCO extractor (Step 3) | only installs on Python 3.10/3.11; the main environment is Python 3.14 |
+>
+> (`JD_example1_ntu_AI.txt` is available as `data/demo/JD_example1_ntu_AI.txt`.)
+>
+> **Where Part I's behaviour is measured instead:**
+> * Skill extraction — `experiments/step8_esco.py` runs the original ESCO extractor in a separate Python 3.10/3.11
+>   environment: M1 = ESCO (soft F1 0.131), M4 = dictionary + filtered ESCO, Part I's default (0.229)
+>   → `results/step8/B_skill_extraction_with_esco.csv`, Section 3.
+> * Matching and scoring — D6 is the Part I pipeline re-implemented in `src/pipeline.py` (with the bug fixes listed in
+>   Section 1) and is the baseline in Sections 5–8 (`results/D_matching.csv`, `results/step5/`).
+>
+> **To run this notebook, start at "Part II — 0. Setup".** Part II and Sections 9–10 do not use any Part I variable.
 """)]
 
 for c in nb["cells"]:

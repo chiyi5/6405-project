@@ -106,8 +106,11 @@ node tests/showcase_ui_smoke.cjs                       # 前端交互冒烟测�
 
 ### 原项目 Part I / Part II
 
-1. Part I 需要原始的 `JD_example1_ntu_AI.txt`、`Resume2.pdf`、`Courses.csv`，**这三个文件不在仓库里**（`.gitignore` 忽略了所有 PDF），运行前请放到项目根目录。
-   （`Resume2.pdf` 含个人信息，提交代码时请勿附上原件。）
+1. **Part I（原型）在本仓库中不运行，notebook 请从「Part II — 0. Setup」开始跑。** Part I 需要三样仓库里没有的东西：
+   `Resume2.pdf`（真实个人简历，不提交）、`Courses.csv`（原型的学位/专业名称表）、`ojd-daps-skills`（只支持 Python 3.10/3.11）。
+   它的效果在 Part II 中定量复现：原版 ESCO 抽取器由 `experiments/step8_esco.py` 在独立环境中运行（M1 / M4，第 3 节），
+   原型流水线在 `src/pipeline.py` 中重写为 D6，作为第 5–8 节的 baseline。Part II 和第 9、10 节不依赖 Part I 的任何变量。
+   （JD 示例在 `data/demo/JD_example1_ntu_AI.txt`。）
 2. `pip install -r requirements.txt`（`gensim` 是可选的：Python 3.14 暂时装不上，没有它 Word2Vec 会自动跳过）
    ESCO baseline 还需要 `python -m spacy download en_core_web_sm`（`ojd-daps-skills` 建议用 Python 3.10，和你们原来的环境一致）。
 3. 打开 `Group32_NLPproject_extended.ipynb`，默认 `USE_DEMO = True`，从上往下跑一遍，确认环境没问题。
