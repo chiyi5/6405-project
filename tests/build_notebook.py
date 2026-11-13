@@ -71,7 +71,8 @@ USE_DEMO  = True
 RUN_HEAVY = False
 EMBEDDER  = "sentence-transformers/all-MiniLM-L6-v2" if HAS_ST else "tfidf-char"
 DATA      = Path("data/demo") if USE_DEMO else Path("data")
-Path("results").mkdir(exist_ok=True)
+RESULTS   = Path("results/demo_run") if USE_DEMO else Path("results")   # demo numbers never overwrite the real results
+RESULTS.mkdir(parents=True, exist_ok=True)
 print("spaCy:", HAS_SPACY, "| sentence-transformers:", HAS_ST, "| embedder:", EMBEDDER)
 """),
 md("""
@@ -144,7 +145,7 @@ if "annotator" in req_labels and req_labels.annotator.nunique() > 1:
         req_labels.drop_duplicates("sent_id")[["sent_id", "jd_id", "sentence", "section_header"]], on="sent_id")
 
 skill_gold = du.load_skill_gold(skill_file)
-stats = du.dataset_statistics(jds, resumes, pairs); display(stats); stats.to_csv("results/A_dataset_stats.csv", index=False)
+stats = du.dataset_statistics(jds, resumes, pairs); display(stats); stats.to_csv(RESULTS / "A_dataset_stats.csv", index=False)
 """),
 code("""
 # Optional: large external labelled set (needs internet + `datasets`)
@@ -186,7 +187,7 @@ except ImportError:
 
 docs = {d: jds.get(d) or resumes.get(d) for d in skill_gold if (jds.get(d) or resumes.get(d))}
 skill_summary, skill_per_doc = se.evaluate_extractors(extractors, docs, skill_gold)
-display(skill_summary); skill_summary.to_csv("results/B_skill_extraction.csv", index=False)
+display(skill_summary); skill_summary.to_csv(RESULTS / "B_skill_extraction.csv", index=False)
 plots.grouped_bars(skill_summary, ["precision_soft", "recall_soft", "f1_soft"], title="Skill extraction (soft match)");
 """),
 code("""
@@ -214,7 +215,7 @@ if RUN_HEAVY:
     classifiers["C5_distilbert"] = lambda: rc.BertClassifier(epochs=6)
 
 clf_summary, clf_preds = rc.evaluate_classifiers(classifiers, req_labels, n_splits=5)
-display(clf_summary); clf_summary.to_csv("results/C_requirement_clf.csv", index=False)
+display(clf_summary); clf_summary.to_csv(RESULTS / "C_requirement_clf.csv", index=False)
 plots.method_bar(clf_summary, "macro_f1", title="Requirement classification — macro-F1");
 """),
 code("""
@@ -240,8 +241,8 @@ if RUN_HEAVY:
     matchers.append(mt.CrossEncoderMatcher())
 
 match_summary, match_scores = mt.evaluate_matchers(matchers, pairs, k=5)
-display(match_summary); match_summary.to_csv("results/D_matching.csv", index=False)
-match_scores.to_csv("results/D_pair_scores.csv", index=False)
+display(match_summary); match_summary.to_csv(RESULTS / "D_matching.csv", index=False)
+match_scores.to_csv(RESULTS / "D_pair_scores.csv", index=False)
 plots.grouped_bars(match_summary, ["spearman", "macro_f1_cv", "ndcg@5"], title="JD–resume matching");
 """),
 code("""
@@ -262,7 +263,7 @@ code("""
 results = sc.run_pipeline_on_pairs(pipe, pairs)
 feat = sc.build_feature_table(results)
 learned, coefs = sc.evaluate_learned_scorer(feat, n_splits=5)
-display(learned); learned.to_csv("results/E_learned_scorer.csv", index=False)
+display(learned); learned.to_csv(RESULTS / "E_learned_scorer.csv", index=False)
 display(coefs)   # which features drive "Good fit"?
 """),
 code("""
@@ -274,7 +275,7 @@ display(grid_summary); display(grid_log.head(10))
 code("""
 ablation = sc.run_ablation(pairs, PipelineConfig(embedder_name=EMBEDDER, skill_extractor="dictionary+esco"),
                            embedder=pipe.embedder, skill_extractor=pipe.skill_extractor)
-display(ablation); ablation.to_csv("results/E_ablation.csv", index=False)
+display(ablation); ablation.to_csv(RESULTS / "E_ablation.csv", index=False)
 plots.method_bar(ablation, "spearman", label_col="variant", title="Ablation — Spearman ρ with human labels");
 """),
 
@@ -286,17 +287,17 @@ code("""
 some_jd = list(jds)[0]
 sample  = dict(list(resumes.items())[:5])
 name_summary, name_detail = fa.counterfactual_name_test(pipe, jds[some_jd], sample)
-display(name_summary); name_summary.to_csv("results/F_name_fairness.csv", index=False)
+display(name_summary); name_summary.to_csv(RESULTS / "F_name_fairness.csv", index=False)
 display(fa.gender_wording_test(pipe, jds[some_jd], sample))
 """),
 code("""
 rob_summary, rob_detail = fa.robustness_test(pipe, jds[some_jd], sample)
-display(rob_summary); rob_summary.to_csv("results/F_robustness.csv", index=False)
+display(rob_summary); rob_summary.to_csv(RESULTS / "F_robustness.csv", index=False)
 """),
 code("""
 worst = fa.worst_pairs(match_scores, "D6_our_pipeline", k=5)
 display(worst)
-fa.error_annotation_sheet(worst, "results/F_errors_to_categorise.csv")   # categorise manually, see fa.ERROR_CATEGORIES
+fa.error_annotation_sheet(worst, RESULTS / "F_errors_to_categorise.csv")   # categorise manually, see fa.ERROR_CATEGORIES
 display(fa.misclassified_sentences(clf_preds, "C2_rules+sections").head(15))
 """),
 code("""
