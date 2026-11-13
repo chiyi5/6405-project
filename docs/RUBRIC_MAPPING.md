@@ -7,7 +7,7 @@
 |---|---|---|
 | **Requirements**（≥2 种算法等） | 满足全部要求 | 匹配：8 种匹配器 + 微调（D1–D7），★ 新增 LSA / LDA / GloVe / Word2Vec / 4 种有监督分类器（D9–D12）；技能抽取 6 种（M1–M6）；需求分类 5 种（C1–C5）；★ 课程推荐 12 个检索系统 + 3 种组单策略 |
 | **Choice of application & datasets** | 不同的应用 + 多个数据集 | 人岗匹配 + 可解释差距报告 + ★ 学习路径推荐。数据集：fit 数据集（8,000 对）、SkillSpan、TalentCLEF 2026、Vanetik & Kogan 人工基准、749 句需求标注、★ Coursera 课程目录（3,416 门）+ 官方文档 12 单元 |
-| **Framework** | 好的模型选择 + 提升性能的额外努力 | JobBERT 技能抽取（F1 0.229 → 0.511）；混合打分；微调 MiniLM（Spearman −0.01 → 0.281）；★ 学习排序 LTR；★ 改进版 xQuAD（覆盖率 0.840 → 0.895，归一化是关键，见消融）；★ 微调课程双编码器（L4，lr×epoch 网格，dev 0.495 → 0.524）；★ 交叉编码器微调（step9，Spearman −0.075 → 0.181）；★ TF-IDF 对特征 + Linear SVM 达到 0.317，为主体匹配任务的新最好成绩 |
+| **Framework** | 好的模型选择 + 提升性能的额外努力 | JobBERT 技能抽取（F1 0.229 → 0.511）；混合打分；微调 MiniLM（Spearman −0.01 → 0.281）；★ 学习排序 LTR；★ 改进版 xQuAD（线性融合检索器上覆盖率 0.817 → 0.916，归一化是关键，见 `L2_ablation.csv`）；★ 微调课程双编码器（L4，lr×epoch 网格，dev 0.495 → 0.524）；★ 交叉编码器微调（step9，Spearman −0.075 → 0.181）；★ TF-IDF 对特征 + Linear SVM 达到 0.317，为主体匹配任务的新最好成绩 |
 | **Experiment design** | 多个相关指标 + 与强 baseline 对比 | Spearman / AUC / macro-F1 / NDCG@5 / MAP；按 JD 聚类的 bootstrap 置信区间；配对重抽样检验。★ 课程检索：nDCG@10、MAP@100、MRR@10、P@5、Recall@10/100 + 95% CI + Holm 校正的配对随机化检验；dev 上调参、test 上报告，按技能划分防泄漏。★ 学习路径：加权覆盖率、必需技能覆盖、precision、冗余度 |
 | **Interpretation** | 深入解释，并能推广到其他场景、说明物理意义 | 错误分析（B/C/F）、公平性反事实、"职位偏好" 诊断。★ LDA 主题（web/java/sql 主题在 good-fit 简历中更高）、LR 词权重（前 20 全是 JD 侧特征 → 模型学到的是职位偏好，可推广为：此类公开 fit 数据集的标签主要反映职位而非人岗匹配）、句子遮挡解释（哪些简历句子决定分数）；★ 银标签审计（37% 的 "错误" 命中其实提到了该技能 → 标签漏标）；★ 按查询长度 / 相关文档数分桶；★ xQuAD λ 的相关性-多样性权衡曲线 |
 | **Readability** | 易读、组织好、有文档 | `src/` 模块化，每个文件有 docstring 说明对应课程知识点；README、results/README（每个数字的来源）、本对照表；★ 根目录启动脚本移到 `scripts/windows/` |
@@ -33,7 +33,7 @@
 
 ## 诚实说明（报告里要写）
 
-- 课程检索的相关性标签来自 Coursera 自带的技能标签（银标准），L3 审计显示有漏标，所以绝对分数偏低；系统之间的比较仍然有效。人工标注表已生成（`data/learning/human/`），标完运行 `L5_human_judgements.py score` 得到 κ 和人工标签上的结果。
+- 课程检索的相关性标签来自 Coursera 自带的技能标签（银标准），L3 审计显示有漏标，所以绝对分数偏低；系统之间的比较仍然有效。本组未做人工相关性标注；`data/learning/human/` 的双盲标注表和 `L5_human_judgements.py` 只是预留的可选流程，没有对应结果。
 - 课程检索 test 集只有 30 个查询：LTR（0.730）比 BM25（0.684）高，但 Holm 校正后不显著；只有 GloVe 和 LDA 显著更差。微调双编码器 dev 上有提升，test 上（0.619）没有超过原版 MiniLM（0.634），原因是训练只有 75 条查询、test 技能都没见过。
 - Word2Vec 结果来自云端 CPU 运行（`results/learning/bench_cloud_cpu/`），其余为本机 GPU 运行。
 - 学习路径评估有 23 个画像，xQuAD 在 6 种检索器中 5 种显著优于另外两种策略（Holm 校正后 p ≤ 0.02），GloVe 不显著。λ 曲线是在同一批画像上画的，是敏感性分析，不是调参结果。

@@ -32,12 +32,12 @@ def bootstrap():
     experiments = {}
     for key, (filename, context, metric) in EXPERIMENTS.items():
         path = ROOT / "results" / filename
-        rows = list(csv.DictReader(path.open(encoding="utf-8-sig", newline=""))) if path.exists() else []
+        rows = []
+        if path.exists():
+            with path.open(encoding="utf-8-sig", newline="") as handle:
+                rows = list(csv.DictReader(handle))
         experiments[key] = {"source": "results/" + filename, "context": context, "metric": metric, "rows": rows}
-    def documents(folder):
-        return [{"name": p.stem, "text": p.read_text(encoding="utf-8")} for p in sorted((ROOT / "data" / "demo" / folder).glob("*.txt"))]
-    return {"jobs": documents("jds"), "resumes": documents("resumes"), "experiments": experiments,
-            "demo_notice": "Synthetic examples for demonstration only; not evaluation data."}
+    return {"experiments": experiments}
 
 
 def make_showcase_handler(engine):
@@ -48,6 +48,7 @@ def make_showcase_handler(engine):
         def do_GET(self):
             route = urlparse(self.path).path
             assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"),
+                      "/locales.js": ("locales.js", "text/javascript"), "/i18n.js": ("i18n.js", "text/javascript"),
                       "/style.css": ("style.css", "text/css")}
             if route in assets:
                 filename, mime = assets[route]
@@ -119,11 +120,11 @@ def make_showcase_handler(engine):
                     raise ValueError("Provide between 1 and 12 resumes.")
                 rows = []
                 with match_lock:
-                    for item in resumes:
+                    for index, item in enumerate(resumes):
                         if not isinstance(item, dict):
                             raise ValueError("Invalid resume.")
                         match = match_documents(data.get("jd"), item.get("text"))
-                        rows.append({"name": str(item.get("name", "Candidate"))[:180], **match})
+                        rows.append({"name": str(item.get("name", "Candidate"))[:180], "input_index": index, **match})
                 rows.sort(key=lambda r: (r["scores"]["hybrid_score"] is not None,
                                         r["scores"]["hybrid_score"] or 0), reverse=True)
                 self.respond(200, {"ranking": rows})

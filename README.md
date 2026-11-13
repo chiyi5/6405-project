@@ -56,7 +56,7 @@ results/
 **第 9 节学习推荐：从 demo 变成完整子项目**（最终结果：本机 RTX 5060 运行，`results/learning/bench/`）
 - 数据：3,428 门课程（Coursera 目录 + 12 个官方文档单元）；133 条查询（96 个技能名 + 37 句真实 JD 需求句）；23 个真实 JD × 简历差距画像；银标准标签来自 Coursera 技能标签，检索时不可见；按技能划分 train/dev/test。
 - 检索（test 30 条查询，nDCG@10，16 个系统）：LTR 逻辑回归 0.730、融合 + 交叉编码器重排 0.719、BM25(dev 调参) 0.684、LSA 0.658、TF-IDF 0.649、Sentence-BERT（MiniLM / mpnet / bge）0.62–0.63、微调双编码器 0.619（Recall@100 0.549，最高之一）、GloVe 0.325、LDA 0.164；Word2Vec 0.594（云端运行，`bench_cloud_cpu/`）。只有 GloVe、LDA 与 BM25 的差异显著（Holm p = 0.0015）。结论：短技能名查询上词法方法很强，预训练稠密模型不占优；微调数据只有 75 条查询，dev 有提升（0.495 → 0.524）但没有迁移到未见过的 test 技能。
-- 学习路径（k=5，加权缺口覆盖率）：BM25 下拼接查询 0.724 → 逐缺口 0.755 → 改进版 xQuAD 0.894；xQuAD 在 6 种检索器中 5 种显著更好（GloVe 不显著）。消融显示关键改动是多样性项归一化（原版 xQuAD 0.840）。
+- 学习路径（k=5，加权缺口覆盖率）：BM25 下拼接查询 0.724 → 逐缺口 0.755 → 改进版 xQuAD 0.894；xQuAD 在 6 种检索器中 5 种显著更好（GloVe 不显著）。消融（线性融合检索器）显示关键改动是多样性项归一化：原版 xQuAD 0.817 → 改进版 0.916。
 - 错误分析：37% 的 "不相关" 前 10 命中其实提到了该技能 → 银标签有漏标；双人盲标表已生成（`data/learning/human/`）。
 
 **主体 A–F：补齐课程里的传统方法、效率和解释**（`results/step9/`，同样 600 对测试集）
@@ -83,17 +83,32 @@ python -m unittest tests/test_benchmark.py tests/test_learning.py
 
 也可以在项目根目录直接运行下面的命令；它只执行第 9 节，将真实运行输出保存回 notebook，并生成推荐表、来源证据和四组对比表：
 
-```powershell
-& D:\NLP\.venv\Scripts\python.exe experiments/run_learning_section.py
+```bash
+python experiments/run_learning_section.py
 ```
 
 产物位于 `results/learning/L_*`。这是推荐模块的实现与合成数据验证，不是人工标注测试集上的准确率。`learning_app.py`、`learning_desktop.py` 是额外演示入口，不是本项目主入口。
 
+### 项目展示前端（SkillBridge）
+
+- **实时分析**：双击 `scripts\windows\Start-Showcase.cmd`（或在根目录运行 `python showcase_app.py --open-browser`），打开 http://127.0.0.1:8877 。
+- **离线预览**：双击根目录 `Showcase.html`，只能看界面和已有实验结果。修改 `frontend/` 后用 `python experiments/build_showcase.py` 重新生成。
+- 本地网页打不开（`WinError 10013`）时：先运行 `scripts\windows\Diagnose-Web.cmd` 排查，或改用 `scripts\windows\Start-Desktop.cmd`（桌面版，不占端口）。
+- 详细说明见 [docs/SHOWCASE.md](docs/SHOWCASE.md)。
+
+### 测试
+
+```bash
+python tests/smoke_test.py                             # Part I/II 全部模块（合成数据）
+python -m unittest discover -s tests -p "test_*.py"    # 学习模块、检索基准、展示前端
+node tests/showcase_ui_smoke.cjs                       # 前端交互冒烟测试（需要 Node）
+```
+
 ### 原项目 Part I / Part II
 
-1. Part I 需要原始的 `JD_example1_ntu_AI.txt`、`Resume2.pdf`、`Courses.csv`，**这三个文件不在本压缩包里**，运行前请放到项目根目录。
+1. Part I 需要原始的 `JD_example1_ntu_AI.txt`、`Resume2.pdf`、`Courses.csv`，**这三个文件不在仓库里**（`.gitignore` 忽略了所有 PDF），运行前请放到项目根目录。
    （`Resume2.pdf` 含个人信息，提交代码时请勿附上原件。）
-2. `pip install -r requirements.txt`
+2. `pip install -r requirements.txt`（`gensim` 是可选的：Python 3.14 暂时装不上，没有它 Word2Vec 会自动跳过）
    ESCO baseline 还需要 `python -m spacy download en_core_web_sm`（`ojd-daps-skills` 建议用 Python 3.10，和你们原来的环境一致）。
 3. 打开 `Group32_NLPproject_extended.ipynb`，默认 `USE_DEMO = True`，从上往下跑一遍，确认环境没问题。
 4. 收集并标注好真实数据后改成 `USE_DEMO = False`；需要跑 transformer 模型时改 `RUN_HEAVY = True`（建议用 GPU）。
@@ -108,7 +123,7 @@ data/annotations/jd_skills_labelled.csv        (doc_id, skill, keep(1/0), annota
 ```
 空白标注表由 notebook 第 2 节自动生成（`*_to_label.csv`），标完另存为上面的文件名即可。
 
-## 分工与交付物（2026-11-07 更新，按实际完成的工作）
+## 分工与交付物（按实际完成的工作）
 
 | 成员 | 负责环节 | 代码 | 主要结果（notebook 小节 / 结果文件） |
 |---|---|---|---|
@@ -118,19 +133,22 @@ data/annotations/jd_skills_labelled.csv        (doc_id, skill, keep(1/0), annota
 | **D** | 匹配模型 | `src/matching.py` | 8 种匹配器 + 微调双编码器在三个基准上的对比；反向任务的“职位偏好”诊断（第 5 节；`D_matching.csv`, `D7_finetune.csv`, `step5/T1_talentclef_dev.csv`, `H_vacancy_prior_diagnostic.csv`） |
 | **E** | 打分与消融 | `src/scoring.py`, `src/pipeline.py`（混合打分）, `app.py`, `experiments/step6_ablation_minilm.py` | 学习型打分器；TalentCLEF 消融与权重敏感性；Gradio Demo（第 6 节；`E_learned_scorer.csv`, `T_talentclef_ablation_minilm.csv`, `app.py`） |
 | **F** | 公平性、鲁棒性与错误分析 | `src/fairness.py`, `experiments/step7_fairness_v3.py` | 名字偏差 8.13 → 0（30 个职位复测）；鲁棒性与大写问题；错误分析（第 7 节；`F_name_fairness_multi_jd.csv`, `step7/`） |
+| （待填） | 学习资源推荐 + SkillBridge 前端 | `src/learning/`, `experiments/learning/`, `showcase_app.py`, `frontend/` | 3,428 门课程检索基准、xQuAD 学习路径、错误分析（第 9 节；`results/learning/bench/`） |
+| （待填） | 传统 NLP vs transformer | `src/classic_nlp.py`, `experiments/step9_classic_vs_neural.py` | Linear SVM Spearman 0.317，超过微调双编码器 0.281；效率与解释（第 10 节；`results/step9/`） |
 
-## 报告结构建议
-1. Introduction & Motivation（Part I 原型暴露的问题：README 上方表格和 notebook 第 1 节）
-2. Related Work（ESCO / SkillSpan / Sentence-BERT / cross-encoder / 招聘中的算法公平性）
-3. Dataset & Annotation (A)
-4. System Overview（流水线图）
-5. Experiments: Skill Extraction (B) · Requirement Classification (C) · Matching (D) · Scoring & Ablation (E)
-6. Fairness, Robustness & Error Analysis (F)
-7. Demo · Limitations · Conclusion · 分工声明
+## 展示结构建议（录屏 + PPT）
+1. Motivation（Part I 原型暴露的问题：notebook 第 1 节）
+2. Dataset & Annotation (A)
+3. System Overview（流水线图）
+4. Experiments: Skill Extraction (B) · Requirement Classification (C) · Matching (D) · Scoring & Ablation (E)
+5. Fairness, Robustness & Error Analysis (F)
+6. 传统 NLP vs transformer（第 10 节）· 学习资源推荐（第 9 节）
+7. Live Demo（SkillBridge 前端）· Limitations · 分工说明（评分项对照见 `docs/RUBRIC_MAPPING.md`）
 
 ## 注意
-- `data/demo/` 是编的合成数据，标签是人为判断的，**结果不能写进报告或 PPT**。
-- **需求优先级标签的来源**：`data/annotations/requirements_labelled.csv`（749 句）的 `gold_label` 由 LLM（Claude）按 `data/annotation_guidelines.md` 标注，`annotator` 列为 `claude`，单一标注者，未经组员人工复核。C 模块的分数衡量的是与这批 LLM 标签的一致程度，PPT 和分工声明里需要如实说明；如果时间允许，建议组员抽样复核一部分（例如 100 句）并报告一致率。
+- `data/demo/` 是编的合成数据，标签是人为判断的，**结果不能写进 PPT**。
+- **需求优先级标签的来源**：`data/annotations/requirements_labelled.csv`（749 句）的 `gold_label` 由 LLM（Claude）按 `data/annotation_guidelines.md` 标注，`annotator` 列为 `claude`，单一标注者，**组内不做人工复核**。C 模块的分数衡量的是与这批 LLM 标签的一致程度，PPT 和分工说明里需要如实说明。
+- 第 9 节课程检索用的是 Coursera 技能标签生成的银标准标签；`data/learning/human/` 的人工标注流程是可选的，本组没有进行。
 - 简历包含个人信息：标注和提交前先用 `du.anonymise_resume` 去掉姓名和联系方式；不要把别人的简历原件交上去。
 - API key 用环境变量传入，不要写进 notebook。
 

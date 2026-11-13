@@ -6,7 +6,6 @@ scipy
 matplotlib
 pypdf
 python-docx
-gensim>=4.3          # Word2Vec / GloVe baselines (learning benchmark, step9)
 
 # NLP models (strongly recommended)
 spacy>=3.5
@@ -22,6 +21,14 @@ datasets
 # demo
 gradio>=4.0
 
+# optional: Word2Vec baselines (learning benchmark, step9). No wheel for Python 3.14 yet;
+# without it Word2Vec is skipped and GloVe is loaded from the plain-text file instead.
+# gensim>=4.3
+
 # optional LLM back-ends (only if you use M5 / F5)
 # openai
 # anthropic
+
+# only for some experiment scripts (dataset download / Excel sheets)
+# requests
+# openpyxl

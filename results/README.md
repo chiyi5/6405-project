@@ -21,7 +21,7 @@
 | F 鲁棒性 | 其他扰动（缩写、展开、项目符号、段落顺序） | — | D6 全部不变；D8 打乱段落顺序最大 4.3、改项目符号最大 0.6 | `step7/step7_robustness_summary.csv` |
 
 | ★ 学习推荐：课程检索 | 3,428 门课程，test 30 条查询（20 技能名 + 10 JD 句），银标签，nDCG@10 | 原 SkillBridge 词法混合（只有 12 个资源，无法评估） | LTR-LR 0.730 [0.630, 0.826]；融合+交叉编码器 0.719；BM25(dev 调参) 0.684；SBERT 0.62–0.63；微调双编码器 0.619；与 BM25 差异均不显著，GloVe 0.325、LDA 0.164 显著更差；Word2Vec 0.594（云端） | `learning/bench/L1_*.csv`, `fig_L1_retrieval.png`, `L4_finetune_grid.csv`, `learning/bench_cloud_cpu/` |
-| ★ 学习推荐：学习路径 | 23 个真实 JD×简历差距画像，k=5，加权缺口覆盖率 | 逐缺口检索（原设计）BM25 0.755 | 改进版 xQuAD：TF-IDF 0.921、融合 0.916、BM25 0.894、Dense 0.880；6 种检索器中 5 种显著（Holm p ≤ 0.02）；原版 xQuAD 0.840 | `learning/bench/L2_*.csv`, `fig_L2_*.png` |
+| ★ 学习推荐：学习路径 | 23 个真实 JD×简历差距画像，k=5，加权缺口覆盖率 | 逐缺口检索（原设计）BM25 0.755 | 改进版 xQuAD：TF-IDF 0.921、融合 0.916、BM25 0.894、Dense 0.880；6 种检索器中 5 种显著（Holm p ≤ 0.02）；消融（线性融合）：原版 xQuAD 0.817 → 改进版 0.916 | `learning/bench/L2_*.csv`, `fig_L2_*.png` |
 | ★ 学习推荐：误差与标签审计 | 最佳系统 top-10 中被银标签判为不相关的命中 | — | 约 37% 在描述里原文提到该技能 → 银标签漏标，绝对分数偏低 | `learning/bench/L3_*.csv` |
 | ★ 主体 step9：传统 vs 神经 | fit 600 对，Spearman [95% CI，按 JD 重抽样] | D1 TF-IDF 0.076、D2 BM25 0.143、D7 微调 MiniLM 0.281 | D12 Linear SVM 0.317 [0.188, 0.447]、随机森林 0.310；D13 微调交叉编码器 0.181（微调前 −0.075）；LSA/LDA/GloVe ≈ 0 | `step9/S9_matching_all.csv`, `S9_dev_selection.csv`, `S9_ce_finetune_grid.csv` |
 | ★ 主体 step9：三分类 | 同上，准确率 / 宏 F1 | 多数类 0.333 / 0.167 | SVM 0.473 / 0.463 | `step9/S9_classifiers.csv`, `S9_confusion_*.csv` |
@@ -48,7 +48,7 @@
 - ★ step9 的 D12 分类器同时看 JD 和简历的词；LR 权重显示它主要利用 JD 一侧信息，和 "职位偏好" 诊断一致，报告里不要写成 "学会了判断人岗匹配"。
 - ★ `L4_finetune_grid.csv` / `S9_ce_finetune_grid.csv` 早期版本把 lr 四舍五入成 0.0，已修正（脚本也已修复）。
 - ★ 学习路径的 λ 曲线和 xQuAD 变体是在同一批 23 个画像上比较的，属于敏感性分析；默认 λ=0.7 是事先定的。
-- ★ 银标签来自 Coursera 的技能标签（含噪声，如剧本写作课被标了 "unix shells"），人工标注完成后以 `L5_human_eval.csv` 为准。
+- ★ 银标签来自 Coursera 的技能标签（含噪声，如剧本写作课被标了 "unix shells"），本组未做人工标注，没有 `L5_human_eval.csv`。
 
 ## 文件夹
 - `learning/bench/`：★ 学习推荐模块的全部评测结果（L1–L5）

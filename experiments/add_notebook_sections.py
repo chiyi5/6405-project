@@ -116,13 +116,13 @@ display(pd.read_csv(B / "L3_worst_queries.csv").head(6))
     md("""
 ### 9.7 Live demo of the benchmark winner and human evaluation
 
-`src/learning/course_search.py` serves the configuration that won above (dev-tuned BM25 per gap + normalised
-xQuAD) over all 3,428 courses; every recommendation shows the description sentence that names the skill.
+`src/learning/course_search.py` serves dev-tuned BM25 per gap + normalised xQuAD (note:
+on the test profiles TF-IDF + xQuAD is slightly higher, 0.921 vs 0.894, see 9.5) over all 3,428 courses; every recommendation shows the description sentence that names the skill.
 The same planner is exposed at `POST /api/courses` in `showcase_app.py`.
 
-Human judgements: `python experiments/learning/L5_human_judgements.py make` writes two blind, pooled sheets
-(`data/learning/human/`). After two team members grade them, `... score` reports Cohen's κ between annotators,
-agreement between silver and human labels, and re-scores every system on the human labels.
+Human judgements (optional, **not carried out** by the team): `python experiments/learning/L5_human_judgements.py make`
+writes two blind, pooled sheets (`data/learning/human/`); `... score` would report Cohen's κ and re-score every
+system on human labels. All numbers in this section therefore use the Coursera-derived silver labels.
 """),
     code("""
 from src.learning.course_search import CourseSearch

@@ -7,10 +7,14 @@ import sys
 import unittest
 from pathlib import Path
 
+import importlib.util
+
 import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+HAS_GENSIM = importlib.util.find_spec("gensim") is not None  # no gensim wheel on Python 3.14
+
 from src.learning import ir_metrics as M  # noqa: E402
 from src.learning import retrievers as R  # noqa: E402
 from src.learning.benchmark import parse_coursera_tags, split_skills, tag_matches  # noqa: E402
@@ -85,6 +89,7 @@ class RetrieverTests(unittest.TestCase):
         for ret in (lsa, R.RRFFusion([bm, lsa]), R.LinearFusion([bm, lsa], [1, 1])):
             self.assertEqual(ret.score(["sql", "python"]).shape, (2, 18))
 
+    @unittest.skipUnless(HAS_GENSIM, "gensim not installed")
     def test_word2vec_is_deterministic(self):
         a = R.EmbeddingRetriever("word2vec", w2v_kwargs={"min_count": 1, "epochs": 2}).fit(DOCS * 5).score(["sql"])
         b = R.EmbeddingRetriever("word2vec", w2v_kwargs={"min_count": 1, "epochs": 2}).fit(DOCS * 5).score(["sql"])
@@ -130,8 +135,10 @@ class ClassicMatcherTests(unittest.TestCase):
             self.assertEqual(len(s), 60)
             self.assertGreater(np.corrcoef(s, lab)[0, 1], 0.5, model)
         self.assertEqual(len(PairClassifier("logreg").train(df).top_terms(3)), 6)
-        for m in (LSAMatcher(3).fit(DOCS * 4), LDAMatcher(3, max_iter=5).fit(DOCS * 4),
-                  WordVectorMatcher("word2vec", {"min_count": 1}).fit(DOCS * 4)):
+        matchers = [LSAMatcher(3).fit(DOCS * 4), LDAMatcher(3, max_iter=5).fit(DOCS * 4)]
+        if HAS_GENSIM:
+            matchers.append(WordVectorMatcher("word2vec", {"min_count": 1}).fit(DOCS * 4))
+        for m in matchers:
             s = m.score_pairs(jds[:5], res[:5])
             self.assertEqual(len(s), 5)
             self.assertFalse(np.isnan(s).any())

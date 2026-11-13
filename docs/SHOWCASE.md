@@ -6,36 +6,26 @@
 
 切换语言保留当前文档、候选人选择、匹配结果、推荐方案和检索参数。界面标签、提示、结果说明和输入占位文字随语言切换；原始岗位/简历内容、课程标题与来源证据保持原文。实时版和离线 `Showcase.html` 都支持切换，无需联网获取翻译。
 
-## 直接演示（无需安装或启动服务）
+## 文档输入与界面预览
 
-双击项目根目录的 **Showcase.html**，用 Chrome / Edge 打开。
+页面默认不填充岗位、简历或学习目标，没有示例下拉框或自动加载按钮。用户在匹配页粘贴或上传 JD 和简历；候选人排序页仅包含自己上传的文件。
 
-包含 3 个合成岗位、8 份合成简历的 24 组匹配结果，由项目 Python 流水线实际计算并内嵌。学习推荐同样由原推荐器预先生成。页面明确标识离线案例演示，输入框与自定义参数锁定；结果不是实时计算，也不是研究评测结果。
+双击 `Showcase.html` 可以预览界面、切换语言和查看已有实验结果与资源目录。该文件不再内嵌示例文档或预计算的匹配结果；可以填写文本并读取 TXT，但实时分析及 PDF/DOCX 解析需要下方的 Python 服务。页面会明确提示启动方式，不会用固定结果替代用户输入。
 
-推荐演示顺序：
-
-1. 匹配分析：点击「开始匹配分析」，展示分数与逐条简历证据。
-2. 点击「生成我的学习路径」，展示技能差距对应的官方资源及来源片段。
-3. 候选人排序：选择内置简历，排序后点击候选人回看证据。
-4. 实验对比：切换技能抽取、需求分类、匹配与消融面板，展开原始 CSV 数据。
-5. 资源目录：搜索 SQL / Docker 等技能，打开官方教程。
-
-更新原算法、数据或界面后，重新构建离线文件：
+更新界面后可重新生成预览：
 
 ```powershell
 python experiments/build_showcase.py
 ```
 
-只收录 `data/demo/` 的合成案例，不读取私人简历。
-
 ## 实时分析自定义文档
 
-双击 **Start-Showcase.cmd**，保持启动窗口打开，访问 http://127.0.0.1:8877 。
+双击 **scripts\windows\Start-Showcase.cmd**，保持启动窗口打开，访问 http://127.0.0.1:8877 。
 
 也可自行指定 Python 与端口：
 
 ```powershell
-& D:\NLP\.venv\Scripts\python.exe showcase_app.py --port 8877 --open-browser
+python showcase_app.py --port 8877 --open-browser
 ```
 
 启动器优先使用项目 `.venv`，其次使用父目录 `.venv`，最后使用系统 Python。
@@ -47,7 +37,8 @@ python experiments/build_showcase.py
 
 - 实时匹配调用 `src.learning.workflow.match_documents` → 原 `MatchingPipeline`，使用词典技能和离线 hashed character n-grams，不下载模型。页面明确说明它不是 MiniLM / JobBERT 实验配置。
 - 学习推荐调用 `LearningRecommender`，Hybrid 是 BM25 + TF-IDF 的 RRF 融合；主题覆盖不等于能力掌握。
-- 实验页直接读取 `results/B_skill_extraction.csv`、`C_requirement_clf.csv`、`D_matching.csv`、`T_talentclef_ablation_minilm.csv`；不同面板的基准和指标不同。
+- 实验页直接读取 `results/B_skill_extraction.csv`、`C_requirement_clf.csv`、`D_matching.csv`、`T_talentclef_ablation_minilm.csv`，以及 2026-11 升级新增的三个面板：传统 vs 神经（`step9/S9_matching_all.csv`）、课程检索（`learning/bench/L1_leaderboard.csv`）、学习路径（`learning/bench/L2_leaderboard_k5.csv`）；不同面板的基准和指标不同。
+- `POST /api/courses` 提供 3,428 门课程目录上的学习路径推荐（BM25 + 归一化 xQuAD，见 notebook 9.7）；前端页面目前不调用它。
 - 分类标签来自单一 LLM 标注者，尚未人工复核；TalentCLEF dev 只有 10 个查询。
 - 输入文档不写入项目目录；PDF/DOCX 解析临时文件随请求完成清理。仅监听 127.0.0.1。
 
@@ -58,6 +49,6 @@ python -m unittest discover -s tests -p "test_*.py"
 node tests/showcase_ui_smoke.cjs
 ```
 
-HTTP 测试使用项目已有的内存 socket 传输方式，验证实际请求解析、路由、上传、排序与推荐；不证明当前机器的端口可连接。JS 测试使用轻量 DOM 模型，验证内嵌案例与界面流程，不代替浏览器视觉检查。
+HTTP 测试使用项目已有的内存 socket 传输方式，验证实际请求解析、路由、上传、排序与推荐；不证明当前机器的端口可连接。JS 测试使用轻量 DOM 模型，验证空白初始状态、自定义文档提交与界面流程，不代替浏览器视觉检查。
 
-如当前环境无法连接本地端口，可用 `Showcase.html` 完成内置案例展示。
+如当前环境无法连接本地端口，`Showcase.html` 仅可用于界面预览，不能分析自定义文档。

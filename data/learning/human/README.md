@@ -1,4 +1,6 @@
-# Human relevance judgements
+# Human relevance judgements (optional — not carried out by Group 32)
+
+The team decided not to run human annotation, so no `L5_*` results exist. The sheets and scoring script are kept so the evaluation can be extended later.
 
 Two people label `sheet_A.csv` and `sheet_B.csv` independently (do not discuss until both are done).
 

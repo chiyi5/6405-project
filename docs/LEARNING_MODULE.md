@@ -37,7 +37,7 @@ python -m unittest discover -s tests -p test_learning.py -v
 python experiments/evaluate_learning.py --smoke
 ```
 
-如果 python 命令不可用，可使用已有的 `D:\NLP\.venv\Scripts\python.exe`。原项目 `python app.py` 的 Gradio 页面也增加了按钮；它需要原有全部依赖和模型。独立页面没有这些依赖。
+如果 python 命令不可用，请改用你自己虚拟环境里的 python（例如 `.venv\Scripts\python.exe`）。原项目 `python app.py` 的 Gradio 页面也增加了按钮；它需要原有全部依赖和模型。独立页面没有这些依赖。
 
 ## 与组员代码的边界
 
@@ -122,7 +122,7 @@ python experiments/evaluate_learning.py --cases data/learning/cases.json --qrels
 2. 独立模块读取结果；展示推荐、来源原文与未覆盖技能。
 3. 同一组输入开关覆盖去重，观察重复课程和覆盖变化。
 4. 输入 Kubernetes 展示语料不支持时的明确未覆盖。
-5. 展示正式人工测试结果（完成标注后），解释一个成功和一个失败案例。
+5. 展示 test 集上的检索 / 组单结果（银标准标签），解释一个成功和一个失败案例。
 
 可以负责的贡献：任务定义、数据收集与复核、技能映射、检索融合、覆盖选择、实验、集成及解释。当前实现由 AI 辅助生成；不得将其描述为全部亲手独立编写。课程要求申报 AI 使用，并对纯 AI 生成代码设有扣分规则。请实际理解、修改和验证核心算法，记录自己的设计决定、人工标注和实验，不要仅改作者名。
 
@@ -135,4 +135,3 @@ python experiments/evaluate_learning.py --cases data/learning/cases.json --qrels
 - 语料：`data/learning/catalog.json`
 - 实验：`experiments/evaluate_learning.py`
 - 正确性检查：`tests/test_learning.py`
-- 安装到原仓库：项目根目录 `Install-LearningModule.ps1`
