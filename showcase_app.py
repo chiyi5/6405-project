@@ -34,10 +34,7 @@ def bootstrap():
             with path.open(encoding="utf-8-sig", newline="") as handle:
                 rows = list(csv.DictReader(handle))
         experiments[key] = {"source": "results/" + filename, "context": context, "metric": metric, "rows": rows}
-    def documents(folder):
-        return [{"name": p.stem, "text": p.read_text(encoding="utf-8")} for p in sorted((ROOT / "data" / "demo" / folder).glob("*.txt"))]
-    return {"jobs": documents("jds"), "resumes": documents("resumes"), "experiments": experiments,
-            "demo_notice": "Synthetic examples for demonstration only; not evaluation data."}
+    return {"experiments": experiments}
 
 
 def make_showcase_handler(engine):

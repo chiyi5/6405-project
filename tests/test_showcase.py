@@ -23,8 +23,8 @@ class ShowcaseTests(learning_tests.HttpTests):
         status, body = self.request("GET", "/api/showcase")
         data = json.loads(body)
         self.assertEqual(status, 200)
-        self.assertEqual(len(data["jobs"]), 3)
-        self.assertEqual(len(data["resumes"]), 8)
+        self.assertNotIn("jobs", data)
+        self.assertNotIn("resumes", data)
         self.assertTrue(data["experiments"]["skills"]["rows"])
         for route in ("/", "/app.js", "/style.css", "/locales.js", "/i18n.js"):
             self.assertEqual(self.request("GET", route)[0], 200)

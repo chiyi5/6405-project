@@ -116,7 +116,7 @@ data/annotations/jd_skills_labelled.csv        (doc_id, skill, keep(1/0), annota
 
 ## 项目展示前端（SkillBridge）
 
-- **直接展示**：双击根目录 `Showcase.html`。无需启动服务器，可演示 3 个岗位 × 8 份合成简历的预计算匹配、候选人排序、学习路径与实验结果。
+- **界面预览**：双击根目录 `Showcase.html`。文档默认留空，无内置候选人或固定匹配结果；分析自己的文档请使用下方实时入口。
 - **实时分析**：双击 `Start-Showcase.cmd`，打开 http://127.0.0.1:8877 。支持自定义文档上传和推荐参数。
 - 使用方法、演示顺序、模型配置与验证说明见 [docs/SHOWCASE.md](docs/SHOWCASE.md)。
 - 离线展示页更新命令：`python experiments/build_showcase.py`。

@@ -19,19 +19,7 @@ function offlineApi(path,data){
   if(path==='/api/showcase')return bundle.bootstrap;
   if(path==='/api/catalog')return bundle.catalog;
   if(path==='/api/export')return {markdown:['# SkillBridge learning plan','',data.plan.backend,'',...data.plan.recommendations.flatMap(c=>['## '+c.step+'. '+c.title,c.description,c.url,'Targets: '+c.covered_gaps.join(', '),''])].join('\n')};
-  const find=(jd,resume)=>bundle.matches.find(m=>m.jd===jd&&m.resume===resume);
-  if(path==='/api/match'){const item=find(data.jd,data.resume);if(item)return item.result;}
-  if(path==='/api/rank'){
-    if(!data.resumes?.length)throw new Error('Please select at least one candidate.');
-    const ranking=data.resumes.map((r,i)=>{const m=find(data.jd,r.text);if(!m)throw new Error('Offline mode supports built-in examples only. Start the live version to analyze custom documents.');return {name:r.name,input_index:i,...m.result};});
-    ranking.sort((a,b)=>(b.scores.hybrid_score??-1)-(a.scores.hybrid_score??-1));return {ranking};
-  }
-  if(path==='/api/recommend'||path==='/api/compare'){
-    const key=JSON.stringify([data.gaps,data.known]);const plans=bundle.plans[key];
-    if(plans)return path==='/api/compare'?plans:plans[3];
-    throw new Error('This learning input is not included in the offline examples. Start the live version to customize learning goals.');
-  }
-  throw new Error('Offline mode supports built-in examples only. Run Start-Showcase.cmd for live features.');
+  throw new Error('Run Start-Showcase.cmd and open http://127.0.0.1:8877 to analyze your documents. This standalone file only previews the interface.');
 }
 async function action(button,label,fn){
   if(state.busy){toast('An operation is in progress. Please wait.');return;}
@@ -54,15 +42,14 @@ function invalidate(){
   $('skill-gaps').innerHTML='<p class="muted">Analyze documents to identify skills without sufficient resume evidence.</p>';counts();
 }
 ['jd','resume'].forEach(id=>$(id).addEventListener('input',invalidate));
-function chooseExample(){
-  $('jd').value=state.data.jobs[Number($('job-example').value)]?.text||'';
-  $('resume').value=state.data.resumes[Number($('resume-example').value)]?.text||'';invalidate();
-}
-$('job-example').onchange=()=>{$('jd').value=state.data.jobs[Number($('job-example').value)]?.text||'';invalidate();};
-$('resume-example').onchange=()=>{$('resume').value=state.data.resumes[Number($('resume-example').value)]?.text||'';invalidate();};
-$('load-example').onclick=()=>{if(!state.data)return;$('job-example').value='0';$('resume-example').value='2';chooseExample();toast('Loaded a synthetic backend job and candidate example.');};
 async function readFile(file){
   if(file.size>5*1024*1024)throw new Error('A single file cannot exceed 5 MB.');
+  if(file.name.toLowerCase().endsWith('.txt')){
+    const text=(await file.text()).replace(/^\uFEFF/,'');
+    if(!text.trim())throw new Error('The document is empty.');
+    if(text.length>40000)throw new Error('Document exceeds 40000 characters.');
+    return text;
+  }
   const content=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result).split(',')[1]);r.onerror=()=>reject(new Error('Unable to read the file.'));r.readAsDataURL(file);});
   return (await api('/api/read-document',{name:file.name,content})).text;
 }
@@ -90,6 +77,7 @@ function showMatch(match){
 $('evidence-filter').onchange=showEvidence;
 $('analyze').onclick=()=>action($('analyze'),'Analyzing documents…',async()=>{
   const jd=$('jd').value,resume=$('resume').value;
+  if(!jd.trim()||!resume.trim())throw new Error('Please paste or upload both a job description and a resume.');
   const result=await api('/api/match',{jd,resume});
   if(jd!==$('jd').value||resume!==$('resume').value){toast('Documents changed. Please analyze the current content again.');return;}
   showMatch(result);toast('Analysis complete. Requirements and resume evidence are aligned.');
@@ -100,8 +88,8 @@ $('bridge-learning').onclick=()=>{
   $('known').value=state.match.profile.skills.join(', ');location.hash='learning';$('recommend').click();
 };
 function renderCandidates(){
-  const candidates=[...state.data.resumes,...state.uploads];
-  $('candidate-checks').innerHTML=candidates.map((r,i)=>`<div class="candidate-check"><input type="checkbox" id="cv-${i}" value="${i}" ${i<3||i>=state.data.resumes.length?'checked':''}><label for="cv-${i}"><span data-i18n-ignore>${esc(human(r.name))}</span>${i>=state.data.resumes.length?' <span class="badge">Uploaded</span>':''}</label></div>`).join('');
+  const previous=new Map(Array.from(document.querySelectorAll('#candidate-checks input')).map(input=>[input.value,input.checked]));
+  $('candidate-checks').innerHTML=state.uploads.length?state.uploads.map((r,i)=>`<div class="candidate-check"><input type="checkbox" id="cv-${i}" value="${i}" ${previous.get(String(i))!==false?'checked':''}><label for="cv-${i}"><span data-i18n-ignore>${esc(human(r.name))}</span> <span class="badge">Uploaded</span></label></div>`).join(''):'<p class="caption">Upload resumes to add candidates. No sample resumes are included.</p>';
 }
 $('rank-files').onchange=async event=>{
   const files=Array.from(event.target.files);if(!files.length)return;
@@ -109,9 +97,11 @@ $('rank-files').onchange=async event=>{
   try{const added=[];for(const f of files)added.push({name:f.name,text:await readFile(f)});state.uploads.push(...added);renderCandidates();toast('Added '+added.length+' resumes.');}catch(e){toast(e.message,true);}finally{event.target.value='';}
 };
 $('rank-button').onclick=()=>action($('rank-button'),'Matching candidates…',async()=>{
-  const candidates=[...state.data.resumes,...state.uploads];
+  const candidates=state.uploads;
   const resumes=Array.from(document.querySelectorAll('#candidate-checks input:checked')).map(i=>candidates[Number(i.value)]);
   const jd=$('rank-jd').value;
+  if(!jd.trim())throw new Error('Please enter a job description before ranking candidates.');
+  if(!resumes.length)throw new Error('Please upload and select at least one resume.');
   const {ranking}=await api('/api/rank',{jd,resumes});state.ranked=ranking;state.rankedJd=jd;state.rankedInputs=resumes;
   $('ranking-results').className='';$('ranking-results').innerHTML=ranking.map((r,i)=>`<div class="rank-row" role="button" tabindex="0" data-rank="${i}"><span class="rank-number">${i+1}</span><div class="rank-name"><span data-i18n-ignore>${esc(human(r.name))}</span><small>Coverage ${score(r.scores.final_score)} · ${esc(eligibility(r.scores.eligibility))}</small></div><span class="rank-value">${score(r.scores.hybrid_score)}</span><span>↗</span></div>`).join('')+'<p class="row-hint">Select a candidate → Inspect requirements and evidence</p>';
 });
@@ -151,11 +141,9 @@ $('catalog-search').oninput=catalog;
 $('presentation').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{toast('Fullscreen is unavailable. You can use F11.');}};
 async function init(){
   try{const [data,cat]=await Promise.all([api('/api/showcase'),api('/api/catalog')]);state.data=data;state.catalog=cat.resources;
-    $('job-example').innerHTML=data.jobs.map((j,i)=>`<option value="${i}">${esc(human(j.name))}</option>`).join('');
-    $('resume-example').innerHTML=data.resumes.map((r,i)=>`<option value="${i}"><span data-i18n-ignore>${esc(human(r.name))}</span></option>`).join('');
-    $('resume-example').value='2';chooseExample();renderCandidates();catalog();experiments('skills');navigate();
-    $('connection').innerHTML=window.SKILLBRIDGE_OFFLINE?'<i></i>Offline example demo':'<i></i>Local service connected';
-    if(window.SKILLBRIDGE_OFFLINE){$('offline-notice').hidden=false;['jd','resume','rank-jd'].forEach(id=>$(id).readOnly=true);['gaps','known','method','top-k','budget','optimize','jd-file','resume-file','rank-files'].forEach(id=>$(id).disabled=true);}
+    renderCandidates();counts();catalog();experiments('skills');navigate();
+    $('connection').innerHTML=window.SKILLBRIDGE_OFFLINE?'<i></i>Interface preview':'<i></i>Local service connected';
+    if(window.SKILLBRIDGE_OFFLINE)$('offline-notice').hidden=false;
   }catch(e){$('connection').textContent='Connection failed';toast('Unable to load data: '+e.message+'. Run Start-Showcase.cmd to start the app.',true);}
 }
 init();
