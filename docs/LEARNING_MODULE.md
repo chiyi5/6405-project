@@ -1,5 +1,19 @@
 # 独立贡献：基于证据的学习资源推荐
 
+## 2026-11 升级：大规模评测（先看这里）
+
+旧版只有 12 个资源和自编案例。现在有完整的评测基准和实验，见 notebook 9.3–9.7、`results/README.md` 和 `docs/RUBRIC_MAPPING.md`：
+
+| 部分 | 文件 | 要点 |
+|---|---|---|
+| 基准 | `src/learning/benchmark.py` | 3,428 门课程；96 个技能查询 + 37 个 JD 句查询；23 个真实差距画像；按技能划分 60/20/20 |
+| 检索器 | `src/learning/retrievers.py` | BM25、TF-IDF（词/字符）、LSA、LDA、GloVe、Word2Vec、Dense、交叉编码器、RRF、线性融合、LTR |
+| 组单 | `src/learning/planner.py` | 拼接查询 / 逐缺口 / 改进版 xQuAD（多样性项按未覆盖权重归一化 + 逐缺口候选池） |
+| 实验 | `experiments/learning/L1`–`L5`, `run_all.py` | dev 调参 → test 报告；CI、配对检验、消融、误差分析、人工标注 |
+| 生产入口 | `src/learning/course_search.py` | `CourseSearch().plan(gaps, k=5)`；每条推荐附课程描述原句作为证据；`POST /api/courses` |
+
+视频演示建议增加：输入 SQL(REQUIRED) + Docker / Kubernetes(PREFERRED) + Tableau(REQUIRED)，逐缺口检索给出 4 门 SQL 课和 1 门 Tableau 课（Docker、Kubernetes 没覆盖，覆盖率 0.8）；xQuAD 给出 1 门 SQL、1 门 Tableau 和 3 门容器课程，覆盖率 1.0。
+
 ## 首选入口：原项目 Notebook 第 9 节
 
 主入口为 `Group32_NLPproject_extended.ipynb` 的第 9 节。直接运行该节即可，不依赖 HTTP 服务。

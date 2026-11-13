@@ -1,0 +1,14 @@
+config,weighted_coverage,gap_recall,precision,redundancy,mandatory_required_covered
+xQuAD λ=0.0,0.7947,0.773,0.9043,0.5391,0.8387
+xQuAD λ=0.3,0.8427,0.8204,0.9217,0.513,0.9002
+xQuAD λ=0.5,0.9025,0.8824,0.9304,0.4696,0.9156
+xQuAD λ=0.7,0.9164,0.9081,0.913,0.4696,0.9296
+xQuAD λ=0.9,0.9217,0.9121,0.9043,0.4609,0.9424
+xQuAD λ=1.0,0.9217,0.9121,0.8696,0.4522,0.9424
+"xQuAD λ=0.7, original (no normalisation, aggregated pool)",0.8169,0.7875,0.9043,0.5478,0.8746
+"xQuAD λ=0.7, + per-gap pool only",0.8369,0.8146,0.913,0.5217,0.89
+"xQuAD λ=0.7, + normalisation only",0.9151,0.9081,0.9217,0.4696,0.9226
+"xQuAD λ=0.7, no priority weights",0.9151,0.9121,0.913,0.4696,0.9168
+"xQuAD λ=0.7, + alias expansion",0.9042,0.8973,0.9217,0.4696,0.9226
+"per-gap, no priority weights",0.7759,0.7615,0.913,0.5652,0.7848
+"per-gap, + alias expansion",0.8034,0.7875,0.9217,0.5478,0.8387

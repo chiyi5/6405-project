@@ -6,6 +6,7 @@ scipy
 matplotlib
 pypdf
 python-docx
+gensim>=4.3          # Word2Vec / GloVe baselines (learning benchmark, step9)
 
 # NLP models (strongly recommended)
 spacy>=3.5

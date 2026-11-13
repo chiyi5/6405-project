@@ -1,0 +1,12 @@
+system,baseline,delta_ndcg@10,p_raw,p_holm,significant_0.05
+LTR logistic regression (train/dev),BM25 (dev-tuned),0.0308,0.2811,1.0,False
+LTR gradient boosting (train),BM25 (dev-tuned),-0.0006,0.9901,1.0,False
+"BM25 (default k1=1.2,b=0.75)",BM25 (dev-tuned),-0.0027,0.866,1.0,False
+LSA (dev-tuned),BM25 (dev-tuned),-0.0267,0.503,1.0,False
+Linear fusion (dev-tuned weights),BM25 (dev-tuned),-0.0267,0.503,1.0,False
+TF-IDF word 1-2gram,BM25 (dev-tuned),-0.0349,0.1334,0.8003,False
+RRF (BM25+LSA+GloVe),BM25 (dev-tuned),-0.0482,0.0585,0.468,False
+TF-IDF char 3-5gram,BM25 (dev-tuned),-0.0666,0.095,0.6649,False
+Word2Vec (trained on corpus),BM25 (dev-tuned),-0.09,0.0279,0.2511,False
+GloVe-100 IDF-avg,BM25 (dev-tuned),-0.3594,0.0001,0.0011,True
+LDA topics (dev-tuned),BM25 (dev-tuned),-0.5078,0.0001,0.0011,True

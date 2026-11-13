@@ -1,6 +1,6 @@
 @echo off
 setlocal
-cd /d "%~dp0submission\repository"
+cd /d "%~dp0..\..\submission\repository"
 if errorlevel 1 goto failed
 echo Prepared commit:
 git log -1 --oneline

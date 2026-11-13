@@ -1,0 +1,13 @@
+system,ndcg@10,ndcg@10_lo,ndcg@10_hi,map@100,mrr@10,recall@100
+LTR logistic regression (train/dev),0.715,0.628,0.807,0.395,0.944,0.551
+BM25 (dev-tuned),0.684,0.592,0.772,0.378,0.957,0.462
+LTR gradient boosting (train),0.684,0.582,0.788,0.374,0.917,0.518
+"BM25 (default k1=1.2,b=0.75)",0.682,0.589,0.771,0.372,0.934,0.462
+LSA (dev-tuned),0.658,0.55,0.769,0.355,0.85,0.488
+Linear fusion (dev-tuned weights),0.658,0.55,0.769,0.355,0.85,0.488
+TF-IDF word 1-2gram,0.649,0.555,0.745,0.37,0.914,0.463
+RRF (BM25+LSA+GloVe),0.636,0.541,0.735,0.332,0.834,0.486
+TF-IDF char 3-5gram,0.618,0.528,0.71,0.327,0.9,0.477
+Word2Vec (trained on corpus),0.594,0.482,0.712,0.286,0.85,0.417
+GloVe-100 IDF-avg,0.325,0.235,0.426,0.121,0.61,0.248
+LDA topics (dev-tuned),0.176,0.105,0.263,0.071,0.359,0.23

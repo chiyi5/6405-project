@@ -1,0 +1,11 @@
+matcher,fit_s,fit_peak_MB,ms_per_pair,score_peak_MB
+D9_lsa_k50,1.07,26.6,1.62,7.5
+D10_lda_k20,16.32,45.8,4.59,4.0
+D11_glove-wiki-gigaword-100,54.07,430.9,2.15,2.7
+D12_naive_bayes,23.12,242.9,2.9,8.0
+D12_logreg_C0.1,24.12,242.9,2.65,8.0
+D12_linear_svm_C0.1,24.5,242.9,2.69,8.0
+D12_random_forest,27.83,242.9,4.14,8.0
+D13_finetuned_cross_encoder_lr5e-05_ep2,,,7.27,3.0
+D1_tfidf,,,3.35,4.5
+D2_bm25,,,1.26,1.7

@@ -1,0 +1,19 @@
+method,spearman,ci_low,ci_high,n_pairs,auc_goodfit,macro_f1_cv,ndcg@5,note,family
+D12_linear_svm_C0.1,0.317,0.188,0.447,600,0.659,0.427,0.833,,supervised classifier
+D12_random_forest,0.31,0.165,0.439,600,0.683,0.434,0.84,,supervised classifier
+D7_finetuned_minilm_doc,0.281,,,600,0.639,0.428,0.793,"from D7_finetune.csv (no per-pair scores, CI n/a)",fine-tuned transformer
+D12_naive_bayes,0.261,0.116,0.394,600,0.65,0.4,0.776,,supervised classifier
+D12_logreg_C0.1,0.199,0.092,0.318,600,0.579,0.381,0.823,,supervised classifier
+D13_finetuned_cross_encoder_lr5e-05_ep2,0.181,0.04,0.331,600,0.596,0.367,0.783,,fine-tuned transformer
+D2_bm25,0.143,0.001,0.282,600,0.595,0.328,0.75,,lexical
+D10_lda_k20,0.08,-0.028,0.188,600,0.497,0.346,0.711,,topic model
+D1_tfidf,0.076,-0.016,0.18,600,0.529,0.32,0.726,,lexical
+D9_lsa_k50,0.066,-0.034,0.179,600,0.516,0.307,0.741,,latent semantic
+D11_glove-wiki-gigaword-100,0.024,-0.109,0.159,600,0.497,0.308,0.728,,word embedding
+D6_our_pipeline,0.005,-0.066,0.089,529,,,,,our pipeline
+D3_minilm_doc (before FT),-0.01,,,600,0.449,0.342,0.748,"from D7_finetune.csv (no per-pair scores, CI n/a)",transformer bi-encoder
+D3_all-MiniLM-L6-v2_doc,-0.01,-0.107,0.106,600,,,,,transformer bi-encoder
+D5_cross_encoder,-0.075,-0.212,0.082,600,,,,,transformer cross-encoder
+D4_bge-small-en-v1.5_maxsim,-0.093,-0.229,0.051,600,,,,,transformer bi-encoder
+D4_all-MiniLM-L6-v2_maxsim,-0.096,-0.231,0.054,600,,,,,transformer bi-encoder
+D4_all-mpnet-base-v2_maxsim,-0.111,-0.243,0.048,600,,,,,transformer bi-encoder

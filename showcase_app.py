@@ -22,6 +22,9 @@ EXPERIMENTS = {
     "classification": ("C_requirement_clf.csv", "749 sentences · LLM labels, not human-verified", "macro_f1"),
     "matching": ("D_matching.csv", "External fit benchmark · 600 pairs", "spearman"),
     "ablation": ("T_talentclef_ablation_minilm.csv", "TalentCLEF dev · 10 queries · MiniLM", "map"),
+    "classic": ("step9/S9_matching_all.csv", "Fit benchmark · 600 pairs · traditional NLP vs transformers (step9)", "spearman"),
+    "courses": ("learning/bench/L1_leaderboard.csv", "3,428 Coursera courses · 30 test queries · silver labels from Coursera tags", "ndcg@10"),
+    "plans": ("learning/bench/L2_leaderboard_k5.csv", "23 real JD/resume gap profiles · 5-course plans", "weighted_coverage"),
 }
 
 
@@ -29,12 +32,12 @@ def bootstrap():
     experiments = {}
     for key, (filename, context, metric) in EXPERIMENTS.items():
         path = ROOT / "results" / filename
-        rows = []
-        if path.exists():
-            with path.open(encoding="utf-8-sig", newline="") as handle:
-                rows = list(csv.DictReader(handle))
+        rows = list(csv.DictReader(path.open(encoding="utf-8-sig", newline=""))) if path.exists() else []
         experiments[key] = {"source": "results/" + filename, "context": context, "metric": metric, "rows": rows}
-    return {"experiments": experiments}
+    def documents(folder):
+        return [{"name": p.stem, "text": p.read_text(encoding="utf-8")} for p in sorted((ROOT / "data" / "demo" / folder).glob("*.txt"))]
+    return {"jobs": documents("jds"), "resumes": documents("resumes"), "experiments": experiments,
+            "demo_notice": "Synthetic examples for demonstration only; not evaluation data."}
 
 
 def make_showcase_handler(engine):
@@ -45,7 +48,6 @@ def make_showcase_handler(engine):
         def do_GET(self):
             route = urlparse(self.path).path
             assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"),
-                      "/locales.js": ("locales.js", "text/javascript"), "/i18n.js": ("i18n.js", "text/javascript"),
                       "/style.css": ("style.css", "text/css")}
             if route in assets:
                 filename, mime = assets[route]
@@ -58,6 +60,26 @@ def make_showcase_handler(engine):
                 super().do_GET()
 
         def do_POST(self):
+            if self.path == "/api/courses":
+                # large-catalogue recommender (benchmark winner: BM25 + normalised xQuAD)
+                origin = self.headers.get("Origin")
+                if origin and origin != f"http://{self.headers.get('Host')}":
+                    self.respond(403, {"error": "Cross-origin requests are not accepted."})
+                    return
+                try:
+                    length = int(self.headers.get("Content-Length", "0"))
+                    data = json.loads(self.rfile.read(min(length, 65536)) or b"{}")
+                    gaps = data.get("gaps")
+                    if not isinstance(gaps, list) or not 1 <= len(gaps) <= 30:
+                        raise ValueError("Provide 1-30 gaps as [{skill, priority}].")
+                    k = int(data.get("k", 5))
+                    if not 1 <= k <= 20:
+                        raise ValueError("k must be 1-20.")
+                    from src.learning.course_search import get_course_search
+                    self.respond(200, get_course_search().plan(gaps, k=k))
+                except (ValueError, TypeError) as exc:
+                    self.respond(400, {"error": str(exc)})
+                return
             if self.path not in {"/api/rank", "/api/read-document"}:
                 return super().do_POST()
             origin = self.headers.get("Origin")
@@ -97,11 +119,11 @@ def make_showcase_handler(engine):
                     raise ValueError("Provide between 1 and 12 resumes.")
                 rows = []
                 with match_lock:
-                    for index, item in enumerate(resumes):
+                    for item in resumes:
                         if not isinstance(item, dict):
                             raise ValueError("Invalid resume.")
                         match = match_documents(data.get("jd"), item.get("text"))
-                        rows.append({"name": str(item.get("name", "Candidate"))[:180], "input_index": index, **match})
+                        rows.append({"name": str(item.get("name", "Candidate"))[:180], **match})
                 rows.sort(key=lambda r: (r["scores"]["hybrid_score"] is not None,
                                         r["scores"]["hybrid_score"] or 0), reverse=True)
                 self.respond(200, {"ranking": rows})

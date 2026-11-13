@@ -1,0 +1,90 @@
+{
+ "resources": 3428,
+ "coursera": 3416,
+ "curated": 12,
+ "skills": 96,
+ "queries": {
+  "skill": 96,
+  "sentence": 37
+ },
+ "queries_by_split": {
+  "sentence": {
+   "dev": 9,
+   "test": 10,
+   "train": 18
+  },
+  "skill": {
+   "dev": 19,
+   "test": 20,
+   "train": 57
+  }
+ },
+ "qrels": 5642,
+ "mean_relevant_per_query": 42.42,
+ "profiles": 23,
+ "mean_gaps_per_profile": 4.26,
+ "domains": [
+  [
+   "computer-science",
+   579
+  ],
+  [
+   "data-science",
+   499
+  ],
+  [
+   "life-sciences",
+   375
+  ],
+  [
+   "physical-science-and-engineering",
+   300
+  ],
+  [
+   "social-sciences",
+   279
+  ],
+  [
+   "software-development",
+   272
+  ],
+  [
+   "data-analysis",
+   238
+  ],
+  [
+   "machine-learning",
+   229
+  ],
+  [
+   "arts-and-humanities",
+   219
+  ],
+  [
+   "leadership-and-management",
+   180
+  ],
+  [
+   "information-technology",
+   174
+  ],
+  [
+   "business-strategy",
+   145
+  ],
+  [
+   "business-essentials",
+   132
+  ],
+  [
+   "music-and-art",
+   108
+  ],
+  [
+   "mobile-and-web-development",
+   107
+  ]
+ ],
+ "seed": 13,
+ "coursera_sha256": "eba83d41a4a0ff95465896613f5e2410c1a98a79aeacaa1a1c5bd1d5c26272fe"
+}

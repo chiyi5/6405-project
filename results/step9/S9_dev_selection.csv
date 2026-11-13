@@ -1,0 +1,15 @@
+family,param,dev_spearman
+LSA,50.0,0.2067
+LSA,100.0,0.1899
+LSA,200.0,0.1759
+LSA,400.0,0.1547
+LDA,20.0,0.1962
+LDA,50.0,0.1111
+LDA,100.0,0.1528
+logreg,0.01,0.2662
+logreg,0.1,0.327
+logreg,1.0,0.3185
+logreg,10.0,0.2255
+linear_svm,0.01,0.302
+linear_svm,0.1,0.3419
+linear_svm,1.0,0.2618

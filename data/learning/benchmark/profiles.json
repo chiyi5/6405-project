@@ -1,0 +1,578 @@
+[
+ {
+  "pid": "J12f1c35b__R6b910872",
+  "jd_id": "J12f1c35b",
+  "resume_id": "R6b910872",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Critical thinking",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Problem solving",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Tableau",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J1825d5eb__Rc336746a",
+  "jd_id": "J1825d5eb",
+  "resume_id": "Rc336746a",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Angular",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Azure",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "J4cde41a3__Rde191bdb",
+  "jd_id": "J4cde41a3",
+  "resume_id": "Rde191bdb",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Agile",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Java",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Kubernetes",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Microservices",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Unit testing",
+    "priority": "PREFERRED"
+   }
+  ]
+ },
+ {
+  "pid": "J7c0a73bd__Rc336746a",
+  "jd_id": "J7c0a73bd",
+  "resume_id": "Rc336746a",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Algorithms",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "C++",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Computer vision",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Deep learning",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Docker",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Kubernetes",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "OpenCV",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Optimization",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "PyTorch",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Python",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "TensorFlow",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "J8086a8d8__Rc336746a",
+  "jd_id": "J8086a8d8",
+  "resume_id": "Rc336746a",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Data analysis",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Optimization",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Tableau",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "J86dda3b4__R32e03e9e",
+  "jd_id": "J86dda3b4",
+  "resume_id": "R32e03e9e",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Agile",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Data structures",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J918cce31__Rde191bdb",
+  "jd_id": "J918cce31",
+  "resume_id": "Rde191bdb",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Data analysis",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Data warehousing",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Python",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "Ja0dd24c4__Rc336746a",
+  "jd_id": "Ja0dd24c4",
+  "resume_id": "Rc336746a",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "C",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "C++",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Problem solving",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "Ja2f61657__Rc34b3f4e",
+  "jd_id": "Ja2f61657",
+  "resume_id": "Rc34b3f4e",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Excel",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Time management",
+    "priority": "PREFERRED"
+   }
+  ]
+ },
+ {
+  "pid": "Jaaac66ad__R32e03e9e",
+  "jd_id": "Jaaac66ad",
+  "resume_id": "R32e03e9e",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Data analysis",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Tableau",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "Jaf8d8c6d__R304b3441",
+  "jd_id": "Jaf8d8c6d",
+  "resume_id": "R304b3441",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Project management",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Testing",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "Jb335b8e0__R8b01db14",
+  "jd_id": "Jb335b8e0",
+  "resume_id": "R8b01db14",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Data analysis",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Leadership",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "Jbc88b691__Rde191bdb",
+  "jd_id": "Jbc88b691",
+  "resume_id": "Rde191bdb",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Leadership",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Project management",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "Jbeb09c2b__R5a41ebbf",
+  "jd_id": "Jbeb09c2b",
+  "resume_id": "R5a41ebbf",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "AWS",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Agile",
+    "priority": "PREFERRED"
+   },
+   {
+    "skill": "Cloud computing",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Docker",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Machine learning",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "NoSQL",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Optimization",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Pandas",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Profiling",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Python",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "Je0431459__R1f61e133",
+  "jd_id": "Je0431459",
+  "resume_id": "R1f61e133",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Critical thinking",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "PREFERRED"
+   },
+   {
+    "skill": "Leadership",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Problem solving",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Time management",
+    "priority": "PREFERRED"
+   }
+  ]
+ },
+ {
+  "pid": "Jea046192__R32e03e9e",
+  "jd_id": "Jea046192",
+  "resume_id": "R32e03e9e",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Data analysis",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Statistics",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "Jf494da5a__Rc336746a",
+  "jd_id": "Jf494da5a",
+  "resume_id": "Rc336746a",
+  "source": "labelled_jd",
+  "gaps": [
+   {
+    "skill": "Debugging",
+    "priority": "REQUIRED"
+   },
+   {
+    "skill": "Excel",
+    "priority": "REQUIRED"
+   }
+  ]
+ },
+ {
+  "pid": "J3b210d9f__R304b3441",
+  "jd_id": "J3b210d9f",
+  "resume_id": "R304b3441",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Agile",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Kubernetes",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Microservices",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "SQL",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J39eede02__R8b01db14",
+  "jd_id": "J39eede02",
+  "resume_id": "R8b01db14",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Agile",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Communication",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Git",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Python",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J3b210d9f__R5a41ebbf",
+  "jd_id": "J3b210d9f",
+  "resume_id": "R5a41ebbf",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Agile",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Kubernetes",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Microservices",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "Software engineering",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J41db8fe6__Rc336746a",
+  "jd_id": "J41db8fe6",
+  "resume_id": "Rc336746a",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Angular",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "CSS",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "HTML",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "JavaScript",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J4e43ca2b__R813ddcb0",
+  "jd_id": "J4e43ca2b",
+  "resume_id": "R813ddcb0",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Angular",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "HTML",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "JavaScript",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ },
+ {
+  "pid": "J4e43ca2b__R7f31e039",
+  "jd_id": "J4e43ca2b",
+  "resume_id": "R7f31e039",
+  "source": "fit_pair",
+  "gaps": [
+   {
+    "skill": "Angular",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "HTML",
+    "priority": "UNSPECIFIED"
+   },
+   {
+    "skill": "JavaScript",
+    "priority": "UNSPECIFIED"
+   }
+  ]
+ }
+]
