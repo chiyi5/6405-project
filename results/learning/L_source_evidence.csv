@@ -1,0 +1,4 @@
+﻿resource_id,skill,source_span,source_url
+docker-start,docker,Build and share a containerized application,https://docs.docker.com/get-started/
+git-basics,git,Git Basics,https://git-scm.com/book/en/v2
+sql-intro,sql,The SQL Language,https://www.postgresql.org/docs/current/tutorial-sql.html

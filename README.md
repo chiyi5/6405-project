@@ -40,6 +40,20 @@ results/
 
 ## 怎么运行
 
+### 新增个人贡献：Notebook 第 9 节
+
+学习资源推荐模块已经接入主 notebook 的 **第 9 节**。可在 VS Code / Jupyter 中直接运行该节，无需启动网页或桌面应用。优先读取 Part II 的匹配结果 `r`；独立运行时使用项目已有的合成 JD/简历和离线匹配后端。
+
+也可以在项目根目录直接运行下面的命令；它只执行第 9 节，将真实运行输出保存回 notebook，并生成推荐表、来源证据和四组对比表：
+
+```powershell
+& D:\NLP\.venv\Scripts\python.exe experiments/run_learning_section.py
+```
+
+产物位于 `results/learning/L_*`。这是推荐模块的实现与合成数据验证，不是人工标注测试集上的准确率。`learning_app.py`、`learning_desktop.py` 是额外演示入口，不是本项目主入口。
+
+### 原项目 Part I / Part II
+
 1. Part I 需要原始的 `JD_example1_ntu_AI.txt`、`Resume2.pdf`、`Courses.csv`，**这三个文件不在本压缩包里**，运行前请放到项目根目录。
    （`Resume2.pdf` 含个人信息，提交代码时请勿附上原件。）
 2. `pip install -r requirements.txt`
@@ -99,3 +113,10 @@ data/annotations/jd_skills_labelled.csv        (doc_id, skill, keep(1/0), annota
 - `experiments/step8_esco.py`：在独立的 Python 3.10/3.11 环境中跑 Part I 原版 ESCO 抽取器，作为定量 baseline
 - `experiments/make_pair_sheets.py`：生成组员人工标注用的 Excel 表（每对由 2 人标注）
 - `step1_prepare.py --demo` 的输出写到 `results/demo_run/`，不会覆盖真实的 `results/A_*` 文件；但它会把 `data/hf/` 换成 demo 数据，跑真实实验前要重新运行一次不带 `--demo` 的 step1。
+
+## 项目展示前端（SkillBridge）
+
+- **直接展示**：双击根目录 `Showcase.html`。无需启动服务器，可演示 3 个岗位 × 8 份合成简历的预计算匹配、候选人排序、学习路径与实验结果。
+- **实时分析**：双击 `Start-Showcase.cmd`，打开 http://127.0.0.1:8877 。支持自定义文档上传和推荐参数。
+- 使用方法、演示顺序、模型配置与验证说明见 [docs/SHOWCASE.md](docs/SHOWCASE.md)。
+- 离线展示页更新命令：`python experiments/build_showcase.py`。

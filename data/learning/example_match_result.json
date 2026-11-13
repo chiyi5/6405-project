@@ -1,0 +1,11 @@
+{
+  "description": "Author-written integration fixture, not a real candidate or benchmark.",
+  "details": [
+    {"category":"Skill","requirement":"Python","priority":"REQUIRED","match_score":100,"match_type":"EXACT"},
+    {"category":"Skill","requirement":"SQL","priority":"REQUIRED","match_score":25,"match_type":"NOT_EVIDENCED"},
+    {"category":"Skill","requirement":"Docker","priority":"REQUIRED","match_score":0,"match_type":"NOT_MATCHED"},
+    {"category":"Skill","requirement":"FastAPI","priority":"PREFERRED","match_score":null,"match_type":"UNKNOWN"},
+    {"category":"Experience","requirement":"3 years","priority":"REQUIRED","match_score":0,"match_type":"DURATION_BELOW"}
+  ],
+  "profile": {"skills":["Python"]}
+}

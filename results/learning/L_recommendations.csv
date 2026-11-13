@@ -1,0 +1,4 @@
+﻿step,resource,covers,new_topics,prerequisites_to_confirm,source
+1,Get started with Docker,docker,docker,,https://docs.docker.com/get-started/
+2,Pro Git: Git basics,git,git,,https://git-scm.com/book/en/v2
+3,PostgreSQL: the SQL language,sql,sql,,https://www.postgresql.org/docs/current/tutorial-sql.html

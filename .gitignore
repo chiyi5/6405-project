@@ -29,3 +29,5 @@ Resume2.pdf
 .DS_Store
 Thumbs.db
 .env
+showcase.stdout.log
+showcase.stderr.log

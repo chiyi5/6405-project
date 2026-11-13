@@ -60,6 +60,17 @@ def run_many(jd_file, jd_text, cv_files):
     return pd.DataFrame(rows).sort_values("score", ascending=False)
 
 
+def run_learning(jd_file, jd_text, cv_file, cv_text, method="hybrid", top_k=5):
+    """Consume the team's matcher output; learning recommendations are a separate task."""
+    from src.learning.integration import recommend_from_match
+    from src.learning.workflow import plan_markdown
+    jd, cv = _text(jd_file, jd_text), _text(cv_file, cv_text)
+    if not jd.strip() or not cv.strip():
+        return "Please provide both a JD and a resume.", {}
+    plan = recommend_from_match(PIPE.match(jd, cv), method=method, top_k=int(top_k))
+    return plan_markdown(plan), plan
+
+
 with gr.Blocks(title="Group32 JD–Resume Matcher") as demo:
     gr.Markdown("# JD–Resume Matcher (Group 32)\nUpload files (PDF/DOCX/TXT) or paste text.")
     with gr.Row():
@@ -79,6 +90,17 @@ with gr.Blocks(title="Group32 JD–Resume Matcher") as demo:
     btn2 = gr.Button("Rank resumes")
     ranking = gr.Dataframe()
     btn2.click(run_many, [jd_file, jd_text, cv_many], ranking)
+    gr.Markdown("### SkillBridge: evidence-based learning recommendations\n"
+                "A separate contribution: skill gaps → retrieval → coverage-aware learning path. "
+                "For the visual experiment workspace, run `python learning_app.py` and open http://127.0.0.1:8765.")
+    with gr.Row():
+        learn_method = gr.Dropdown(["bm25", "tfidf", "hybrid"], value="hybrid", label="Learning retrieval method")
+        learn_k = gr.Slider(1, 12, value=5, step=1, label="Maximum learning units")
+    learn_btn = gr.Button("Build learning path from these documents")
+    learn_report = gr.Markdown()
+    with gr.Accordion("Recommendation evidence and algorithm trace", open=False):
+        learn_json = gr.JSON()
+    learn_btn.click(run_learning, [jd_file, jd_text, cv_file, cv_text, learn_method, learn_k], [learn_report, learn_json])
 
 if __name__ == "__main__":
     demo.launch()
