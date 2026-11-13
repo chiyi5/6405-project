@@ -26,17 +26,52 @@ src/
   fairness.py          F：姓名反事实测试、性别措辞测试、鲁棒性扰动、错误分析、LLM 反馈
   llm_clients.py       可选 LLM 接口（OpenAI / Anthropic / 本地 HF 模型）
   plots.py             统一风格的报告图
+  classic_nlp.py       ★ D9–D12：LSA / LDA / GloVe / Word2Vec 匹配器、4 种有监督 fit 分类器、句子遮挡解释
+  learning/            第 9 节学习推荐模块
+    benchmark.py       ★ 3,428 门课程语料、133 条查询、银标准标签、23 个真实差距画像
+    retrievers.py      ★ 12 种检索器（BM25/TF-IDF/LSA/LDA/GloVe/Word2Vec/Dense/交叉编码器/RRF/LTR）
+    planner.py         ★ 学习路径组单：拼接查询 / 逐缺口 / 改进版 xQuAD
+    ir_metrics.py      ★ nDCG/MAP/MRR/Recall、bootstrap CI、配对随机化检验、Holm 校正
+    course_search.py   ★ 大目录推荐的生产入口（showcase_app 的 /api/courses）
 data/
   annotation_guidelines.md   标注规范（先读这个）
   demo/                      ⚠ 合成的演示数据，只用来测试代码能不能跑，结果不能写进报告
 tests/
   smoke_test.py              一键测试所有模块（python tests/smoke_test.py）
+  test_benchmark.py          ★ 指标、检索器、组单、分类器的单元测试（python -m unittest tests/test_benchmark.py）
   make_demo_data.py / build_notebook.py
-experiments/                 实验脚本 step1–step8（见文末）
+experiments/                 实验脚本 step1–step9（见文末）
+  learning/                  ★ 学习推荐模块实验 L1–L5 + run_all.py
+scripts/windows/             Windows 启动脚本（原来在根目录；★ Run-New-Experiments.cmd 一键跑新实验）
+docs/RUBRIC_MAPPING.md       ★ 课程评分标准 → 项目证据对照表
 results/
   README.md                  最终结果索引：每个数字来自哪个文件
   step5/ step7/ step8/       各步骤的最终输出
 ```
+
+## 2026-11 升级：新增内容一览
+
+对照课程评分标准（`docs/RUBRIC_MAPPING.md`），这次升级做了两部分：
+
+**第 9 节学习推荐：从 demo 变成完整子项目**
+- 数据：3,428 门课程（Coursera 目录 + 12 个官方文档单元）；133 条查询（96 个技能名 + 37 句真实 JD 需求句）；23 个真实 JD × 简历差距画像；银标准标签来自 Coursera 技能标签，检索时不可见；按技能划分 train/dev/test。
+- 检索（test 集 30 条查询，nDCG@10）：LTR 逻辑回归 0.715、BM25 0.684、LSA 0.658、TF-IDF 0.649、Word2Vec 0.594、GloVe 0.325、LDA 0.176。LTR 比 BM25 高但不显著；GloVe、LDA 显著更差（Holm 校正 p = 0.001）。
+- 学习路径（k=5，加权缺口覆盖率）：BM25 下拼接查询 0.724 → 逐缺口 0.755 → 改进版 xQuAD 0.894；xQuAD 在 5 种检索器上都显著更好。消融显示关键改动是多样性项归一化（原版 xQuAD 0.840）。
+- 错误分析：37% 的 "不相关" 前 10 命中其实提到了该技能 → 银标签有漏标；双人盲标表已生成。
+
+**主体 A–F：补齐课程里的传统方法、效率和解释**（`experiments/step9_classic_vs_neural.py`，需要本机 `data/hf`）
+- 在同样 600 对测试集上加入 LSA、LDA、GloVe、Word2Vec 匹配器和 LR / SVM / NB / RF 四种有监督分类器（dev 集选超参），统一排行榜带 95% CI。
+- 效率表（拟合时间、每对毫秒、峰值内存）；解释（LR 词权重、区分 good/no fit 的 LDA 主题、句子遮挡）；可选交叉编码器微调网格。
+
+运行（项目根目录）：
+```powershell
+python experiments/learning/run_all.py            # 学习模块 CPU 部分，约 6 分钟，云端已跑过
+python experiments/learning/run_all.py --neural   # + Sentence-BERT / 交叉编码器 / 微调（需要联网下载模型，建议 GPU）
+python experiments/step9_classic_vs_neural.py     # 主体 step9（加 --finetune-ce 需 GPU）
+python experiments/learning/L5_human_judgements.py score   # 两人标完 data/learning/human/ 之后
+python -m unittest tests/test_benchmark.py tests/test_learning.py
+```
+或者双击 `scripts\windows\Run-New-Experiments.cmd`。
 
 ## 怎么运行
 
@@ -111,12 +146,8 @@ data/annotations/jd_skills_labelled.csv        (doc_id, skill, keep(1/0), annota
 - `experiments/step6_ablation_minilm.py`：用真实 MiniLM 重做 TalentCLEF 消融 + 配对显著性检验
 - `experiments/step7_fairness_v3.py`：在最终系统上重做公平性和鲁棒性测试（30 个 JD、80 个案例）；同时输出大写问题修复前后对比 `step7_caps_before_after.csv`（逐例对比见 `step7_caps_per_case_before_after.csv`）
 - `experiments/step8_esco.py`：在独立的 Python 3.10/3.11 环境中跑 Part I 原版 ESCO 抽取器，作为定量 baseline
+- `experiments/step9_classic_vs_neural.py`：★ 传统 NLP（LSA/LDA/GloVe/Word2Vec/有监督分类器）vs transformer，同一 600 对；效率与解释；可选交叉编码器微调网格
+- `experiments/learning/L1_retrieval_benchmark.py` … `L5_human_judgements.py`：★ 学习推荐模块的检索对比、组单评估、错误分析、双编码器微调、人工标注；`run_all.py` 按顺序全部运行
+- `experiments/add_notebook_sections.py`：★ 把 9.3–9.7 和第 10 节写进 notebook（可重复运行）
 - `experiments/make_pair_sheets.py`：生成组员人工标注用的 Excel 表（每对由 2 人标注）
 - `step1_prepare.py --demo` 的输出写到 `results/demo_run/`，不会覆盖真实的 `results/A_*` 文件；但它会把 `data/hf/` 换成 demo 数据，跑真实实验前要重新运行一次不带 `--demo` 的 step1。
-
-## 项目展示前端（SkillBridge）
-
-- **界面预览**：双击根目录 `Showcase.html`。文档默认留空，无内置候选人或固定匹配结果；分析自己的文档请使用下方实时入口。
-- **实时分析**：双击 `Start-Showcase.cmd`，打开 http://127.0.0.1:8877 。支持自定义文档上传和推荐参数。
-- 使用方法、演示顺序、模型配置与验证说明见 [docs/SHOWCASE.md](docs/SHOWCASE.md)。
-- 离线展示页更新命令：`python experiments/build_showcase.py`。

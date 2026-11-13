@@ -1,0 +1,53 @@
+eval 600 pairs / 67 JDs; train 3000 pairs / 272 JDs
+dev-selected: {'LDA': np.float64(20.0), 'LSA': np.float64(50.0), 'linear_svm': np.float64(0.1), 'logreg': np.float64(0.1)}
+built D9_lsa_k50 in 1.1s
+built D10_lda_k20 in 16.3s
+built D11_glove-wiki-gigaword-100 in 54.1s
+[skipped] Word2Vec: gensim not installed
+built D12_naive_bayes in 23.1s
+built D12_logreg_C0.1 in 24.1s
+built D12_linear_svm_C0.1 in 24.5s
+built D12_random_forest in 27.8s
+CE lr=1e-05 ep=1 dev rho=0.155
+CE lr=1e-05 ep=2 dev rho=0.183
+CE lr=2e-05 ep=1 dev rho=0.160
+CE lr=2e-05 ep=2 dev rho=0.185
+CE lr=5e-05 ep=1 dev rho=0.198
+CE lr=5e-05 ep=2 dev rho=0.278
+                                 method                    family  spearman  ci_low  ci_high
+                    D12_linear_svm_C0.1     supervised classifier     0.317   0.188    0.447
+                      D12_random_forest     supervised classifier     0.310   0.165    0.439
+                D7_finetuned_minilm_doc    fine-tuned transformer     0.281     NaN      NaN
+                        D12_naive_bayes     supervised classifier     0.261   0.116    0.394
+                        D12_logreg_C0.1     supervised classifier     0.199   0.092    0.318
+D13_finetuned_cross_encoder_lr5e-05_ep2    fine-tuned transformer     0.181   0.040    0.331
+                                D2_bm25                   lexical     0.143   0.001    0.282
+                            D10_lda_k20               topic model     0.080  -0.028    0.188
+                               D1_tfidf                   lexical     0.076  -0.016    0.180
+                             D9_lsa_k50           latent semantic     0.066  -0.034    0.179
+            D11_glove-wiki-gigaword-100            word embedding     0.024  -0.109    0.159
+                        D6_our_pipeline              our pipeline     0.005  -0.066    0.089
+              D3_minilm_doc (before FT)    transformer bi-encoder    -0.010     NaN      NaN
+                D3_all-MiniLM-L6-v2_doc    transformer bi-encoder    -0.010  -0.107    0.106
+                       D5_cross_encoder transformer cross-encoder    -0.075  -0.212    0.082
+            D4_bge-small-en-v1.5_maxsim    transformer bi-encoder    -0.093  -0.229    0.051
+             D4_all-MiniLM-L6-v2_maxsim    transformer bi-encoder    -0.096  -0.231    0.054
+            D4_all-mpnet-base-v2_maxsim    transformer bi-encoder    -0.111  -0.243    0.048
+              model  accuracy  macro_f1  f1_no_fit  f1_potential  f1_good
+D12_linear_svm_C0.1     0.473     0.463      0.508         0.510    0.372
+    D12_logreg_C0.1     0.457     0.450      0.486         0.491    0.373
+    D12_naive_bayes     0.445     0.438      0.511         0.380    0.424
+  D12_random_forest     0.435     0.411      0.517         0.454    0.263
+     majority class     0.333     0.167        NaN           NaN      NaN
+                                matcher  fit_s  fit_peak_MB  ms_per_pair  score_peak_MB
+                             D9_lsa_k50   1.07         26.6         1.62            7.5
+                            D10_lda_k20  16.32         45.8         4.59            4.0
+            D11_glove-wiki-gigaword-100  54.07        430.9         2.15            2.7
+                        D12_naive_bayes  23.12        242.9         2.90            8.0
+                        D12_logreg_C0.1  24.12        242.9         2.65            8.0
+                    D12_linear_svm_C0.1  24.50        242.9         2.69            8.0
+                      D12_random_forest  27.83        242.9         4.14            8.0
+D13_finetuned_cross_encoder_lr5e-05_ep2    NaN          NaN         7.27            3.0
+                               D1_tfidf    NaN          NaN         3.35            4.5
+                                D2_bm25    NaN          NaN         1.26            1.7
+done -> D:\NLP\6405-project-merged\results\step9

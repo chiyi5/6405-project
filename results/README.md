@@ -20,6 +20,11 @@
 | F 鲁棒性 | 全文转大写（fit 基准 40 例），平均 / 最大分数差 | 修复前：D6 6.72 / 50.0，D8 4.85 / 33.5 | 修复后：D6 3.02 / 37.5，D8 2.24 / 25.3（减少约一半，但没有消除）；TalentCLEF 上 D8 分数有变化的简历 87.5% → 30% | `step7/step7_caps_per_case_summary.csv`, `step7/step7_caps_per_case_before_after.csv`, `step7/step7_caps_before_after.csv` |
 | F 鲁棒性 | 其他扰动（缩写、展开、项目符号、段落顺序） | — | D6 全部不变；D8 打乱段落顺序最大 4.3、改项目符号最大 0.6 | `step7/step7_robustness_summary.csv` |
 
+| ★ 学习推荐：课程检索 | 3,428 门课程，test 30 条查询（20 技能名 + 10 JD 句），银标签，nDCG@10 | 原 SkillBridge 词法混合（只有 12 个资源，无法评估） | LTR-LR 0.715 [0.628, 0.807]；BM25(dev 调参) 0.684；与 BM25 差异不显著（p=0.28）；GloVe 0.325、LDA 0.176 显著更差 | `learning/bench/L1_summary.csv`, `L1_significance.csv`, `L1_dev_grid.csv`, `L1_efficiency.csv`, `fig_L1_retrieval.png` |
+| ★ 学习推荐：学习路径 | 23 个真实 JD×简历差距画像，k=5，加权缺口覆盖率 | 逐缺口检索（原设计）BM25 0.755 | 改进版 xQuAD：BM25 0.894、TF-IDF 0.921；5 种检索器上均显著（Holm p ≤ 0.02）；原版 xQuAD 0.840 | `learning/bench/L2_strategies.csv`, `L2_ablation.csv`, `L2_significance.csv`, `fig_L2_*.png` |
+| ★ 学习推荐：误差与标签审计 | 最佳系统 top-10 中被银标签判为不相关的 251 条 | — | 37.1% 在描述里原文提到该技能 → 银标签漏标，绝对分数偏低 | `learning/bench/L3_*.csv` |
+| ★ 主体 step9 | fit 600 对：传统 NLP vs transformer、有监督分类器、效率、解释 | — | **待在本机运行**（需要 `data/hf`） | `step9/`（运行后生成） |
+
 ## 使用这些数字时的注意事项
 - C 模块的金标准标签由 LLM（Claude）标注、未经人工复核（`requirements_labelled.csv` 的 `annotator` 列），报告时需说明。
 - TalentCLEF dev 只有 10 个查询，“权重 2.0 最好”这类结论只能当作趋势，不能当作调好的参数。
@@ -36,7 +41,12 @@
 - 真实数据（step7，MiniLM）：fit 基准平均分数差 D6 6.72 → 3.02，D8 4.85 → 2.24；TalentCLEF 上 D8 改善 26 例、变差 5 例。D6 在 TalentCLEF 上有 2 例从不变变成有变化（JD 35129，最大 6.25 分）。
 - 剩余差异：粘连 + 大写时信息确实丢失；另外修复后的大写版本有时比原来的版本解析得更准（demo 数据上看到：多识别出段落、不再把项目时间算成工作经验），反而与原分数差得更远。
 
+- ★ 课程检索的 test 集只有 30 条查询，置信区间较宽；LTR 的提升不显著，不能写成 "LTR 优于 BM25"。
+- ★ 学习路径的 λ 曲线和 xQuAD 变体是在同一批 23 个画像上比较的，属于敏感性分析；默认 λ=0.7 是事先定的。
+- ★ 银标签来自 Coursera 的技能标签（含噪声，如剧本写作课被标了 "unix shells"），人工标注完成后以 `L5_human_eval.csv` 为准。
+
 ## 文件夹
+- `learning/bench/`：★ 学习推荐模块的全部评测结果（L1–L5）
 - `step5/`：TalentCLEF 2026 Task A dev 结果、fit 与人工基准上的 v3 系统（test 集的 TREC 提交文件已删除，需要时重跑 `experiments/step5_talentclef.py`）
 - `step7/`：大规模公平性 / 鲁棒性测试（30 个 JD、80 个案例）
 - `step8/`：ESCO baseline（M1/M2，Python 3.10 环境）

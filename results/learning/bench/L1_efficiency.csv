@@ -1,0 +1,21 @@
+system,ms_per_query,index_MB,index_build_s
+"BM25 (default k1=1.2,b=0.75)",0.406,3.355,
+BM25 (dev-tuned),0.166,3.355,
+TF-IDF word 1-2gram,1.231,13.356,
+TF-IDF char 3-5gram,1.759,55.708,
+LSA (dev-tuned),0.655,33.905,
+LDA topics (dev-tuned),3.656,31.007,
+GloVe-100 IDF-avg,0.397,160.405,
+Dense all-MiniLM-L6-v2,2.977,92.55,
+Dense all-mpnet-base-v2,1.584,428.623,
+Dense bge-small-en-v1.5,0.819,133.288,
+Dense fine-tuned (L4),0.44,92.559,
+RRF (BM25+LSA+GloVe+Dense),2.204,290.227,
+Linear fusion (dev-tuned weights),1.011,290.227,
+LTR logistic regression (train/dev),9.977,1031.535,
+LTR gradient boosting (train),14.097,1031.748,
+Linear fusion >> cross-encoder rerank,129.131,381.661,
+BM25 (index build),,,0.625
+TF-IDF word (index build),,,1.378
+LSA (index build),,,4.897
+LDA (index build),,,502.66

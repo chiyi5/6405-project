@@ -1,0 +1,19 @@
+retriever,comparison,delta_coverage@5,p_raw,p_holm
+BM25,xquad vs pergap,0.1389,0.0025,0.005
+BM25,xquad vs concat,0.1699,0.001,0.003
+BM25,pergap vs concat,0.0309,0.4155,0.4155
+TF-IDF,xquad vs pergap,0.0943,0.0094,0.0188
+TF-IDF,xquad vs concat,0.1402,0.0045,0.0135
+TF-IDF,pergap vs concat,0.0459,0.3091,0.3091
+LSA,xquad vs pergap,0.1385,0.0004,0.0008
+LSA,xquad vs concat,0.2221,0.0001,0.0003
+LSA,pergap vs concat,0.0836,0.0137,0.0137
+GloVe,xquad vs pergap,0.0373,0.4043,0.8085
+GloVe,xquad vs concat,0.0728,0.1655,0.4965
+GloVe,pergap vs concat,0.0355,0.5357,0.8085
+Linear fusion,xquad vs pergap,0.1391,0.0016,0.0032
+Linear fusion,xquad vs concat,0.1743,0.0003,0.0009
+Linear fusion,pergap vs concat,0.0351,0.4571,0.4571
+Dense,xquad vs pergap,0.1722,0.0013,0.0026
+Dense,xquad vs concat,0.2256,0.0002,0.0006
+Dense,pergap vs concat,0.0533,0.3151,0.3151

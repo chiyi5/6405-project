@@ -1,0 +1,21 @@
+topic,top_words,mean_weight_resume_good,mean_weight_resume_no,mean_weight_jd,good_minus_no
+15,web java sql application oracle server javascript html xml c#,0.1248,0.0816,0.0445,0.0432
+14,sql etl server spark azure aws tables database like tableau,0.0749,0.0696,0.0672,0.0053
+1,network cisco hardware windows ip wireless troubleshooting routers switches networking,0.0117,0.0084,0.0006,0.0033
+18,substation protection transformer ups switchgear hv kv battery earthing philosophy,0.0015,0.0009,0.0006,0.0006
+11,firm u.s job contract talent federal enjoy cnc programming solutions,0.0007,0.0007,0.0313,0.0
+9,servicenow customization performs 12+ in-person expedient contractlocation asap debugs versa,0.0002,0.0002,0.0039,0.0
+3,technology needs stakeholders developing meetings field leading companies plans managing,0.0002,0.0002,0.0005,0.0
+12,specifications benefits analyst andor engineering sr application understanding user life,0.0002,0.0002,0.0005,0.0
+17,kindly highlighted 5+ salesforce salt phoenix 10+ position lake onsite,0.0002,0.0002,0.0005,0.0
+8,accounting financial revenue reporting solutions role benefits engineering related andor,0.0002,0.0002,0.0005,0.0
+7,energy defense electrical benefits youll programs engineer allen join department,0.0002,0.0002,0.0005,0.0
+5,servicenow 1-3 1099 verbally preventative dream doe must-have contractlocation hourly,0.0002,0.0002,0.0005,0.0
+13,springs mogpa film pharmacy fine washer dining dishes promoted bar,0.0002,0.0002,0.001,0.0
+16,madison hours desired coast metro preferred los angeles west procedures.11,0.0002,0.0002,0.0005,0.0
+19,usb solaris cadence io gps intel vhdl matlab 3.7 lcd,0.0016,0.0021,0.0007,-0.0005
+0,test atm laboratory lab rf fpga layout pcb verilog signal,0.0044,0.0051,0.0038,-0.0007
+4,pump aviation animal aircraft navy pressure bom vfd completion e.g,0.0007,0.0015,0.0005,-0.0008
+6,role opportunity position job benefits degree solutions status ability required,0.0034,0.005,0.2802,-0.0016
+2,test testing electrical engineering engineer product power sql equipment tools,0.5739,0.5868,0.397,-0.013
+10,accounting financial accounts tax sales monthly reporting payroll general ensure,0.2011,0.2369,0.1653,-0.0358

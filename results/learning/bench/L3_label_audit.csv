@@ -1,0 +1,245 @@
+qid,skill,doc_id,title,mentions_skill
+S-javascript-6861,JavaScript,cr-f473c6e3,JavaScript Strings: Properties and Methods,True
+S-javascript-6861,JavaScript,cr-7a612d35,JavaScript Numbers: Properties and Methods,True
+S-c-0d61,C,cr-facbbeb7,Build a Guessing Game Application using C++,True
+S-c-0d61,C,cr-234db744,"Programming Languages, Part C",True
+S-c-0d61,C,cr-29eb7dd6,"Programming Languages, Part A",True
+S-c-0d61,C,cr-3be5247d,Identifying Security Vulnerabilities in C/C++Programming,True
+S-c-f6f8,C++,cr-5cb9d1de,Object-Oriented Data Structures in C++,True
+S-c-f6f8,C++,cr-facbbeb7,Build a Guessing Game Application using C++,True
+S-c-f6f8,C++,cr-6741ff3f,C++ Decision Programming,True
+S-c-f6f8,C++,cr-4b91a1cf,C++ Classes and Objects,True
+S-c-f6f8,C++,cr-b660c02f,C++ Arrays and Loops,True
+S-c-f6f8,C++,cr-e26e091d,Encryption And Decryption Using C++,True
+S-swift-ae83,Swift,cr-10c777d8,Networking and Security in iOS Applications,False
+S-matlab-8f68,MATLAB,cr-f6a1da3f,Data Processing and Feature Engineering with MATLAB,True
+S-matlab-8f68,MATLAB,cr-ee772c7a,Battery Pack Balancing and Power Estimation,True
+S-matlab-8f68,MATLAB,cr-84529fd4,Battery State-of-Charge (SOC) Estimation,True
+S-matlab-8f68,MATLAB,cr-fdd7e827,Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital,True
+S-matlab-8f68,MATLAB,cr-b6a572b3,Equivalent Circuit Cell Model Simulation,True
+S-sqlite-4977,SQLite,cr-55265832,Create Your First Web App with Python and Flask,True
+S-sqlite-4977,SQLite,cr-53f7b293,"Capstone MOOC for ""Android App Development""",True
+S-sqlite-4977,SQLite,sql-intro,PostgreSQL: the SQL language,False
+S-sqlite-4977,SQLite,cr-d8193d30,Retrieve Data using Single-Table SQL Queries,False
+S-sqlite-4977,SQLite,cr-574135af,Create a Python Application using MySQL,False
+S-sqlite-4977,SQLite,cr-81510cce,Databases and SQL for Data Science,False
+S-node_js-3b28,Node.js,cr-9e1fa8f4,AWS Elastic Beanstalk: Build & Deploy a Node.js RESTful API,True
+S-node_js-3b28,Node.js,cr-9a31cfb1,Getting Started With Application Development,True
+S-node_js-3b28,Node.js,cr-64e595db,"App Deployment, Debugging, and Performance",True
+S-node_js-3b28,Node.js,cr-260f24f9,Securing and Integrating Components of your Application,True
+S-node_js-3b28,Node.js,cr-a0d0ba8c,Building Modern Python Applications on AWS,True
+S-node_js-3b28,Node.js,cr-fdd36768,Building Modern Java Applications on AWS,True
+S-node_js-3b28,Node.js,cr-87078faa,Front-End Web UI Frameworks and Tools: Bootstrap 4,True
+S-node_js-3b28,Node.js,cr-8331d411,Hosting a Static Website (HTML/CSS/Javascript) in AWS S3,False
+S-flask-9784,Flask,cr-50a4422e,AWS Elastic Beanstalk:Deploy a Python(Flask) Web Application,True
+S-flask-9784,Flask,cr-a9067ae6,AI Workflow: AI in Production,True
+S-flask-9784,Flask,cr-3dc20fd8,Create a Python Application using PyMongo and MongoDB Database,False
+S-flask-9784,Flask,cr-deca54d1,Web Application Technologies and Django,False
+S-flask-9784,Flask,cr-751696f1,Create Interactive Dashboards with Streamlit and Python,False
+S-flask-9784,Flask,cr-c2384f2a,Serving Tensorflow Models with a REST API,False
+S-web_development-c8b3,Web development,cr-5b704b0c,Web Application Development: Basic Concepts,False
+S-web_development-c8b3,Web development,cr-ab4ec0a0,Web Design: Wireframes to Prototypes,True
+S-numpy-3b7f,NumPy,cr-2ae979ed,A Geometrical Approach to Genome Analysis: Skew & Z-Curve,True
+S-numpy-3b7f,NumPy,cr-85c81a4a,Linear Regression with Python,True
+S-numpy-3b7f,NumPy,cr-784a7b03,Simulating Viral Pandemics in Python,True
+S-numpy-3b7f,NumPy,cr-f5ef0a1a,Data Analysis with Python,True
+S-plotly-a5e1,Plotly,cr-4aa7b6c1,Plots (Graphics) for Data Science,False
+S-plotly-a5e1,Plotly,cr-959009c2,Plots (Graphics) in R,False
+S-opencv-5bd4,OpenCV,cr-3edc6da7,Perform Real-Time Object Detection with YOLOv3,True
+S-time_series_analysis-cba5,Time series analysis,cr-ffdfdf3a,Introduction to Complex Analysis,False
+S-time_series_analysis-cba5,Time series analysis,cr-8890fe75,Predict Future Product Prices Using Facebook Prophet,False
+S-time_series_analysis-cba5,Time series analysis,cr-c70a219c,"Introduction to Data, Signal, and Image Analysis with MATLAB",False
+S-time_series_analysis-cba5,Time series analysis,cr-2290bba5,Econometrics: Methods and Applications,False
+S-time_series_analysis-cba5,Time series analysis,cr-c2fb5656,Machine Learning for Accounting with Python,True
+S-speech_recognition-84d5,Speech recognition,cr-87dd9a44,Building AI Applications with Watson APIs,False
+S-speech_recognition-84d5,Speech recognition,cr-7812eee1,Deep Learning in Computer Vision,False
+S-speech_recognition-84d5,Speech recognition,cr-0da475f8,Advanced Speaking and Listening Project,False
+S-speech_recognition-84d5,Speech recognition,cr-083f6847,Named Entity Recognition using LSTMs with Keras,False
+S-speech_recognition-84d5,Speech recognition,cr-17b3048e,An Introduction to Practical Deep Learning,False
+S-speech_recognition-84d5,Speech recognition,cr-d27516cb,Tweet Emotion Recognition with TensorFlow,False
+S-speech_recognition-84d5,Speech recognition,cr-61d75aeb,Russian Alphabet,False
+S-speech_recognition-84d5,Speech recognition,cr-72367330,Introduction to Public Speaking,False
+S-speech_recognition-84d5,Speech recognition,cr-6ce916fc,Convolutional Neural Networks,False
+S-feature_engineering-21aa,Feature engineering,cr-abc9c321,Machine Learning Rapid Prototyping with IBM Watson Studio,True
+S-feature_engineering-21aa,Feature engineering,cr-66ee7cec,Engineering Design Process with Autodesk Fusion 360,False
+S-feature_engineering-21aa,Feature engineering,cr-d5e83ee3,Machine Learning Feature Selection in Python,False
+S-feature_engineering-21aa,Feature engineering,cr-841a05a2,Financial Engineering and Risk Management Part I,False
+S-feature_engineering-21aa,Feature engineering,cr-10302fce,Financial Engineering and Risk Management Part II,False
+S-hypothesis_testing-e71b,Hypothesis testing,cr-cc6b1189,Inferential Statistics,False
+S-hypothesis_testing-e71b,Hypothesis testing,fastapi-testing,FastAPI tutorial: testing,False
+S-hypothesis_testing-e71b,Hypothesis testing,cr-57d6f39a,1E Test: How Computers Work,False
+S-hadoop-53eb,Hadoop,cr-e156a223,Big Data Integration and Processing,True
+S-hadoop-53eb,Hadoop,cr-70645bed,Designing data-intensive applications,True
+S-hadoop-53eb,Hadoop,cr-80271eff,Distributed Programming in Java,True
+S-hadoop-53eb,Hadoop,cr-20cfd187,Big Data Analysis with Scala and Spark,True
+S-hadoop-53eb,Hadoop,cr-ec6e48a0,Relational database systems,True
+S-aws-4847,AWS,cr-50a4422e,AWS Elastic Beanstalk:Deploy a Python(Flask) Web Application,True
+S-aws-4847,AWS,cr-9e1fa8f4,AWS Elastic Beanstalk: Build & Deploy a Node.js RESTful API,True
+S-aws-4847,AWS,cr-8331d411,Hosting a Static Website (HTML/CSS/Javascript) in AWS S3,True
+S-aws-4847,AWS,cr-d8972f3e,Creating an AWS EC2 Autoscaling Group using Load Balancer,True
+S-aws-4847,AWS,cr-204c1b83,AWS: Publish a NodeJS Website from Scratch,True
+S-kubernetes-3013,Kubernetes,cr-68f86e61,"Introduction to Containers w/ Docker, Kubernetes & OpenShift",True
+S-kubernetes-3013,Kubernetes,cr-ab39db96,Hybrid Cloud Multi-Cluster with Anthos,True
+S-kubernetes-3013,Kubernetes,cr-cfa2ab6c,Hybrid Cloud Infrastructure Foundations with Anthos,True
+S-kubernetes-3013,Kubernetes,cr-f4229f21,Reliable Google Cloud Infrastructure: Design and Process,True
+S-unix-6ec1,Unix,cr-125263a2,Basic System Programming on IBM Z,True
+S-unix-6ec1,Unix,cr-4304fa2d,Create User Directory and Files with Linux Commands,False
+S-unix-6ec1,Unix,cr-d0edd81c,Getting Started with Linux Terminal,False
+S-unix-6ec1,Unix,cr-a7ced044,Create Python Linux Script to Generate a Disk Usage Report,False
+S-unix-6ec1,Unix,cr-e34a5fbf,Operating Systems and You: Becoming a Power User,False
+S-google_analytics-d86c,Google Analytics,cr-cde58b89,Building Resilient Streaming Analytics Systems on GCP,False
+S-google_analytics-d86c,Google Analytics,cr-223a236f,"Smart Analytics, Machine Learning, and AI on GCP",False
+S-google_analytics-d86c,Google Analytics,cr-3337eea7,Business Analytics Executive Overview,False
+S-google_analytics-d86c,Google Analytics,cr-d018c2ae,Predictive Analytics and Data Mining,False
+S-stata-259a,Stata,cr-95a7a3f2,Statistics with SAS,False
+S-stata-259a,Stata,cr-289a6b3e,Introduction to Statistical Analysis: Hypothesis Testing,False
+S-stata-259a,Stata,cr-02072483,Summary Statistics in Public Health,False
+S-stata-259a,Stata,cr-81141aff,Regression Modeling Fundamentals,False
+S-stata-259a,Stata,cr-0389e17c,Statistics for Genomic Data Science,False
+S-stata-259a,Stata,cr-7598a3d6,Introduction to Probability and Data with R,False
+S-stata-259a,Stata,cr-3cda514c,Developing Data Products,False
+S-stata-259a,Stata,cr-c27af0a4,Introduction to Statistics & Data Analysis in Public Health,False
+S-stata-259a,Stata,cr-2ec6cdc5,RStudio for Six Sigma - Basic Descriptive Statistics,False
+S-unit_testing-d154,Unit testing,fastapi-testing,FastAPI tutorial: testing,False
+S-unit_testing-d154,Unit testing,cr-57d6f39a,1E Test: How Computers Work,False
+S-unit_testing-d154,Unit testing,cr-92e4e042,Black-box and White-box Testing,False
+S-unit_testing-d154,Unit testing,cr-3e19515c,Web and Mobile Testing with Selenium,False
+S-unit_testing-d154,Unit testing,cr-b898a919,"Building Test Automation Framework - Selenium, C# & NUnit",False
+S-unit_testing-d154,Unit testing,cr-7cfa5590,Building Test Automation Framework using Selenium and TestNG,False
+S-software_engineering-0126,Software engineering,cr-a25d78d3,Developing a Google SRE Culture,False
+S-object_oriented_programming-00f9,Object-oriented programming,cr-abf677c7,Intermediate Object-Oriented Programming with Java,True
+S-object_oriented_programming-00f9,Object-oriented programming,cr-9a870e77,Object-Oriented Design,False
+S-object_oriented_programming-00f9,Object-oriented programming,cr-716d1aa1,Java Programming: Principles of Software Design,False
+S-object_oriented_programming-00f9,Object-oriented programming,cr-fb188f49,Learn Object Oriented Programming With C++,False
+S-object_oriented_programming-00f9,Object-oriented programming,cr-4b91a1cf,C++ Classes and Objects,True
+S-object_oriented_programming-00f9,Object-oriented programming,cr-fbbbc246,Java Classes and Objects,True
+S-object_oriented_programming-00f9,Object-oriented programming,cr-6ab9187f,Intermediate Object-Oriented Programming for Unity Games,True
+S-object_oriented_programming-00f9,Object-oriented programming,cr-37529c5a,Computer Science: Programming with a Purpose,True
+S-data_structures-c1e3,Data structures,py-data,Python data structures,True
+S-algorithms-f67d,Algorithms,cr-0c5e3422,Approximation Algorithms Part II,True
+S-debugging-da7d,Debugging,cr-41e434f4,Testing and Debugging Python,True
+S-debugging-da7d,Debugging,cr-0b56d54c,"Logging, Monitoring and Observability in Google Cloud",True
+S-debugging-da7d,Debugging,cr-daccf328,Python Programming: A Concise Introduction,True
+S-debugging-da7d,Debugging,cr-5cb9d1de,Object-Oriented Data Structures in C++,True
+S-debugging-da7d,Debugging,cr-e51ea914,Python Basics,True
+S-debugging-da7d,Debugging,cr-1984bbd9,Introduction to Git and GitHub,True
+S-version_control-13a6,Version control,git-basics,Pro Git: Git basics,True
+S-version_control-13a6,Version control,cr-68fda96e,Git + GitHub for Open Source Collaboration,False
+S-verilog-e3dd,Verilog,cr-57d6f39a,1E Test: How Computers Work,False
+S-verilog-e3dd,Verilog,py-control,Python control flow,False
+S-verilog-e3dd,Verilog,cr-c465c819,Introduction to OpenCL on FPGAs,False
+S-verilog-e3dd,Verilog,cr-31b2d1d1,VLSI CAD Part I: Logic,False
+S-verilog-e3dd,Verilog,cr-297f826b,Fundamentals of Parallelism on Intel Architecture,False
+S-verilog-e3dd,Verilog,cr-6741ff3f,C++ Decision Programming,False
+S-verilog-e3dd,Verilog,cr-baf049e2,Automated Reasoning: Symbolic Model Checking,False
+S-critical_thinking-cb64,Critical thinking,cr-67ac12c4,Effective Problem-Solving and Decision-Making,True
+S-critical_thinking-cb64,Critical thinking,cr-d283a0dc,On Strategy : What Managers Can Learn from Philosophy - PART 1,False
+S-critical_thinking-cb64,Critical thinking,cr-a4db5675,Introduction to Who Wrote Shakespeare,True
+S-critical_thinking-cb64,Critical thinking,cr-6d69c1f9,Design Thinking for Innovation,False
+S-critical_thinking-cb64,Critical thinking,cr-698f9c82,Problem Solving Using Computational Thinking,False
+S-critical_thinking-cb64,Critical thinking,cr-36866702,Critical Perspectives on Management,False
+S-critical_thinking-cb64,Critical thinking,cr-2021fb61,Innovation & Entrepreneurship - From Design Thinking to Funding,False
+S-time_management-7cc6,Time management,cr-a06e2f60,Create Employee Management System with When I Work,False
+S-time_management-7cc6,Time management,cr-4b9b7cf8,Get Organized: How to be a Together Teacher,False
+S-time_management-7cc6,Time management,cr-e256b6cd,Managing Your Money: MBA Insights for Undergraduates,False
+S-time_management-7cc6,Time management,cr-fb591d05,IT Project Management,False
+S-time_management-7cc6,Time management,cr-6b7c26e8,Introduction to Line Balancing Using Precedence Diagram,False
+S-time_management-7cc6,Time management,cr-ecb45eea,The Manager's Toolkit: A Practical Guide to Managing People at Work,False
+S-time_management-7cc6,Time management,cr-3969d4b3,Time Value of Money,False
+J-J1825d5eb_013,Software engineering,cr-5272d130,How Computers Work,False
+J-J1825d5eb_013,Software engineering,cr-3577479b,Rapid Prototyping of Embedded Interface Designs,False
+J-J1825d5eb_013,Software engineering,cr-68ac33a4,"Computer Science: Algorithms, Theory, and Machines",False
+J-J1825d5eb_013,Software engineering,cr-6bf906d3,Introduction to FPGA Design for Embedded Systems,False
+J-J1825d5eb_013,Software engineering,cr-a1beee5b,Modeling and Debugging Embedded Systems,False
+J-J1825d5eb_013,Software engineering,cr-79c5b1a8,Technical Support Fundamentals,False
+J-J1825d5eb_013,Software engineering,cr-b29f154e,Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course),False
+J-J1825d5eb_013,Software engineering,cr-8964c96f,Introduction to Computers and Office Productivity Software,False
+J-J1825d5eb_013,Software engineering,cr-37529c5a,Computer Science: Programming with a Purpose,False
+J-J4cde41a3_024,Software engineering,cr-59d3e69e,How to Get Skilled: Introduction to Individual Skills Management (Project-Centered Course),False
+J-J4cde41a3_024,Software engineering,cr-8ace75be,Strategic Career Self-Management,False
+J-J4cde41a3_024,Software engineering,cr-c9dec63b,Writing Winning Resumes and Cover Letters,False
+J-J4cde41a3_024,Software engineering,cr-9e43f611,Introduction to Systems Engineering,False
+J-J4cde41a3_024,Software engineering,cr-8e1601a1,Requirements Writing,False
+J-J4cde41a3_029,Kubernetes,cr-68f86e61,"Introduction to Containers w/ Docker, Kubernetes & OpenShift",True
+J-J4cde41a3_029,Kubernetes,cr-c05d1664,API Design and Fundamentals of Google Cloud's Apigee API Platform,False
+J-J4cde41a3_029,Kubernetes,cr-f4229f21,Reliable Google Cloud Infrastructure: Design and Process,True
+J-J4cde41a3_029,Kubernetes,cr-ffb229a7,API Development on Google Cloud's Apigee API Platform,False
+J-J4cde41a3_029,Kubernetes,cr-de155f0d,API Security on Google Cloud's Apigee API Platform,False
+J-J4cde41a3_029,Kubernetes,cr-cfa2ab6c,Hybrid Cloud Infrastructure Foundations with Anthos,True
+J-J4cde41a3_031,AWS,cr-da40a84d,Google Cloud Platform Fundamentals for AWS Professionals,True
+J-J4cde41a3_031,AWS,cr-d8972f3e,Creating an AWS EC2 Autoscaling Group using Load Balancer,True
+J-J4cde41a3_031,AWS,cr-1cb0f790,Cloud Computing Security,True
+J-J4cde41a3_031,AWS,cr-9855be82,Terraform Basics: Automate Provisioning of AWS EC2 Instances,True
+J-J4cde41a3_031,AWS,cr-70645bed,Designing data-intensive applications,False
+J-J4cde41a3_031,AWS,cr-282b75a7,Building Containerized Applications on AWS,True
+J-J4cde41a3_034,Unit testing,cr-3e19515c,Web and Mobile Testing with Selenium,False
+J-J4cde41a3_034,Unit testing,cr-92e4e042,Black-box and White-box Testing,False
+J-J4cde41a3_034,Unit testing,cr-b898a919,"Building Test Automation Framework - Selenium, C# & NUnit",False
+J-J4cde41a3_034,Unit testing,cr-7cfa5590,Building Test Automation Framework using Selenium and TestNG,False
+J-J4cde41a3_034,Unit testing,fastapi-testing,FastAPI tutorial: testing,False
+J-J4cde41a3_034,Unit testing,cr-6f9807b2,Introduction to TestNG and Integration with Selenium,False
+J-J4cde41a3_034,Unit testing,cr-e6cbad4e,Advanced TestNG Framework and Integration with Selenium,False
+J-J7c0a73bd_016,Algorithms,cr-d8c6d15f,Visual Perception for Self-Driving Cars,True
+J-J7c0a73bd_016,Algorithms,cr-4ffc5cfc,Information Visualization: Applied Perception,False
+J-J7c0a73bd_016,Algorithms,cr-05c5734b,Visual Perception and Visual Illusions,False
+J-J7c0a73bd_016,Algorithms,cr-67acbc1d,Visual Perception and the Brain,False
+J-J7c0a73bd_016,Algorithms,cr-5895c1cc,Intermediate Intel' Distribution of OpenVINO' toolkit for Deep Learning Applications,False
+J-J7c0a73bd_016,Algorithms,cr-8918112d,Introduction to Intel' Distribution of OpenVINO' toolkit for Computer Vision Applications,False
+J-J7c0a73bd_016,Algorithms,cr-2c78dac3,"Remote Sensing Image Acquisition, Analysis and Applications",True
+J-J7c0a73bd_016,Algorithms,cr-17827ab5,Introduction to Computer Vision with Watson and OpenCV,False
+J-J7c0a73bd_016,Algorithms,cr-c61cee13,Computational Vision,False
+J-J7c0a73bd_020,Computer vision,cr-cdb8d3af,State Estimation and Localization for Self-Driving Cars,False
+J-J7c0a73bd_020,Computer vision,cr-fdd7e827,Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital,False
+J-J86dda3b4_031,Data structures,cr-6a1b7bc0,AI Capstone Project with Deep Learning,False
+J-J86dda3b4_031,Data structures,cr-2464a103,AI Workflow: Feature Engineering and Bias Detection,False
+J-J86dda3b4_031,Data structures,cr-3f66010d,New Technologies for Business Leaders,False
+J-J86dda3b4_031,Data structures,cr-87fce85a,AI Workflow: Business Priorities and Data Ingestion,False
+J-J86dda3b4_031,Data structures,cr-73a5cc29,Deep Learning for Business,False
+J-J86dda3b4_031,Data structures,cr-e2dc5714,Enterprise System Management and Security,False
+J-J86dda3b4_031,Data structures,cr-9a64c59b,Neural Networks and Deep Learning,False
+J-J86dda3b4_031,Data structures,cr-a9067ae6,AI Workflow: AI in Production,False
+J-J86dda3b4_031,Data structures,cr-a1beee5b,Modeling and Debugging Embedded Systems,False
+J-Ja2f61657_002,Time management,cr-263a9d61,Budgeting essentials and development,False
+J-Ja2f61657_002,Time management,cr-b064f917,"Forecasting, Budgeting, Territories, Evaluation and Legal/Ethical Issues",False
+J-Ja2f61657_002,Time management,cr-7410d27a,Finance for Non-Financial Professionals,False
+J-Ja2f61657_002,Time management,cr-dc864bec,Accounting Analysis I: The Role of Accounting as an Information System,False
+J-Ja2f61657_002,Time management,cr-6f939c42,Effective Sales ' An Overview,False
+J-Ja2f61657_002,Time management,cr-1d6eee4f,Professional Responsibility and Ethics for Accountants,False
+J-Ja2f61657_002,Time management,cr-f888d43a,Sales Operations: Final Project,False
+J-Ja2f61657_002,Time management,cr-8faf2a09,Career Success Project,True
+J-Ja2f61657_002,Time management,cr-b8774bec,Accounting and Finance for IT professionals,False
+J-Ja2f61657_011,Excel,cr-5e5c6121,"Excel/VBA for Creative Problem Solving, Part 2",True
+J-Jce237142_018,Excel,cr-90e4035e,Presentation skills: Designing Presentation Slides,False
+J-Jce237142_018,Excel,cr-5e5c6121,"Excel/VBA for Creative Problem Solving, Part 2",True
+J-Jd7d47dde_006,Python,cr-20cfd187,Big Data Analysis with Scala and Spark,True
+J-Jd7d47dde_006,Python,cr-733e95e7,Scalable Machine Learning on Big Data using Apache Spark,True
+J-Jd7d47dde_006,Python,cr-a3193f49,Google Cloud Platform Big Data and Machine Learning Fundamentals,True
+J-Jd7d47dde_006,Python,cr-87fce85a,AI Workflow: Business Priorities and Data Ingestion,True
+J-Jd7d47dde_006,Python,cr-ffda2191,Distributed Computing with Spark SQL,False
+J-Jd7d47dde_006,Python,cr-5fc6ed35,Introduction to Big Data,False
+J-Jd7d47dde_006,Python,cr-5020bead,Big Data - Capstone Project,False
+J-Jd7d47dde_007,AWS,cr-da40a84d,Google Cloud Platform Fundamentals for AWS Professionals,True
+J-Jd7d47dde_007,AWS,cr-01baa753,Internet of Things V2: Setting up and Using Cloud Services,True
+J-Jd7d47dde_007,AWS,cr-1cb0f790,Cloud Computing Security,True
+J-Jd7d47dde_007,AWS,cr-d8972f3e,Creating an AWS EC2 Autoscaling Group using Load Balancer,True
+J-Jd7d47dde_007,AWS,cr-9e1fa8f4,AWS Elastic Beanstalk: Build & Deploy a Node.js RESTful API,True
+J-Je0431459_021,Time management,cr-9b3f24ac,Writing and Editing: Structure and Organization,True
+J-Je0431459_021,Time management,cr-4b9b7cf8,Get Organized: How to be a Together Teacher,False
+J-Je0431459_021,Time management,cr-8faf2a09,Career Success Project,True
+J-Je0431459_021,Time management,cr-3c929992,Managing Employee Performance,False
+J-Je0431459_021,Time management,cr-caf4244b,Healthcare Organizations and the Health System,False
+J-Je0431459_021,Time management,cr-9c157bbb,The Cycle: Management of Successful Arts and Cultural Organizations,False
+J-Je0431459_021,Time management,cr-a06e2f60,Create Employee Management System with When I Work,False
+J-Je0431459_021,Time management,cr-5f96cf15,Fundamentals of Management,False
+J-Je0431459_023,Excel,cr-5e5c6121,"Excel/VBA for Creative Problem Solving, Part 2",True
+J-Jea046192_028,Statistics,cr-040e2aef,Quantitative Methods,False
+J-Jea046192_028,Statistics,cr-1bd2368f,Mathematical Thinking in Computer Science,False
+J-Jea046192_030,Excel,cr-5e5c6121,"Excel/VBA for Creative Problem Solving, Part 2",True
+J-Jf494da5a_014,Debugging,cr-ceba1bf6,Machine Design Part I,False
+J-Jf494da5a_014,Debugging,cr-c8fc77df,Solar Energy and Electrical System Design,False
+J-Jf494da5a_014,Debugging,cr-39d01245,Real-Time Mission-Critical Systems Design,False
+J-Jf494da5a_014,Debugging,cr-0d808ca3,Introduction to battery-management systems,False
+J-Jf494da5a_014,Debugging,cr-32a18ff3,Simulation Analysis for Mechanical Engineers with Autodesk Fusion 360,False
+J-Jf494da5a_014,Debugging,cr-1159e822,Techniques of Design-Oriented Analysis,False
+J-Jf494da5a_014,Debugging,cr-f1abf962,Modeling and Design for Mechanical Engineers with Autodesk Fusion 360,False
+J-Jf494da5a_014,Debugging,cr-3b151c18,Converter Control,False

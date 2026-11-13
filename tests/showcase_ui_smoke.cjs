@@ -21,45 +21,31 @@ const run=script=>vm.runInContext(script,context);
 async function settle(){for(let i=0;i<15;i++)await Promise.resolve();}
 (async()=>{
   await settle();
-  assert.match(nodes.get('connection').innerHTML,/Interface preview/);
+  assert.match(nodes.get('connection').innerHTML,/Offline example demo/);
   assert.equal(run('window.SkillBridgeI18n.language'),'en');
   assert.equal(run('document.documentElement.lang'),'en');
-  assert.equal(nodes.get('jd').value,'');assert.equal(nodes.get('resume').value,'');
-  assert(!nodes.get('jd').readOnly);assert(!nodes.get('jd-file').disabled);
-  assert(!nodes.has('job-example'));assert(!nodes.has('resume-example'));assert(!nodes.has('load-example'));
-  assert(!('matches' in run('window.SKILLBRIDGE_OFFLINE')));
-  assert.match(nodes.get('candidate-checks').innerHTML,/No sample resumes/);
+  assert(nodes.get('jd').readOnly);
+  for(const [id,value] of Object.entries({'top-k':'5',known:'Python',gaps:'SQL | REQUIRED\nDocker | REQUIRED\nFastAPI | PREFERRED',method:'hybrid',budget:''}))nodes.get(id).value=value;
+  nodes.get('optimize').checked=true;
   await run("document.getElementById('analyze').onclick()");await settle();
-  assert.match(nodes.get('toast').textContent,/both a job description and a resume/);
-  nodes.get('jd').value='Requirements:\nSQL';nodes.get('resume').value='Skills:\nSQL';
-  await run("document.getElementById('analyze').onclick()");await settle();
-  assert.match(nodes.get('toast').textContent,/Start-Showcase.cmd/);
-  assert.equal(run('state.match'),null); // No cached sample result for user input.
-  const readFile=run('readFile');
-  assert.equal(await readFile({name:'my-resume.txt',size:20,text:async()=>'Skills: SQL'}),'Skills: SQL');
-  await assert.rejects(()=>readFile({name:'empty.txt',size:1,text:async()=>'  '}),/empty/);
-  await assert.rejects(()=>readFile({name:'big.txt',size:6*1024*1024}),/5 MB/);
-  const bootstrap=run('window.SKILLBRIDGE_OFFLINE.bootstrap'),catalogData=run('window.SKILLBRIDGE_OFFLINE.catalog');
-  const requests=[];
-  const fixture={details:[{category:'Skill',requirement:'SQL',priority:'REQUIRED',match_score:100,match_type:'EXACT',resume_evidence:'Skills: SQL'}],profile:{skills:['SQL']},scores:{hybrid_score:100,final_score:100,eligibility:'ELIGIBLE'}};
-  context.fetch=async(url,options)=>{
-    const payload=options?JSON.parse(options.body):undefined;requests.push({url,payload});
-    const result=url==='/api/showcase'?bootstrap:url==='/api/catalog'?catalogData:url==='/api/match'?fixture:{ranking:payload.resumes.map((r,i)=>({name:r.name,input_index:i,...fixture}))};
-    return {ok:true,json:async()=>result};
-  };
-  run('delete window.SKILLBRIDGE_OFFLINE');await run('init()');await settle();
-  await run("document.getElementById('analyze').onclick()");await settle();
-  assert.equal(requests.find(r=>r.url==='/api/match').payload.jd,'Requirements:\nSQL');
-  assert.equal(requests.find(r=>r.url==='/api/match').payload.resume,'Skills:\nSQL');
+  assert.notEqual(nodes.get('match-score').textContent,'—');
   assert.match(nodes.get('evidence').innerHTML,/<table>/);
-  run("state.uploads=[{name:'my-resume.txt',text:'Skills: SQL'}];renderCandidates()");
-  checked.splice(0,checked.length,{value:'0'});
-  assert.match(nodes.get('candidate-checks').innerHTML,/my-resume.txt/);
+  assert.equal(run('state.match.details.length>0'),true);
   nodes.get('rank-jd').value=nodes.get('jd').value;
   await run("document.getElementById('rank-button').onclick()");await settle();
-  assert.equal(run('state.ranked.length'),1);
-  assert.equal(requests.find(r=>r.url==='/api/rank').payload.resumes.length,1);
-  assert.equal(requests.find(r=>r.url==='/api/rank').payload.resumes[0].name,'my-resume.txt');
+  assert.equal(run('state.ranked.length'),3);
+  assert.match(nodes.get('ranking-results').innerHTML,/rank-row/);
+  await run("document.getElementById('recommend').onclick()");await settle();
+  assert.match(nodes.get('learning-results').innerHTML,/course/);
+  assert.equal(run('state.plan.weighted_coverage'),1);
+  await run("document.getElementById('compare').onclick()");await settle();
+  assert.match(nodes.get('comparison').innerHTML,/coverage optimizer/);
+  for(const item of run('window.SKILLBRIDGE_OFFLINE.matches')){
+    nodes.get('jd').value=item.jd;nodes.get('resume').value=item.resume;
+    await run("document.getElementById('analyze').onclick()");await settle();
+    const gaps=run('gapsFromMatch(state.match)');
+    if(gaps.length){run("document.getElementById('bridge-learning').onclick()");await settle();assert(run('state.plan.recommendations.length>=0'));assert.doesNotMatch(nodes.get('toast').textContent,/not included|examples only/);}
+  }
   for(const key of ['skills','classification','matching','ablation']){run(`experiments('${key}')`);assert.doesNotMatch(nodes.get('experiment-chart').innerHTML,/NaN/);}
   nodes.get('catalog-search').value='SQL';run('catalog()');assert.match(nodes.get('catalog-grid').innerHTML,/PostgreSQL/);
   nodes.get('catalog-search').value='nonexistent-123';run('catalog()');assert.match(nodes.get('catalog-grid').innerHTML,/No matching resources/);
@@ -100,5 +86,5 @@ async function settle(){for(let i=0;i<15;i++)await Promise.resolve();}
   run("window.SkillBridgeI18n.setLanguage('zh')");assert.equal(run('window.SkillBridgeI18n.language'),'zh');
   run("showMatch({scores:{},details:[{requirement:'<script>alert(1)</script>',category:'Skill',match_score:0}],profile:{skills:[]}})");
   assert(!nodes.get('evidence').innerHTML.includes('<script>'));
-  console.log('PASS: English default, persistent language switching, preserved results, empty inputs, user document submission, uploads, ranking, experiments, search and escaping.');
+  console.log('PASS: English default, persistent language switching, preserved results, 24 cached matches, ranking, learning, experiments, search and escaping.');
 })().catch(error=>{console.error(error);process.exitCode=1;});

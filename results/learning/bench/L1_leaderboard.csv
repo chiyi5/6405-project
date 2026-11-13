@@ -1,0 +1,17 @@
+system,ndcg@10,ndcg@10_lo,ndcg@10_hi,map@100,mrr@10,recall@100
+LTR logistic regression (train/dev),0.73,0.63,0.826,0.445,0.931,0.601
+Linear fusion >> cross-encoder rerank,0.719,0.621,0.812,0.363,0.95,0.46
+LTR gradient boosting (train),0.706,0.615,0.792,0.423,0.958,0.583
+Linear fusion (dev-tuned weights),0.698,0.595,0.799,0.401,0.901,0.539
+BM25 (dev-tuned),0.684,0.592,0.772,0.378,0.957,0.464
+"BM25 (default k1=1.2,b=0.75)",0.682,0.589,0.771,0.373,0.934,0.464
+RRF (BM25+LSA+GloVe+Dense),0.676,0.577,0.779,0.383,0.875,0.533
+LSA (dev-tuned),0.658,0.55,0.769,0.355,0.85,0.496
+TF-IDF word 1-2gram,0.649,0.555,0.745,0.37,0.914,0.466
+Dense all-MiniLM-L6-v2,0.634,0.521,0.742,0.346,0.873,0.496
+Dense all-mpnet-base-v2,0.63,0.532,0.729,0.337,0.928,0.497
+Dense bge-small-en-v1.5,0.62,0.522,0.721,0.325,0.922,0.48
+Dense fine-tuned (L4),0.619,0.51,0.725,0.347,0.822,0.549
+TF-IDF char 3-5gram,0.618,0.528,0.71,0.327,0.9,0.478
+GloVe-100 IDF-avg,0.325,0.235,0.426,0.121,0.61,0.248
+LDA topics (dev-tuned),0.164,0.075,0.269,0.081,0.238,0.241

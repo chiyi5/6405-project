@@ -1,0 +1,134 @@
+qid,query,kind,skill,split,jd_id,priority
+S-python-a7f5,Python,skill,Python,test,,
+S-r-e1e1,R,skill,R,train,,
+S-java-d523,Java,skill,Java,train,,
+S-javascript-6861,JavaScript,skill,JavaScript,dev,,
+S-c-0d61,C,skill,C,test,,
+S-c-f6f8,C++,skill,C++,dev,,
+S-scala-3012,Scala,skill,Scala,train,,
+S-swift-ae83,Swift,skill,Swift,test,,
+S-matlab-8f68,MATLAB,skill,MATLAB,dev,,
+S-php-2fec,PHP,skill,PHP,train,,
+S-sql-9778,SQL,skill,SQL,train,,
+S-mysql-62a0,MySQL,skill,MySQL,train,,
+S-postgresql-399b,PostgreSQL,skill,PostgreSQL,train,,
+S-sqlite-4977,SQLite,skill,SQLite,dev,,
+S-mongodb-206e,MongoDB,skill,MongoDB,train,,
+S-dynamodb-6ebb,DynamoDB,skill,DynamoDB,train,,
+S-bigquery-07d2,BigQuery,skill,BigQuery,train,,
+S-nosql-801d,NoSQL,skill,NoSQL,train,,
+S-html-4c4a,HTML,skill,HTML,train,,
+S-css-2c56,CSS,skill,CSS,train,,
+S-angular-c31c,Angular,skill,Angular,train,,
+S-node_js-3b28,Node.js,skill,Node.js,dev,,
+S-flask-9784,Flask,skill,Flask,test,,
+S-web_development-c8b3,Web development,skill,Web development,dev,,
+S-pandas-251d,Pandas,skill,Pandas,train,,
+S-numpy-3b7f,NumPy,skill,NumPy,test,,
+S-scikit_learn-ae92,Scikit-learn,skill,Scikit-learn,train,,
+S-matplotlib-1587,Matplotlib,skill,Matplotlib,train,,
+S-plotly-a5e1,Plotly,skill,Plotly,dev,,
+S-pytorch-95b8,PyTorch,skill,PyTorch,train,,
+S-tensorflow-074d,TensorFlow,skill,TensorFlow,test,,
+S-keras-7fee,Keras,skill,Keras,train,,
+S-opencv-5bd4,OpenCV,skill,OpenCV,dev,,
+S-machine_learning-2a80,Machine learning,skill,Machine learning,train,,
+S-deep_learning-03d3,Deep learning,skill,Deep learning,train,,
+S-natural_language_processing-9389,Natural language processing,skill,Natural language processing,train,,
+S-computer_vision-5c7e,Computer vision,skill,Computer vision,test,,
+S-reinforcement_learning-a729,Reinforcement learning,skill,Reinforcement learning,train,,
+S-information_retrieval-34ca,Information retrieval,skill,Information retrieval,train,,
+S-recommender_systems-c607,Recommender systems,skill,Recommender systems,train,,
+S-time_series_analysis-cba5,Time series analysis,skill,Time series analysis,test,,
+S-speech_recognition-84d5,Speech recognition,skill,Speech recognition,test,,
+S-statistics-c33e,Statistics,skill,Statistics,dev,,
+S-data_mining-d0ee,Data mining,skill,Data mining,train,,
+S-feature_engineering-21aa,Feature engineering,skill,Feature engineering,test,,
+S-a_b_testing-1f12,A/B testing,skill,A/B testing,train,,
+S-hypothesis_testing-e71b,Hypothesis testing,skill,Hypothesis testing,test,,
+S-regression-ced9,Regression,skill,Regression,train,,
+S-classification-5c93,Classification,skill,Classification,train,,
+S-clustering-de3a,Clustering,skill,Clustering,train,,
+S-optimization-1597,Optimization,skill,Optimization,train,,
+S-bayesian_statistics-d0f3,Bayesian statistics,skill,Bayesian statistics,train,,
+S-profiling-1a22,Profiling,skill,Profiling,train,,
+S-data_visualization-e38c,Data visualization,skill,Data visualization,train,,
+S-data_analysis-6ae3,Data analysis,skill,Data analysis,test,,
+S-data_warehousing-5497,Data warehousing,skill,Data warehousing,train,,
+S-spark-8cde,Spark,skill,Spark,train,,
+S-hadoop-53eb,Hadoop,skill,Hadoop,dev,,
+S-hive-c05d,Hive,skill,Hive,train,,
+S-aws-4847,AWS,skill,AWS,dev,,
+S-azure-3a58,Azure,skill,Azure,train,,
+S-google_cloud-56ef,Google Cloud,skill,Google Cloud,test,,
+S-docker-c5fd,Docker,skill,Docker,train,,
+S-kubernetes-3013,Kubernetes,skill,Kubernetes,dev,,
+S-linux-edc9,Linux,skill,Linux,train,,
+S-unix-6ec1,Unix,skill,Unix,dev,,
+S-git-0bcc,Git,skill,Git,train,,
+S-github-d3b7,GitHub,skill,GitHub,train,,
+S-cloud_computing-29d8,Cloud computing,skill,Cloud computing,train,,
+S-microservices-3197,Microservices,skill,Microservices,train,,
+S-tableau-0209,Tableau,skill,Tableau,train,,
+S-excel-c1d8,Excel,skill,Excel,test,,
+S-google_analytics-d86c,Google Analytics,skill,Google Analytics,dev,,
+S-spss-739e,SPSS,skill,SPSS,train,,
+S-stata-259a,Stata,skill,Stata,test,,
+S-unit_testing-d154,Unit testing,skill,Unit testing,test,,
+S-testing-fa6a,Testing,skill,Testing,train,,
+S-agile-657f,Agile,skill,Agile,train,,
+S-software_engineering-0126,Software engineering,skill,Software engineering,dev,,
+S-object_oriented_programming-00f9,Object-oriented programming,skill,Object-oriented programming,dev,,
+S-data_structures-c1e3,Data structures,skill,Data structures,dev,,
+S-algorithms-f67d,Algorithms,skill,Algorithms,test,,
+S-debugging-da7d,Debugging,skill,Debugging,test,,
+S-version_control-13a6,Version control,skill,Version control,test,,
+S-arduino-ee5b,Arduino,skill,Arduino,train,,
+S-raspberry_pi-6409,Raspberry Pi,skill,Raspberry Pi,train,,
+S-verilog-e3dd,Verilog,skill,Verilog,test,,
+S-networking-a5fa,Networking,skill,Networking,train,,
+S-operating_systems-4357,Operating systems,skill,Operating systems,train,,
+S-communication-07a3,Communication,skill,Communication,train,,
+S-leadership-1f0a,Leadership,skill,Leadership,train,,
+S-problem_solving-3304,Problem solving,skill,Problem solving,train,,
+S-project_management-838d,Project management,skill,Project management,train,,
+S-critical_thinking-cb64,Critical thinking,skill,Critical thinking,dev,,
+S-time_management-7cc6,Time management,skill,Time management,dev,,
+S-research-f027,Research,skill,Research,train,,
+J-J0ba6d528_003,Bachelor's degree or equivalent experience in Computer Science or related field Development experience with programming languages SQL database or relational database skills,sentence,SQL,train,J0ba6d528,REQUIRED
+J-J17693a8d_003,"It is necessary to be well versed in MS SQL, with the ability to import data, manipulate data and put it back in, querying, and building indexes.",sentence,SQL,train,J17693a8d,REQUIRED
+J-J17693a8d_011,"Must-Haves*7 years of Data Engineering experience*5+ years of experience with MS SQL or SOQL*Experience with ETL tools, specifically SSIS*Familiarity and understanding of Salesforce if not SOQL Pluses",sentence,SQL,train,J17693a8d,REQUIRED
+J-J17693a8d_012,Oracle or PostgreSQL experience,sentence,PostgreSQL,train,J17693a8d,PREFERRED
+J-J1825d5eb_013,"Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",sentence,Software engineering,dev,J1825d5eb,REQUIRED
+J-J1825d5eb_016,Extensive experience with Angular 2+ and TypeScript for building responsive and modern user interfaces.,sentence,Angular,train,J1825d5eb,REQUIRED
+J-J1825d5eb_018,Hands-on experience with Microsoft Azure services for cloud-based application development and deployment.,sentence,Azure,train,J1825d5eb,REQUIRED
+J-J1825d5eb_023,"Any relevant certifications (e.g., Microsoft Azure certifications) would be a plus.",sentence,Azure,train,J1825d5eb,PREFERRED
+J-J4cde41a3_024,"5+ years of relevant on the job experience in Software Engineering, not including internships",sentence,Software engineering,dev,J4cde41a3,REQUIRED
+J-J4cde41a3_025,"Exceptional design and programming skills (Java strongly preferred, but we are open to other Object-Oriented languages) with the ability to solve architectural and system issues involving scalability, distributed systems, and relational databases",sentence,Java,train,J4cde41a3,REQUIRED
+J-J4cde41a3_028,"Experience with Microservices architecture, globally distributed services, and 247 support",sentence,Microservices,train,J4cde41a3,REQUIRED
+J-J4cde41a3_029,"Experience with RESTful API design, and cloud technologies like Kubernetes, Kafka",sentence,Kubernetes,dev,J4cde41a3,REQUIRED
+J-J4cde41a3_030,"Proficiency with SQL, relational data modelling, and database schema design Added bonus if you have Experience with design and implementation of monitoring and responsive, self-healing resilient immutable platforms",sentence,SQL,train,J4cde41a3,REQUIRED
+J-J4cde41a3_031,"Knowledge of scalability levers in high volume, low latency transactional systems Experience working in AWS, OpenShift Platform",sentence,AWS,dev,J4cde41a3,PREFERRED
+J-J4cde41a3_034,Development experience with a unit testing framework (JUnit and experience employing TDD preferred)Pair programming experience.,sentence,Unit testing,test,J4cde41a3,PREFERRED
+J-J7c0a73bd_016,Experience in deploying perception algorithms into real-world environments,sentence,Algorithms,test,J7c0a73bd,REQUIRED
+J-J7c0a73bd_020,"Experience working on Computer Vision problems in at least two of the following subjects: Feature detection & matching, Image Filtering, Object Tracking, 3D Estimation, 3D Reconstruction, SLAM",sentence,Computer vision,test,J7c0a73bd,REQUIRED
+J-J7c0a73bd_022,In-depth understanding of software performance and optimization,sentence,Optimization,train,J7c0a73bd,REQUIRED
+J-J8086a8d8_019,"Working with other data engineers, data analysts, and data scientists, a Senior Data Engineer must have a delivery first mentality and a firm grasp of Agile Development methodology.",sentence,Agile,train,J8086a8d8,REQUIRED
+J-J8086a8d8_041,"Design, implement and maintain SQL Server databases",sentence,SQL,train,J8086a8d8,REQUIRED
+J-J8086a8d8_044,"Strong working and conceptual knowledge of reporting and visualization tools such as SSRS, PowerBI, Tableau, or other business intelligence tools.",sentence,Tableau,train,J8086a8d8,REQUIRED
+J-J86dda3b4_031,"Deep technical expertise regarding IT systems, workflows, and data structures",sentence,Data structures,dev,J86dda3b4,REQUIRED
+J-J86dda3b4_034,"Experience operating in an Agile context With benefits starting day one, Grainger is committed to your safety, health and wellbeing.",sentence,Agile,train,J86dda3b4,REQUIRED
+J-Ja2f61657_002,"The ideal candidate has experience with supporting external audits, knowledge of GAAP, budgeting, and time management skills.",sentence,Time management,dev,Ja2f61657,PREFERRED
+J-Ja2f61657_011,"Proficient in Microsoft Office: Excel, Words, PowerPoint, Exchange",sentence,Excel,test,Ja2f61657,REQUIRED
+J-Jb335b8e0_033,Advanced MS Excel skills including Vlookups and pivot tables.,sentence,Excel,test,Jb335b8e0,REQUIRED
+J-Jbc88b691_025,Providing status updates on project progress and issues Bachelor's degree in Electrical Engineering 5+ years of electrical engineering experience in a manufacturing environmentPLC or HMI programming experience with the Rockwell suite of products ( Allen- Bradly) Demonstrated Project Management skills,sentence,Project management,train,Jbc88b691,REQUIRED
+J-Jbc88b691_027,SQL Server 2012Networked system design and configuration480 VAC power distribution4160V motors and controls,sentence,SQL,train,Jbc88b691,REQUIRED
+J-Jbeb09c2b_019,"Knowledge of the PyData stack (e.g. pandas) that goes deeper than the APIsExperience handling, storing and linking multi-modal data types",sentence,Pandas,train,Jbeb09c2b,REQUIRED
+J-Jce237142_018,"Technical skills: Comprehensive knowledge of software applications such as Word, Excel, PowerPoint, etc.",sentence,Excel,test,Jce237142,REQUIRED
+J-Jd7d47dde_006,"Skills using DBT framework for data transformation is plus Robust programming skills and strong experience with Python to ingest, transform and load the data Experience building and optimizing big data data pipelines, architectures and data sets using tools like Airflow.",sentence,Python,test,Jd7d47dde,REQUIRED
+J-Jd7d47dde_007,"Experience with AWS cloud services: EC2, EMR, RDS, Redshift",sentence,AWS,dev,Jd7d47dde,REQUIRED
+J-Je0431459_021,Excellent organization and time management skills,sentence,Time management,dev,Je0431459,PREFERRED
+J-Je0431459_023,"Proficiency using technology and software, especially Excel, Adobe and QuickBooks Online Compensation",sentence,Excel,test,Je0431459,PREFERRED
+J-Jea046192_028,"Bachelor's degree in Math, Statistics, Computer Science, or equivalent quantitative training.",sentence,Statistics,dev,Jea046192,REQUIRED
+J-Jea046192_030,Proficiency in Microsoft Office (Excel and PowerPoint) with strong logical and analytical skills.,sentence,Excel,test,Jea046192,REQUIRED
+J-Jf494da5a_014,Skilled at debugging and troubleshooting mechanical and electrical systems.,sentence,Debugging,test,Jf494da5a,REQUIRED
