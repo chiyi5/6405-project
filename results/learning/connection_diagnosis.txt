@@ -1,6 +1,0 @@
-Python: D:\NLP\.venv\Scripts\python.exe
-Version: 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]
-Python standard-library HTTP server: FAIL URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>
-SkillBridge actual page handler: FAIL URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>
-Existing service on 8765: URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>
-RESULT: Even a minimal independent HTTP server is unreachable. Investigate the Python runtime/local network environment.
